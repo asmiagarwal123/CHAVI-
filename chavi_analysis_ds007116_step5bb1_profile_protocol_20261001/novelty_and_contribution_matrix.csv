@@ -1,0 +1,6 @@
+candidate,category,evidence,claim_allowed
+level/centered-shape/scatter geometry,established method,Cronbach-Gleser lineage and elementary orthogonal projection,implementation-specific transparent decomposition
+between-/within-person profile reliability,existing closely related contribution,Bulut et al.; Styck et al.; Stephenson et al.,comparison target only
+five-task Penn LEAD application,dataset-specific application,current audited CHAVI pipeline,audited application if future empirical protocol adopted
+joint propagation through overlapping cross-fitted MAD references,possible methodological extension,no direct validation located; exact-design method transfer unproven,candidate contribution
+coverage and failure behavior of proposed bootstrap,requires future experiments,ADEMP study not executed,none until known-truth simulation

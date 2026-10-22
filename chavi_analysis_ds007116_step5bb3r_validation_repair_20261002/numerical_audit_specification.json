@@ -1,0 +1,189 @@
+{
+  "specification_id": "B3R-NUMERICAL-AUDIT-v1",
+  "frozen_utc": "2026-10-02T16:03:15.984268+00:00",
+  "selection_basis": "deterministic identifiers and pre-repair structural/failure metadata; no repaired interval outcome used",
+  "attempts_per_method_scale": 999,
+  "scales": [
+    "MAD",
+    "SD"
+  ],
+  "endpoints": [
+    "level_icc_a1",
+    "mean_level_change",
+    "rms_shape_displacement"
+  ],
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-10,
+  "nan_policy": "both invalid only passes when failure category agrees and independent rule says undefined",
+  "cases": [
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S1",
+      "outer_id": 0,
+      "methods": [
+        "P1_oracle_conditional",
+        "P2_fixed_transform",
+        "P3_joint_unstratified",
+        "P4_joint_fold_stratified"
+      ],
+      "sampling_role": "representative",
+      "reason": "fixed first outer; covers every scenario/method/scale/endpoint"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S2",
+      "outer_id": 0,
+      "methods": [
+        "P1_oracle_conditional",
+        "P2_fixed_transform",
+        "P3_joint_unstratified",
+        "P4_joint_fold_stratified"
+      ],
+      "sampling_role": "representative",
+      "reason": "fixed first outer; covers every scenario/method/scale/endpoint"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S3",
+      "outer_id": 0,
+      "methods": [
+        "P1_oracle_conditional",
+        "P2_fixed_transform",
+        "P3_joint_unstratified",
+        "P4_joint_fold_stratified"
+      ],
+      "sampling_role": "representative",
+      "reason": "fixed first outer; covers every scenario/method/scale/endpoint"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S4",
+      "outer_id": 0,
+      "methods": [
+        "P1_oracle_conditional",
+        "P2_fixed_transform",
+        "P3_joint_unstratified",
+        "P4_joint_fold_stratified"
+      ],
+      "sampling_role": "representative",
+      "reason": "fixed first outer; covers every scenario/method/scale/endpoint"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S5",
+      "outer_id": 0,
+      "methods": [
+        "P1_oracle_conditional",
+        "P2_fixed_transform",
+        "P3_joint_unstratified",
+        "P4_joint_fold_stratified"
+      ],
+      "sampling_role": "representative",
+      "reason": "fixed first outer; covers every scenario/method/scale/endpoint"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S6",
+      "outer_id": 0,
+      "methods": [
+        "P1_oracle_conditional",
+        "P2_fixed_transform",
+        "P3_joint_unstratified",
+        "P4_joint_fold_stratified"
+      ],
+      "sampling_role": "representative",
+      "reason": "fixed first outer; covers every scenario/method/scale/endpoint"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S2",
+      "outer_id": 14,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "lowest outer with an unrepresented-fold draw"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S3",
+      "outer_id": 21,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "lowest outer with an unrepresented-fold draw"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S4",
+      "outer_id": 19,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "lowest outer with an unrepresented-fold draw"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S5",
+      "outer_id": 5,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "lowest outer with an unrepresented-fold draw"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S6",
+      "outer_id": 15,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "lowest outer with an unrepresented-fold draw"
+    },
+    {
+      "stage": "confirmatory",
+      "scenario_id": "S1",
+      "outer_id": 40,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "lowest confirmatory outer with an unrepresented-fold draw"
+    },
+    {
+      "stage": "confirmatory",
+      "scenario_id": "S5",
+      "outer_id": 2,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "lowest confirmatory outer with an unrepresented-fold draw"
+    },
+    {
+      "stage": "confirmatory",
+      "scenario_id": "S5",
+      "outer_id": 1000,
+      "methods": [
+        "P3_joint_unstratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "original metadata has exactly 950 valid MAD draws; eligibility boundary"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S5",
+      "outer_id": 3,
+      "methods": [
+        "P3_joint_unstratified",
+        "P4_joint_fold_stratified"
+      ],
+      "sampling_role": "targeted",
+      "reason": "unsupported-fit-rich MAD record below eligibility threshold"
+    }
+  ]
+}

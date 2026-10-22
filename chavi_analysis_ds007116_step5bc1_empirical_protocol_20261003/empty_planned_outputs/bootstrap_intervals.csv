@@ -1,0 +1,1 @@
+analysis_id,estimand_id,method,interval_family,confidence_level,point_estimate,lower,upper,attempted,valid,invalid,available,unavailable_reason,seed_namespace,contract_sha256

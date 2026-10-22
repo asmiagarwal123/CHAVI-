@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "isolated_workdir": "reproduction_fixture/truth_1790958442967",
+  "truth_results_byte_identical_after_engine_and_exact_zero_correction": true,
+  "convergence_byte_identical_to_restored_B2": true,
+  "generated_truth_results_sha256": "ddf584496590c781091b55e5d5b3d6e92332886a5df449f38352ef1dc59c0970",
+  "frozen_truth_results_sha256": "ddf584496590c781091b55e5d5b3d6e92332886a5df449f38352ef1dc59c0970",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_fixture\\truth_1790958442967\\truth_engine.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"convergence_rows\": 66, \"status\": \"PASS\", \"truth_rows\": 36}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_fixture\\truth_1790958442967\\repair_truth.py"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,1038 @@
+{
+  "adopted_c1_contract_sha256": "0bd5b1a187e33ecf70013d6b2e62f6c3b0b754b6f65bc096849e95ee50e6703a",
+  "analysis_slices": [
+    {
+      "expected_n": 52,
+      "id": "A_primary_M0_MAD_52",
+      "model": "M0",
+      "pair_set": "primary",
+      "scale": "MAD",
+      "status": "PRIMARY",
+      "stratum": "primary_vf"
+    },
+    {
+      "expected_n": 52,
+      "id": "B_primary_M0_SD_52",
+      "model": "M0",
+      "pair_set": "primary",
+      "scale": "SD",
+      "status": "DESCRIPTIVE_SCALE",
+      "stratum": "primary_vf"
+    },
+    {
+      "expected_n": 42,
+      "id": "C_primary_supported_M0_MAD_42",
+      "model": "M0",
+      "pair_set": "M1_supported_primary",
+      "scale": "MAD",
+      "status": "DESCRIPTIVE_MATCHED",
+      "stratum": "primary_vf"
+    },
+    {
+      "expected_n": 42,
+      "id": "D_primary_supported_M1_MAD_42",
+      "model": "M1",
+      "pair_set": "M1_supported_primary",
+      "scale": "MAD",
+      "status": "DESCRIPTIVE_MATCHED",
+      "stratum": "primary_vf"
+    },
+    {
+      "expected_n": 41,
+      "id": "E_fixed_strict_v_M0_MAD_41",
+      "model": "M0",
+      "pair_set": "fixed_strict_v",
+      "scale": "MAD",
+      "status": "DESCRIPTIVE_QC",
+      "stratum": "fixed_primary_pair_strict_v"
+    },
+    {
+      "expected_n": 45,
+      "id": "F_reselected_strict_v_M0_MAD_45",
+      "model": "M0",
+      "pair_set": "reselected",
+      "scale": "MAD",
+      "status": "DESCRIPTIVE_RESELECTION",
+      "stratum": "vonly_reselected"
+    }
+  ],
+  "authorization": "User prompt authorizes bounded primary estimates, P2/P3 bootstrap intervals, descriptive sensitivities, and participant-linked verification records; prohibits diagnostic/individual/predictive/testing/publication claims.",
+  "bootstrap": {
+    "attempts": 999,
+    "auxiliary_stream_label": "p3_auxiliary",
+    "generator": "NumPy PCG64DXSM",
+    "master_seed": 20261003,
+    "minimum_tail_count": 20,
+    "minimum_valid": 950,
+    "namespace": "empirical_v1",
+    "no_redraw": true,
+    "quantile": "linear",
+    "seed_bytes": "first 128 SHA-256 bits interpreted little-endian",
+    "tail_fraction": 0.025,
+    "target_draw_shared_by_P2_P3": true,
+    "target_stream_label": "shared_target"
+  },
+  "canonical_identity_order": {
+    "auxiliaries": [
+      "sub-20125",
+      "sub-20141",
+      "sub-20212",
+      "sub-20236",
+      "sub-20238",
+      "sub-20258",
+      "sub-20335",
+      "sub-20336",
+      "sub-20347",
+      "sub-20402",
+      "sub-20403",
+      "sub-20410",
+      "sub-20448",
+      "sub-20794",
+      "sub-20836",
+      "sub-20842",
+      "sub-20846",
+      "sub-20849",
+      "sub-20855",
+      "sub-20860",
+      "sub-20918",
+      "sub-20919",
+      "sub-20961",
+      "sub-20964",
+      "sub-21035",
+      "sub-21050",
+      "sub-21095",
+      "sub-21116",
+      "sub-21124",
+      "sub-21131",
+      "sub-21139",
+      "sub-21146",
+      "sub-21150",
+      "sub-21197",
+      "sub-21224",
+      "sub-21345",
+      "sub-21514",
+      "sub-21539",
+      "sub-21554",
+      "sub-21713",
+      "sub-21738",
+      "sub-21827",
+      "sub-21856",
+      "sub-22045",
+      "sub-22473",
+      "sub-22510",
+      "sub-22520",
+      "sub-22617",
+      "sub-22618",
+      "sub-22653",
+      "sub-22654",
+      "sub-22744",
+      "sub-22745",
+      "sub-22797",
+      "sub-22870",
+      "sub-23113",
+      "sub-23303"
+    ],
+    "rule": "Unicode code-point ascending participant_id, materialized below",
+    "targets": [
+      "sub-138950",
+      "sub-19861",
+      "sub-20139",
+      "sub-20149",
+      "sub-20188",
+      "sub-20214",
+      "sub-20252",
+      "sub-20253",
+      "sub-20259",
+      "sub-20302",
+      "sub-20303",
+      "sub-20310",
+      "sub-20328",
+      "sub-20352",
+      "sub-20399",
+      "sub-20427",
+      "sub-20463",
+      "sub-20494",
+      "sub-20533",
+      "sub-20572",
+      "sub-20626",
+      "sub-20691",
+      "sub-20712",
+      "sub-20721",
+      "sub-20812",
+      "sub-20823",
+      "sub-20865",
+      "sub-20866",
+      "sub-20902",
+      "sub-20916",
+      "sub-20923",
+      "sub-20936",
+      "sub-20953",
+      "sub-20966",
+      "sub-20968",
+      "sub-20976",
+      "sub-21023",
+      "sub-21038",
+      "sub-21104",
+      "sub-21112",
+      "sub-21118",
+      "sub-21141",
+      "sub-21161",
+      "sub-21193",
+      "sub-21493",
+      "sub-21516",
+      "sub-21553",
+      "sub-21560",
+      "sub-21623",
+      "sub-21712",
+      "sub-21855",
+      "sub-22064"
+    ]
+  },
+  "dependencies": {
+    "numpy": "2.5.2",
+    "python": "3.14.0"
+  },
+  "failure_semantics": {
+    "active_nonfinite_coordinate": "all coordinate-dependent endpoints invalid",
+    "failed_draws": "never redrawn",
+    "icc_degenerate": "ICC invalid only; mean change and RMS evaluated independently",
+    "malformed_input_or_software_exception": "blocks execution",
+    "reference_fit_failure": "ordinary P3 endpoint-invalid draw, reason retained"
+  },
+  "fold_map": {
+    "sub-138950": 1,
+    "sub-19861": 4,
+    "sub-20139": 1,
+    "sub-20149": 2,
+    "sub-20188": 3,
+    "sub-20214": 1,
+    "sub-20252": 1,
+    "sub-20253": 1,
+    "sub-20259": 1,
+    "sub-20302": 3,
+    "sub-20303": 4,
+    "sub-20310": 2,
+    "sub-20328": 2,
+    "sub-20352": 0,
+    "sub-20399": 4,
+    "sub-20427": 1,
+    "sub-20463": 3,
+    "sub-20494": 0,
+    "sub-20533": 3,
+    "sub-20572": 4,
+    "sub-20626": 2,
+    "sub-20691": 0,
+    "sub-20712": 3,
+    "sub-20721": 4,
+    "sub-20812": 4,
+    "sub-20823": 4,
+    "sub-20865": 1,
+    "sub-20866": 0,
+    "sub-20902": 1,
+    "sub-20916": 1,
+    "sub-20923": 3,
+    "sub-20936": 0,
+    "sub-20953": 0,
+    "sub-20966": 3,
+    "sub-20968": 3,
+    "sub-20976": 0,
+    "sub-21023": 2,
+    "sub-21038": 0,
+    "sub-21104": 3,
+    "sub-21112": 0,
+    "sub-21118": 2,
+    "sub-21141": 2,
+    "sub-21161": 2,
+    "sub-21193": 3,
+    "sub-21493": 4,
+    "sub-21516": 0,
+    "sub-21553": 1,
+    "sub-21560": 2,
+    "sub-21623": 4,
+    "sub-21712": 2,
+    "sub-21855": 0,
+    "sub-22064": 4
+  },
+  "implementation_repairs": [
+    "strict yes/no support labels and numeric/null consistency",
+    "non-Boolean integer nonnegative multiplicities, exact totals and disjoint roles",
+    "external fold-map identity and exact represented fitting keys",
+    "valid/invalid counts bounded and summing to attempted",
+    "exact frozen occasion and physical-source keys"
+  ],
+  "inputs": [
+    {
+      "path": "chavi_analysis_ds007116_step5bc1_empirical_protocol_20261003/empirical_analysis_contract.json",
+      "sha256": "0bd5b1a187e33ecf70013d6b2e62f6c3b0b754b6f65bc096849e95ee50e6703a"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5bc1_empirical_protocol_20261003.zip",
+      "sha256": "88283d3f62825a2ba43416783ea5df669f3c2f7294f6b9ba58116bf4bca5648d"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/step5ba_rebuild_contract.json",
+      "sha256": "619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001.zip",
+      "sha256": "5be859872962dd336e6fc0edd6f239167235ebdb09d1482c2862bea8eacf5fec"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5bb3r_validation_repair_20261002.zip",
+      "sha256": "b4c781062f0105c8bcec07f8bc51908cb181a02812b13e7da2330b608df5398b"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/primary_vf_source_rows.csv",
+      "sha256": "17fdc040d9dfaf23324fe692f522100a3e1731f1fae1694f915c819172880c06"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/primary_vf_transformed_long.csv",
+      "sha256": "ebdd146218cb79bc87ff40c268886e98e0f9b5a8655806f86c85a18e7e94c137"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/vonly_reselected_source_rows.csv",
+      "sha256": "873b0d5c5809f44a195e7340b12a809af6dd782d2bca2b7b42d56e0512b55054"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/vonly_reselected_transformed_long.csv",
+      "sha256": "c40d03261141c2eeebbcbb0f1500f3c554e647400f51fe82b7f8299d2124a15d"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/fixed_primary_pair_strict_v_source_rows.csv",
+      "sha256": "65a1a01b42110263ae420565881d3ff76fadc233f75b0f746d2613e9f2673b0f"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/fixed_primary_pair_strict_v_transformed_long.csv",
+      "sha256": "00bb70aab9959f319459c051bc637ed9701e97a725d5868e5dfb159296afb1af"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/reference_cohort_manifest.csv",
+      "sha256": "f2e124b7ae47672a70b2adc3949fd3f98c8e229a5aa7081a881b04919a00c2a0"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/participant_fold_manifest.csv",
+      "sha256": "1018687d01fb8ca853edb26777207502d4bc0243bbce4887bb12cd50d77743f7"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/fold_fitting_manifest.csv",
+      "sha256": "fcc39ff454fe6e137b211e3a10ee6e895c48447ae11e140cddc3d4e4ffeb8f70"
+    },
+    {
+      "path": "chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/transformation_parameters.csv",
+      "sha256": "1433a48da401fcf660a46ab1549f43d4a52cce1c34f4f7e60914a4487a7698ac"
+    },
+    {
+      "path": "chavi_recovery_preflight_correction_20261001/qc_pairing_sensitivity_identity_comparison.csv",
+      "sha256": "0ca67db70444bc0fa7f5292cd38c4c6fcee2a4db27d994ad6f2e2f5a5eb74463"
+    }
+  ],
+  "occasion_order_source": "qc_pairing_sensitivity_identity_comparison.csv semicolon order; never inferred from row or lexical order",
+  "ordered_occasion_keys": {
+    "sub-138950": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-19861": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20139": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20149": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-2",
+        "ses-3"
+      ]
+    },
+    "sub-20188": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20214": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20252": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20253": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20259": {
+      "fixed_strict_v": [
+        "ses-2",
+        "ses-3"
+      ],
+      "primary": [
+        "ses-2",
+        "ses-3"
+      ],
+      "reselected": [
+        "ses-2",
+        "ses-3"
+      ]
+    },
+    "sub-20302": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20303": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20310": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-2",
+        "ses-3"
+      ]
+    },
+    "sub-20328": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20352": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20399": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": []
+    },
+    "sub-20427": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": []
+    },
+    "sub-20463": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20494": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-3"
+      ],
+      "reselected": []
+    },
+    "sub-20533": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": []
+    },
+    "sub-20572": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20626": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20691": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20712": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20721": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20812": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-3"
+      ],
+      "reselected": []
+    },
+    "sub-20823": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20865": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20866": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20902": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-2",
+        "ses-3"
+      ]
+    },
+    "sub-20916": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-3"
+      ]
+    },
+    "sub-20923": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20936": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20953": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20966": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20968": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-20976": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21023": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21038": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21104": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21112": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21118": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21141": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21161": {
+      "fixed_strict_v": [
+        "ses-2",
+        "ses-3"
+      ],
+      "primary": [
+        "ses-2",
+        "ses-3"
+      ],
+      "reselected": [
+        "ses-2",
+        "ses-3"
+      ]
+    },
+    "sub-21193": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21493": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21516": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": []
+    },
+    "sub-21553": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21560": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21623": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-21712": {
+      "fixed_strict_v": [],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": []
+    },
+    "sub-21855": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    },
+    "sub-22064": {
+      "fixed_strict_v": [
+        "ses-1",
+        "ses-2"
+      ],
+      "primary": [
+        "ses-1",
+        "ses-2"
+      ],
+      "reselected": [
+        "ses-1",
+        "ses-2"
+      ]
+    }
+  },
+  "profile_correlation": {
+    "quantile": "linear",
+    "summaries": [
+      "defined_n",
+      "undefined_n",
+      "minimum",
+      "q25",
+      "median",
+      "q75",
+      "maximum"
+    ],
+    "threshold": "norm(q) <= 64*float64_epsilon*max(norm(z),sqrt(5)*abs(mean(z)),float64_tiny)"
+  },
+  "schemas": {
+    "intervals": "12 rows = 2 methods x 3 endpoints x 2 families; no truth/coverage fields",
+    "replicate_endpoint": "v2 endpoint-specific status; additive clarification to C1 coarse draw template"
+  },
+  "specification_id": "CHAVI_STEP_5B_C2_EXECUTION_V1",
+  "status": "FROZEN_BEFORE_EMPIRICAL_OUTCOMES",
+  "task_order": [
+    "letter_nback",
+    "face_memory",
+    "matrix_reasoning",
+    "emotion_recognition",
+    "dominant_finger_tapping"
+  ],
+  "tolerances": {
+    "fit_coordinate_abs": 1e-12,
+    "fit_coordinate_rel": 1e-10,
+    "independent_endpoint_abs": 1e-12,
+    "independent_endpoint_rel": 1e-10
+  }
+}

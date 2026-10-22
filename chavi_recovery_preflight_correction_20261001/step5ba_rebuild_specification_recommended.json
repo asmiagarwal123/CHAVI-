@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0-candidate",
+  "status": "candidate_not_approved",
+  "candidate_name": "CHAVI Step 5B-A corrected rebuild specification",
+  "scope": {
+    "allowed_in_later_rebuild_after_approval": ["M0 transformation", "M1 sensitivity transformation", "declared QC sensitivities"],
+    "not_performed_in_this_milestone": ["parameter fitting", "coordinate production", "profile inference", "empirical bootstrap", "simulation", "threshold calibration", "prediction", "UI work"]
+  },
+  "source": {
+    "dataset": "OpenNeuro ds007116 1.0.6",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "task_observations": "chavi_audit_ds007116_step3b_20260909/task_observations_long.csv",
+    "task_observations_sha256": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+    "membership_inputs": ["exact task/table/score/QC fields", "finite parsed score", "raw QC code and pinned dictionary", "occasion map and continuation rule"],
+    "upstream_eligibility_flags": "comparison_only_after_independent_selection"
+  },
+  "tasks": [
+    {"task_key":"letter_nback","table":"short_letter_2back","score_field":"cnb_lnb_mcr","qc_field":"cnb_lnb_valid_code","direction":1,"measurement_caveat":"true-positive count; exact denominator/load mapping unresolved"},
+    {"task_key":"face_memory","table":"penn_face_memory_test","score_field":"cnb_cpf_cr","qc_field":"cnb_cpf_valid_code","direction":1,"measurement_caveat":"released-version equivalence across occasions unresolved"},
+    {"task_key":"matrix_reasoning","table":"penn_matrix_reasoning_test","score_field":"cnb_pmat_cr","qc_field":"cnb_pmat_valid_code","direction":1,"measurement_caveat":"released-version equivalence across occasions unresolved"},
+    {"task_key":"emotion_recognition","table":"penn_emotion_recognition_task","score_field":"cnb_er40_cr","qc_field":"cnb_er40_valid_code","direction":1,"measurement_caveat":"released-version equivalence across occasions unresolved"},
+    {"task_key":"dominant_finger_tapping","table":"short_computerized_finger_tapping_task","score_field":"cnb_ctap_dom","qc_field":"cnb_ctap_valid_code","direction":1,"measurement_caveat":"exact unit and aggregation semantics unresolved"}
+  ],
+  "cohorts": {
+    "reference_a": {"rule":"earliest non-continuation complete synchronized five-task V/F occasion","participants":109,"occasions":109,"rows":545},
+    "primary_vf": {"rule":"first two non-continuation complete synchronized five-task V/F occasions","participants":52,"occasions":104,"rows":520},
+    "reselected_strict_v": {"rule":"first two non-continuation complete synchronized five-task V-only occasions","participants":45,"occasions":90,"rows":450,"interpretation":"changes eligibility and, for four participants, visit selection"},
+    "fixed_primary_pair_strict_v": {"rule":"retain Primary selected pair; require all ten task records to have raw QC V","participants":41,"occasions":82,"rows":410,"interpretation":"QC restriction without reselection"}
+  },
+  "crossfit": {
+    "recommended_primary_design": "B_target_participant_crossfit_with_auxiliary_reference",
+    "approval_status": "pending_explicit_review",
+    "rationale": "uses the approved 109-person Reference A, excludes each analysed participant from its own fit, retains all 57 non-target auxiliaries, and reproduces the historically implemented 98/99 identity rule",
+    "targets": "52 Primary participants",
+    "auxiliaries": "57 Reference-A participants outside Primary",
+    "fold_universe": "52 target identities",
+    "fold_algorithm": "lexicographically sort target participant_id; numpy 2.5.2 default_rng(42).permuted; assign zero-based permutation index modulo 5",
+    "held_out_target_counts": [11,11,10,10,10],
+    "training_reference_counts": [98,98,99,99,99],
+    "training_rule": "all 57 auxiliaries plus targets not assigned to held-out fold",
+    "vonly_handling": "reuse the Primary target-fold map and the same V/F Reference-A fitting parameters; restrict target rows only; do not create a new sensitivity fitting population",
+    "candidate_manifest": "crossfit_candidate_identity_maps.csv",
+    "alternative_for_later_sensitivity": "Design A literal seeded full-reference folding (87/88 training); scientifically defensible but not recommended primary",
+    "rejected_without_superseding_decision": "Design C target-only fitting because it is not the approved 109-person Reference A"
+  },
+  "M0": {
+    "role":"primary",
+    "direction_application":"y=direction*raw_score before fitting and transformation",
+    "training_population":"fold-specific Design-B Reference-A training identities",
+    "center":"arithmetic mean of finite y training rows for task/fold",
+    "mad":"median(abs(y-median(y)))/0.6744897501960817",
+    "mad_consistency_multiplier":1.482602218505602,
+    "sd_sensitivity":"sample standard deviation of y with ddof=1",
+    "coordinate":"(y-center)/scale",
+    "participant_visits":"same participant fold and parameters applied to both visits",
+    "missing_nonfinite_score":"coordinate null; reason missing_or_nonfinite_score; no imputation",
+    "age_support_status":"not_applicable"
+  },
+  "M1": {
+    "role":"sensitivity_only",
+    "age_field":"Step3B session_age; age at repository session, not proven exact cognitive-assessment age",
+    "fit":"ordinary least squares with intercept: y=intercept+slope*session_age",
+    "training_age_rule":"exclude a training identity for that task/fold M1 fit if age is missing/nonfinite; record effective identities/count/hash; M0 training is unchanged",
+    "minimum_rank":"at least two distinct finite ages and full rank [1,age]; otherwise M1 parameter fit unsupported",
+    "prediction":"intercept+slope*session_age",
+    "residual":"y-prediction",
+    "residual_center":0,
+    "primary_residual_scale":"normal-consistent MAD of training residuals",
+    "sd_residual_sensitivity":"sample SD of training residuals, ddof=1",
+    "support":"inclusive [minimum finite training age, maximum finite training age] per task/fold",
+    "target_missing_or_nonfinite_age":"M1 coordinate null; reason missing_or_nonfinite_target_age",
+    "target_outside_support":"M1 coordinate null; reason outside_inclusive_training_age_support",
+    "fallback":"separate fallback_model=M0 and fallback_coordinate; never place M0 value in an M1 coordinate field"
+  },
+  "scale_failure_policy": {
+    "exact_degeneracy":"refuse if computed scale == 0 or all finite training values/residuals are identical",
+    "nonfinite":"refuse",
+    "numerical_degeneracy":"refuse if scale <= 64*machine_epsilon*max(training_range,abs(scale)); this uses scale/spread, not center or arbitrary score origin",
+    "representability_check":"separately warn when observed training range is near floating-point spacing at the values' magnitudes",
+    "small_valid_scale":"do not refuse solely because MAD is below an absolute universal cutoff",
+    "scientific_warning":"report influence, concentration/ties, and SD/MAD diagnostics separately; never silently substitute SD for MAD"
+  },
+  "outputs": {
+    "schema":"transformation_output_schema.json",
+    "primary_source_rows":520,
+    "vonly_source_rows":450,
+    "combined_stratified_source_rows":970,
+    "combined_note":"970 is a stratified concatenation and may repeat physical source records; it is not a unique physical-source union",
+    "variant_expansion":"if M0/M1 and MAD/SD are emitted long, expected coordinate rows must be declared as source rows multiplied by emitted valid model-scale variants; variants are not new observations"
+  },
+  "bootstrap": {
+    "status":"protocol_pending_approval_not_executed",
+    "protocol":"bootstrap_protocol_and_limitations.md",
+    "historical_thresholds":"5000 valid from at most 10000 attempts and 95% feasibility threshold are historical/proposed operational values, not coverage guarantees"
+  },
+  "approval": {
+    "required_before_production": ["Design B and candidate fold identity hashes", "M0/M1 exact semantics", "scale numerical policy", "output schema", "bootstrap protocol if bootstrap is later run"],
+    "template":"CONTRACT_REVIEW_AND_APPROVAL_TEMPLATE.md"
+  },
+  "canonical_hashing": "SHA-256 of this UTF-8 file as written; the digest is stored only in milestone_artifact_manifest.csv to avoid self-reference"
+}

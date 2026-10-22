@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "stage": "corrected_pilot",
+      "repaired_outer_records": 32,
+      "interval_rows": 28800,
+      "changed_interval_rows": 354,
+      "changed_bootstrap_rows": 177
+    },
+    {
+      "stage": "confirmatory",
+      "repaired_outer_records": 216,
+      "interval_rows": 192000,
+      "changed_interval_rows": 2558,
+      "changed_bootstrap_rows": 1283
+    }
+  ],
+  "comparison_cells": 11904,
+  "changed_cells": 838
+}

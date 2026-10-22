@@ -1,0 +1,41 @@
+{
+  "verdict": "READY AFTER EXPLICIT CONTRACT DECISIONS.",
+  "verdict_code": "READY_AFTER_EXPLICIT_CONTRACT_DECISIONS",
+  "date": "2026-10-01",
+  "scope": "source-based transformation recovery preflight and contract repair only",
+  "passed": [
+    "dataset commit/tag/clean state freshly verified",
+    "41 staged phenotype payload hashes and sizes freshly matched pinned annex keys",
+    "five exact score fields and V/F dictionary meanings verified",
+    "109-participant/545-row Reference A independently reconstructed from Step 3B source",
+    "52-participant/104-occasion/520-row Primary V/F cohort independently reconstructed",
+    "45-participant/90-occasion/450-row V-only cohort independently reconstructed",
+    "50/52/53 identities independently reconciled",
+    "literal seed-42 NumPy fold algorithm reproduced deterministically with 22/22/22/22/21 held-out and 87/87/87/87/88 training counts",
+    "all Primary and V-only participants map to Reference A; no held-out/training overlap"
+  ],
+  "failed_or_conflicting": [
+    "literal frozen seed-42 permutation identities do not match Recovery Phase 1 expected fold identity lists",
+    "R2 and approval fold evidence used the 52-person longitudinal cohort rather than the approved 109-person Reference A",
+    "R2 bootstrap feasibility sampled only 52 Primary participants and did not exercise grouped folds, so it does not establish the approved 109-person refit design",
+    "frozen contract does not fully define M1 residual scale/support/fallback fields",
+    "zero versus near-zero scale thresholds are inconsistent across historical code"
+  ],
+  "required_explicit_decisions": [
+    "approve the exact 109-person fold identity map: literal seed-42 permutation or Recovery Phase 1 unpermuted sorted round-robin",
+    "approve exact M0 center, MAD constant, SD ddof, and zero/near-zero refusal rule",
+    "approve explicit M1 OLS, residual scale, inclusive support, missing-age, and P3 labelling semantics",
+    "approve long/wide/combined-stratum key schemas",
+    "approve the overlap-preserving 109-person bootstrap design, fold handling for duplicate draws, and failure/fallback policy"
+  ],
+  "source_blocked": false,
+  "environment_blocked": false,
+  "production_authorized": false,
+  "next_action": "obtain an explicit reviewed amendment resolving PF-001 through PF-015, hash that approved contract and fold manifest, then begin a separate clean Step 5B-A rebuild milestone",
+  "prohibited_next_actions": [
+    "using quarantined transformation parameters or coordinates",
+    "starting profile inference",
+    "starting simulations or threshold calibration",
+    "starting prediction or UI work"
+  ]
+}

@@ -1,0 +1,5 @@
+defect_id,name,reproduced,detail
+A,hard-coded corruption PASS rows,True,nine literal PASS rows; no assertions or actual validators
+B,zero-weight NaNs contaminate reductions,True,"batch=[nan, nan, nan]; scalar=[-0.008246116815642983, nan, nan]; expanded=[-0.00824611681564298, 0.7751229164598996, 0.7600593893148766]"
+C,optimized scale eligibility differs from scalar,True,scalar_failures=5; scalar_status=unsupported; optimized_bad=False
+D,validation/readiness scope overstated,True,make_final_report checks confirmatory ledger row count plus corrected-pilot independent PASS; it does not require confirmatory independent validation PASS

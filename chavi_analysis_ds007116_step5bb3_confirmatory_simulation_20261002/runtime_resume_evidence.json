@@ -1,0 +1,31 @@
+{
+  "selected_fresh_process_checks": [
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S1",
+      "outer_id": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S5",
+      "outer_id": 1,
+      "status": "PASS"
+    },
+    {
+      "stage": "confirmatory",
+      "scenario_id": "S1",
+      "outer_id": 1999,
+      "status": "PASS"
+    },
+    {
+      "stage": "confirmatory",
+      "scenario_id": "S5",
+      "outer_id": 1999,
+      "status": "PASS"
+    }
+  ],
+  "all_pass": true,
+  "resume_policy": "per-outer JSON checkpoint; rerunning completed outer IDs skips them without redraw",
+  "optimized_equivalence_max_abs_difference": 7.771561172376096e-16
+}

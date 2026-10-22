@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "evidence": "defect_reproduction.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "independent_corruption_checks.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "edge_case_test_results.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "impact_screen_results.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "recalculation_status.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "checkpoint_validation_results.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "independent_numerical_validation_results.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "independent_table_validation_results.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "scale_support_screen_summary.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "truth_convergence_and_sensitivity_evidence.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "truth_reproduction_results.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "runtime_resume_evidence.json",
+      "status": "PASS"
+    }
+  ]
+}

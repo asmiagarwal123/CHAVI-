@@ -1,0 +1,81 @@
+{
+  "dataset": {
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "tag_at_head": "1.0.6",
+    "branch_status": "## main...origin/main",
+    "clean": true
+  },
+  "payload_verification": {
+    "manifest_rows": 41,
+    "fresh_hash_size_failures": [],
+    "all_41_verified": true
+  },
+  "source_integrity": {
+    "task_rows": 1095,
+    "unique_task_keys": 1095,
+    "duplicate_keys": [],
+    "source_metadata_mismatches": [],
+    "eligible_flag_mismatches": [],
+    "qc_dictionary_vf_mapping_verified": true,
+    "continuation_keys": [
+      "sub-20812|ses-2"
+    ]
+  },
+  "cohorts": {
+    "registered_participants": 132,
+    "source_participants": 131,
+    "complete_vf_occasions": 176,
+    "reference_a_participants": 109,
+    "reference_a_rows": 545,
+    "primary_vf_participants": 52,
+    "primary_vf_occasions": 104,
+    "primary_vf_rows": 520,
+    "vonly_participants": 45,
+    "vonly_occasions": 90,
+    "vonly_rows": 450,
+    "task_pair_intersection": 53,
+    "task_pair_aligned": 50,
+    "profile_not_aligned_50": [
+      "sub-20259",
+      "sub-20494"
+    ],
+    "task_intersection_not_profile_52": [
+      "sub-21035"
+    ],
+    "matches_step5a_primary_identities": true,
+    "matches_step5a_reference_identity_set": true
+  },
+  "candidate_folds": {
+    "classification": "PROPOSED_AMENDMENT_APPLICATION_TO_REFERENCE_A",
+    "algorithm": "numpy 2.5.2 default_rng(42).permuted(sorted Reference-A IDs), fold=index mod 5",
+    "numpy_version": "2.5.2",
+    "held_out_counts": {
+      "0": 22,
+      "1": 22,
+      "2": 22,
+      "3": 22,
+      "4": 21
+    },
+    "training_counts": {
+      "0": 87,
+      "1": 87,
+      "2": 87,
+      "3": 87,
+      "4": 88
+    },
+    "each_reference_participant_exactly_one_fold": true,
+    "no_holdout_in_training": true,
+    "all_primary_map_to_reference_a": true,
+    "all_vonly_map_to_reference_a": true,
+    "deterministic_same_process_repeat": true,
+    "matches_recovery_phase1_expected_identity_lists": false
+  },
+  "fresh_environment": {
+    "timestamp_utc": "2026-10-01T14:41:30.885802+00:00",
+    "executable": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe",
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.2",
+    "isolated_environment": "C:\\tmp\\chavi_preflight_numpy_env"
+  }
+}

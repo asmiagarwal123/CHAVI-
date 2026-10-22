@@ -1,0 +1,1046 @@
+participant_id,session_id,domain,task,field,raw_qc_code,exact_dictionary_meaning,old_class_step2b,old_recommended_action_step2b,new_class_step3a,new_recommended_action_step3a,old_profile_eligible,new_profile_eligible,effect_on_profile_eligibility
+sub-138950,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-138950,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-19861,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20125,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20125,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20125,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20125,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20125,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20139,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20141,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20141,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20141,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20141,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20141,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20149,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20188,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20212,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20212,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20212,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20212,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20212,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20214,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20236,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20236,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20236,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20236,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20236,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20238,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20238,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20238,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20238,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20238,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20252,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20253,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20258,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20258,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20258,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20258,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20258,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20258,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20258,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20258,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20258,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20258,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,N,Not Valid,valid,eligible,documented_invalid,excluded,True,False,old_profile_only_excluded_by_new
+sub-20259,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20259,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20259,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20259,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20259,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20259,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20302,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20303,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20305,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20305,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20305,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20305,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20305,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20305,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20305,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20305,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20305,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20305,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20310,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20310,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20328,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20335,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20335,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20335,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20335,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20335,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20336,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20336,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20336,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20336,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20336,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20347,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20347,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20347,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20347,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20347,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20350,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20350,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20350,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20350,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,False,old_profile_only_excluded_by_new
+sub-20350,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,N,Not Valid,valid,eligible,documented_invalid,excluded,True,False,old_profile_only_excluded_by_new
+sub-20352,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20352,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20399,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20402,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20402,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20402,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20402,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20402,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20403,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20403,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20403,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20403,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20403,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20410,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20410,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20410,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20410,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20410,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20427,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20448,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20448,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20448,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20448,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20448,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20463,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20494,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20494,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20494,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20494,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-20494,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20494,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20533,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20572,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20612,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20612,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20612,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20612,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20612,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20626,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20626,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20691,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20712,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20721,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20724,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20724,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20724,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20724,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20724,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20794,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20794,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20794,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20794,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20794,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20812,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20823,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20836,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20836,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20836,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20836,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20836,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20836,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20836,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20836,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20836,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20836,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20842,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20842,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20842,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20842,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20842,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20846,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20846,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20846,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20846,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20846,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20849,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20849,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20849,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20849,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20849,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20855,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20855,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20855,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20855,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20855,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20860,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20860,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20860,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20860,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20860,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20865,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20866,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20902,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20916,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20918,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20918,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20918,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20918,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20918,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20919,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20919,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20919,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20919,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20919,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20923,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20934,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20934,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20934,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20934,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20934,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,False,False,not_complete_profile
+sub-20936,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20936,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20953,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20961,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20961,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20961,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20961,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20961,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20961,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20961,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20961,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20961,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20961,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20964,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20964,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20964,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20964,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20964,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20966,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20968,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20976,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-20983,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20983,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20983,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20983,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20983,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,False,False,not_complete_profile
+sub-20983,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-20983,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20983,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20983,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-20983,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,False,False,not_complete_profile
+sub-21023,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21023,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21035,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21035,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-21035,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-21035,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21035,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21035,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21035,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21035,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21035,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21035,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21035,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21035,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21035,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21035,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21035,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-21038,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21038,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21050,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21050,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21050,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21050,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21050,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21088,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21088,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21088,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21088,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21088,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-21095,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21095,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21095,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21095,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21095,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21104,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21112,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21116,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21116,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21116,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21116,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21116,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21118,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21124,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21124,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21124,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21124,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21124,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21131,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21131,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21131,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21131,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21131,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21139,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21139,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21139,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21139,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21139,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21139,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21139,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21139,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21139,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21139,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21141,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21146,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21146,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21146,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21146,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21146,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21150,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21150,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21150,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21150,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21150,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21154,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-21154,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21154,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21154,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-21154,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21154,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21154,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21154,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21154,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-21154,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-21161,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-3,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-3,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-3,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-3,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21161,ses-3,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21193,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21197,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21197,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21197,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21197,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21197,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21224,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21224,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21224,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21224,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21224,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21325,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21325,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21345,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21345,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21345,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21345,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21345,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21432,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21432,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21432,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21432,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21432,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21493,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21493,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21514,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21514,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21514,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21514,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21514,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21516,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21539,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21539,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21539,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21539,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21539,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21553,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21554,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21554,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21554,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21554,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21554,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21554,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21554,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21554,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21554,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21554,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21560,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21567,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21567,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21567,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21567,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21567,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21568,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21568,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21568,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21568,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21568,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21580,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21623,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21623,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,F,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",valid,eligible,documented_likely_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21712,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21713,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21713,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21713,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21713,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21713,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21738,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21738,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21738,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21738,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21738,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21797,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21797,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21797,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21797,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21797,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-21827,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21827,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21827,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21827,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21827,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21855,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21856,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21856,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21856,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21856,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-21856,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22045,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-22045,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-22045,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-22045,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-22045,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,VC,not documented locally,unresolved_code,excluded,unknown_or_undocumented,excluded,False,False,not_complete_profile
+sub-22045,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22045,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22045,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22045,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22045,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22064,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22473,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22473,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22473,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22473,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22473,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22473,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22473,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22473,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22473,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22473,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22510,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22510,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22510,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22510,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22510,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22520,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22520,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22520,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22520,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22520,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22617,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22617,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22617,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22617,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22617,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22618,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22618,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22618,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22618,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22618,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22653,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22653,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22653,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22653,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22653,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22654,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22654,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22654,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22654,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22654,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22654,ses-2,Executive control,short_letter_2back,cnb_lnb_mcr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22654,ses-2,Episodic memory,penn_face_memory_test,cnb_cpf_cr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22654,ses-2,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22654,ses-2,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22654,ses-2,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,n/a,QC value absent,missing_qc,excluded,missing_qc,excluded,False,False,not_complete_profile
+sub-22670,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-22670,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-22670,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,C,Assessor Comment,unresolved_code,excluded,comment_conditional,excluded,False,False,not_complete_profile
+sub-22670,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-22670,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-22744,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22744,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22744,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22744,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22744,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22745,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22745,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22745,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22745,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22745,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22797,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22797,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22797,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22797,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22797,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22798,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-22798,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-22798,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-22798,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,False,False,not_complete_profile
+sub-22798,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,__NO_SCORE__,selected score absent at participant/session,missing_score,excluded,missing_score,excluded,False,False,not_complete_profile
+sub-22870,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22870,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22870,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22870,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-22870,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23113,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23113,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23113,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23113,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23113,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23303,ses-1,Executive control,short_letter_2back,cnb_lnb_mcr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23303,ses-1,Episodic memory,penn_face_memory_test,cnb_cpf_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23303,ses-1,Complex cognition,penn_matrix_reasoning_test,cnb_pmat_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23303,ses-1,Social cognition,penn_emotion_recognition_task,cnb_er40_cr,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible
+sub-23303,ses-1,Sensorimotor performance,short_computerized_finger_tapping_task,cnb_ctap_dom,V,Valid,valid,eligible,documented_valid,eligible,True,True,old_and_new_profile_eligible

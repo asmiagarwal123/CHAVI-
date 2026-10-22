@@ -1,0 +1,5 @@
+Validated: Python 3.14.0
+NumPy 2.5.2
+Platform: Windows-11-10.0.26200-SP0
+Pinned dependency: numpy==2.5.2
+Standard library only otherwise.

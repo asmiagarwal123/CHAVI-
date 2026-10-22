@@ -1,0 +1,242 @@
+{
+  "dataset": {
+    "after_directory_signature": {
+      "file_count": 24606,
+      "path_size_mtime_sha256": "c2fca937a7063ad0fcf95bfad9460ba655dfeb4b2054968cee6719ec42b2e7c5",
+      "total_bytes": 546573955
+    },
+    "after_hashes": {
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_agreement_results.csv": "2f11dd722df54c9110c30f7214f6dc2549289094e7a2422ee4cb987bfe546ca3",
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_pair_manifest.csv": "49c74468b7e2d9042aa052568e24206a69961e19958645da19ff6ec034fa30c9",
+      "chavi_analysis_ds007116_step4b_review_20260916\\cross_task_session_alignment.csv": "033cc928d4784606f6798144e384a9d5679aafc9d808da6d723ed3b77146fb02",
+      "chavi_analysis_ds007116_step4b_review_20260916\\plot_validation_checks.csv": "09ea3c65a1018a2520d4f58c5633e2e53a930b9fb15d5cc1b6f2d532b1af4118",
+      "chavi_analysis_ds007116_step4b_review_20260916\\step4b_review_provenance.json": "9d4ba0f90655b10a78567fdb43d6168e5fb25e11b5ff062938565ab8a9c37832",
+      "chavi_audit_ds007116_step3a_20260907\\executable_specification.json": "2a06d687625eee8958312d652a304bccfff22e2179929d70bcdbe06710b9317f",
+      "chavi_audit_ds007116_step3b_20260909\\assessment_occasion_mapping_step3a.csv": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b",
+      "chavi_audit_ds007116_step3b_20260909\\paired_profile_manifest.csv": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82",
+      "chavi_audit_ds007116_step3b_20260909\\task_observations_long.csv": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "chavi_step1b_phenotype_staging_20260907\\penn_emotion_recognition_task.tsv": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777",
+      "chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a",
+      "chavi_step1b_phenotype_staging_20260907\\penn_matrix_reasoning_test.tsv": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab",
+      "chavi_step1b_phenotype_staging_20260907\\short_computerized_finger_tapping_task.tsv": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd",
+      "chavi_step1b_phenotype_staging_20260907\\short_letter_2back.tsv": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96",
+      "ds007116\\participants.json": "5e23c956912dd1f972fe5549880d882cc65f0f8ffdaf1f806c4ccfb291588a2b",
+      "ds007116\\participants.tsv": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348",
+      "ds007116\\phenotype\\penn_emotion_recognition_task.json": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1",
+      "ds007116\\phenotype\\penn_face_memory_test.json": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7",
+      "ds007116\\phenotype\\penn_matrix_reasoning_test.json": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0",
+      "ds007116\\phenotype\\short_computerized_finger_tapping_task.json": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7",
+      "ds007116\\phenotype\\short_letter_2back.json": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e"
+    },
+    "before_directory_signature": {
+      "file_count": 24606,
+      "path_size_mtime_sha256": "c2fca937a7063ad0fcf95bfad9460ba655dfeb4b2054968cee6719ec42b2e7c5",
+      "total_bytes": 546573955
+    },
+    "before_hashes": {
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_agreement_results.csv": "2f11dd722df54c9110c30f7214f6dc2549289094e7a2422ee4cb987bfe546ca3",
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_pair_manifest.csv": "49c74468b7e2d9042aa052568e24206a69961e19958645da19ff6ec034fa30c9",
+      "chavi_analysis_ds007116_step4b_review_20260916\\cross_task_session_alignment.csv": "033cc928d4784606f6798144e384a9d5679aafc9d808da6d723ed3b77146fb02",
+      "chavi_analysis_ds007116_step4b_review_20260916\\plot_validation_checks.csv": "09ea3c65a1018a2520d4f58c5633e2e53a930b9fb15d5cc1b6f2d532b1af4118",
+      "chavi_analysis_ds007116_step4b_review_20260916\\step4b_review_provenance.json": "9d4ba0f90655b10a78567fdb43d6168e5fb25e11b5ff062938565ab8a9c37832",
+      "chavi_audit_ds007116_step3a_20260907\\executable_specification.json": "2a06d687625eee8958312d652a304bccfff22e2179929d70bcdbe06710b9317f",
+      "chavi_audit_ds007116_step3b_20260909\\assessment_occasion_mapping_step3a.csv": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b",
+      "chavi_audit_ds007116_step3b_20260909\\paired_profile_manifest.csv": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82",
+      "chavi_audit_ds007116_step3b_20260909\\task_observations_long.csv": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "chavi_step1b_phenotype_staging_20260907\\penn_emotion_recognition_task.tsv": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777",
+      "chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a",
+      "chavi_step1b_phenotype_staging_20260907\\penn_matrix_reasoning_test.tsv": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab",
+      "chavi_step1b_phenotype_staging_20260907\\short_computerized_finger_tapping_task.tsv": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd",
+      "chavi_step1b_phenotype_staging_20260907\\short_letter_2back.tsv": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96",
+      "ds007116\\participants.json": "5e23c956912dd1f972fe5549880d882cc65f0f8ffdaf1f806c4ccfb291588a2b",
+      "ds007116\\participants.tsv": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348",
+      "ds007116\\phenotype\\penn_emotion_recognition_task.json": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1",
+      "ds007116\\phenotype\\penn_face_memory_test.json": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7",
+      "ds007116\\phenotype\\penn_matrix_reasoning_test.json": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0",
+      "ds007116\\phenotype\\short_computerized_finger_tapping_task.json": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7",
+      "ds007116\\phenotype\\short_letter_2back.json": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e"
+    },
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116",
+    "release_tag": "1.0.6"
+  },
+  "generated_utc": "2026-09-16T04:31:29.422292+00:00",
+  "input_roles": {
+    "stage": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907",
+    "step3a": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3a_20260907",
+    "step3b": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909",
+    "step4b": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4b_five_tasks_20260916",
+    "step4b_review": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4b_review_20260916"
+  },
+  "output_hashes": {
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\age_adjustment_feasibility.md": "bef63bff8f7eeed3e4e170178161b7c332b42d1623ea379e548d26e15e7de93d",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\age_distribution_summary.csv": "7c246d21fb837d0d2ebec3ab536dbe934ddc53b1fb41b0db65cb9c83a1be8aa8",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\age_model_candidate_specification.csv": "599a25393422c26c1502b958d662431dd5a7d32d5e4b5df6079464cbd33d20dc",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\age_support_audit.csv": "6646b2d897fac60de86c636bcecca00435b29bfdc33d0dfed6af89afad9aaeea",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\cohort_count_reconciliation.csv": "f55b1724eb9263a03ad70d2f30e705ca90cdc8ef3acea7aba3fcb87a8afda92f",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\cohort_policy_draft.md": "e9fe77c98efadc2eda928f89e216b9e9fc2f2759ddbecc616cad22d4cba4f92d",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\decision_register_step5a.csv": "0ac10ce8aed52f42ada153b81e8092752c95e653692c4365fbeacc61c812cf50",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\discrepant_participant_review.csv": "c7b1ae2bf920b4606a4772c7d2085c1c5c40ac0a1c479879fc2a88485c246b32",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\ipsative_scoring_risk.md": "c405b796888bb057a6068dd4e7f7888abbc37dfeebe2950bb903d8c999549ea1",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\measurement_evidence_register.csv": "163849e5d0a244422616ee42d9d8f47669b18cac6ba990347bb33685356f92ff",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\mechanical_instability_analysis_plan.md": "ef5851989c1023069d5995ac02c220f504ffea84e76186bf2d0e315940912acd",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\missingness_and_imputation_policy.md": "2d8920c7b2c5b192e65d515751f64da819efd4720a7cd222864edef6c7437baf",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\phase2_reliability_method_matrix.csv": "005713e78e2486363e253cead848932c3e994953ec487c7864f616b1a0d6f935",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\prepare_step5a_measurement_specification.py": "82ac960c13368ecb75f97ea9c1bb4f05adc35762e6c1440d3c905f8d55847fad",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\profile_cohort_flow.csv": "92b2936c2bac3c50db328a0a6a5f4a6f945ff85e092103d93eb01dd524e5b7de",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\profile_estimand_specification.md": "6422e839ec026fdfd6f8e9137c5c9f7121e98afea0ed57e38183dcd8443c15d9",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\profile_formula_registry.csv": "8013ccc855cda4a138a04866b6ed3496353ac3426de277f16ff44d31341539eb",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\profile_methodology_evidence_register.csv": "abadaa5e75eadb663f819562f6b32d491ec57b6e0bb2d31316d5cc3b2a2be084",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\profile_pair_exclusions.csv": "55a6521830a3b45ef0d5c6d33732218a6399c6dcbc4b69528039b4d260d7f16e",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\profile_pair_source_trace.csv": "576ec5a01886e990161ba652847fbad83279f3d5070af46e27c346cf8e3c1b78",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\sap_phase2_measurement_draft.md": "cb83ca78c5b3049433348a87c5eea5a621b10e3828ce7253b28172743433cbe3",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\score_scale_review.md": "349ac2b99e771604c0a069239eab4352cf9718815b5cf50e0175fcf50d3d1a17",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\score_semantics_and_direction.csv": "d63fba21dd3779df4c8e47ede564724da5d210be674edbc7c12e1bcea6dcb123",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\sensitivity_analysis_matrix.csv": "a7e15c9fe03bd6f26d684361f46bbb03d214d011d46e816a47eef9faa2de4ab4",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\standardization_options_comparison.md": "99fd6ea15111ad34210ca333f48fbd1dd5bbb08d36c9bed7e022816a8093f6e1",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\step4b_correction_acceptance.md": "5faf05bd733f468931cfbc4e26307a08cf02be2cfbd439424fe8afd001a3405c",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\step5a_reproduction_and_tests.md": "3bae216521b4787edae7f69df536a4b422436368679be6c95fd7c01f2b26e463",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\step5a_review_report.md": "d3743f20f7598c15f1a2d343c099149fb5c272d0ad3f372e22593d8869cba1d5",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\synchronized_profile_occasions.csv": "ee803303b19f32087e86a6fb11d2455b30850d3a205d19a1cd9b1718e1ead81d",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\synchronized_profile_pair_candidates.csv": "f87aa8f63989ea2f69980277e222daa818dd2282075ca6b66b005c24372ca181",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\test_step5a_measurement_specification.py": "16324b2f87a3ea851641527c2d49ed01d4f8dcd2a375f1524fdcbbe9c65e8c97",
+    "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\uncertainty_specification.md": "8a70d04c9218b02d0fadb7c09fa86d40e294db0250f7dd218456459dc055fb11"
+  },
+  "previous_input_output_hashes_after": {
+    "critical_file_hashes": {
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_agreement_results.csv": "2f11dd722df54c9110c30f7214f6dc2549289094e7a2422ee4cb987bfe546ca3",
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_pair_manifest.csv": "49c74468b7e2d9042aa052568e24206a69961e19958645da19ff6ec034fa30c9",
+      "chavi_analysis_ds007116_step4b_review_20260916\\cross_task_session_alignment.csv": "033cc928d4784606f6798144e384a9d5679aafc9d808da6d723ed3b77146fb02",
+      "chavi_analysis_ds007116_step4b_review_20260916\\plot_validation_checks.csv": "09ea3c65a1018a2520d4f58c5633e2e53a930b9fb15d5cc1b6f2d532b1af4118",
+      "chavi_analysis_ds007116_step4b_review_20260916\\step4b_review_provenance.json": "9d4ba0f90655b10a78567fdb43d6168e5fb25e11b5ff062938565ab8a9c37832",
+      "chavi_audit_ds007116_step3a_20260907\\executable_specification.json": "2a06d687625eee8958312d652a304bccfff22e2179929d70bcdbe06710b9317f",
+      "chavi_audit_ds007116_step3b_20260909\\assessment_occasion_mapping_step3a.csv": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b",
+      "chavi_audit_ds007116_step3b_20260909\\paired_profile_manifest.csv": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82",
+      "chavi_audit_ds007116_step3b_20260909\\task_observations_long.csv": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "chavi_step1b_phenotype_staging_20260907\\penn_emotion_recognition_task.tsv": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777",
+      "chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a",
+      "chavi_step1b_phenotype_staging_20260907\\penn_matrix_reasoning_test.tsv": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab",
+      "chavi_step1b_phenotype_staging_20260907\\short_computerized_finger_tapping_task.tsv": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd",
+      "chavi_step1b_phenotype_staging_20260907\\short_letter_2back.tsv": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96",
+      "ds007116\\participants.json": "5e23c956912dd1f972fe5549880d882cc65f0f8ffdaf1f806c4ccfb291588a2b",
+      "ds007116\\participants.tsv": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348",
+      "ds007116\\phenotype\\penn_emotion_recognition_task.json": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1",
+      "ds007116\\phenotype\\penn_face_memory_test.json": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7",
+      "ds007116\\phenotype\\penn_matrix_reasoning_test.json": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0",
+      "ds007116\\phenotype\\short_computerized_finger_tapping_task.json": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7",
+      "ds007116\\phenotype\\short_letter_2back.json": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e"
+    },
+    "directory_signatures": {
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916": {
+        "file_count": 37,
+        "path_size_mtime_sha256": "2b7dd4f985a47d9005751c60f8904c9af0b269d0c4d626f869968271d545bf7e",
+        "total_bytes": 4917249
+      },
+      "chavi_analysis_ds007116_step4b_review_20260916": {
+        "file_count": 32,
+        "path_size_mtime_sha256": "db35efa9956af0118fc8d10ebc789eea7fed81e476420e266746f59cd2aa3639",
+        "total_bytes": 592153
+      },
+      "chavi_audit_ds007116_step3a_20260907": {
+        "file_count": 31,
+        "path_size_mtime_sha256": "5576c58fd475c20bc556f86e68f513b48a77dd81399693de31f7e70b425312d1",
+        "total_bytes": 2943233
+      },
+      "chavi_audit_ds007116_step3b_20260909": {
+        "file_count": 17,
+        "path_size_mtime_sha256": "d77b80ed1071fad31d254a4ab7b284f6add6d604f059bfab4ea496d321dff776",
+        "total_bytes": 5379664
+      },
+      "chavi_step1b_phenotype_staging_20260907": {
+        "file_count": 41,
+        "path_size_mtime_sha256": "30b0b70adfe04deaa12f50708b38ef51f78f12f84c5dae3aebe2178903c6d928",
+        "total_bytes": 749721
+      },
+      "ds007116": {
+        "file_count": 24606,
+        "path_size_mtime_sha256": "c2fca937a7063ad0fcf95bfad9460ba655dfeb4b2054968cee6719ec42b2e7c5",
+        "total_bytes": 546573955
+      }
+    }
+  },
+  "previous_input_output_hashes_before": {
+    "critical_file_hashes": {
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_agreement_results.csv": "2f11dd722df54c9110c30f7214f6dc2549289094e7a2422ee4cb987bfe546ca3",
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916\\five_task_pair_manifest.csv": "49c74468b7e2d9042aa052568e24206a69961e19958645da19ff6ec034fa30c9",
+      "chavi_analysis_ds007116_step4b_review_20260916\\cross_task_session_alignment.csv": "033cc928d4784606f6798144e384a9d5679aafc9d808da6d723ed3b77146fb02",
+      "chavi_analysis_ds007116_step4b_review_20260916\\plot_validation_checks.csv": "09ea3c65a1018a2520d4f58c5633e2e53a930b9fb15d5cc1b6f2d532b1af4118",
+      "chavi_analysis_ds007116_step4b_review_20260916\\step4b_review_provenance.json": "9d4ba0f90655b10a78567fdb43d6168e5fb25e11b5ff062938565ab8a9c37832",
+      "chavi_audit_ds007116_step3a_20260907\\executable_specification.json": "2a06d687625eee8958312d652a304bccfff22e2179929d70bcdbe06710b9317f",
+      "chavi_audit_ds007116_step3b_20260909\\assessment_occasion_mapping_step3a.csv": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b",
+      "chavi_audit_ds007116_step3b_20260909\\paired_profile_manifest.csv": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82",
+      "chavi_audit_ds007116_step3b_20260909\\task_observations_long.csv": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "chavi_step1b_phenotype_staging_20260907\\penn_emotion_recognition_task.tsv": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777",
+      "chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a",
+      "chavi_step1b_phenotype_staging_20260907\\penn_matrix_reasoning_test.tsv": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab",
+      "chavi_step1b_phenotype_staging_20260907\\short_computerized_finger_tapping_task.tsv": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd",
+      "chavi_step1b_phenotype_staging_20260907\\short_letter_2back.tsv": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96",
+      "ds007116\\participants.json": "5e23c956912dd1f972fe5549880d882cc65f0f8ffdaf1f806c4ccfb291588a2b",
+      "ds007116\\participants.tsv": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348",
+      "ds007116\\phenotype\\penn_emotion_recognition_task.json": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1",
+      "ds007116\\phenotype\\penn_face_memory_test.json": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7",
+      "ds007116\\phenotype\\penn_matrix_reasoning_test.json": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0",
+      "ds007116\\phenotype\\short_computerized_finger_tapping_task.json": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7",
+      "ds007116\\phenotype\\short_letter_2back.json": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e"
+    },
+    "directory_signatures": {
+      "chavi_analysis_ds007116_step4b_five_tasks_20260916": {
+        "file_count": 37,
+        "path_size_mtime_sha256": "2b7dd4f985a47d9005751c60f8904c9af0b269d0c4d626f869968271d545bf7e",
+        "total_bytes": 4917249
+      },
+      "chavi_analysis_ds007116_step4b_review_20260916": {
+        "file_count": 32,
+        "path_size_mtime_sha256": "db35efa9956af0118fc8d10ebc789eea7fed81e476420e266746f59cd2aa3639",
+        "total_bytes": 592153
+      },
+      "chavi_audit_ds007116_step3a_20260907": {
+        "file_count": 31,
+        "path_size_mtime_sha256": "5576c58fd475c20bc556f86e68f513b48a77dd81399693de31f7e70b425312d1",
+        "total_bytes": 2943233
+      },
+      "chavi_audit_ds007116_step3b_20260909": {
+        "file_count": 17,
+        "path_size_mtime_sha256": "d77b80ed1071fad31d254a4ab7b284f6add6d604f059bfab4ea496d321dff776",
+        "total_bytes": 5379664
+      },
+      "chavi_step1b_phenotype_staging_20260907": {
+        "file_count": 41,
+        "path_size_mtime_sha256": "30b0b70adfe04deaa12f50708b38ef51f78f12f84c5dae3aebe2178903c6d928",
+        "total_bytes": 749721
+      },
+      "ds007116": {
+        "file_count": 24606,
+        "path_size_mtime_sha256": "c2fca937a7063ad0fcf95bfad9460ba655dfeb4b2054968cee6719ec42b2e7c5",
+        "total_bytes": 546573955
+      }
+    }
+  },
+  "profile_first_candidate_n": 52,
+  "prohibited_operations": [
+    "final profile reliability",
+    "profile ICC",
+    "shape stability calculation",
+    "prediction",
+    "threshold calibration",
+    "UI",
+    "clinical/diagnostic claims",
+    "external validation",
+    "standardization",
+    "final participant profile values"
+  ],
+  "registered_n": 132,
+  "script": "chavi_analysis_ds007116_step5a_measurement_specification_20260916\\prepare_step5a_measurement_specification.py",
+  "software": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_candidate_n": 131,
+  "step": "5A",
+  "task_pair_alignment_n": 50,
+  "task_pair_intersection_n": 53
+}

@@ -1,0 +1,26 @@
+{
+  "overall": "PASS",
+  "automated_checks": [
+    {
+      "check": "C4 hash",
+      "status": "PASS",
+      "evidence": "C4 ZIP"
+    },
+    {
+      "check": "all endpoints",
+      "status": "PASS",
+      "evidence": "supplementary table"
+    },
+    {
+      "check": "privacy",
+      "status": "PASS",
+      "evidence": "C5 text scan"
+    },
+    {
+      "check": "narrow route",
+      "status": "PASS",
+      "evidence": "revised manuscript"
+    }
+  ],
+  "scientific_judgment": "Route B is an interpretive reviewer judgment, not an automated result."
+}

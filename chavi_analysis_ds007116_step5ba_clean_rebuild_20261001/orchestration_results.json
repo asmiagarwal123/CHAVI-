@@ -1,0 +1,81 @@
+{
+  "status": "all_prepackage_gates_passed",
+  "commands": [
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\prepare_contract.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"contract_sha256\": \"619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6\",\n  \"input_files\": 60,\n  \"source_counts\": [\n    545,\n    520,\n    450,\n    410\n  ],\n  \"fold_training_counts\": [\n    98,\n    98,\n    99,\n    99,\n    99\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\run_clean_rebuild.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"contract_sha256\": \"619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6\",\n  \"parameters\": 100,\n  \"long_rows\": 5520,\n  \"wide_rows\": 1104,\n  \"roundtrip_task_records\": 5520,\n  \"unique_physical_source_rows\": 540,\n  \"parameter_status_counts\": {\n    \"supported\": 100\n  },\n  \"coordinate_status_counts\": {\n    \"yes\": 5240,\n    \"no\": 280\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\independent_validator.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"independent_validation_passed\": true,\n  \"expected_files_persisted_before_production_read\": true,\n  \"parameter_records\": 100,\n  \"coordinate_records\": 5520,\n  \"parameter_failures\": 0,\n  \"coordinate_failures\": 0,\n  \"max_parameter_abs_discrepancy\": 2.1316282072803006e-14,\n  \"max_coordinate_abs_discrepancy\": 2.842170943040401e-14,\n  \"tolerance\": {\n    \"absolute\": 1e-12,\n    \"relative\": 1e-10\n  },\n  \"repeated_physical_groups_checked\": 1720,\n  \"repeated_physical_failures\": 0,\n  \"production_module_imported\": false,\n  \"calculation_path\": \"centered covariance OLS and independently implemented sorted-median/two-pass scale\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\validate_schemas.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"schema_validation_passed\": true,\n  \"parameter_rows\": 100,\n  \"long_rows\": 5520,\n  \"wide_rows\": 1104,\n  \"roundtrip_task_records\": 5520\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\test_clean_rebuild.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_auxiliary_retention_real_manifest (__main__.CorruptionDetection.test_auxiliary_retention_real_manifest) ... ok\ntest_changed_contract_hash (__main__.CorruptionDetection.test_changed_contract_hash) ... ok\ntest_dropped_auxiliary (__main__.CorruptionDetection.test_dropped_auxiliary) ... ok\ntest_held_out_self_inclusion (__main__.CorruptionDetection.test_held_out_self_inclusion) ... ok\ntest_mixed_strata (__main__.CorruptionDetection.test_mixed_strata) ... ok\ntest_pivot_row_multiplication (__main__.CorruptionDetection.test_pivot_row_multiplication) ... ok\ntest_silent_mad_to_sd_substitution (__main__.CorruptionDetection.test_silent_mad_to_sd_substitution) ... ok\ntest_source_parsed_mismatch (__main__.CorruptionDetection.test_source_parsed_mismatch) ... ok\ntest_target_only_reference_a (__main__.CorruptionDetection.test_target_only_reference_a) ... ok\ntest_unsupported_m1_replaced_by_m0 (__main__.CorruptionDetection.test_unsupported_m1_replaced_by_m0) ... ok\ntest_wrong_identities_same_count (__main__.CorruptionDetection.test_wrong_identities_same_count) ... ok\ntest_wrong_task_or_qc (__main__.CorruptionDetection.test_wrong_task_or_qc) ... ok\ntest_constant_scores_fail (__main__.FormulaFixtures.test_constant_scores_fail) ... ok\ntest_exact_linear_residual_scale_fails (__main__.FormulaFixtures.test_exact_linear_residual_scale_fails) ... ok\ntest_inclusive_boundaries (__main__.FormulaFixtures.test_inclusive_boundaries) ... ok\ntest_large_offset_and_unit_conversion (__main__.FormulaFixtures.test_large_offset_and_unit_conversion) ... ok\ntest_m0_hand_values (__main__.FormulaFixtures.test_m0_hand_values) ... ok\ntest_m1_hand_values_independent_path (__main__.FormulaFixtures.test_m1_hand_values_independent_path) ... ok\ntest_missing_age_fixture (__main__.FormulaFixtures.test_missing_age_fixture) ... ok\ntest_nearly_linear_fixture_scale_supported (__main__.FormulaFixtures.test_nearly_linear_fixture_scale_supported) ... ok\ntest_small_valid_scale (__main__.FormulaFixtures.test_small_valid_scale) ... ok\ntest_zero_mad_nonzero_sd_no_substitution (__main__.FormulaFixtures.test_zero_mad_nonzero_sd_no_substitution) ... ok\ntest_counts_and_unique_keys (__main__.OutputInvariants.test_counts_and_unique_keys) ... ok\ntest_fallback_labelling (__main__.OutputInvariants.test_fallback_labelling) ... ok\ntest_independent_validation_passed (__main__.OutputInvariants.test_independent_validation_passed) ... ok\ntest_m0_age_flags (__main__.OutputInvariants.test_m0_age_flags) ... ok\ntest_same_parameters_across_visits (__main__.OutputInvariants.test_same_parameters_across_visits) ... ok\n\n----------------------------------------------------------------------\nRan 27 tests in 0.145s\n\nOK\n"
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\prepare_contract.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"contract_sha256\": \"619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6\",\n  \"input_files\": 60,\n  \"source_counts\": [\n    545,\n    520,\n    450,\n    410\n  ],\n  \"fold_training_counts\": [\n    98,\n    98,\n    99,\n    99,\n    99\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\run_clean_rebuild.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"contract_sha256\": \"619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6\",\n  \"parameters\": 100,\n  \"long_rows\": 5520,\n  \"wide_rows\": 1104,\n  \"roundtrip_task_records\": 5520,\n  \"unique_physical_source_rows\": 540,\n  \"parameter_status_counts\": {\n    \"supported\": 100\n  },\n  \"coordinate_status_counts\": {\n    \"yes\": 5240,\n    \"no\": 280\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\independent_validator.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"independent_validation_passed\": true,\n  \"expected_files_persisted_before_production_read\": true,\n  \"parameter_records\": 100,\n  \"coordinate_records\": 5520,\n  \"parameter_failures\": 0,\n  \"coordinate_failures\": 0,\n  \"max_parameter_abs_discrepancy\": 2.1316282072803006e-14,\n  \"max_coordinate_abs_discrepancy\": 2.842170943040401e-14,\n  \"tolerance\": {\n    \"absolute\": 1e-12,\n    \"relative\": 1e-10\n  },\n  \"repeated_physical_groups_checked\": 1720,\n  \"repeated_physical_failures\": 0,\n  \"production_module_imported\": false,\n  \"calculation_path\": \"centered covariance OLS and independently implemented sorted-median/two-pass scale\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\validate_schemas.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"schema_validation_passed\": true,\n  \"parameter_rows\": 100,\n  \"long_rows\": 5520,\n  \"wide_rows\": 1104,\n  \"roundtrip_task_records\": 5520\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\test_clean_rebuild.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_auxiliary_retention_real_manifest (__main__.CorruptionDetection.test_auxiliary_retention_real_manifest) ... ok\ntest_changed_contract_hash (__main__.CorruptionDetection.test_changed_contract_hash) ... ok\ntest_dropped_auxiliary (__main__.CorruptionDetection.test_dropped_auxiliary) ... ok\ntest_held_out_self_inclusion (__main__.CorruptionDetection.test_held_out_self_inclusion) ... ok\ntest_mixed_strata (__main__.CorruptionDetection.test_mixed_strata) ... ok\ntest_pivot_row_multiplication (__main__.CorruptionDetection.test_pivot_row_multiplication) ... ok\ntest_silent_mad_to_sd_substitution (__main__.CorruptionDetection.test_silent_mad_to_sd_substitution) ... ok\ntest_source_parsed_mismatch (__main__.CorruptionDetection.test_source_parsed_mismatch) ... ok\ntest_target_only_reference_a (__main__.CorruptionDetection.test_target_only_reference_a) ... ok\ntest_unsupported_m1_replaced_by_m0 (__main__.CorruptionDetection.test_unsupported_m1_replaced_by_m0) ... ok\ntest_wrong_identities_same_count (__main__.CorruptionDetection.test_wrong_identities_same_count) ... ok\ntest_wrong_task_or_qc (__main__.CorruptionDetection.test_wrong_task_or_qc) ... ok\ntest_constant_scores_fail (__main__.FormulaFixtures.test_constant_scores_fail) ... ok\ntest_exact_linear_residual_scale_fails (__main__.FormulaFixtures.test_exact_linear_residual_scale_fails) ... ok\ntest_inclusive_boundaries (__main__.FormulaFixtures.test_inclusive_boundaries) ... ok\ntest_large_offset_and_unit_conversion (__main__.FormulaFixtures.test_large_offset_and_unit_conversion) ... ok\ntest_m0_hand_values (__main__.FormulaFixtures.test_m0_hand_values) ... ok\ntest_m1_hand_values_independent_path (__main__.FormulaFixtures.test_m1_hand_values_independent_path) ... ok\ntest_missing_age_fixture (__main__.FormulaFixtures.test_missing_age_fixture) ... ok\ntest_nearly_linear_fixture_scale_supported (__main__.FormulaFixtures.test_nearly_linear_fixture_scale_supported) ... ok\ntest_small_valid_scale (__main__.FormulaFixtures.test_small_valid_scale) ... ok\ntest_zero_mad_nonzero_sd_no_substitution (__main__.FormulaFixtures.test_zero_mad_nonzero_sd_no_substitution) ... ok\ntest_counts_and_unique_keys (__main__.OutputInvariants.test_counts_and_unique_keys) ... ok\ntest_fallback_labelling (__main__.OutputInvariants.test_fallback_labelling) ... ok\ntest_independent_validation_passed (__main__.OutputInvariants.test_independent_validation_passed) ... ok\ntest_m0_age_flags (__main__.OutputInvariants.test_m0_age_flags) ... ok\ntest_same_parameters_across_visits (__main__.OutputInvariants.test_same_parameters_across_visits) ... ok\n\n----------------------------------------------------------------------\nRan 27 tests in 0.144s\n\nOK\n"
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\make_reports.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\finalize_package.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"manifest_members\": 46,\n  \"zip_entries\": 47,\n  \"zip_path\": \"C:\\\\Users\\\\asmi\\\\Desktop\\\\Projects\\\\CHAVI\\\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001.zip\",\n  \"zip_bytes\": 1233278,\n  \"zip_sha256\": \"774d88a1103abfa266155b3905dd3f8ae191cef4a4f163964bc05fdaeb35d50b\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "scientific_artifacts_repeated": 29,
+  "fresh_hash_mismatches": 0,
+  "protected_artifacts": 596,
+  "protected_changes": 0
+}

@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "draws_per_method": 999,
+    "independent_failures": 0,
+    "interval_rows": 12,
+    "point_rows": 18,
+    "replicate_endpoint_rows": 5994
+  },
+  "diagnostic_or_individual_reporting_authorized": false,
+  "empirical_execution_authorized": true,
+  "gates": {
+    "bootstrap_999_each": "PASS",
+    "fresh_process_and_resume": "PASS",
+    "independent_validation": "PASS",
+    "inputs_and_c1": "PASS",
+    "protected_inputs": "PASS",
+    "reporting_limits": "PASS",
+    "six_slices": "PASS",
+    "twelve_interval_rows": "PASS",
+    "unit_fit_and_coordinate_reconciliation": "PASS",
+    "validation_repairs": "PASS"
+  },
+  "interval_availability": "12/12 available; 999/999 valid for every endpoint-method combination",
+  "status": "PASS",
+  "verdict": "EMPIRICAL ANALYSIS COMPLETE AND INDEPENDENTLY VALIDATED"
+}

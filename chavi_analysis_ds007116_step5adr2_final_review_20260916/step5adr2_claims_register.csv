@@ -1,0 +1,24 @@
+type,claim
+verified,176/109/52 cohort counts reproduced exactly from Step 3B source
+verified,"cnb_lnb_mcr is a COUNT of true positive responses, NOT response time"
+verified,cnb_lnb_mrtc is the separate RT field with Units=ms
+verified,Centered shape components sum algebraically to zero; 4-dim subspace
+verified,Bootstrap feasibility 100.0% (1000/1000 reps)
+verified,"Reference A (N=109) provides broader, less-selected internal reference than Ref B (N=52)"
+verified,Extrapolated task rows: 60; unique participants: 12
+verified,Global age-adjustment policy resolved to: M0_no_age_adjustment via prespecified rule
+verified,Primary scale estimator resolved to: MAD_primary_SD_sensitivity via prespecified rule
+supported_with_caveat,LNB direction is positive (higher count = more correct); denominator unresolved
+supported_with_caveat,CTAP direction is positive; unit/aggregation interpretation unresolved
+supported,Reference A preferred to avoid selection conditioning on follow-up completeness
+supported,"M2 spline excluded; no improvement over M1, instability risk with N~10/fold"
+supported,P3 extrapolation policy retains all participants; no data loss
+unresolved,LNB denominator/load mapping — cannot confirm normalized accuracy
+unresolved,Task-version equivalence across occasions — not established
+unresolved,CTAP unit/aggregation — not established beyond taps-per-trial mean
+prohibited,"Clinical validity, diagnostic value, or impairment classification"
+prohibited,Population norms or external z-scores
+prohibited,Normalized LNB accuracy (denominator unresolved)
+prohibited,"Confirmed practice effects, developmental effects, or causal change"
+prohibited,Individual clinical strengths or weaknesses
+prohibited,Any Step 5B profile results (not computed)

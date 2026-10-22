@@ -1,0 +1,16 @@
+requirement,required_file,actual_file,in_r1,r1_size_bytes,completed_r2,numerically_verified,scientifically_supported,remaining_concern
+Cohort reproduction 176/109/52,cohort_reproduction.csv,cohort_reproduction.csv,True,1367,True,True,True,None
+C1 LNB NOT response time — confirmed COUNT,direction_and_unit_register.csv,lnb_semantics_final_verification.md (R2),True,1050,True,True,True,"Denominator/load still unresolved (open caveat, D18)"
+C2 Contract QC column = V/F,step5adr_transformation_contract_draft.json,contract uses eligible_documented_valid_or_likely_valid,True,4969,True,True,True,None
+C3 Fold seed=42 deterministically applied,participant_grouped_fold_manifest.csv,participant_grouped_fold_manifest.csv,True,698,True,True,True,None
+C4 Age models on baseline-reference cohort only,age_model_comparison.csv,"age_model_comparison_final.csv (R2, both Ref A+B)",True,16822,True,True,True,R1 used Ref B only (52 pts); R2 adds Ref A (109 pts) as recommended
+C5 Residual and extrapolation diagnostics,residual_age_trend_diagnostics.csv,residual_age_diagnostics_final.csv (R2),True,2517,True,True,True,R1 residual file was derived summary only; R2 provides fold-level per-obs diagnostics
+C6 SD vs MAD empirical comparison,sd_vs_mad_comparison.csv,sd_mad_diagnostics_final.csv (R2),True,2752,True,True,True,R1 decision matrix showed 'not computed'; corrected in R2 with full fold-level data
+C7 Bootstrap feasibility tested,bootstrap_feasibility.json,"bootstrap_feasibility_final.csv + summary.json (R2, 1000 reps)",True,280,True,True,True,"R1 had 200 reps; R2 uses 1,000 reps for more robust estimate"
+"C9 Centered shape = 4-dim subspace, not 5 independent dims",ipsative_centering_correction.md,ipsative_centering_correction.md (R1) + contract (R2),True,1445,True,True,True,None
+Reference A (109) vs Reference B (52) comparison,reference_109_vs_52_comparison.csv,reference_109_vs_52_comparison.csv (R2),False,0,True,True,True,None — Ref A recommended; selection bias of Ref B documented
+D6/D7 age policy resolved unambiguously,age_model_comparison_final.csv,age_model_comparison_final.csv (R2) + prespecified rule,False,0,True,True,True,Global policy resolved to: M0_no_age_adjustment
+D8 SD vs MAD resolved unambiguously,sd_mad_diagnostics_final.csv,sd_mad_diagnostics_final.csv (R2),False,0,True,True,True,D8 resolved to: MAD_primary_SD_sensitivity
+Extrapolation exact accounting (task rows / participants / occasions),extrapolation_accounting_final.csv,extrapolation_accounting_final.csv (R2),False,0,True,True,True,"Task rows: 60, unique pts: 12"
+Bootstrap 1000-rep feasibility,bootstrap_feasibility_final.csv,bootstrap_feasibility_final.csv (R2),False,0,True,True,True,100.0% valid; verdict: FEASIBLE
+Decision matrix with all 18 decisions resolved/supported/unsupported,step5adr2_decision_matrix.csv,step5adr2_decision_matrix.csv (R2),False,0,True,True,True,Human approval still required for all 18

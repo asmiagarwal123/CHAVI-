@@ -1,0 +1,31 @@
+result_family,subset,metric,value,unit,source,interpretation_note
+raw_descriptive,earlier,n,59,count,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,earlier,mean,31.3728813559,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,earlier,sd,4.39395472284,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,earlier,median,32,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,earlier,iqr,7,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,earlier,min,22,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,earlier,max,40,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,earlier,missing_count,0,count,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,n,59,count,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,mean,32.2203389831,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,sd,5.69351656866,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,median,33,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,iqr,9.5,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,min,19,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,max,40,raw cnb_cpf_cr points,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,later,missing_count,0,count,face_memory_included_pairs.csv,raw released field; no standardization or age adjustment
+raw_descriptive,paired_difference_later_minus_earlier,n,59,count,face_memory_included_pairs.csv,paired difference is later minus earlier
+raw_descriptive,paired_difference_later_minus_earlier,mean,0.847457627119,raw cnb_cpf_cr points,face_memory_included_pairs.csv,paired difference is later minus earlier
+raw_descriptive,paired_difference_later_minus_earlier,sd,4.74818861768,raw cnb_cpf_cr points,face_memory_included_pairs.csv,paired difference is later minus earlier
+raw_descriptive,paired_difference_later_minus_earlier,median,1,raw cnb_cpf_cr points,face_memory_included_pairs.csv,paired difference is later minus earlier
+raw_descriptive,paired_difference_later_minus_earlier,iqr,4.5,raw cnb_cpf_cr points,face_memory_included_pairs.csv,paired difference is later minus earlier
+raw_descriptive,paired_difference_later_minus_earlier,min,-9,raw cnb_cpf_cr points,face_memory_included_pairs.csv,paired difference is later minus earlier
+raw_descriptive,paired_difference_later_minus_earlier,max,12,raw cnb_cpf_cr points,face_memory_included_pairs.csv,paired difference is later minus earlier
+raw_descriptive,paired_difference_later_minus_earlier,missing_count,0,count,face_memory_included_pairs.csv,paired difference is later minus earlier
+paired_change,included_pairs,increasing_count,33,count,face_memory_included_pairs.csv,later minus earlier sign convention
+paired_change,included_pairs,unchanged_count,9,count,face_memory_included_pairs.csv,later minus earlier sign convention
+paired_change,included_pairs,decreasing_count,17,count,face_memory_included_pairs.csv,later minus earlier sign convention
+paired_change,included_pairs,increasing_proportion,0.559322033898,proportion,face_memory_included_pairs.csv,later minus earlier sign convention
+paired_change,included_pairs,unchanged_proportion,0.152542372881,proportion,face_memory_included_pairs.csv,later minus earlier sign convention
+paired_change,included_pairs,decreasing_proportion,0.28813559322,proportion,face_memory_included_pairs.csv,later minus earlier sign convention

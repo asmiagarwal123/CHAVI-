@@ -1,0 +1,6 @@
+statistic,configured_iterations,seed,resampling_unit,valid_replicates,undefined_replicates,failed_replicates,nonfinite_replicates,ci_method,ci_low,ci_high,same_seed_rerun_identical
+icc_a1,5000,20260914,participant pair; n=59 draws with replacement,5000,0,0,0,percentile (linear interpolated empirical 2.5th/97.5th percentiles),0.343745274866668,0.718957893021146,yes
+icc_c1,5000,20260914,participant pair; n=59 draws with replacement,5000,0,0,0,percentile (linear interpolated empirical 2.5th/97.5th percentiles),0.354097997682479,0.72334857198061,yes
+pearson,5000,20260914,participant pair; n=59 draws with replacement,5000,0,0,0,percentile (linear interpolated empirical 2.5th/97.5th percentiles),0.370071241717099,0.747052942398158,yes
+spearman,5000,20260914,participant pair; n=59 draws with replacement,5000,0,0,0,percentile (linear interpolated empirical 2.5th/97.5th percentiles),0.323822223766665,0.734639095094425,yes
+mean_difference,5000,20260914,participant pair; n=59 draws with replacement,5000,0,0,0,percentile (linear interpolated empirical 2.5th/97.5th percentiles),-0.372881355932203,2.0343220338983,yes

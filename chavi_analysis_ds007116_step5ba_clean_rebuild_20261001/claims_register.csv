@@ -1,0 +1,8 @@
+claim_id,claim,status
+CLM-001,Coordinates are computationally generated under the user-adopted Design-B protocol,eligible_after_independent_validation
+CLM-002,Coordinates are internal sample-referenced task coordinates,supported_boundary
+CLM-003,Coordinates are population norms or clinical z-scores,prohibited
+CLM-004,Five tasks are five validated domains or permanent strengths/weaknesses,not_established
+CLM-005,M0/MAD is optimal,not_established_adopted_choice
+CLM-006,Historical R2 diagnostics validate Design B,false_historical_R2_used_Design_C
+CLM-007,Bootstrap/profile reliability/reportability,deferred_not_computed

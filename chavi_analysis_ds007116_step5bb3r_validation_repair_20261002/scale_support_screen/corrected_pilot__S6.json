@@ -1,0 +1,10 @@
+{
+  "stage": "corrected_pilot",
+  "scenario_id": "S6",
+  "outer_records": 100,
+  "method_scale_draws_screened": 399600,
+  "old_supported_new_rejected": 0,
+  "minimum_supported_sd_scale_to_tolerance_ratio": 5495637802775.912,
+  "mad_screen": "exact weighted-rank/count prefilter with exact expansion for every possible near-threshold row",
+  "candidate_keys": []
+}

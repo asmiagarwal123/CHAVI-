@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "every repaired interval row; every performance and paired summary cell",
+  "stages": [
+    {
+      "stage": "corrected_pilot",
+      "interval_rows": 28800,
+      "expected_interval_rows": 28800,
+      "unique_interval_keys": 28800,
+      "interval_arithmetic_failures": 0,
+      "bootstrap_rows": 14400,
+      "performance_rows": 288,
+      "performance_failures": 0,
+      "paired_rows": 288,
+      "paired_failures": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "confirmatory",
+      "interval_rows": 192000,
+      "expected_interval_rows": 192000,
+      "unique_interval_keys": 192000,
+      "interval_arithmetic_failures": 0,
+      "bootstrap_rows": 96000,
+      "performance_rows": 96,
+      "performance_failures": 0,
+      "paired_rows": 96,
+      "paired_failures": 0,
+      "status": "PASS"
+    }
+  ]
+}

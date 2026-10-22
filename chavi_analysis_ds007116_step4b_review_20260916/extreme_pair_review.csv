@@ -1,0 +1,19 @@
+task_key,participant_id,earlier_session_id,later_session_id,earlier_score,later_score,difference,absolute_difference,extreme_flag,review_basis
+letter_nback,sub-20494,ses-1,ses-3,11.0,19.0,8.0,8.0,yes,absolute difference >= sample 95th percentile 4.3
+letter_nback,sub-20923,ses-1,ses-2,17.0,12.0,-5.0,5.0,yes,absolute difference >= sample 95th percentile 4.3
+letter_nback,sub-21553,ses-1,ses-2,19.0,10.0,-9.0,9.0,yes,absolute difference >= sample 95th percentile 4.3
+face_memory,sub-138950,ses-1,ses-2,24.0,34.0,10.0,10.0,yes,absolute difference >= sample 95th percentile 10
+face_memory,sub-20252,ses-1,ses-2,28.0,38.0,10.0,10.0,yes,absolute difference >= sample 95th percentile 10
+face_memory,sub-20712,ses-1,ses-2,28.0,39.0,11.0,11.0,yes,absolute difference >= sample 95th percentile 10
+face_memory,sub-20953,ses-1,ses-2,25.0,37.0,12.0,12.0,yes,absolute difference >= sample 95th percentile 10
+matrix_reasoning,sub-20252,ses-1,ses-2,7.0,15.0,8.0,8.0,yes,absolute difference >= sample 95th percentile 6
+matrix_reasoning,sub-20303,ses-1,ses-2,19.0,13.0,-6.0,6.0,yes,absolute difference >= sample 95th percentile 6
+matrix_reasoning,sub-20721,ses-1,ses-2,18.0,11.0,-7.0,7.0,yes,absolute difference >= sample 95th percentile 6
+matrix_reasoning,sub-21712,ses-1,ses-2,10.0,16.0,6.0,6.0,yes,absolute difference >= sample 95th percentile 6
+emotion_recognition,sub-20399,ses-1,ses-2,15.0,35.0,20.0,20.0,yes,absolute difference >= sample 95th percentile 8.3
+emotion_recognition,sub-20812,ses-1,ses-3,23.0,38.0,15.0,15.0,yes,absolute difference >= sample 95th percentile 8.3
+emotion_recognition,sub-20916,ses-1,ses-2,26.0,36.0,10.0,10.0,yes,absolute difference >= sample 95th percentile 8.3
+dominant_finger_tapping,sub-20494,ses-1,ses-3,40.66667,60.33333,19.666659999999993,19.666659999999993,yes,absolute difference >= sample 95th percentile 18
+dominant_finger_tapping,sub-20812,ses-1,ses-3,34.33333,52.33333,18.0,18.0,yes,absolute difference >= sample 95th percentile 18
+dominant_finger_tapping,sub-20916,ses-1,ses-2,61.33333,89.66667,28.33334,28.33334,yes,absolute difference >= sample 95th percentile 18
+dominant_finger_tapping,sub-21141,ses-1,ses-2,52.33333,70.33333,18.000000000000007,18.000000000000007,yes,absolute difference >= sample 95th percentile 18

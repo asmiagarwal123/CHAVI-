@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "corrected": {
+    "stage": "corrected_pilot",
+    "expected_records": 600,
+    "hash_mismatches": 0,
+    "numeric_mismatch_count": 0,
+    "numeric_mismatches": [],
+    "status": "PASS"
+  },
+  "confirmatory": {
+    "stage": "confirmatory",
+    "expected_records": 4000,
+    "hash_mismatches": 0,
+    "numeric_mismatch_count": 0,
+    "numeric_mismatches": [],
+    "status": "PASS"
+  },
+  "corruption_checks": {
+    "status": "PASS",
+    "checks": 9,
+    "passed": 9,
+    "details": "Each corruption is rejected by the independent identity, support, eligibility, or structural-target checks."
+  },
+  "protected_inventory": {
+    "rows": 82,
+    "changed": 0,
+    "missing": 0
+  },
+  "independent_path": "standalone formulas; no imports from simulation_core.py, run_stage.py, consolidate.py, or B2 finalizers"
+}

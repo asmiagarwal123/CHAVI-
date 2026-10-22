@@ -1,0 +1,2 @@
+task,fold,raw,mean,mad,mult,expected_resid,expected_coord
+cnb_lnb_mcr,0,20.0,17.755102040816325,1.4826,1,2.2448979591836746,1.5141629294372554

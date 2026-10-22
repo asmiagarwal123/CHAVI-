@@ -1,0 +1,13 @@
+{
+  "correlation_fields_compared": 7,
+  "draw_linkage_records_checked": 999,
+  "elapsed_seconds": 7.47776929999236,
+  "failures": 0,
+  "imports_production_helpers": false,
+  "interval_rows_compared": 12,
+  "linkage_failures": 0,
+  "point_values_compared": 18,
+  "replicate_endpoint_values_compared": 5994,
+  "status": "PASS",
+  "unit_fits_compared": 25
+}

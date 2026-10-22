@@ -1,0 +1,7 @@
+estimand_id,status,analysis_unit,denominator,formula,complete_case,model_scale,output_units,interpretation
+level_icc_a1,PRIMARY,participant pair,52 complete pairs expected,(MSR-MSE)/(MSR+(k-1)MSE+k(MSC-MSE)/n),five supported finite coordinates at both occasions,M0/MAD Design B,unitless,sample-level absolute agreement of mean profile level; negative retained; not individual reliability
+mean_level_change,PRIMARY,participant pair,52 complete pairs expected,mean_i(L_i2-L_i1),same,M0/MAD Design B,internal-reference coordinate units,average signed displacement in profile level; no causal-development claim
+rms_shape_displacement,PRIMARY,participant pair then squared components pooled,5*52 component-pair terms expected,sqrt(sum_i sum_j((q_i2j-q_i1j)^2)/(5n)); not the mean of participant RMS distances,same,M0/MAD Design B,internal-reference coordinate units,absolute centered-shape displacement; magnitude is not clinical significance
+profile_correlation_distribution,DESCRIPTIVE_RETAINED,participant pair,defined nondegenerate complete pairs,q_i1 dot q_i2/(norm(q_i1)norm(q_i2)),same plus nondegenerate shape at both occasions,M0/MAD Design B,unitless,directional shape similarity only; report n undefined
+scatter,DEFERRED,occasion profile,not executed,sqrt(sum_j(q_itj^2)/5),not executed,not executed,coordinate units,not material to frozen primary question
+vector_trace_association,DEFERRED,cohort matrix,not executed,centered Frobenius cosine association,not executed,not executed,unitless,not evaluated in B3-R

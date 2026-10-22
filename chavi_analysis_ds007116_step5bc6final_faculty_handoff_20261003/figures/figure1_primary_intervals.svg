@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#18212b}.title{font-size:30px;font-weight:700}.sub{font-size:17px;fill:#52606d}.lab{font-size:17px}.small{font-size:14px;fill:#52606d}.axis{stroke:#52606d;stroke-width:1.5}.grid{stroke:#d9e2ec;stroke-width:1}.p2{stroke:#1769aa;fill:#1769aa}.p3{stroke:#c23b22;fill:#c23b22}.p1{stroke:#66788a;fill:#66788a}.p4{stroke:#6a3d9a;fill:#6a3d9a}</style>
+<text x="55" y="48" class="title">Primary empirical 95% percentile intervals</text>
+<text x="55" y="78" class="sub">Three endpoint-specific axes; n=52 pairs; 999/999 valid draws per method</text>
+<text x="55" y="155" class="lab" font-weight="700">Level ICC(A,1)</text>
+<line x1="390.0" y1="180" x2="390.0" y2="290" class="grid"/>
+<text x="390.0" y="320" class="small" text-anchor="middle">0.25</text>
+<line x1="596.0" y1="180" x2="596.0" y2="290" class="grid"/>
+<text x="596.0" y="320" class="small" text-anchor="middle">0.38</text>
+<line x1="802.0" y1="180" x2="802.0" y2="290" class="grid"/>
+<text x="802.0" y="320" class="small" text-anchor="middle">0.51</text>
+<line x1="1008.0" y1="180" x2="1008.0" y2="290" class="grid"/>
+<text x="1008.0" y="320" class="small" text-anchor="middle">0.64</text>
+<line x1="1214.0" y1="180" x2="1214.0" y2="290" class="grid"/>
+<text x="1214.0" y="320" class="small" text-anchor="middle">0.77</text>
+<line x1="1420.0" y1="180" x2="1420.0" y2="290" class="grid"/>
+<text x="1420.0" y="320" class="small" text-anchor="middle">0.90</text>
+<line x1="390" y1="290" x2="1420" y2="290" class="axis"/>
+<text x="330" y="216" class="lab" text-anchor="end">P2</text>
+<line x1="585.3" y1="210" x2="1239.1" y2="210" class="p2" stroke-width="6"/>
+<circle cx="974.6" cy="210" r="8" class="p2"/>
+<text x="330" y="271" class="lab" text-anchor="end">P3</text>
+<line x1="596.7" y1="265" x2="1241.0" y2="265" class="p3" stroke-width="6"/>
+<circle cx="974.6" cy="265" r="8" class="p3"/>
+<text x="55" y="380" class="lab" font-weight="700">Mean level change</text>
+<line x1="390.0" y1="405" x2="390.0" y2="515" class="grid"/>
+<text x="390.0" y="545" class="small" text-anchor="middle">0.10</text>
+<line x1="596.0" y1="405" x2="596.0" y2="515" class="grid"/>
+<text x="596.0" y="545" class="small" text-anchor="middle">0.20</text>
+<line x1="802.0" y1="405" x2="802.0" y2="515" class="grid"/>
+<text x="802.0" y="545" class="small" text-anchor="middle">0.31</text>
+<line x1="1008.0" y1="405" x2="1008.0" y2="515" class="grid"/>
+<text x="1008.0" y="545" class="small" text-anchor="middle">0.41</text>
+<line x1="1214.0" y1="405" x2="1214.0" y2="515" class="grid"/>
+<text x="1214.0" y="545" class="small" text-anchor="middle">0.52</text>
+<line x1="1420.0" y1="405" x2="1420.0" y2="515" class="grid"/>
+<text x="1420.0" y="545" class="small" text-anchor="middle">0.62</text>
+<line x1="390" y1="515" x2="1420" y2="515" class="axis"/>
+<text x="330" y="441" class="lab" text-anchor="end">P2</text>
+<line x1="552.1" y1="435" x2="1294.3" y2="435" class="p2" stroke-width="6"/>
+<circle cx="916.2" cy="435" r="8" class="p2"/>
+<text x="330" y="496" class="lab" text-anchor="end">P3</text>
+<line x1="544.8" y1="490" x2="1275.1" y2="490" class="p3" stroke-width="6"/>
+<circle cx="916.2" cy="490" r="8" class="p3"/>
+<text x="55" y="605" class="lab" font-weight="700">RMS centered-shape displacement</text>
+<line x1="390.0" y1="630" x2="390.0" y2="740" class="grid"/>
+<text x="390.0" y="770" class="small" text-anchor="middle">0.55</text>
+<line x1="596.0" y1="630" x2="596.0" y2="740" class="grid"/>
+<text x="596.0" y="770" class="small" text-anchor="middle">0.73</text>
+<line x1="802.0" y1="630" x2="802.0" y2="740" class="grid"/>
+<text x="802.0" y="770" class="small" text-anchor="middle">0.91</text>
+<line x1="1008.0" y1="630" x2="1008.0" y2="740" class="grid"/>
+<text x="1008.0" y="770" class="small" text-anchor="middle">1.09</text>
+<line x1="1214.0" y1="630" x2="1214.0" y2="740" class="grid"/>
+<text x="1214.0" y="770" class="small" text-anchor="middle">1.27</text>
+<line x1="1420.0" y1="630" x2="1420.0" y2="740" class="grid"/>
+<text x="1420.0" y="770" class="small" text-anchor="middle">1.45</text>
+<line x1="390" y1="740" x2="1420" y2="740" class="axis"/>
+<text x="330" y="666" class="lab" text-anchor="end">P2</text>
+<line x1="688.2" y1="660" x2="1131.4" y2="660" class="p2" stroke-width="6"/>
+<circle cx="906.9" cy="660" r="8" class="p2"/>
+<text x="330" y="721" class="lab" text-anchor="end">P3</text>
+<line x1="677.0" y1="715" x2="1330.4" y2="715" class="p3" stroke-width="6"/>
+<circle cx="906.9" cy="715" r="8" class="p3"/>
+<text x="55" y="855" class="small">P2 fixes the fitted transformation; P3 resamples participants and refits it. Differences are descriptive, not a superiority test.</text>
+</svg>

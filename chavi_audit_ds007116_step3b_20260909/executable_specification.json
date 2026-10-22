@@ -1,0 +1,32 @@
+{
+  "schema_version": "step2c-1",
+  "dataset_snapshot": "1.0.6",
+  "selected_profile": {
+    "Executive control": ["short_letter_2back", "cnb_lnb_mcr"],
+    "Episodic memory": ["penn_face_memory_test", "cnb_cpf_cr"],
+    "Complex cognition": ["penn_matrix_reasoning_test", "cnb_pmat_cr"],
+    "Social cognition": ["penn_emotion_recognition_task", "cnb_er40_cr"],
+    "Sensorimotor performance": ["short_computerized_finger_tapping_task", "cnb_ctap_dom"]
+  },
+  "reduced_profile": {
+    "Executive control": ["short_letter_2back", "cnb_lnb_mcr"],
+    "Episodic memory": ["penn_face_memory_test", "cnb_cpf_cr"],
+    "Complex cognition": ["penn_matrix_reasoning_test", "cnb_pmat_cr"],
+    "Social cognition": ["penn_emotion_recognition_task", "cnb_er40_cr"]
+  },
+  "candidate_domains": {
+    "Executive control": ["penn_abstraction_inhibition_working_memory_task:cnb_aim_aimtot", "penn_conditional_exclusion_task:cnb_pcet_cr", "short_letter_2back:cnb_lnb_mcr", "short_penn_continuous_performance_test:cnb_cptnl_total_sen", "trailmaking_test_b:cnb_trails_rt", "digit_symbol:cnb_digsym_dscor"],
+    "Episodic memory": ["penn_word_memory_test:cnb_cpw_cr", "penn_face_memory_test:cnb_cpf_cr", "visual_object_learning_test:cnb_volt_cr"],
+    "Complex cognition": ["penn_verbal_reasoning_test:cnb_pvrt_cr", "penn_matrix_reasoning_test:cnb_pmat_cr", "variable_short_penn_line_orientation_test:cnb_plot_cr"],
+    "Social cognition": ["penn_emotion_recognition_task:cnb_er40_cr", "measured_emotion_differentiation_test:cnb_medf_cr", "age_differentiation_test:cnb_adt_cr"],
+    "Sensorimotor performance": ["short_computerized_finger_tapping_task:cnb_ctap_dom", "motor_praxis:cnb_mpract_mp2rtcr", "trailmaking_test_a:cnb_trails_rt"]
+  },
+  "qc_policies": {
+    "documented_valid_or_likely_valid": {"include": ["documented_valid", "documented_likely_valid"], "require_all_applicable_fields": true, "exclude": ["documented_invalid", "documented_skipped", "no_automatic_validation", "comment_conditional", "unknown_or_undocumented", "missing_qc", "partial_qc", "no_applicable_qc_field"]},
+    "strict_documented_V_only": {"include": ["documented_valid"], "raw_code_must_be": ["V"], "require_all_applicable_fields": true},
+    "descriptive_unresolved_qc": {"include": ["no_automatic_validation", "comment_conditional", "unknown_or_undocumented", "missing_qc", "partial_qc", "no_applicable_qc_field"]},
+    "unresolved_inclusive": {"include": ["documented_valid", "documented_likely_valid", "no_automatic_validation", "comment_conditional", "unknown_or_undocumented", "missing_qc", "partial_qc", "no_applicable_qc_field"], "exclude": ["documented_invalid", "documented_skipped"]}
+  },
+  "pair_rules": ["all_possible_unordered_pairs", "first_two_eligible_occasions", "complete_scheduled_ses-1_ses-2_pairs"],
+  "outcomes": ["eswan_adhd_inattention_total", "eswan_adhd_total_score", "mapssr_total_score", "im_average", "em_average"]
+}

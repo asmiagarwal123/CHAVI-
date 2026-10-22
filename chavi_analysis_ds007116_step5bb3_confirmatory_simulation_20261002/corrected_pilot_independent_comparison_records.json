@@ -1,0 +1,8 @@
+{
+  "stage": "corrected_pilot",
+  "expected_records": 600,
+  "hash_mismatches": 0,
+  "numeric_mismatch_count": 0,
+  "numeric_mismatches": [],
+  "status": "PASS"
+}

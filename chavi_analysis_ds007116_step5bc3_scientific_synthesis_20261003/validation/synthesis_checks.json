@@ -1,0 +1,56 @@
+{
+  "overall_status": "PASS",
+  "generated_by": "code/validate_and_package.py",
+  "automated_checks": [
+    {
+      "check": "authoritative_input_hashes",
+      "status": "PASS",
+      "evidence": "input_manifest.csv",
+      "detail": "checked=17; missing=[]; mismatched=[]"
+    },
+    {
+      "check": "planned_row_counts",
+      "status": "PASS",
+      "evidence": "aggregate_tables",
+      "detail": "points=18, intervals=12, simulation_cells=384"
+    },
+    {
+      "check": "empirical_exact_mapping",
+      "status": "PASS",
+      "evidence": "C2 public aggregates versus C3 copies",
+      "detail": ""
+    },
+    {
+      "check": "unrounded_width_recalculation",
+      "status": "PASS",
+      "evidence": "aggregate_tables/empirical_primary_interval_comparisons.csv",
+      "detail": ""
+    },
+    {
+      "check": "simulation_anchors_and_denominators",
+      "status": "PASS",
+      "evidence": "simulation_synthesis_all_prespecified.csv",
+      "detail": "S1/S5 anchors and all availability denominators recalculated"
+    },
+    {
+      "check": "figure_source_and_formats",
+      "status": "PASS",
+      "evidence": "figures/*_data.csv and SVG/PDF/PNG files",
+      "detail": "PNG/SVG visually inspected; pdftoppm unavailable, PDFs share the same SVG/Chromium source"
+    },
+    {
+      "check": "public_privacy_scan",
+      "status": "PASS",
+      "evidence": "all C3 text/csv/json/bib/py/svg files",
+      "detail": "participant_identifier_hits=[]"
+    },
+    {
+      "check": "required_deliverables",
+      "status": "PASS",
+      "evidence": "C3 milestone root",
+      "detail": ""
+    }
+  ],
+  "scientific_judgments_are_not_mechanically_proven": true,
+  "pdf_visual_qa_note": "Poppler/pdftoppm was unavailable. Native SVG and same-source PNG outputs were visually inspected; PDF signatures and non-empty output were checked."
+}

@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-09-07T11:24:23.093352+00:00",
+  "dataset_root": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116",
+  "phenotype_stage_root": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907",
+  "specification_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_audit_ds007116_step3a_20260907\\step3a_specification.json",
+  "specification_sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01",
+  "script_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_audit_ds007116_step3a_20260907\\audit_v6.py",
+  "script_sha256": "bd00d819a65433433f29a5761e125f41bd52bdc44f6f50a09667e9f0ed34456b",
+  "intended_snapshot": "1.0.6",
+  "pinned_commit_expected": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+  "git_before": {
+    "status": "## main...origin/main",
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "branch": "main",
+    "describe": "1.0.6",
+    "tags_at_HEAD": [
+      "1.0.6"
+    ],
+    "last_commit": {
+      "hash": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+      "date": "2026-07-28T02:35:41Z",
+      "author": "Git Worker",
+      "subject": "[OpenNeuro] Recorded changes"
+    }
+  },
+  "verified_payload_count": 41,
+  "trace_rows": 1045,
+  "old_recommended_profile_occasions": 178,
+  "new_recommended_profile_occasions": 176,
+  "production_checks": [
+    "production_continuation_no_new_CNB",
+    "production_scheduled_observation_and_pair_reconciliation",
+    "production_outcome_numeric_and_intersection_reconciliation",
+    "production_exclusion_flow_reconciliation"
+  ],
+  "software": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "git": "git version 2.53.0.windows.1"
+  },
+  "boundaries": [
+    "reuse only verified Step 1B payloads",
+    "no imaging retrieval",
+    "no composites/standardization/age fitting/reliability/prediction/Evidence Engine"
+  ]
+}

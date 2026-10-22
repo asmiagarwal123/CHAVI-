@@ -1,0 +1,13 @@
+{
+  "checkpoint_provenance_validation": "PASS",
+  "fresh_attempts_per_second": 142.53802929564003,
+  "fresh_full_attempts": 999,
+  "fresh_full_elapsed_seconds": 7.008655900019221,
+  "fresh_process_pid": 36232,
+  "fresh_provenance_equal": true,
+  "fresh_records_equal": true,
+  "interrupted_after_attempts": 3,
+  "resume_equals_clean": true,
+  "resumed_to_attempts": 7,
+  "status": "PASS"
+}

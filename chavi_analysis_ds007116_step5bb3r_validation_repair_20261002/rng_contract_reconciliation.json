@@ -1,0 +1,12 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_PROSE_CORRECTION",
+  "algorithm": "NumPy PCG64DXSM",
+  "master_seed": 20261002,
+  "actual_key_serialization": "UTF-8 string join('|', [master_seed, STREAM_NAMESPACE, stream_label, scenario_id, outer_id]) followed by SHA-256; first 16 digest bytes interpreted little-endian as PCG64DXSM seed",
+  "actual_stream_labels": ["outer_dataset", "bootstrap_target_unstratified", "bootstrap_auxiliary", "bootstrap_target_stratified"],
+  "contract_wording": "SHA256(master_seed|namespace|stage|scenario|outer|method|replicate)",
+  "reconciliation": "The contract prose is inaccurate: stage is represented by namespace and is not a second key field; method and replicate are not keyed fields. Methods share the frozen multiplicity arrays as designed, and replicate is the deterministic row position within each stream.",
+  "action": "Preserved actual historical key construction and shared-random-number semantics; did not alter streams to match prose.",
+  "stage_namespace_guard": "run_stage.assert_stage_namespace now raises on mismatch; executable edge test stage_namespace_mismatch_fails passed.",
+  "retrospective_status": "This repair record is a retrospective implementation audit, not external verification of preregistration."
+}

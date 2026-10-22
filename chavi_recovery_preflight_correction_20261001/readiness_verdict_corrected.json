@@ -1,0 +1,43 @@
+{
+  "verdict":"DECISION-READY SPECIFICATION — EXPLICIT REVIEW REQUIRED BEFORE REBUILD",
+  "verdict_code":"DECISION_READY_EXPLICIT_REVIEW_REQUIRED",
+  "date":"2026-10-01",
+  "computational_readiness_gate":"pass",
+  "production_authorized":false,
+  "approval_status":"candidate_not_approved",
+  "source_blocked":false,
+  "environment_blocked":false,
+  "verified":[
+    "41 staged payload hashes and sizes match the retrieval manifest",
+    "1095 selected Step3B participant/session/task keys are unique and map to registered participants and unique occasion-map keys",
+    "selected Step3B raw source scores and QC values match staged payload rows",
+    "zero V/F and zero strict-V upstream eligibility-flag mismatches after independent raw selection",
+    "Reference A 109 participants/109 occasions/545 rows",
+    "Primary V/F 52 participants/104 occasions/520 rows",
+    "reselected strict-V 45 participants/90 occasions/450 rows",
+    "fixed-primary-pair strict-V 41 participants/82 occasions/410 rows",
+    "four shifted strict-V pairs: sub-20149 sub-20310 sub-20902 sub-20916",
+    "50/52/53 identity reconciliation",
+    "historical Step5BA and BAR2 fitting identities implement Design B with 98/98/99/99/99 training",
+    "historical R2 diagnostic and R3 engine/validator implement Design C with 41/42 training",
+    "candidate Design-B target map exactly matches the historical 52-target seeded fold manifest",
+    "24 targeted tests with corrupted fixtures pass",
+    "fresh-process scientific reconstruction matches",
+    "79 declared historical/protected artifacts have identical before/after hashes"
+  ],
+  "recommended_primary_design":"Design B — target-participant cross-fitting with all 57 auxiliary Reference-A participants retained",
+  "historical_intent_finding":"ambiguous/contradictory: approval names 109-person Reference A but documents 52-person folds without an auxiliary rule; Step5BA code implements Design B while R2 diagnostics and R3 code implement Design C",
+  "decisions_required_before_rebuild":[
+    "approve Design B and the candidate target-fold/fitting-identity hashes, or explicitly choose an alternative",
+    "approve reuse of the Primary target-fold map and V/F Reference-A parameters for QC sensitivities",
+    "approve exact M0/M1 and numerical scale-failure semantics",
+    "approve output keys and denominator semantics",
+    "approve the bootstrap protocol only if bootstrap execution is later authorized"
+  ],
+  "decisions_not_required_to_finish_transformation_but_required_before_interpretation":[
+    "resolve exact LNB denominator/load mapping",
+    "resolve CTAP unit/aggregation detail",
+    "establish task-version and exact cognitive-timing equivalence if stronger longitudinal claims are desired"
+  ],
+  "prohibited_next_actions_until_approval":["production transformation rebuild","use of quarantined coordinates","profile inference","empirical bootstrap","simulation","threshold calibration","prediction","UI development"]
+}

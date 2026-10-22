@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"CHAVI transformation output schemas (candidate, not approved)",
+  "status":"candidate_not_approved",
+  "$defs":{
+    "source_key":{"type":"object","required":["participant_id","session_id","task_key","source_filename","source_row_reference"],"properties":{"participant_id":{"type":"string"},"session_id":{"type":"string"},"task_key":{"enum":["letter_nback","face_memory","matrix_reasoning","emotion_recognition","dominant_finger_tapping"]},"source_filename":{"type":"string"},"source_row_reference":{"type":"string"}}},
+    "analytical_key":{"type":"object","required":["participant_id","analytical_stratum","session_id","task_key","model","scale_method"],"properties":{"analytical_stratum":{"enum":["primary_vf","vonly_reselected","fixed_primary_pair_strict_v"]},"model":{"enum":["M0","M1"]},"scale_method":{"enum":["MAD","SD"]}}},
+    "parameter_key":{"type":"object","required":["reference_design","target_fold","task_key","model","scale_method","training_identity_sha256","contract_sha256"],"properties":{"reference_design":{"enum":["B_target_plus_auxiliary"]},"target_fold":{"type":"integer","minimum":0,"maximum":4},"training_identity_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"contract_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"}}}
+  },
+  "long_output":{
+    "unique_key":["participant_id","analytical_stratum","session_id","task_key","model","scale_method"],
+    "required_fields":["participant_id","analytical_stratum","session_id","task_key","model","scale_method","reference_design","target_fold","coordinate","supported","unsupported_reason","fallback_model","fallback_coordinate","source_filename","source_row_reference","training_identity_sha256","contract_sha256"],
+    "rules":["coordinate is null whenever supported=false","M0 has age_support_status=not_applicable","M1 fallback is stored only in fallback_* fields","physical source key is preserved independently of analytical stratum and model/scale"]
+  },
+  "wide_output":{
+    "unique_key":["participant_id","analytical_stratum","session_id","model","scale_method"],
+    "coordinate_columns":["letter_nback_coordinate","face_memory_coordinate","matrix_reasoning_coordinate","emotion_recognition_coordinate","dominant_finger_tapping_coordinate"],
+    "rules":["exactly five task coordinate columns","all non-key metadata must be constant within a pivot key or validation fails","unsupported task coordinates remain null with task-specific reason fields"]
+  },
+  "denominators":{"primary_physical_source_rows":520,"vonly_physical_source_rows":450,"combined_stratified_rows":970,"combined_is_unique_physical_union":false}
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-02",
+  "authorization": "Researcher authorization for simulated-data implementation and pilot evaluation through execution of this prompt.",
+  "scope": "M0 known-truth simulation pilot only; no empirical CHAVI analysis",
+  "inputs": {
+    "../chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/step5ba_rebuild_contract.json": "619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6",
+    "../chavi_analysis_ds007116_step5ba_clean_rebuild_20261001.zip": "5be859872962dd336e6fc0edd6f239167235ebdb09d1482c2862bea8eacf5fec",
+    "../chavi_analysis_ds007116_step5bb1_profile_protocol_20261001.zip": "582508b67af43fe4723a4f781ad575ac9146c4ff032028987c74f047451650cd",
+    "../chavi_analysis_ds007116_step5bb1_profile_protocol_20261001/profile_analysis_specification_recommended.json": "31d3109bddd9c5cee215c2b1a2e1d49781c227297f2de6ab10f0e696aed081ab"
+  },
+  "upstream_b1_status": "recommended and unapproved for empirical execution",
+  "target_ids": [
+    "S{scenario}_{scale}_{endpoint}"
+  ],
+  "target_definition": "common target-pair distribution transformed by population baseline-reference task means and population MAD or SD",
+  "target_formula": {
+    "icc_a1_limit": "2*Cov(L1,L2)/(Var(L1)+Var(L2)+(E[L2]-E[L1])^2)",
+    "mean_level_change": "E[L2-L1]",
+    "rms_shape_displacement": "sqrt(E[||P(Z2-Z1)||^2]/5)",
+    "P": "I-11^T/5"
+  },
+  "reference": {
+    "targets": 52,
+    "auxiliaries": 57,
+    "fold_counts": [
+      11,
+      11,
+      10,
+      10,
+      10
+    ],
+    "M0_center": "arithmetic mean",
+    "MAD": "median(abs(y-median(y)))/0.6744897501960817",
+    "SD": "sample SD ddof=1",
+    "baseline_only": true
+  },
+  "scenario_registry_sha256": "3164968307eb6f8d5b6f8520bd7f0f41a665da4dc7bb19ab9b3e35b8d12d7527",
+  "methods": {
+    "P1": "oracle-reference conditional participant bootstrap",
+    "P2": "estimated-reference fixed-transform participant bootstrap",
+    "P3": "identity-linked unstratified joint refit",
+    "P4": "identity-linked fold-stratified joint refit; conditions on fold counts"
+  },
+  "intervals": {
+    "families": [
+      "percentile",
+      "basic"
+    ],
+    "level": 0.95,
+    "quantile_method": "linear",
+    "eligible": "at least 475 of 499 valid and at least 20 valid estimates per nominal tail",
+    "failure": "no redraw; valid-only interval explicitly conditioned; unavailable counted unconditionally",
+    "basic": "[2*theta_hat-q0.975,2*theta_hat-q0.025]",
+    "clipping": false
+  },
+  "run_size": {
+    "scenarios": 6,
+    "outer_per_scenario": 100,
+    "bootstrap_replicates": 499,
+    "scales": [
+      "MAD",
+      "SD"
+    ],
+    "endpoints": [
+      "level_icc_a1",
+      "mean_level_change",
+      "rms_shape_displacement"
+    ]
+  },
+  "randomness": {
+    "master_seed": 20261002,
+    "algorithm": "NumPy PCG64DXSM",
+    "derivation": "first 128 bits of SHA-256 of UTF-8 pipe-joined master seed and scientific stream identifiers",
+    "dataset_stream": "outer_dataset|scenario|outer",
+    "shared_unstratified_target_draw": "bootstrap_target_unstratified|scenario|outer shared by P1/P2/P3",
+    "shared_auxiliary_draw": "bootstrap_auxiliary|scenario|outer shared by P3/P4",
+    "stratified_target_draw": "bootstrap_target_stratified|scenario|outer",
+    "replicate_id": "fixed row offset 0..498 within its keyed vector draw"
+  },
+  "software": {
+    "python": "3.14.0",
+    "numpy": "2.5.2",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "deferred": [
+    "M1",
+    "age support",
+    "strict-V",
+    "prediction/reportability",
+    "BCa",
+    "leave-one-target-out",
+    "large factorial design",
+    "empirical execution"
+  ],
+  "structural_policy": {
+    "S6_MAD": "population target undefined; failure behavior only",
+    "S6_SD": "defined",
+    "unused_fold": "fit not required when no analyzed target from that fold",
+    "negative_icc": "retain",
+    "undefined": "never replace by zero"
+  },
+  "manifest_convention": "all distributable members except manifest itself and enclosing ZIP"
+}

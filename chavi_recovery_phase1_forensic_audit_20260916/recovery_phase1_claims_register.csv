@@ -1,0 +1,5 @@
+claim_id,claim,status,evidence
+R1,Reference A has 109 participants and 545 task rows,REPRODUCED,reference_a_participant_manifest.csv
+R2,Five-fold Ref A training sizes are 87/88,REPRODUCED,reference_a_fold_expected_counts.csv
+R3,Later transformed branches are authoritative,REJECTED,MASTER_ISSUE_REGISTER.csv
+R4,Existing artifacts unchanged,VERIFIED,recovery_phase1_provenance.json

@@ -1,0 +1,11 @@
+scenario_id,profile_rule,complete_participant_session_keys,complete_participants,domain_count,notes
+unfiltered_observed,one primary task score per candidate domain,209,125,5,Candidate profile coverage; not a final profile score.
+unfiltered_observed,all mapped primary task scores,195,120,5,Strict all-task intersection; not a final profile-eligible sample.
+qc_valid_only,one primary task score per candidate domain,193,118,5,Candidate profile coverage; not a final profile score.
+qc_valid_only,all mapped primary task scores,0,0,5,Strict all-task intersection; not a final profile-eligible sample.
+qc_valid_or_likely_valid,one primary task score per candidate domain,194,118,5,Candidate profile coverage; not a final profile score.
+qc_valid_or_likely_valid,all mapped primary task scores,1,1,5,Strict all-task intersection; not a final profile-eligible sample.
+qc_no_explicit_invalid,one primary task score per candidate domain,207,125,5,Candidate profile coverage; not a final profile score.
+qc_no_explicit_invalid,all mapped primary task scores,180,111,5,Strict all-task intersection; not a final profile-eligible sample.
+unresolved_qc_only,one primary task score per candidate domain,12,10,5,Candidate profile coverage; not a final profile score.
+unresolved_qc_only,all mapped primary task scores,0,0,5,Strict all-task intersection; not a final profile-eligible sample.

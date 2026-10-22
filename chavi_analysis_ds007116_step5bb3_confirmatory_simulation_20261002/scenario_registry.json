@@ -1,0 +1,131 @@
+{
+  "status": "frozen_before_main_pilot",
+  "task_order": [
+    "letter_nback",
+    "face_memory",
+    "matrix_reasoning",
+    "emotion_recognition",
+    "dominant_finger_tapping"
+  ],
+  "mu": [
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "helmert_H": [
+    [
+      0.7071067811865475,
+      0.4082482904638631,
+      0.2886751345948129,
+      0.22360679774997896
+    ],
+    [
+      -0.7071067811865475,
+      0.4082482904638631,
+      0.2886751345948129,
+      0.22360679774997896
+    ],
+    [
+      0.0,
+      -0.8164965809277261,
+      0.2886751345948129,
+      0.22360679774997896
+    ],
+    [
+      0.0,
+      0.0,
+      -0.8660254037844387,
+      0.22360679774997896
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.8944271909999159
+    ]
+  ],
+  "level_variance": 0.5,
+  "shape_covariance": "0.5*I4",
+  "noise_covariance": "0.5*C",
+  "C": [
+    [
+      1.0,
+      0.3,
+      0.09,
+      0.026999999999999996,
+      0.0081
+    ],
+    [
+      0.3,
+      1.0,
+      0.3,
+      0.09,
+      0.026999999999999996
+    ],
+    [
+      0.09,
+      0.3,
+      1.0,
+      0.3,
+      0.09
+    ],
+    [
+      0.026999999999999996,
+      0.09,
+      0.3,
+      1.0,
+      0.3
+    ],
+    [
+      0.0081,
+      0.026999999999999996,
+      0.09,
+      0.3,
+      1.0
+    ]
+  ],
+  "independence": "identities independent; epsilon independent across visits; level/shape/noise mutually independent",
+  "reference_roles": "auxiliary baselines follow same visit-1 marginal; target baseline is linked target visit 1",
+  "rounding": "numpy.rint: nearest integer, ties to even; exact half ties have probability zero under continuous precursor",
+  "S6": "each task/occasion deviation independently retained with probability 0.4; otherwise exactly mu; point mass 0.6 implies median absolute deviation zero because P(|Y-mu|=0)>=0.6",
+  "scenarios": {
+    "S1": {
+      "rho_level": 0.8,
+      "rho_shape": 0.8,
+      "shift": "none",
+      "mechanism": "continuous"
+    },
+    "S2": {
+      "rho_level": 0.8,
+      "rho_shape": 0.0,
+      "shift": "none",
+      "mechanism": "continuous"
+    },
+    "S3": {
+      "rho_level": 0.8,
+      "rho_shape": 0.8,
+      "shift": "common_0.5",
+      "mechanism": "continuous"
+    },
+    "S4": {
+      "rho_level": 0.8,
+      "rho_shape": 0.8,
+      "shift": "helmert1_0.5",
+      "mechanism": "continuous"
+    },
+    "S5": {
+      "rho_level": 0.8,
+      "rho_shape": 0.8,
+      "shift": "none",
+      "mechanism": "nearest_integer_ties_to_even"
+    },
+    "S6": {
+      "rho_level": 0.8,
+      "rho_shape": 0.8,
+      "shift": "none",
+      "mechanism": "independent_point_mass_p0.6"
+    }
+  }
+}

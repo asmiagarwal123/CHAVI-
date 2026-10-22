@@ -1,0 +1,6 @@
+contract_field,exact_frozen_value,production_implementation,R2_implementation,compliant_noncompliant,required_correction
+age_model_primary,M0_no_age_adjustment,M0_no_age_adjustment,M0_no_age_adjustment,Compliant,None
+sensitivity_coordinates (YAML D6),"Linear adjustment retained as sensitivity regardless",Omitted,Omitted,Noncompliant,M1 sensitivity must be generated
+sensitivity_coordinates (JSON array),"[No-age M0, Ref B, SD-scaled, V-only QC]",Omitted M1,Omitted M1,Conflict,Contract JSON omits M1 whereas YAML requires it
+primary_scale,MAD_primary_SD_sensitivity,MAD,MAD,Compliant,None
+M1_scale_estimator,NOT SPECIFIED,N/A,N/A,Conflict,Must specify whether M1 residual is scaled by MAD or SD

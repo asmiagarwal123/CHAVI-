@@ -1,0 +1,10 @@
+prior_work,what_is_established,CHAVI_application_or_added_evidence,claim_boundary
+Cronbach and Gleser 1953,Profile elevation scatter shape distinctions,Uses level and centered shape summaries,Not a new profile theory
+McGraw and Wong 1996,ICC forms and absolute agreement,Implements ICC(A,1) after cross fitted transformation,Not a new ICC
+Chernozhukov et al 2018,Cross fitting for nuisance estimation,Target excluded from own reference fold,No general cross fitting inference theorem claimed
+Carpenter and Bithell 2000,Bootstrap interval choices and limitations,Compares fixed/refitted procedures with failure accounting,Not a new bootstrap interval family
+De Angelis and Young 1997,Discrete data can alter bootstrap confidence behavior,S5 rounded/tied stress mechanism,Does not prove S5 is the empirical mechanism
+Morris White and Crowther 2019,ADEMP and Monte Carlo reporting,Prespecified scenarios endpoints and MCSE reporting,Reporting framework is established
+Furr 2010,Profile correlation limitations,Reports centered correlation descriptively,Not individual reliability evidence
+Penn LEAD descriptor 2026,Resource design phenotyping and data availability,Provides data context for empirical illustration,Does not resolve CHAVI score-field measurement equivalence
+

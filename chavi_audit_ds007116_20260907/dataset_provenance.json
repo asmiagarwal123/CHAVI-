@@ -1,0 +1,92 @@
+{
+  "audit_started_utc": "2026-09-06T19:17:27.219312+00:00",
+  "audit_finished_utc": "2026-09-06T19:17:41.741825+00:00",
+  "dataset_root": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116",
+  "intended_snapshot": "1.0.6",
+  "local_dataset_description": {
+    "Authors": [
+      "Brooke L. Sevchik",
+      "Golia Shafiei",
+      "Kristin Murtha",
+      "Sophia Linguiti",
+      "Lia Brodrick",
+      "Juliette B.H. Brook",
+      "Matt Cieslak",
+      "Elizabeth Flook",
+      "Kahini Mehta",
+      "Steven L. Meisler",
+      "Kosha Ruparel",
+      "Sage Rush",
+      "Taylor Salo",
+      "S. Parker Singleton",
+      "Tien T. Tong",
+      "Mrugank Salunke",
+      "Dani S. Bassett",
+      "Monica E. Calkins",
+      "Mark A. Elliott",
+      "Raquel E. Gur",
+      "Ruben C. Gur",
+      "Tyler M. Moore",
+      "J. Cobb Scott",
+      "Russell T. Shinohara",
+      "M. Dylan Tisdal",
+      "Daniel H. Wolf",
+      "David R. Roalf",
+      "Theodore D. Satterthwaite"
+    ],
+    "BIDSVersion": "1.8.0",
+    "DatasetType": "raw",
+    "DatasetDOI": "doi:10.18112/openneuro.ds007116.v1.0.6",
+    "Funding": [
+      "NIH R01MH113550"
+    ],
+    "HowToAcknowledge": "Please cite our preprint on bioRxiv: https://doi.org/10.1101/2025.11.10.687633",
+    "License": "CC0",
+    "Name": "Penn LEAD: Penn Longitudinal Executive functioning in Adolescent Development",
+    "ReferencesAndLinks": [
+      "TODO",
+      "List of papers or websites"
+    ]
+  },
+  "git": {
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)",
+    "status": "## main...origin/main",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "branch": "main",
+    "describe": "1.0.6",
+    "tags_at_HEAD": [
+      "1.0.6"
+    ],
+    "last_commit": {
+      "hash": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+      "date": "2026-07-28T02:35:41Z",
+      "author": "Git Worker",
+      "subject": "[OpenNeuro] Recorded changes"
+    }
+  },
+  "provenance_assessment": {
+    "snapshot_identity": "supported for the Git checkout: local dataset_description DOI and Git tag/describe identify 1.0.6; GitHub release maps 1.0.6 to fc7dc36. Underlying annex object content cannot be independently verified because the local annex object store is empty.",
+    "download_method": "not recorded in inspected local documentation",
+    "download_date": "not recorded; local filesystem timestamps are not treated as download provenance",
+    "version_mixture": "no working-tree changes observed; all visible files are from the clean tagged checkout, but absent annex objects prevent checking content beyond pointer identities",
+    "documentation_data_alignment": "metadata and documentation are in the tagged 1.0.6 checkout; actual annex payloads are unavailable locally",
+    "license": "CC0"
+  },
+  "software": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "git": "git version 2.53.0.windows.1"
+  },
+  "local_counts": {
+    "participants_rows": 132,
+    "unique_participants_tsv": 132,
+    "subject_directories": 132,
+    "session_files": 132,
+    "available_session_rows": 225,
+    "nback_summary_rows": 201,
+    "event_files": 201,
+    "event_rows": 38592,
+    "phenotype_tsvs": 41,
+    "phenotype_tsvs_unavailable_annex": 41
+  }
+}

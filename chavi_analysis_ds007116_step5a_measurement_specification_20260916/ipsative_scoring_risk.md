@@ -1,0 +1,7 @@
+# Ipsative/difference-score risk
+
+Centering each occasion by its own mean makes the shape vector ipsative: the five centered components sum to zero, so components are mechanically dependent. This can make a component's relative position change even when all raw task scores move together, and it can make shape change depend on task variance, intercorrelations, shared elevation, and correlated measurement error. Reliability is not guaranteed to be lower or higher by centering; the result depends on the covariance structure and the estimand.
+
+Cronbach and Gleser (1953) emphasize that profile similarity is dimension-specific, loses information when reduced to one index, and is sensitive to non-comparable scale units. Cronbach and Furby (1970) show why observed difference scores do not automatically identify true change. Hedge, Powell, and Sumner (2018) illustrate how robust task effects can coexist with weak individual-difference reliability. Enkavi et al. (2019) document variable test–retest reliability across self-regulation measures. These are methodological warnings, not evidence for a universal direction of bias in CHAVI.
+
+Sources: [Cronbach & Gleser (1953), DOI 10.1037/h0057173](https://doi.org/10.1037/h0057173); [Cronbach & Furby (1970), DOI 10.1037/h0029382](https://doi.org/10.1037/h0029382); [Hedge et al. (2018), DOI 10.3758/s13428-017-0935-1](https://doi.org/10.3758/s13428-017-0935-1); [Enkavi et al. (2019), DOI 10.1073/pnas.1818430116](https://doi.org/10.1073/pnas.1818430116).

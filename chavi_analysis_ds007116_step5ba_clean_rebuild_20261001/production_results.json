@@ -1,0 +1,15 @@
+{
+  "contract_sha256": "619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6",
+  "parameters": 100,
+  "long_rows": 5520,
+  "wide_rows": 1104,
+  "roundtrip_task_records": 5520,
+  "unique_physical_source_rows": 540,
+  "parameter_status_counts": {
+    "supported": 100
+  },
+  "coordinate_status_counts": {
+    "yes": 5240,
+    "no": 280
+  }
+}

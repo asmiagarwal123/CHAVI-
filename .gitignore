@@ -1,0 +1,52 @@
+# Python environment and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.lock
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Raw or participant-linked data
+data/raw/
+data/interim/
+data/processed/participant_linked/
+raw/
+participant_linked/
+**/participant_linked_audit/
+**/raw/
+**/source_data/
+
+# Large archives and downloaded dataset packages
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Keep lightweight integrity records
+!*.sha256.txt
+!*.verification.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+
+# Raw Penn LEAD dataset
+ds007116/
+
+# Local package/cache files
+.uv-cache/

@@ -1,0 +1,40 @@
+{
+  "schema_version":"1.0.0",
+  "validation_mode":"enforced by validate_schemas.py and independent_validator.py; this document is not treated as a self-executing JSON Schema",
+  "null_serialization":{"csv":"empty field","json":"null only; NaN and Infinity prohibited"},
+  "tables":{
+    "source_rows":{
+      "files":["primary_vf_source_rows.csv","vonly_reselected_source_rows.csv","fixed_primary_pair_strict_v_source_rows.csv"],
+      "unique_key":["participant_id","analytical_stratum","session_id","task_key"],
+      "required_columns":["participant_id","analytical_stratum","session_id","task_key","task_table_stem","score_field","raw_score","parsed_score","raw_qc_code","session_age","source_filename","source_row_reference","cognitive_occasion_id","comparability_status"]
+    },
+    "parameters":{
+      "file":"transformation_parameters.csv",
+      "unique_key":["reference_design","target_fold","task_key","model","scale_method"],
+      "allowed":{"reference_design":["B_target_plus_auxiliary"],"target_fold":["0","1","2","3","4"],"model":["M0","M1"],"scale_method":["MAD","SD"],"fit_status":["supported","insufficient_effective_training_data","rank_deficient_age_model","insufficient_scale_observations","nonfinite_scale","nonpositive_scale","numerically_degenerate_scale"]},
+      "required_columns":["reference_design","target_fold","task_key","model","scale_method","parameter_key_sha256","training_count","training_identities","training_identities_sha256","training_source_keys","training_source_keys_sha256","effective_training_count","effective_training_identities","effective_training_identities_sha256","excluded_training_identities","center","age_center","centered_intercept","intercept","slope","scale","training_score_range","support_age_min","support_age_max","fit_status","failure_reason","scientific_warnings","contract_sha256"],
+      "expected_rows":100
+    },
+    "long_coordinates":{
+      "file":"transformed_task_observations_long.csv",
+      "unique_key":["participant_id","analytical_stratum","session_id","task_key","model","scale_method"],
+      "required_columns":["participant_id","analytical_stratum","session_id","task_key","model","scale_method","reference_design","target_fold","raw_score","parsed_score","raw_qc_code","session_age","coordinate","supported","unsupported_reason","prediction","residual","age_support_status","extrapolation","fallback_model","fallback_coordinate","fallback_reason","parameter_key_sha256","training_identities_sha256","contract_sha256","source_filename","source_row_reference","comparability_status"],
+      "expected_rows":5520,
+      "rules":["supported=yes iff coordinate is non-null","unsupported M1 coordinate is null","M0 age_support_status=not_applicable and extrapolation=false","fallback M0 never occupies coordinate"]
+    },
+    "wide_coordinates":{
+      "file":"transformed_profiles_wide.csv",
+      "unique_key":["participant_id","analytical_stratum","session_id","model","scale_method"],
+      "occasion_constant_columns":["participant_id","analytical_stratum","session_id","model","scale_method","reference_design","target_fold","session_age","contract_sha256"],
+      "task_specific_suffixes":["coordinate","supported","unsupported_reason","fallback_model","fallback_coordinate","parameter_key_sha256","training_identities_sha256","raw_score","raw_qc_code","source_row_reference"],
+      "coordinate_columns":["letter_nback_coordinate","face_memory_coordinate","matrix_reasoning_coordinate","emotion_recognition_coordinate","dominant_finger_tapping_coordinate"],
+      "expected_rows":1104,
+      "rules":["exactly five coordinate columns","each long key maps to exactly one task-prefixed field set","no task-varying metadata in the pivot key"]
+    }
+  },
+  "stratum_counts":{
+    "primary_vf":{"source":520,"long":2080,"wide":416},
+    "vonly_reselected":{"source":450,"long":1800,"wide":360},
+    "fixed_primary_pair_strict_v":{"source":410,"long":1640,"wide":328}
+  }
+}

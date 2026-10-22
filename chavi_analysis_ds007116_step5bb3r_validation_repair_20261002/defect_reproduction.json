@@ -1,0 +1,29 @@
+{
+  "all_reproduced": true,
+  "rows": [
+    {
+      "defect_id": "A",
+      "name": "hard-coded corruption PASS rows",
+      "reproduced": true,
+      "detail": "nine literal PASS rows; no assertions or actual validators"
+    },
+    {
+      "defect_id": "B",
+      "name": "zero-weight NaNs contaminate reductions",
+      "reproduced": true,
+      "detail": "batch=[nan, nan, nan]; scalar=[-0.008246116815642983, nan, nan]; expanded=[-0.00824611681564298, 0.7751229164598996, 0.7600593893148766]"
+    },
+    {
+      "defect_id": "C",
+      "name": "optimized scale eligibility differs from scalar",
+      "reproduced": true,
+      "detail": "scalar_failures=5; scalar_status=unsupported; optimized_bad=False"
+    },
+    {
+      "defect_id": "D",
+      "name": "validation/readiness scope overstated",
+      "reproduced": true,
+      "detail": "make_final_report checks confirmatory ledger row count plus corrected-pilot independent PASS; it does not require confirmatory independent validation PASS"
+    }
+  ]
+}

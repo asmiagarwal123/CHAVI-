@@ -1,0 +1,13 @@
+decision_id,decision,status,recommendation,rationale
+D01,Design B fold map and transformation contract,Established upstream decision,use unchanged,upstream accepted contract
+D02,Primary configuration,Recommended decision with rationale,"Primary V/F, M0, MAD",clean complete cohort and adopted robust scale
+D03,Primary estimands,Recommended decision with rationale,"level ICC(A,1), mean level change, RMS shape displacement","small coherent set separating agreement, shift, and movement"
+D04,Vector shape association,Unresolved decision requiring researcher adoption,secondary descriptive trace association after simulation,rotation-invariant but not classical reliability
+D05,M0/SD,Optional sensitivity,same Primary pairs,isolates scale choice
+D06,M1 comparison,Recommended decision with rationale,M0 versus M1 on identical M1-supported pairs; full M0 separately,prevents N=52 versus N=42 confounding
+D07,Strict-V definitions,Recommended decision with rationale,fixed-pair QC and reselected-occasion sensitivities remain separate,different selection interventions
+D08,Conditional interval,Unresolved decision requiring researcher adoption,percentile candidate after simulation,coverage not established
+D09,Joint refit interval,Unresolved decision requiring researcher adoption,identity-linked unstratified target/auxiliary bootstrap candidate,must validate variable-fold failures and coverage
+D10,M1 bootstrap support,Recommended decision with rationale,hold original matched-support population fixed initially,avoids changing estimand across replicates
+D11,Causal/developmental or clinical interpretation,Prohibited inference,do not infer,two occasions and uncertain timing cannot decompose sources
+D12,Empirical execution,Unresolved decision requiring researcher adoption,not authorized,this milestone is review plus synthetic validation only

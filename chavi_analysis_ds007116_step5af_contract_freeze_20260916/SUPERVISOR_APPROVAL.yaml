@@ -1,0 +1,141 @@
+supervisor_approval_record:
+  project: CHAVI
+  dataset: ds007116
+  timestamp: '2026-09-16T10:15:47.352225+00:00'
+  decisions:
+    D1:
+      question: Primary cohort
+      approved_value: 52_profile_first_VF
+      approval_status: APPROVED
+      basis: 176/109/52 reproduced exactly
+      caveats_accepted: N=52 is small
+    D2:
+      question: Primary QC policy
+      approved_value: VF
+      approval_status: APPROVED
+      basis: V/F yields 52; V-only yields 45
+      caveats_accepted: Includes 'likely valid' (F) scores
+    D3:
+      question: QC sensitivity
+      approved_value: V_only_sensitivity
+      approval_status: APPROVED
+      basis: V-only = 45 participants
+      caveats_accepted: .nan
+    D4:
+      question: Reference cohort
+      approved_value: Ref_A_109_participants_earliest_occasion
+      approval_status: APPROVED
+      basis: Ref A age range 8.69-16.75; Ref B age range 8.80-16.18; Ref B conditions
+        on follow-up completeness (selection bias); age difference t-test p=0.952
+        (not significant)
+      caveats_accepted: Ref A includes single-occasion participants who did not return
+    D5:
+      question: Fold construction
+      approved_value: 5_fold_participant_grouped_seed42
+      approval_status: APPROVED
+      basis: Fold sizes {0:11,1:11,2:10,3:10,4:10}; deterministic
+      caveats_accepted: ~10 pts/fold limits estimation
+    D6:
+      question: Age-adjustment policy
+      approved_value: M0_no_age_adjustment
+      approval_status: APPROVED
+      basis: 'cnb_lnb_mcr: M0=2.824, M1=2.793, M2=2.751; cnb_cpf_cr: M0=4.388, M1=4.747,
+        M2=4.810; cnb_pmat_cr: M0=4.542, M1=4.541, M2=4.698; cnb_er40_cr: M0=4.556,
+        M1=4.468, M2=4.613; cnb_ctap_dom: M0=7.955, M1=8.104, M2=8.506'
+      caveats_accepted: 'Prespecified rule applied: M1 adopted if RMSE improvement
+        >2%, slope p<0.10, across majority of tasks (>=3/5). Result: 0/5 tasks met
+        all criteria. Global policy: M0_no_age_adjustment. Linear adjustment retained
+        as sensitivity regardless.'
+    D7:
+      question: Age-model form
+      approved_value: M0
+      approval_status: APPROVED
+      basis: 'cnb_lnb_mcr: M0=2.824, M1=2.793, M2=2.751; cnb_cpf_cr: M0=4.388, M1=4.747,
+        M2=4.810; cnb_pmat_cr: M0=4.542, M1=4.541, M2=4.698; cnb_er40_cr: M0=4.556,
+        M1=4.468, M2=4.613; cnb_ctap_dom: M0=7.955, M1=8.104, M2=8.506'
+      caveats_accepted: M2 spline shows NO improvement over M1 and is prone to overfitting
+        with N~10/fold. M2 is excluded from primary analysis.
+    D8:
+      question: Primary scale estimator
+      approved_value: MAD_primary_SD_sensitivity
+      approval_status: APPROVED
+      basis: 'cnb_lnb_mcr: SD=2.816, MAD=1.631, ratio=1.777, skew=-1.958; cnb_cpf_cr:
+        SD=4.345, MAD=4.744, ratio=0.927, skew=-0.359; cnb_pmat_cr: SD=4.529, MAD=2.965,
+        ratio=1.527, skew=0.780; cnb_er40_cr: SD=4.495, MAD=2.965, ratio=1.516, skew=-1.817;
+        cnb_ctap_dom: SD=7.824, MAD=7.314, ratio=1.070, skew=0.072'
+      caveats_accepted: 'Prespecified rule: MAD primary only if SD/MAD ratio>1.3 AND
+        heavy tail for >=3/5 tasks AND no near-zero MAD. Result: ratio>1.3 tasks=3/5,
+        any near-zero MAD=False. Decision: MAD_primary_SD_sensitivity. Discrete count
+        scores (LNB, CPF, PMAT, ER40) may produce compressed MAD.'
+    D9:
+      question: Scale sensitivity
+      approved_value: SD_sensitivity
+      approval_status: APPROVED
+      basis: See D8
+      caveats_accepted: .nan
+    D10:
+      question: Extrapolation algorithm
+      approved_value: P3_mark_age_adjusted_unsupported_use_M0_coordinate
+      approval_status: APPROVED
+      basis: '60 extrapolated task rows from 52 follow-up occasion rows (all 5 tasks).
+        Unique extrapolated participants: 12. Unique (participant,task) combos: 60.'
+      caveats_accepted: 'The 60 refers to task rows (not unique participants). Unique
+        participants with >=1 extrapolated task: 12. P3 retains all participants in
+        analyses.'
+    D11:
+      question: Missingness policy
+      approved_value: no_imputation
+      approval_status: APPROVED
+      basis: Primary cohort requires 5 tasks at both occasions
+      caveats_accepted: .nan
+    D12:
+      question: Extreme-observation policy
+      approved_value: retain_with_LOOPO_influence_diagnostics
+      approval_status: APPROVED
+      basis: Winsorization not prespecified; extremes may be real
+      caveats_accepted: .nan
+    D13:
+      question: Transformation-uncertainty approach
+      approved_value: refit_within_bootstrap
+      approval_status: APPROVED
+      basis: '1000/1000 valid replicates (100.0%) over 1000 reps. Verdict: FEASIBLE.
+        Reference A reconstructed inside each replicate. Age model and scale refitted.'
+      caveats_accepted: Feasibility 100.0%. Step 5B target 5,000 valid reps from max
+        10,000 attempts. Fallback to fixed transformation if <95% valid.
+    D14:
+      question: Primary profile estimand
+      approved_value: level_elevation_mean_of_5_Z_coordinates
+      approval_status: APPROVED
+      basis: Level is transformationally simplest; shape requires good transformation
+        quality
+      caveats_accepted: .nan
+    D15:
+      question: Secondary estimands
+      approved_value: centered_shape_scatter_shapeRMSE_profilecorr_descriptive_only
+      approval_status: APPROVED
+      basis: Centered shape components sum to 0 (4-dim subspace). Profile corr unstable
+        k=5.
+      caveats_accepted: Five centered components are algebraically dependent (sum
+        to zero, 4-dim).
+    D16:
+      question: Multiplicity policy
+      approved_value: bootstrap_CI_primary_no_NHST_primary
+      approval_status: APPROVED
+      basis: N=52 limits power; multiple estimands inflate false positive risk
+      caveats_accepted: p-values demoted to secondary/descriptive role
+    D17:
+      question: SEM/MDC status
+      approved_value: conditional_descriptive_with_explicit_caveats
+      approval_status: APPROVED
+      basis: Long variable intervals violate static true-score assumption
+      caveats_accepted: Must carry caveat that assumes static true score, likely false
+        in adolescents
+    D18:
+      question: LNB score direction
+      approved_value: retain_positive_direction_denominator_caveat_open
+      approval_status: APPROVED
+      basis: 'JSON LongName: ''LNB True Positive Responses for 1-BACK and 2-BACK Trials'';
+        No Units field (sibling RT field cnb_lnb_mrtc has Units=ms); Observed range
+        6-20; ceiling values: 59/206'
+      caveats_accepted: Denominator/load mapping unresolved. Do NOT claim normalized
+        accuracy. Must be stated as 'true positive count, denominator unknown'.

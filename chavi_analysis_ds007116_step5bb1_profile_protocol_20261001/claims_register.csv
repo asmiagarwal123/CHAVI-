@@ -1,0 +1,8 @@
+claim_id,claim,status,basis,may_state_as_conclusion
+C01,Upstream contract and ZIP hashes match,supported current,direct hash verification,yes
+C02,M1 complete pairs are 42/36/33,supported current,key-based support audit,yes
+C03,Profile geometry implementation is correct on declared fixtures,synthetic only,independent oracle,yes
+C04,CHAVI profile reliability is established,prohibited/unsupported,no empirical profile calculation,no
+C05,Joint bootstrap has correct coverage,unverified hypothesis,ADEMP not run,no
+C06,Candidate method is novel or publishable,unverified hypothesis,related methods exist; systematic proof absent,no
+C07,Profile changes reflect development,prohibited inference,confounding and timing uncertainty,no

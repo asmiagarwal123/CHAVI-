@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><title>Letter N-back earlier versus later, n=55</title><desc>x-axis earlier cnb_lnb_mcr; y-axis later cnb_lnb_mcr; identity line y=x</desc><rect width="100%" height="100%" fill="white"/><style>.grid{stroke:#e0e4ea;stroke-width:2}.axis{stroke:#28303c;stroke-width:3}.point{fill:#2064aa;fill-opacity:.78}.identity{stroke:#8c919b;stroke-width:3;stroke-dasharray:10 8}text{font-family:Arial,sans-serif;fill:#28303c}</style>
+<line class="grid" x1="170" y1="850" x2="1540" y2="850"/><line class="grid" x1="170" y1="70" x2="170" y2="850"/>
+<line class="grid" x1="170" y1="694" x2="1540" y2="694"/><line class="grid" x1="444" y1="70" x2="444" y2="850"/>
+<line class="grid" x1="170" y1="538" x2="1540" y2="538"/><line class="grid" x1="718" y1="70" x2="718" y2="850"/>
+<line class="grid" x1="170" y1="382" x2="1540" y2="382"/><line class="grid" x1="992" y1="70" x2="992" y2="850"/>
+<line class="grid" x1="170" y1="226" x2="1540" y2="226"/><line class="grid" x1="1266" y1="70" x2="1266" y2="850"/>
+<line class="grid" x1="170" y1="70" x2="1540" y2="70"/><line class="grid" x1="1540" y1="70" x2="1540" y2="850"/>
+<line class="axis" x1="170" y1="850" x2="1540" y2="850"/><line class="axis" x1="170" y1="70" x2="170" y2="850"/><line class="identity" x1="170" y1="850" x2="1540" y2="70"/>
+<circle class="point" cx="1108" cy="220" r="6"/>
+<circle class="point" cx="1446" cy="124" r="6"/>
+<circle class="point" cx="1446" cy="124" r="6"/>
+<circle class="point" cx="1108" cy="364" r="6"/>
+<circle class="point" cx="1446" cy="172" r="6"/>
+<circle class="point" cx="1446" cy="220" r="6"/>
+<circle class="point" cx="1277" cy="124" r="6"/>
+<circle class="point" cx="1277" cy="316" r="6"/>
+<circle class="point" cx="1192" cy="124" r="6"/>
+<circle class="point" cx="1361" cy="124" r="6"/>
+<circle class="point" cx="1446" cy="124" r="6"/>
+<circle class="point" cx="1277" cy="172" r="6"/>
+<circle class="point" cx="1108" cy="364" r="6"/>
+<circle class="point" cx="1446" cy="172" r="6"/>
+<circle class="point" cx="1277" cy="124" r="6"/>
+<circle class="point" cx="349" cy="796" r="6"/>
+<circle class="point" cx="1277" cy="316" r="6"/>
+<circle class="point" cx="1361" cy="268" r="6"/>
+<circle class="point" cx="686" cy="172" r="6"/>
+<circle class="point" cx="1277" cy="220" r="6"/>
+<circle class="point" cx="1361" cy="364" r="6"/>
+<circle class="point" cx="1446" cy="124" r="6"/>
+<circle class="point" cx="1192" cy="220" r="6"/>
+<circle class="point" cx="1361" cy="124" r="6"/>
+<circle class="point" cx="1446" cy="124" r="6"/>
+<circle class="point" cx="1192" cy="220" r="6"/>
+<circle class="point" cx="1446" cy="268" r="6"/>
+<circle class="point" cx="1192" cy="412" r="6"/>
+<circle class="point" cx="1277" cy="220" r="6"/>
+<circle class="point" cx="1277" cy="124" r="6"/>
+<circle class="point" cx="771" cy="364" r="6"/>
+<circle class="point" cx="1108" cy="316" r="6"/>
+<circle class="point" cx="1192" cy="508" r="6"/>
+<circle class="point" cx="1277" cy="124" r="6"/>
+<circle class="point" cx="1108" cy="364" r="6"/>
+<circle class="point" cx="1361" cy="124" r="6"/>
+<circle class="point" cx="1446" cy="220" r="6"/>
+<circle class="point" cx="1446" cy="172" r="6"/>
+<circle class="point" cx="1361" cy="172" r="6"/>
+<circle class="point" cx="1024" cy="412" r="6"/>
+<circle class="point" cx="1277" cy="124" r="6"/>
+<circle class="point" cx="1361" cy="124" r="6"/>
+<circle class="point" cx="1024" cy="364" r="6"/>
+<circle class="point" cx="1108" cy="124" r="6"/>
+<circle class="point" cx="1277" cy="172" r="6"/>
+<circle class="point" cx="855" cy="316" r="6"/>
+<circle class="point" cx="518" cy="652" r="6"/>
+<circle class="point" cx="1446" cy="124" r="6"/>
+<circle class="point" cx="1192" cy="172" r="6"/>
+<circle class="point" cx="1361" cy="604" r="6"/>
+<circle class="point" cx="1361" cy="172" r="6"/>
+<circle class="point" cx="1361" cy="124" r="6"/>
+<circle class="point" cx="1361" cy="172" r="6"/>
+<circle class="point" cx="1277" cy="316" r="6"/>
+<circle class="point" cx="1446" cy="124" r="6"/>
+<text x="800.0" y="35" text-anchor="middle" font-size="28" font-weight="bold">Letter N-back: earlier versus later raw score</text>
+<text x="800.0" y="965" text-anchor="middle" font-size="24">Earlier cnb_lnb_mcr</text>
+<text x="35" y="500.0" text-anchor="middle" font-size="24" transform="rotate(-90 35 500.0)">Later cnb_lnb_mcr</text>
+<text x="1530" y="100" text-anchor="end" font-size="20">n = 55; dashed line = identity</text>
+</svg>

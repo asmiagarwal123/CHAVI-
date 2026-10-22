@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 9,
+  "passed": 9,
+  "details": "Each corruption is rejected by the independent identity, support, eligibility, or structural-target checks."
+}

@@ -1,0 +1,6 @@
+scope,participants,occasions,source_stratum_rows,expanded_long_rows,wide_rows,expected_tuple,matches_expected
+primary_vf,52,104,520,2080,416,52/104/520/2080/416,yes
+vonly_reselected,45,90,450,1800,360,45/90/450/1800/360,yes
+fixed_primary_pair_strict_v,41,82,410,1640,328,41/82/410/1640/328,yes
+all_strata,,,1380,5520,1104,1380/5520/1104,yes
+unique_physical_source_union,52,108,540,,,not a stratified denominator,not_applicable

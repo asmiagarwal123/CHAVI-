@@ -1,0 +1,18 @@
+{
+  "independent_validation_passed": true,
+  "expected_files_persisted_before_production_read": true,
+  "parameter_records": 100,
+  "coordinate_records": 5520,
+  "parameter_failures": 0,
+  "coordinate_failures": 0,
+  "max_parameter_abs_discrepancy": 2.1316282072803006e-14,
+  "max_coordinate_abs_discrepancy": 2.842170943040401e-14,
+  "tolerance": {
+    "absolute": 1e-12,
+    "relative": 1e-10
+  },
+  "repeated_physical_groups_checked": 1720,
+  "repeated_physical_failures": 0,
+  "production_module_imported": false,
+  "calculation_path": "centered covariance OLS and independently implemented sorted-median/two-pass scale"
+}

@@ -1,0 +1,80 @@
+{
+  "empirical_rows_present": false,
+  "files": {
+    "bootstrap_draw_status.csv": [
+      "method",
+      "replicate_id",
+      "status",
+      "reason_code",
+      "target_draw_sha256",
+      "auxiliary_draw_sha256",
+      "represented_folds",
+      "checkpoint_sha256"
+    ],
+    "bootstrap_intervals.csv": [
+      "analysis_id",
+      "estimand_id",
+      "method",
+      "interval_family",
+      "confidence_level",
+      "point_estimate",
+      "lower",
+      "upper",
+      "attempted",
+      "valid",
+      "invalid",
+      "available",
+      "unavailable_reason",
+      "seed_namespace",
+      "contract_sha256"
+    ],
+    "endpoint_estimates.csv": [
+      "analysis_id",
+      "status",
+      "estimand_id",
+      "estimate",
+      "units",
+      "numerator",
+      "denominator",
+      "pair_identity_sha256",
+      "excluded_n",
+      "exclusion_reason_counts",
+      "model",
+      "scale",
+      "reference_design",
+      "contract_sha256",
+      "input_hashes_json"
+    ],
+    "exclusions.csv": [
+      "analysis_id",
+      "participant_id",
+      "selected_occasion_1",
+      "selected_occasion_2",
+      "included",
+      "reason_code",
+      "unsupported_tasks",
+      "source_keys",
+      "contract_sha256"
+    ],
+    "profile_correlation_descriptive.csv": [
+      "analysis_id",
+      "status",
+      "defined_n",
+      "undefined_n",
+      "median",
+      "q25",
+      "q75",
+      "minimum",
+      "maximum",
+      "units",
+      "contract_sha256"
+    ]
+  },
+  "prohibited_fields": [
+    "truth",
+    "coverage",
+    "covered",
+    "population_truth"
+  ],
+  "schema_version": "1.0.0"
+}

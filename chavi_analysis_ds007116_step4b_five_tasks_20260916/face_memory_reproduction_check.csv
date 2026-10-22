@@ -1,0 +1,16 @@
+task_key,statistic,quantity,expected_independent_value,actual_step4b_value,absolute_difference,tolerance,within_tolerance
+face_memory,icc_a1,ci_high,0.718957893021,0.718957893021,2.22044604925e-16,1e-09,yes
+face_memory,icc_a1,ci_low,0.343745274867,0.343745274867,4.4408920985e-16,1e-09,yes
+face_memory,icc_a1,estimate,0.560472870567,0.560472870567,2.22044604925e-16,1e-09,yes
+face_memory,icc_c1,ci_high,0.723348571981,0.723348571981,2.22044604925e-16,1e-09,yes
+face_memory,icc_c1,ci_low,0.354097997682,0.354097997682,1.11022302463e-16,1e-09,yes
+face_memory,icc_c1,estimate,0.564114443264,0.564114443264,3.33066907388e-16,1e-09,yes
+face_memory,mean_paired_difference,ci_high,2.0343220339,2.0343220339,1.33226762955e-15,1e-09,yes
+face_memory,mean_paired_difference,ci_low,-0.372881355932,-0.372881355932,3.88578058619e-16,1e-09,yes
+face_memory,mean_paired_difference,estimate,0.847457627119,0.847457627119,0,1e-09,yes
+face_memory,pearson,ci_high,0.747052942398,0.747052942398,2.22044604925e-16,1e-09,yes
+face_memory,pearson,ci_low,0.370071241717,0.370071241717,5.55111512313e-17,1e-09,yes
+face_memory,pearson,estimate,0.583155671642,0.583155671642,4.4408920985e-16,1e-09,yes
+face_memory,spearman,ci_high,0.734639095094,0.734639095094,4.4408920985e-16,1e-09,yes
+face_memory,spearman,ci_low,0.323822223767,0.323822223767,4.4408920985e-16,1e-09,yes
+face_memory,spearman,estimate,0.555388477253,0.555388477253,1.11022302463e-16,1e-09,yes

@@ -1,0 +1,166 @@
+task_key,task_label,result_family,subset,metric,value,unit,missingness_basis
+letter_nback,Letter N-back,raw_descriptive,earlier,n,55,count,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,earlier,mean,17.5454545455,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,earlier,sd,2.7609591853,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,earlier,median,18,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,earlier,iqr,2,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,earlier,min,7,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,earlier,max,20,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,earlier,missing_count,0,count,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,n,55,count,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,mean,17.5454545455,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,sd,3.06605176093,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,median,19,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,iqr,4,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,min,6,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,max,20,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,later,missing_count,0,count,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,n,55,count,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,mean,0,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,sd,2.41906011745,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,median,0,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,iqr,2,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,min,-9,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,max,8,raw cnb_lnb_mcr points,complete selected primary pairs
+letter_nback,Letter N-back,raw_descriptive,paired_difference_later_minus_earlier,missing_count,0,count,complete selected primary pairs
+letter_nback,Letter N-back,pre_pair_missingness,candidate_earlier_slot,missing_score_count,9,count,counted before complete-pair filtering
+letter_nback,Letter N-back,pre_pair_missingness,candidate_later_slot,missing_score_count,4,count,counted before complete-pair filtering
+letter_nback,Letter N-back,pre_pair_missingness,candidate_later_slot,slot_unavailable_count,61,count,counted before complete-pair filtering
+letter_nback,Letter N-back,paired_change,included_pairs,increasing_count,21,count,complete selected primary pairs
+letter_nback,Letter N-back,paired_change,included_pairs,unchanged_count,15,count,complete selected primary pairs
+letter_nback,Letter N-back,paired_change,included_pairs,decreasing_count,19,count,complete selected primary pairs
+letter_nback,Letter N-back,paired_change,included_pairs,increasing_proportion,0.381818181818,proportion,complete selected primary pairs
+letter_nback,Letter N-back,paired_change,included_pairs,unchanged_proportion,0.272727272727,proportion,complete selected primary pairs
+letter_nback,Letter N-back,paired_change,included_pairs,decreasing_proportion,0.345454545455,proportion,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,n,59,count,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,mean,31.3728813559,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,sd,4.39395472284,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,median,32,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,iqr,7,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,min,22,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,max,40,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,earlier,missing_count,0,count,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,n,59,count,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,mean,32.2203389831,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,sd,5.69351656866,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,median,33,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,iqr,9.5,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,min,19,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,max,40,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,later,missing_count,0,count,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,n,59,count,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,mean,0.847457627119,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,sd,4.74818861768,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,median,1,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,iqr,4.5,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,min,-9,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,max,12,raw cnb_cpf_cr points,complete selected primary pairs
+face_memory,Face Memory,raw_descriptive,paired_difference_later_minus_earlier,missing_count,0,count,complete selected primary pairs
+face_memory,Face Memory,pre_pair_missingness,candidate_earlier_slot,missing_score_count,8,count,counted before complete-pair filtering
+face_memory,Face Memory,pre_pair_missingness,candidate_later_slot,missing_score_count,2,count,counted before complete-pair filtering
+face_memory,Face Memory,pre_pair_missingness,candidate_later_slot,slot_unavailable_count,61,count,counted before complete-pair filtering
+face_memory,Face Memory,paired_change,included_pairs,increasing_count,33,count,complete selected primary pairs
+face_memory,Face Memory,paired_change,included_pairs,unchanged_count,9,count,complete selected primary pairs
+face_memory,Face Memory,paired_change,included_pairs,decreasing_count,17,count,complete selected primary pairs
+face_memory,Face Memory,paired_change,included_pairs,increasing_proportion,0.559322033898,proportion,complete selected primary pairs
+face_memory,Face Memory,paired_change,included_pairs,unchanged_proportion,0.152542372881,proportion,complete selected primary pairs
+face_memory,Face Memory,paired_change,included_pairs,decreasing_proportion,0.28813559322,proportion,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,n,57,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,mean,10.7894736842,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,sd,4.42289837948,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,median,10,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,iqr,4,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,min,1,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,max,22,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,earlier,missing_count,0,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,n,57,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,mean,11.0175438596,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,sd,3.84285621116,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,median,10,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,iqr,3,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,min,4,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,max,22,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,later,missing_count,0,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,n,57,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,mean,0.228070175439,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,sd,2.95814579871,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,median,0,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,iqr,3,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,min,-7,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,max,8,raw cnb_pmat_cr points,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,raw_descriptive,paired_difference_later_minus_earlier,missing_count,0,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,pre_pair_missingness,candidate_earlier_slot,missing_score_count,9,count,counted before complete-pair filtering
+matrix_reasoning,Matrix Reasoning,pre_pair_missingness,candidate_later_slot,missing_score_count,3,count,counted before complete-pair filtering
+matrix_reasoning,Matrix Reasoning,pre_pair_missingness,candidate_later_slot,slot_unavailable_count,61,count,counted before complete-pair filtering
+matrix_reasoning,Matrix Reasoning,paired_change,included_pairs,increasing_count,25,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,paired_change,included_pairs,unchanged_count,10,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,paired_change,included_pairs,decreasing_count,22,count,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,paired_change,included_pairs,increasing_proportion,0.438596491228,proportion,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,paired_change,included_pairs,unchanged_proportion,0.175438596491,proportion,complete selected primary pairs
+matrix_reasoning,Matrix Reasoning,paired_change,included_pairs,decreasing_proportion,0.385964912281,proportion,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,n,58,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,mean,34.4827586207,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,sd,4.36991862026,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,median,36,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,iqr,4,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,min,15,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,max,40,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,earlier,missing_count,0,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,n,58,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,mean,36.3275862069,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,sd,2.13892849904,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,median,37,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,iqr,3,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,min,29,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,max,39,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,later,missing_count,0,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,n,58,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,mean,1.84482758621,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,sd,4.04709869715,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,median,1,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,iqr,3,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,min,-6,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,max,20,raw cnb_er40_cr points,complete selected primary pairs
+emotion_recognition,Emotion Recognition,raw_descriptive,paired_difference_later_minus_earlier,missing_count,0,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,pre_pair_missingness,candidate_earlier_slot,missing_score_count,8,count,counted before complete-pair filtering
+emotion_recognition,Emotion Recognition,pre_pair_missingness,candidate_later_slot,missing_score_count,3,count,counted before complete-pair filtering
+emotion_recognition,Emotion Recognition,pre_pair_missingness,candidate_later_slot,slot_unavailable_count,61,count,counted before complete-pair filtering
+emotion_recognition,Emotion Recognition,paired_change,included_pairs,increasing_count,32,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,paired_change,included_pairs,unchanged_count,14,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,paired_change,included_pairs,decreasing_count,12,count,complete selected primary pairs
+emotion_recognition,Emotion Recognition,paired_change,included_pairs,increasing_proportion,0.551724137931,proportion,complete selected primary pairs
+emotion_recognition,Emotion Recognition,paired_change,included_pairs,unchanged_proportion,0.241379310345,proportion,complete selected primary pairs
+emotion_recognition,Emotion Recognition,paired_change,included_pairs,decreasing_proportion,0.206896551724,proportion,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,n,57,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,mean,50.2163742105,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,sd,7.63827321303,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,median,50.33333,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,iqr,9,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,min,34.33333,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,max,73,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,earlier,missing_count,0,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,n,57,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,mean,55.0116957895,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,sd,8.48784503307,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,median,52.66667,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,iqr,9.33333,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,min,39,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,max,89.66667,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,later,missing_count,0,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,n,57,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,mean,4.79532157895,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,sd,7.72897953947,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,median,2.66667,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,iqr,9.66667,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,min,-10.33333,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,max,28.33334,raw cnb_ctap_dom points,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,raw_descriptive,paired_difference_later_minus_earlier,missing_count,0,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,pre_pair_missingness,candidate_earlier_slot,missing_score_count,10,count,counted before complete-pair filtering
+dominant_finger_tapping,Dominant Finger Tapping,pre_pair_missingness,candidate_later_slot,missing_score_count,4,count,counted before complete-pair filtering
+dominant_finger_tapping,Dominant Finger Tapping,pre_pair_missingness,candidate_later_slot,slot_unavailable_count,61,count,counted before complete-pair filtering
+dominant_finger_tapping,Dominant Finger Tapping,paired_change,included_pairs,increasing_count,37,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,paired_change,included_pairs,unchanged_count,8,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,paired_change,included_pairs,decreasing_count,12,count,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,paired_change,included_pairs,increasing_proportion,0.649122807018,proportion,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,paired_change,included_pairs,unchanged_proportion,0.140350877193,proportion,complete selected primary pairs
+dominant_finger_tapping,Dominant Finger Tapping,paired_change,included_pairs,decreasing_proportion,0.210526315789,proportion,complete selected primary pairs

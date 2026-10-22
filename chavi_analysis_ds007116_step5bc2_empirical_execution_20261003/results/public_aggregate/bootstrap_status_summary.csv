@@ -1,0 +1,7 @@
+method,endpoint,attempted,valid,invalid,reason_counts_json
+P2_fixed_transform,level_icc_a1,999,999,0,"{""defined"": 999}"
+P2_fixed_transform,mean_level_change,999,999,0,"{""defined"": 999}"
+P2_fixed_transform,rms_shape_displacement,999,999,0,"{""defined"": 999}"
+P3_joint_unstratified,level_icc_a1,999,999,0,"{""defined"": 999}"
+P3_joint_unstratified,mean_level_change,999,999,0,"{""defined"": 999}"
+P3_joint_unstratified,rms_shape_displacement,999,999,0,"{""defined"": 999}"

@@ -1,0 +1,6 @@
+task_key,included_pairs,positive_interval_count,missing_interval_count,nonpositive_interval_count,interval_min_days,interval_median_days,interval_max_days,exact_cognitive_timing
+letter_nback,55,55,0,0,465.9583333,692.125,1258.0,no; rounded/anonymized acquisition timing only
+face_memory,59,59,0,0,462.2083333,692.125,1426.958333,no; rounded/anonymized acquisition timing only
+matrix_reasoning,57,57,0,0,462.2083333,695.0416667,1426.958333,no; rounded/anonymized acquisition timing only
+emotion_recognition,58,58,0,0,465.9583333,701.45833335,1426.958333,no; rounded/anonymized acquisition timing only
+dominant_finger_tapping,57,57,0,0,465.9583333,707.875,1426.958333,no; rounded/anonymized acquisition timing only

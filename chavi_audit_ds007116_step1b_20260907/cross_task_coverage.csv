@@ -1,0 +1,212 @@
+coverage_type,task_a,task_b,common_participant_sessions,common_participants,rule
+pairwise participant-session,Age Differentiation Test,Delayed Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Digit Symbol Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Effort Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Measured Emotion Differentiation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Motor Praxis Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,"Penn Abstraction, Inhibition and Working Memory Task",219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Penn Conditional Exclusion Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Age Differentiation Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Digit Symbol Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Effort Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Measured Emotion Differentiation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Motor Praxis Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,"Penn Abstraction, Inhibition and Working Memory Task",219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Penn Conditional Exclusion Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Delayed Discounting Task,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Effort Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Measured Emotion Differentiation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Motor Praxis Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,"Penn Abstraction, Inhibition and Working Memory Task",219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Penn Conditional Exclusion Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Digit Symbol Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Measured Emotion Differentiation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Motor Praxis Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,"Penn Abstraction, Inhibition and Working Memory Task",219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Penn Conditional Exclusion Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Effort Discounting Task,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Motor Praxis Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,"Penn Abstraction, Inhibition and Working Memory Task",219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Penn Conditional Exclusion Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Measured Emotion Differentiation Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,"Penn Abstraction, Inhibition and Working Memory Task",219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Penn Conditional Exclusion Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Motor Praxis Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Penn Conditional Exclusion Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,"Penn Abstraction, Inhibition and Working Memory Task",Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Penn Emotion Recognition Task for Children,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Conditional Exclusion Task for Children,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Penn Face Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Emotion Recognition Task for Children,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Penn Matrix Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Face Memory Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Children's Verbal Reasoning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Penn Matrix Reasoning Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Children's Penn Word Memory Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Verbal Reasoning Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Risk Discounting Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Children's Penn Word Memory Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Risk Discounting Task,Short Computerized Finger-Tapping Task,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Risk Discounting Task,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Risk Discounting Task,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Risk Discounting Task,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Risk Discounting Task,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Risk Discounting Task,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Risk Discounting Task,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Computerized Finger-Tapping Task,Short Letter N-Back (2 back),219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Computerized Finger-Tapping Task,Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Computerized Finger-Tapping Task,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Computerized Finger-Tapping Task,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Computerized Finger-Tapping Task,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Computerized Finger-Tapping Task,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Letter N-Back (2 back),Short Penn Continuous Performance Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Letter N-Back (2 back),Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Letter N-Back (2 back),Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Letter N-Back (2 back),Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Letter N-Back (2 back),Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Penn Continuous Performance Test,Trailmaking A,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Penn Continuous Performance Test,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Penn Continuous Performance Test,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Short Penn Continuous Performance Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Trailmaking A,Trailmaking B,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Trailmaking A,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Trailmaking A,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Trailmaking B,Variable Short Penn Line Orientation Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Trailmaking B,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+pairwise participant-session,Variable Short Penn Line Orientation Test,Short Visual Object Learning Test,219,131,exact participant_id/session_id intersection; no QC filtering
+all candidate phenotype cognitive tasks,ALL,21 tasks,219,131,exact intersection across every available cognitive phenotype table; no QC filtering

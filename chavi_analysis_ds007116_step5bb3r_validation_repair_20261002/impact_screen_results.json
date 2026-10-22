@@ -1,0 +1,63 @@
+{
+  "affected_key_rows": 514,
+  "unique_draws": 257,
+  "summary": [
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S1",
+      "affected_draws": 9,
+      "affected_outer_datasets": 8,
+      "attempted_draws": 99900
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S2",
+      "affected_draws": 5,
+      "affected_outer_datasets": 5,
+      "attempted_draws": 99900
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S3",
+      "affected_draws": 4,
+      "affected_outer_datasets": 4,
+      "attempted_draws": 99900
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S4",
+      "affected_draws": 4,
+      "affected_outer_datasets": 4,
+      "attempted_draws": 99900
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S5",
+      "affected_draws": 6,
+      "affected_outer_datasets": 6,
+      "attempted_draws": 99900
+    },
+    {
+      "stage": "corrected_pilot",
+      "scenario_id": "S6",
+      "affected_draws": 6,
+      "affected_outer_datasets": 5,
+      "attempted_draws": 99900
+    },
+    {
+      "stage": "confirmatory",
+      "scenario_id": "S1",
+      "affected_draws": 111,
+      "affected_outer_datasets": 106,
+      "attempted_draws": 1998000
+    },
+    {
+      "stage": "confirmatory",
+      "scenario_id": "S5",
+      "affected_draws": 112,
+      "affected_outer_datasets": 110,
+      "attempted_draws": 1998000
+    }
+  ],
+  "numpy_version": "2.5.2"
+}

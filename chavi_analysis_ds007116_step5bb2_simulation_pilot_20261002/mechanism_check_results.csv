@@ -1,0 +1,10 @@
+check_id,check,status,detail
+A,center perturbation cancellation,PASS,mean change and RMS shape unchanged
+B,fold-center effect on level ICC,PASS,base=0.999957166145; perturbed=0.999959674735
+C,reference scale perturbation,PASS,endpoint magnitudes scale inversely
+D,common versus shape shift decomposition,PASS,orthogonal level/shape shifts
+E,integer frequency equivalence,PASS,mean/SD/median/MAD/ICC/change/RMS equal explicit expansion
+F,zero MAD versus SD,PASS,MAD=0.0; SD=0.5163977794943222
+G,unrepresented folds,PASS,unused folds explicitly not_needed
+H,strict support and numerical invariance,PASS,yes/no explicit; ICC invariant at 1e-8/1/1e8 and translations
+I,complete multiplicity corruption rejection,PASS,omitted eligible target=PASS;omitted auxiliary=PASS;added identity=PASS;incorrect weight=PASS;negative=PASS;noninteger=PASS;changed fold=PASS;decoupled=PASS;visits=PASS;heldout retained=PASS

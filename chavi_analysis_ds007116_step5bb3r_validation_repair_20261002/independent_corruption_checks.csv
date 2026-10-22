@@ -1,0 +1,10 @@
+check_id,mutation,control_accepted,corruption_rejected,expected_reason,actual_reason,status
+C1,missing eligible identity,True,True,omitted or added identities,target_analysis: omitted or added identities,PASS
+C2,extra identity,True,True,omitted or added identities,auxiliary_draw: omitted or added identities,PASS
+C3,held-out target leakage,True,True,target fit multiplicity mismatch,target fit multiplicity mismatch,PASS
+C4,auxiliary map differs in one fold,True,True,auxiliary fit multiplicity mismatch,auxiliary fit multiplicity mismatch,PASS
+C5,independently resampled visits,True,True,independently sampled visits,independently sampled visits,PASS
+C6,unsupported coordinate converted to zero,True,True,unsupported coordinate assigned numerical value,unsupported coordinate assigned numerical value,PASS
+C7,basic interval wrong point center,True,True,wrong point estimate,basic interval centered on wrong point estimate,PASS
+C8,499-draw false tail eligibility,True,True,499 draws,499 draws cannot satisfy the 20-per-tail B3-R rule,PASS
+C9,fabricated S6/MAD coverage,True,True,structural S6/MAD,structural S6/MAD target assigned numerical coverage,PASS

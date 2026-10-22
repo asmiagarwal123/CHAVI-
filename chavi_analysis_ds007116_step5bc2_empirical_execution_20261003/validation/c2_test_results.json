@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "tests_total": 23,
+  "tests_passed": 23,
+  "records": [
+    {
+      "test": "valid_plan",
+      "status": "PASS",
+      "reason": "valid_control_accepted"
+    },
+    {
+      "test": "negative_auxiliary",
+      "status": "PASS",
+      "reason": "auxiliary: negative_multiplicity"
+    },
+    {
+      "test": "boolean_target",
+      "status": "PASS",
+      "reason": "target: weights_not_integer_nonboolean"
+    },
+    {
+      "test": "wrong_target_total",
+      "status": "PASS",
+      "reason": "target: incorrect_total"
+    },
+    {
+      "test": "overlap_roles",
+      "status": "PASS",
+      "reason": "role_identities_not_disjoint"
+    },
+    {
+      "test": "altered_external_fold",
+      "status": "PASS",
+      "reason": "externally_frozen_fold_map_mismatch"
+    },
+    {
+      "test": "extra_unused_fold",
+      "status": "PASS",
+      "reason": "represented_fold_fit_keys_mismatch"
+    },
+    {
+      "test": "held_out_leakage",
+      "status": "PASS",
+      "reason": "held_out_leakage_or_altered_fold"
+    },
+    {
+      "test": "unshared_aux",
+      "status": "PASS",
+      "reason": "auxiliary_draw_not_shared"
+    },
+    {
+      "test": "support_yes_numeric",
+      "status": "PASS",
+      "reason": "valid_control_accepted"
+    },
+    {
+      "test": "support_no_null",
+      "status": "PASS",
+      "reason": "valid_control_accepted"
+    },
+    {
+      "test": "unknown_support",
+      "status": "PASS",
+      "reason": "unknown_support_label"
+    },
+    {
+      "test": "supported_missing",
+      "status": "PASS",
+      "reason": "supported_coordinate_missing"
+    },
+    {
+      "test": "supported_nonnumeric",
+      "status": "PASS",
+      "reason": "supported_coordinate_nonnumeric"
+    },
+    {
+      "test": "supported_nonfinite",
+      "status": "PASS",
+      "reason": "supported_coordinate_nonfinite"
+    },
+    {
+      "test": "unsupported_present",
+      "status": "PASS",
+      "reason": "unsupported_coordinate_not_null"
+    },
+    {
+      "test": "valid_interval_gate",
+      "status": "PASS",
+      "reason": "available"
+    },
+    {
+      "test": "valid_exceeds_attempted",
+      "status": "PASS",
+      "reason": "count_accounting_invalid"
+    },
+    {
+      "test": "count_sum",
+      "status": "PASS",
+      "reason": "count_accounting_invalid"
+    },
+    {
+      "test": "noninteger_count",
+      "status": "PASS",
+      "reason": "counts_not_integer"
+    },
+    {
+      "test": "endpoint_specific_degeneracy",
+      "status": "PASS",
+      "reason": "ICC undefined; other endpoints defined"
+    },
+    {
+      "test": "common_shift",
+      "status": "PASS",
+      "reason": "known expected endpoints"
+    },
+    {
+      "test": "scale_aware_flat_correlation",
+      "status": "PASS",
+      "reason": "two undefined"
+    }
+  ]
+}

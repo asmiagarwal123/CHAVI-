@@ -1,0 +1,295 @@
+{
+  "generated_utc": "2026-09-14T18:55:20Z",
+  "dataset_snapshot": "1.0.6",
+  "dataset_root": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116",
+  "dataset_commit_expected": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+  "git_before": {
+    "status": "## main...origin/main",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "describe": "1.0.6",
+    "branch": "main",
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)"
+  },
+  "git_after": {
+    "status": "## main...origin/main",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "describe": "1.0.6",
+    "branch": "main",
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)"
+  },
+  "input_hashes": [
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\dataset_description.json",
+      "role": "dataset_description.json",
+      "size_bytes": 1246,
+      "sha256": "c121cc9034ae88ed1cba941978726c9075f68b0315a034c01cbddc6a771144fa"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\participants.tsv",
+      "role": "participants.tsv",
+      "size_bytes": 10469,
+      "sha256": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv",
+      "role": "penn_face_memory_test.tsv",
+      "size_bytes": 19645,
+      "sha256": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_face_memory_test.tsv",
+      "role": "penn_face_memory_test.tsv",
+      "size_bytes": 197,
+      "sha256": "77ef980a5dd0843c8cbcded37517737c25a02d66cdbe18f56b31225d7feb59e8"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_face_memory_test.json",
+      "role": "penn_face_memory_test.json",
+      "size_bytes": 2592,
+      "sha256": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\assessment_occasion_mapping_step3a.csv",
+      "role": "assessment_occasion_mapping_step3a.csv",
+      "size_bytes": 105486,
+      "sha256": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\task_observations_long.csv",
+      "role": "task_observations_long.csv",
+      "size_bytes": 1119504,
+      "sha256": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\paired_task_observations.csv",
+      "role": "paired_task_observations.csv",
+      "size_bytes": 1636668,
+      "sha256": "1bcc5161b8b56ec750cbe0e235eb0b065ec346ab43440bab1bc9b232573ab429"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\paired_profile_manifest.csv",
+      "role": "paired_profile_manifest.csv",
+      "size_bytes": 429579,
+      "sha256": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\analysis_data_dictionary.csv",
+      "role": "analysis_data_dictionary.csv",
+      "size_bytes": 29818,
+      "sha256": "f654ff1df4d74168d023fd44fd3a38d147d5631a3c7e098179c826a89783549c"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\cohort_reconciliation.csv",
+      "role": "cohort_reconciliation.csv",
+      "size_bytes": 15040,
+      "sha256": "0782633837e169821ba5ffddde643dfaa670d399548ce8cb234b4cd7e700624f"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\decision_register_step3b.csv",
+      "role": "decision_register_step3b.csv",
+      "size_bytes": 8985,
+      "sha256": "aa9a065d2c698084f78f5c83d06d40747e4dd72e513e25158aac67124ed46e58"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\executable_specification.json",
+      "role": "executable_specification.json",
+      "size_bytes": 2914,
+      "sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\prepare_step3b.py",
+      "role": "prepare_step3b.py",
+      "size_bytes": 42276,
+      "sha256": "cfea4b99eb6ecfd4ff69fc7e18bbbd60d3f60f54402386af82875fb3499fc54e"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\provenance_step3b.json",
+      "role": "provenance_step3b.json",
+      "size_bytes": 75825,
+      "sha256": "8c36b4f96b097e3a5e7d5fed8bd4608edf96358f5852e24621dd4b9b41cc2548"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3a_20260907\\step3a_specification.json",
+      "role": "step3a_specification.json",
+      "size_bytes": 2914,
+      "sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3a_20260907\\audit_v6.py",
+      "role": "audit_v6.py",
+      "size_bytes": 230561,
+      "sha256": "bd00d819a65433433f29a5761e125f41bd52bdc44f6f50a09667e9f0ed34456b"
+    }
+  ],
+  "decision_register_validation": {
+    "status": "repaired_in_memory_after_strict_failure",
+    "original_sha256": "aa9a065d2c698084f78f5c83d06d40747e4dd72e513e25158aac67124ed46e58",
+    "repaired_line_numbers": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "repair": "Appended one missing closing quote to the final field on each listed line; source file was not modified.",
+    "original_strict_error": "Malformed CSV quoting at C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\decision_register_step3b.csv: ',' expected after '\"'"
+  },
+  "executed_script_path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\step4a_face_memory.py",
+  "executed_script_sha256": "daa3ff02e97dee2b3fdb21cef846d45dd050daa8bb0e6ec173e4da7fa62fe399",
+  "contract_path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\step4a_analysis_contract.json",
+  "contract_sha256": "05a1ed6c353d5e21f40e11186f4fe751af1fb4097fb5179259d0b189ce6d4848",
+  "tests": [
+    "strict decision-register schema and quoting validation",
+    "actual malformed Step 3B decision register repaired only in memory with original hash retained",
+    "finite score parsing rejects NaN and +/-infinity",
+    "duplicate analytical keys are detected",
+    "invalid, missing, and unresolved QC states remain distinct",
+    "ambiguous chronology is not accepted as known positive timing",
+    "continuation sessions cannot create a new CNB occasion",
+    "known ICC(A,1) and ICC(C,1) synthetic values",
+    "constant-score zero-variance handling",
+    "participant bootstrap preserves duplicate sampled copies with unique IDs",
+    "figures reproduce from the included pair table",
+    "source-level Step 3B eligibility differences: 0"
+  ],
+  "results_summary": {
+    "candidate_participants": 131,
+    "included_pairs": 59,
+    "excluded_participants": 72,
+    "primary_icc_a1": 0.5604728705668383,
+    "primary_icc_a1_status": "ok",
+    "primary_icc_a1_bootstrap": {
+      "successful_replicates": 5000,
+      "failed_or_undefined_replicates": 0,
+      "failure_reasons": {},
+      "percentile_2.5": 0.34374527486666756,
+      "percentile_97.5": 0.7189578930211458
+    },
+    "mean_difference": 0.847457627118644,
+    "mean_difference_bootstrap": {
+      "successful_replicates": 5000,
+      "failed_or_undefined_replicates": 0,
+      "failure_reasons": {},
+      "percentile_2.5": -0.3728813559322034,
+      "percentile_97.5": 2.034322033898299
+    },
+    "step3b_to_step4a_changed_rows": 0
+  },
+  "boundaries": [
+    "no age adjustment",
+    "no standardization",
+    "no imputation",
+    "no composite/profile score",
+    "no prediction",
+    "no questionnaire prediction",
+    "no diagnostic classification",
+    "no SEM/MDC",
+    "no Report/Caution/Refuse decision",
+    "no Evidence Engine",
+    "no imaging analysis",
+    "no selective reporting"
+  ],
+  "output_hashes_excluding_provenance": [
+    {
+      "relative_path": "face_memory_agreement_results.csv",
+      "size_bytes": 1102,
+      "sha256": "4874bac3d3a17fb323768b7d035a154f54c8d2acb29a308b08f0dd7c65159490"
+    },
+    {
+      "relative_path": "face_memory_bootstrap_results.csv",
+      "size_bytes": 564082,
+      "sha256": "ba4b15517e5ef2c96f59eb121b5829d1a8415780b7f52d7ecddc561e29d2a239"
+    },
+    {
+      "relative_path": "face_memory_candidate_accounting.csv",
+      "size_bytes": 26226,
+      "sha256": "ce899629583e1e0ccc62661d6357a93faf3930dc0d4d5e55c2b296169b449894"
+    },
+    {
+      "relative_path": "face_memory_descriptive_results.csv",
+      "size_bytes": 4372,
+      "sha256": "0e8e6591fd5a0c93136c0a5aa21a838605d26498ec610c8138b4da0013d3732f"
+    },
+    {
+      "relative_path": "face_memory_difference_plot.png",
+      "size_bytes": 18137,
+      "sha256": "447a8bc4d8b841ffe477e46bb75196e36c74eebf30bf3b3dc6a1d0e678570659"
+    },
+    {
+      "relative_path": "face_memory_difference_plot.svg",
+      "size_bytes": 5611,
+      "sha256": "7f23eb5aed9051fbe082cabcf07ef993a9bc568e135270892f0161edda14b30d"
+    },
+    {
+      "relative_path": "face_memory_exclusions.csv",
+      "size_bytes": 12048,
+      "sha256": "d71f3d08b6156ab9a73c3c8171d011c9ded426841c1ce56f4c66592def573ab2"
+    },
+    {
+      "relative_path": "face_memory_included_pairs.csv",
+      "size_bytes": 43092,
+      "sha256": "4e1da460781723c74ea63788251c376318d4242fae2aca3c2a93ad558b6cb4c8"
+    },
+    {
+      "relative_path": "face_memory_visit_scatter.png",
+      "size_bytes": 19852,
+      "sha256": "a9eb617f7ad1097f06c58f1d3a06ce90f555a052ffcdf792388ec247421385cd"
+    },
+    {
+      "relative_path": "face_memory_visit_scatter.svg",
+      "size_bytes": 5465,
+      "sha256": "3ee26e758dfb4b92a55b58bb7f89ac4e3aa397177c4a8ef0eaf171683da22ec9"
+    },
+    {
+      "relative_path": "step3b_to_step4a_change_trace.csv",
+      "size_bytes": 44158,
+      "sha256": "a139fe21589f9cf682a9d53ceac960d3deba1a6f69d367c995b55f1083448bbf"
+    },
+    {
+      "relative_path": "step4a_analysis_contract.json",
+      "size_bytes": 11379,
+      "sha256": "05a1ed6c353d5e21f40e11186f4fe751af1fb4097fb5179259d0b189ce6d4848"
+    },
+    {
+      "relative_path": "step4a_face_memory.py",
+      "size_bytes": 76765,
+      "sha256": "daa3ff02e97dee2b3fdb21cef846d45dd050daa8bb0e6ec173e4da7fa62fe399"
+    },
+    {
+      "relative_path": "step4a_face_memory_report.md",
+      "size_bytes": 5639,
+      "sha256": "3fd833d7c36dd380ed7199b7ade9864185e86a4ab25109b631655d110b782749"
+    },
+    {
+      "relative_path": "step4a_method_notes.md",
+      "size_bytes": 4770,
+      "sha256": "58dc82ddd115808e0cff371c952e6cdc1d8949b12b91f6e42e8cd29ac2f5be5d"
+    },
+    {
+      "relative_path": "step4a_reproduction_and_tests.md",
+      "size_bytes": 1501,
+      "sha256": "69f09846caa69f4f7c82a158c009c1d4ef6261a63a8a9887cd777afced60802a"
+    },
+    {
+      "relative_path": "test_step4a_face_memory.py",
+      "size_bytes": 6486,
+      "sha256": "ced9cdce3bdefdac47a0059f7b5f094ddb4784c777eca1f1352cf6102a3807fa"
+    }
+  ]
+}

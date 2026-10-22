@@ -1,0 +1,1587 @@
+{
+  "generated_utc": "2026-09-08T20:07:53Z",
+  "dataset_snapshot": "1.0.6",
+  "pinned_commit_expected": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+  "dataset_root": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116",
+  "phenotype_stage_root": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907",
+  "step3a_specification_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_audit_ds007116_step3a_20260907\\step3a_specification.json",
+  "step3a_specification_sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01",
+  "step3a_audit_script_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_audit_ds007116_step3a_20260907\\audit_v6.py",
+  "step3a_audit_script_sha256": "bd00d819a65433433f29a5761e125f41bd52bdc44f6f50a09667e9f0ed34456b",
+  "step3b_script_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_audit_ds007116_step3b_20260909\\prepare_step3b.py",
+  "step3b_script_sha256": "cfea4b99eb6ecfd4ff69fc7e18bbbd60d3f60f54402386af82875fb3499fc54e",
+  "verified_payload_count": 41,
+  "verified_payloads_reused_without_download": true,
+  "input_hashes": [
+    {
+      "logical_path": "staged/age_differentiation_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\age_differentiation_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 13598,
+      "sha256": "d86c5846f9c16b3131d6895a9a1995ca2c9e5f57a0c2c00a69bbe86f66b892cf"
+    },
+    {
+      "logical_path": "staged/ales.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\ales.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 54360,
+      "sha256": "e7b586cd612eed0e4f85ef05d33436ceac3dfb24ed29f0b967405873d2cf89e5"
+    },
+    {
+      "logical_path": "staged/als-18.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\als-18.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 17971,
+      "sha256": "7c61901d74ed9adcfb95baebcdb464b412c6f012d8628321cc186dd075e2dff8"
+    },
+    {
+      "logical_path": "staged/ari.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\ari.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 10850,
+      "sha256": "9923170f4068a0369a5a1bb12c285985d67945bfa2f72e8d747d5de3e542e3c4"
+    },
+    {
+      "logical_path": "staged/asrm.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\asrm.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 7475,
+      "sha256": "1882f1fcab9740f028cb3dc0a3ea36c06a560a82779e77174cc2ec5d5bd2a9bb"
+    },
+    {
+      "logical_path": "staged/bdi_1a_ms_child.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\bdi_1a_ms_child.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 14092,
+      "sha256": "6b895d58e5f047df06ab255e30739872064db50c34af778fb2319bcd502bddd9"
+    },
+    {
+      "logical_path": "staged/bisbas_child.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\bisbas_child.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 16879,
+      "sha256": "1bc9ba690a1af240b1b9d1ea5746bd937a84370514a1a84b63712354b839f808"
+    },
+    {
+      "logical_path": "staged/delay_discounting_task.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\delay_discounting_task.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 7620,
+      "sha256": "bccf962b0479b086d36383c2d31f48a4c4a60ac7cf367dd27422ac4ce2ee91b1"
+    },
+    {
+      "logical_path": "staged/digit_symbol.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\digit_symbol.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 15857,
+      "sha256": "2017b8cd563dddd42a24088dbed327088c1f7359c00bb6628b8c31e7de27a438"
+    },
+    {
+      "logical_path": "staged/effort_discounting_task.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\effort_discounting_task.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 7698,
+      "sha256": "734c93a126056ad849308f44fa3110453101ec48dd622111e819cd4b854770e6"
+    },
+    {
+      "logical_path": "staged/eswan_adhd.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\eswan_adhd.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 15594,
+      "sha256": "bfbaf5639048b197f1e3ad71b9856faedda0a43688b1e3ddf98dad6e3ade64af"
+    },
+    {
+      "logical_path": "staged/eswan_dmdd.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\eswan_dmdd.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 24397,
+      "sha256": "7b77cbd87cb531c198d49735108c8e03f91ee4c126bebbb2d2ad6c121d3873ee"
+    },
+    {
+      "logical_path": "staged/mapssr.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\mapssr.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 14070,
+      "sha256": "004df79279aec6e4878d2c083b3d817a1dd983968761b62132f806eb3ae9adb0"
+    },
+    {
+      "logical_path": "staged/measured_emotion_differentiation_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\measured_emotion_differentiation_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 26829,
+      "sha256": "40acfc09e460c0dcab554fe4adda3cf14cc801e0b1ba629c289b4d60248f94c0"
+    },
+    {
+      "logical_path": "staged/motor_praxis.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\motor_praxis.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 6282,
+      "sha256": "08ea8a074d9250871491f2df985963c189b938305e40e4d33018f900362d8fa0"
+    },
+    {
+      "logical_path": "staged/panas.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\panas.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 12048,
+      "sha256": "dea8abf3dc923eb16e62886eb4c4eebe434f920a96183d9a5903bd623173731c"
+    },
+    {
+      "logical_path": "staged/penn_abstraction_inhibition_working_memory_task.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\penn_abstraction_inhibition_working_memory_task.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 6508,
+      "sha256": "c4fed7b397592e0eeb3d477d6001b2ac68aa5208d3ac1273aac37e81447224a2"
+    },
+    {
+      "logical_path": "staged/penn_conditional_exclusion_task.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\penn_conditional_exclusion_task.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 14756,
+      "sha256": "2cc1bad477cc9b940dd36bc4684b94154e9d6dcefd5a7e33587b7dc815d19fae"
+    },
+    {
+      "logical_path": "staged/penn_emotion_recognition_task.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\penn_emotion_recognition_task.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 22751,
+      "sha256": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777"
+    },
+    {
+      "logical_path": "staged/penn_face_memory_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 19645,
+      "sha256": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a"
+    },
+    {
+      "logical_path": "staged/penn_matrix_reasoning_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\penn_matrix_reasoning_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 11837,
+      "sha256": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab"
+    },
+    {
+      "logical_path": "staged/penn_verbal_reasoning_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\penn_verbal_reasoning_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 13156,
+      "sha256": "0d98c063e52d5514f54e0ea860e019f14ab9ec35f66f5cbc82bd678df0f69e04"
+    },
+    {
+      "logical_path": "staged/penn_word_memory_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\penn_word_memory_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 19220,
+      "sha256": "84a5e09cd0d9bb7f7e2856dc95597b539bebc20d3d56ca840b0629073ba90fd2"
+    },
+    {
+      "logical_path": "staged/post_scan_stai_state.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\post_scan_stai_state.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 13611,
+      "sha256": "807fd4b909d7b9fac4705e7bb20bf330bf518dc5cbc3a610b8f87a539560df3a"
+    },
+    {
+      "logical_path": "staged/ppa.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\ppa.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 9234,
+      "sha256": "5481aa89a19ed9f509228f62f3edd1da63113b04e57aea31b6b9f3d788868a9c"
+    },
+    {
+      "logical_path": "staged/pre_scan_stai.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\pre_scan_stai.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 25188,
+      "sha256": "ed1cd7c70fdd9c9143182704469d57b1d777c2412b91eaa2c35feb03d7702727"
+    },
+    {
+      "logical_path": "staged/prime.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\prime.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 20637,
+      "sha256": "61dd7d325cbdce0f724e9d24af0cad7f62632577e1eb7527eea7e3aa16379081"
+    },
+    {
+      "logical_path": "staged/risk_discounting_task.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\risk_discounting_task.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 7483,
+      "sha256": "bedc44added5f33ac1bba816472d47d24647f90686ffc417a7b379192596a3a5"
+    },
+    {
+      "logical_path": "staged/rpas.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\rpas.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 15871,
+      "sha256": "fcbf0dee27a1de481ba5bb4d36e2431c51863e48f69b53885b5f8c104ad0c09e"
+    },
+    {
+      "logical_path": "staged/rsas.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\rsas.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 15583,
+      "sha256": "b054cf6113e14e7930a056a5e5c5d080002b1ef56b14f755f12e32b6b5acf472"
+    },
+    {
+      "logical_path": "staged/short_computerized_finger_tapping_task.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\short_computerized_finger_tapping_task.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 17752,
+      "sha256": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd"
+    },
+    {
+      "logical_path": "staged/short_letter_2back.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\short_letter_2back.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 8853,
+      "sha256": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96"
+    },
+    {
+      "logical_path": "staged/short_penn_continuous_performance_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\short_penn_continuous_performance_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 38107,
+      "sha256": "caac568463a9fb062630733ceb69772ae0517d4c7f3dabd292d3bf39b0d4524e"
+    },
+    {
+      "logical_path": "staged/substance.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\substance.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 94401,
+      "sha256": "137690ec5fba4f480a66bfdddb4180e5750c5944f90a262b0db11f4c4a5a5aa3"
+    },
+    {
+      "logical_path": "staged/tanner_boy.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\tanner_boy.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 8551,
+      "sha256": "b059abcb7ea2302615bfe1c287922da2c8170c79fe51e33b44444899fdaf59a8"
+    },
+    {
+      "logical_path": "staged/tanner_girl.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\tanner_girl.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 10082,
+      "sha256": "f906390d6b4d14c56f250fe6d90cd356c693e5f6175e5fed5888ce74bb71a770"
+    },
+    {
+      "logical_path": "staged/trailmaking_test_a.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\trailmaking_test_a.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 16464,
+      "sha256": "46037b941a491f175e5125ec2f2a65c5db97e3ededeb9819c8aa433f778682b4"
+    },
+    {
+      "logical_path": "staged/trailmaking_test_b.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\trailmaking_test_b.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 16946,
+      "sha256": "9b49e0b0400543371d59999ccac9d14c3b72c7180661b979e69146d600d87ac4"
+    },
+    {
+      "logical_path": "staged/variable_short_penn_line_orientation_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\variable_short_penn_line_orientation_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 14263,
+      "sha256": "cf35bc7af74748061841f8ea4bebc3c5cffaf74933416deed380da6db48b555a"
+    },
+    {
+      "logical_path": "staged/visual_object_learning_test.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\visual_object_learning_test.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 18960,
+      "sha256": "2adf2a27a05f00aa9440a57ebfdda882de50a563b959eac4b5afd37b515facf0"
+    },
+    {
+      "logical_path": "staged/wolf_im_em.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907\\wolf_im_em.tsv",
+      "role": "verified Step 1B phenotype payload",
+      "exists": "yes",
+      "size_bytes": 24242,
+      "sha256": "fc007b4deae5fe3ec80bd1c669800d2e36e034e2e5c69203d7da948697f915eb"
+    },
+    {
+      "logical_path": "dataset/phenotype/short_letter_2back.json",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\phenotype\\short_letter_2back.json",
+      "role": "selected source dictionary",
+      "exists": "yes",
+      "size_bytes": 1838,
+      "sha256": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e"
+    },
+    {
+      "logical_path": "dataset/phenotype/penn_face_memory_test.json",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\phenotype\\penn_face_memory_test.json",
+      "role": "selected source dictionary",
+      "exists": "yes",
+      "size_bytes": 2592,
+      "sha256": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7"
+    },
+    {
+      "logical_path": "dataset/phenotype/penn_matrix_reasoning_test.json",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\phenotype\\penn_matrix_reasoning_test.json",
+      "role": "selected source dictionary",
+      "exists": "yes",
+      "size_bytes": 1791,
+      "sha256": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0"
+    },
+    {
+      "logical_path": "dataset/phenotype/penn_emotion_recognition_task.json",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\phenotype\\penn_emotion_recognition_task.json",
+      "role": "selected source dictionary",
+      "exists": "yes",
+      "size_bytes": 3450,
+      "sha256": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1"
+    },
+    {
+      "logical_path": "dataset/phenotype/short_computerized_finger_tapping_task.json",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\phenotype\\short_computerized_finger_tapping_task.json",
+      "role": "selected source dictionary",
+      "exists": "yes",
+      "size_bytes": 2267,
+      "sha256": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7"
+    },
+    {
+      "logical_path": "dataset/participants.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\participants.tsv",
+      "role": "participant metadata",
+      "exists": "yes",
+      "size_bytes": 10469,
+      "sha256": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348"
+    },
+    {
+      "logical_path": "dataset/participants.json",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\participants.json",
+      "role": "participant metadata",
+      "exists": "yes",
+      "size_bytes": 5523,
+      "sha256": "5e23c956912dd1f972fe5549880d882cc65f0f8ffdaf1f806c4ccfb291588a2b"
+    },
+    {
+      "logical_path": "dataset/sub-138950\\sub-138950_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-138950\\sub-138950_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 88,
+      "sha256": "e0e21d9ed20d2ee8dfe2c0f4d68f93abd7a81b8db9be4da78c2fcb1b2ff24849"
+    },
+    {
+      "logical_path": "dataset/sub-19861\\sub-19861_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-19861\\sub-19861_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1054,
+      "sha256": "1e6fdad16c674079ec24b8c05e6f9566ca67af2ba3bbdded024d8e75802d90c8"
+    },
+    {
+      "logical_path": "dataset/sub-20124\\sub-20124_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20124\\sub-20124_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 56,
+      "sha256": "7b4d4e5fcf676004c2328c3d34ba4e7b77fce859fdf1567264e7914cae88526d"
+    },
+    {
+      "logical_path": "dataset/sub-20125\\sub-20125_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20125\\sub-20125_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 56,
+      "sha256": "46f3a755fdc2f650aeb9122ca4e47bcbf496c5d961149166e6ba103bb6759f57"
+    },
+    {
+      "logical_path": "dataset/sub-20139\\sub-20139_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20139\\sub-20139_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1280,
+      "sha256": "f56d59343b1599410067d1375c2bb70f9268f49a9073338e3dd1237c190e260a"
+    },
+    {
+      "logical_path": "dataset/sub-20141\\sub-20141_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20141\\sub-20141_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 770,
+      "sha256": "851b73aa786d79bc2e0fcfef374c8121a6104d3b493af013e366e5ca1e8df26b"
+    },
+    {
+      "logical_path": "dataset/sub-20149\\sub-20149_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20149\\sub-20149_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1302,
+      "sha256": "6f3154fec10e52f00bc7af1f5be4015038154be890a1c2c56ec168630d6ec786"
+    },
+    {
+      "logical_path": "dataset/sub-20188\\sub-20188_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20188\\sub-20188_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1324,
+      "sha256": "67e8ec63d846e679b1f51d9c87384aa1c2cb252b424f102ac38b3a4d9b9d9440"
+    },
+    {
+      "logical_path": "dataset/sub-20212\\sub-20212_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20212\\sub-20212_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 769,
+      "sha256": "c6ada5d2ecb5d558b2e86ff7b95656f4d36fa6be4edda0947e5e73f0e870ddfa"
+    },
+    {
+      "logical_path": "dataset/sub-20214\\sub-20214_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20214\\sub-20214_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1257,
+      "sha256": "509b337ff3799f134326636ebcf040e3453be9de50856dc62ac267f8fec8b613"
+    },
+    {
+      "logical_path": "dataset/sub-20236\\sub-20236_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20236\\sub-20236_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 55,
+      "sha256": "95548b97fee53e6d9a74732a5d741cb2a8ac5ef5150cb9a7e9a9c040e267a3a4"
+    },
+    {
+      "logical_path": "dataset/sub-20238\\sub-20238_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20238\\sub-20238_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1063,
+      "sha256": "323470dc3e412f987125de50db27df45e2eb92f9dd2bd0ead1ab1b3653b3a3de"
+    },
+    {
+      "logical_path": "dataset/sub-20252\\sub-20252_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20252\\sub-20252_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1074,
+      "sha256": "12dc74f0de5b366de8da0c798a231ca034a791f22cab8fa54e8a88d4322cd30e"
+    },
+    {
+      "logical_path": "dataset/sub-20253\\sub-20253_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20253\\sub-20253_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1352,
+      "sha256": "0ece71e966644404b427087f554d0bfe7133cc0a882438390dda4dd80aaa915d"
+    },
+    {
+      "logical_path": "dataset/sub-20258\\sub-20258_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20258\\sub-20258_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 910,
+      "sha256": "b7a0155483fee16bfaa5a47d69a6bad49cdc9a1d91bb47cfc6eaffbc8b23e29a"
+    },
+    {
+      "logical_path": "dataset/sub-20259\\sub-20259_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20259\\sub-20259_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1359,
+      "sha256": "ee63862fe2adabf3b145db109745b71ac63ea2efb379793f4fae5b235d3e8222"
+    },
+    {
+      "logical_path": "dataset/sub-20302\\sub-20302_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20302\\sub-20302_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1058,
+      "sha256": "6855c0f3926be6879d9006582e93cbf77ce6ca834a60c0fbda5fcb8ae96a91b3"
+    },
+    {
+      "logical_path": "dataset/sub-20303\\sub-20303_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20303\\sub-20303_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1261,
+      "sha256": "a318afaaf38b4b52926ffe037198a718580f9d5ba081ec9e96d97335aa1b868b"
+    },
+    {
+      "logical_path": "dataset/sub-20305\\sub-20305_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20305\\sub-20305_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1092,
+      "sha256": "ef110628f2e9185f5e7df4cda930f11c56cbf238e6b7a1c2358b788f9656d175"
+    },
+    {
+      "logical_path": "dataset/sub-20310\\sub-20310_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20310\\sub-20310_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1320,
+      "sha256": "1074ca5018f11bd813165b0ba6fe06dd70d4701e77ad7eb5181ea87e550723cf"
+    },
+    {
+      "logical_path": "dataset/sub-20328\\sub-20328_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20328\\sub-20328_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1124,
+      "sha256": "2da50d571f25495e33ca1ea4442fcffc1bedeaeaae15acf4675b2fa566b60595"
+    },
+    {
+      "logical_path": "dataset/sub-20333\\sub-20333_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20333\\sub-20333_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 746,
+      "sha256": "5138f58263ff658ac4895de54a2cd58a7f382daba21f090befb0b46825b58cd1"
+    },
+    {
+      "logical_path": "dataset/sub-20335\\sub-20335_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20335\\sub-20335_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 55,
+      "sha256": "ba77c209af0c1e301ab16c997c22085c7450ce51a73c5527c325a2363fb6cc6a"
+    },
+    {
+      "logical_path": "dataset/sub-20336\\sub-20336_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20336\\sub-20336_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 56,
+      "sha256": "695a37e8711a8415eee46dc2f2daa1be0310075709e6ced3c568455b91ae2b16"
+    },
+    {
+      "logical_path": "dataset/sub-20347\\sub-20347_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20347\\sub-20347_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 804,
+      "sha256": "431c9dd18f394abbb8f3f3c1b033c8ddc520951133c689dab4f8b43911c23b4f"
+    },
+    {
+      "logical_path": "dataset/sub-20350\\sub-20350_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20350\\sub-20350_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 820,
+      "sha256": "bca437ac989f9802468ab2b5917abf9ed6236655af622df4399f08ff4396dcaa"
+    },
+    {
+      "logical_path": "dataset/sub-20352\\sub-20352_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20352\\sub-20352_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 960,
+      "sha256": "fc599cbbd620164b852fc3504e02fc0eb30c88c5e3f9bbb32eeddda85b54204f"
+    },
+    {
+      "logical_path": "dataset/sub-20399\\sub-20399_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20399\\sub-20399_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1109,
+      "sha256": "66cbeb0d6b65e94cf60dc99ecb57996f3b97baa7ab4d0710984f0dcd6891cae5"
+    },
+    {
+      "logical_path": "dataset/sub-20402\\sub-20402_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20402\\sub-20402_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 820,
+      "sha256": "9ec74202d87eb481d81f04f5e152f4f8b281ab3f619c0a6c4d35c5d52043ca17"
+    },
+    {
+      "logical_path": "dataset/sub-20403\\sub-20403_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20403\\sub-20403_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 818,
+      "sha256": "cb5ff3053cabe3391ce75d7076eb7dd7f4d4d478280dfdec9dbeef0d43f994aa"
+    },
+    {
+      "logical_path": "dataset/sub-20410\\sub-20410_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20410\\sub-20410_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 821,
+      "sha256": "5414f4d2576e36cd27534ca60e18150167f1765140ea8cf8af359812333f2b01"
+    },
+    {
+      "logical_path": "dataset/sub-20427\\sub-20427_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20427\\sub-20427_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1090,
+      "sha256": "6711274960631baac1e7234260e17efe89739ebea6987b45d305f25950fd7bbc"
+    },
+    {
+      "logical_path": "dataset/sub-20448\\sub-20448_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20448\\sub-20448_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 793,
+      "sha256": "50b7bd0c28ca3b63438afb77eb348eec941495a1842899b830c59b25b004ca46"
+    },
+    {
+      "logical_path": "dataset/sub-20463\\sub-20463_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20463\\sub-20463_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1104,
+      "sha256": "b0b0fa12916637a9a019a6408e93e56cf8f418992e153d33c99d29816432a152"
+    },
+    {
+      "logical_path": "dataset/sub-20494\\sub-20494_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20494\\sub-20494_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1409,
+      "sha256": "a4411846cfeeacf88d9d45b9e5fed86677fda5b576bee3d7ccc1de683d37a29d"
+    },
+    {
+      "logical_path": "dataset/sub-20533\\sub-20533_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20533\\sub-20533_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1055,
+      "sha256": "6fec02b91bceb91a32bc937c41be0ebe1bd54a4041e64fca7124be2991d2bdac"
+    },
+    {
+      "logical_path": "dataset/sub-20572\\sub-20572_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20572\\sub-20572_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1061,
+      "sha256": "cc2fd1350859783a75675d0f79687bfd723820ea0f59229197cdfecc373d5c79"
+    },
+    {
+      "logical_path": "dataset/sub-20612\\sub-20612_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20612\\sub-20612_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 819,
+      "sha256": "02357e39770630e936024233d635b1057bf4e1a776bbeeda13df2a1d700c8e4e"
+    },
+    {
+      "logical_path": "dataset/sub-20626\\sub-20626_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20626\\sub-20626_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1079,
+      "sha256": "39fcc67ddbaadd175ed6bac7ce355a30f8eec3d88b0618ad47ba57f8a81861c9"
+    },
+    {
+      "logical_path": "dataset/sub-20691\\sub-20691_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20691\\sub-20691_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 914,
+      "sha256": "57c88e1632ef50eba21e401293eba4c5b85f92a17a017f8370a97f4573218560"
+    },
+    {
+      "logical_path": "dataset/sub-20712\\sub-20712_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20712\\sub-20712_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1269,
+      "sha256": "1ebfd656a773b8a0f7e438f94fc952c6f0821c6cf1fc192bdc1c4a3c0f985f8b"
+    },
+    {
+      "logical_path": "dataset/sub-20721\\sub-20721_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20721\\sub-20721_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1346,
+      "sha256": "2230d7d30c538ed36955b6c8b826207cc3d69e35637d7b317479bdd793514596"
+    },
+    {
+      "logical_path": "dataset/sub-20724\\sub-20724_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20724\\sub-20724_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 791,
+      "sha256": "3a532bd0c97d6f23e7b7a96abf5cc1bfb739b249c80a7f66ca115cbab113f2cc"
+    },
+    {
+      "logical_path": "dataset/sub-20794\\sub-20794_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20794\\sub-20794_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 803,
+      "sha256": "f4e94032c303b861fff9978a5989176f95ff7c5932ef923e7d4628f406d8b8e9"
+    },
+    {
+      "logical_path": "dataset/sub-20812\\sub-20812_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20812\\sub-20812_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1221,
+      "sha256": "5156281feab1bec1ef572c73f55d318f17738592246b7e93d2cd1d79484ffd43"
+    },
+    {
+      "logical_path": "dataset/sub-20818\\sub-20818_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20818\\sub-20818_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1107,
+      "sha256": "d476b4a6bffe79a3836d5ee16847f8f326cde86cddd608f3e3ef73a775f8be77"
+    },
+    {
+      "logical_path": "dataset/sub-20823\\sub-20823_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20823\\sub-20823_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1093,
+      "sha256": "4dcba9711224e28d95b55504268a38a6d4cc2f2c95acda850792a9c05e244674"
+    },
+    {
+      "logical_path": "dataset/sub-20836\\sub-20836_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20836\\sub-20836_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1092,
+      "sha256": "21ee83654391695355991ac0357d289ecc2ca13a1372ec0b14c60fa095d3364f"
+    },
+    {
+      "logical_path": "dataset/sub-20842\\sub-20842_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20842\\sub-20842_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 746,
+      "sha256": "35556e0fa21f06fbf3078a2a56cbfc383ada2735d98ca1a37138833cd7f3550a"
+    },
+    {
+      "logical_path": "dataset/sub-20846\\sub-20846_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20846\\sub-20846_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 804,
+      "sha256": "b2490946c74acd7e958d707a6aae0c2318700a298bed96bcf8c5acd1d7ea8e78"
+    },
+    {
+      "logical_path": "dataset/sub-20849\\sub-20849_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20849\\sub-20849_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 746,
+      "sha256": "810769857f5b3cdc47bd1aa492e2ba4331657c778b962102fbb5c2f23db3f626"
+    },
+    {
+      "logical_path": "dataset/sub-20855\\sub-20855_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20855\\sub-20855_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 832,
+      "sha256": "4b5d1f9d3fb2b3666acc19dc9aa1a41c22bf3df52234fef93f6c991df0ef471f"
+    },
+    {
+      "logical_path": "dataset/sub-20860\\sub-20860_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20860\\sub-20860_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 56,
+      "sha256": "45c34ab2f22c4f2940dbed8c6d5b5d63feea314b899d9a261f52739b504b4ca3"
+    },
+    {
+      "logical_path": "dataset/sub-20865\\sub-20865_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20865\\sub-20865_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 910,
+      "sha256": "bb00f13d85c7298a0bc94bbc26ba39c6848387faa14b029b71bb4e7e628b87c2"
+    },
+    {
+      "logical_path": "dataset/sub-20866\\sub-20866_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20866\\sub-20866_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1048,
+      "sha256": "eb01e3d633101bae48b7487d13ec8ff4d540ad962bbcf4aa3fbd188861ad6db8"
+    },
+    {
+      "logical_path": "dataset/sub-20902\\sub-20902_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20902\\sub-20902_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1364,
+      "sha256": "31094411a3912290d8fa4a19b23733794478b0bd1f5f5f310162dd536a36b86f"
+    },
+    {
+      "logical_path": "dataset/sub-20916\\sub-20916_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20916\\sub-20916_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1280,
+      "sha256": "d60029dbfe1629e72147cbcb134d1f980f659a16e6316147f5db60c120519adc"
+    },
+    {
+      "logical_path": "dataset/sub-20918\\sub-20918_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20918\\sub-20918_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 770,
+      "sha256": "cbcf0b8b8fdfb68e0b466e64c4c83bc62ca0271211176e931870b0c2c4ce3aa9"
+    },
+    {
+      "logical_path": "dataset/sub-20919\\sub-20919_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20919\\sub-20919_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 774,
+      "sha256": "2716e8ece303f8071c4ebe9e1e12ca6de585ae78737fae7389d274a243650e00"
+    },
+    {
+      "logical_path": "dataset/sub-20923\\sub-20923_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20923\\sub-20923_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1114,
+      "sha256": "bfba287e63e46fd13be57462a813daa0d32b067f13058b5060ee3129fc3b981c"
+    },
+    {
+      "logical_path": "dataset/sub-20934\\sub-20934_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20934\\sub-20934_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 773,
+      "sha256": "d1bea1f7cfdc85d83aa7188c0c38fe70d400355fe7945fd6d2f034fec0daf1e4"
+    },
+    {
+      "logical_path": "dataset/sub-20936\\sub-20936_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20936\\sub-20936_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1206,
+      "sha256": "fd3383b32b357e9622d73d625d57562049e0ee899a0a1bcad3af8b8bc5953112"
+    },
+    {
+      "logical_path": "dataset/sub-20953\\sub-20953_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20953\\sub-20953_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1114,
+      "sha256": "676283246d94c2bc04f6997ce2e67a866233e310b7c98a2d3607c7440f3ab901"
+    },
+    {
+      "logical_path": "dataset/sub-20961\\sub-20961_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20961\\sub-20961_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 959,
+      "sha256": "980bfdd13927ed84bda2c724bf6ad1e752e21e5d025d8fb8ff7fe79dfcc11239"
+    },
+    {
+      "logical_path": "dataset/sub-20964\\sub-20964_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20964\\sub-20964_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 746,
+      "sha256": "7ee8e8f0a90901934e4b1cde837622148b482d6abd553d129cc07fd890fe57d3"
+    },
+    {
+      "logical_path": "dataset/sub-20966\\sub-20966_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20966\\sub-20966_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1359,
+      "sha256": "9994b63fef1bc7c4d8097671dde687220522765024a37cb0d07fc52cb39dbd94"
+    },
+    {
+      "logical_path": "dataset/sub-20968\\sub-20968_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20968\\sub-20968_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1344,
+      "sha256": "63570da7f32319fd6e19632bf152e3664bf6cbd21f1ce4ba1216863d467b3841"
+    },
+    {
+      "logical_path": "dataset/sub-20976\\sub-20976_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20976\\sub-20976_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1326,
+      "sha256": "efbdf5ceb18f8696487bac2c7cfc289273c545bd6448381613141ec67a4cbf5e"
+    },
+    {
+      "logical_path": "dataset/sub-20983\\sub-20983_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-20983\\sub-20983_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1108,
+      "sha256": "2eae4bde9e6b63131f252928b22e5535e73696f05b95fec7beefee54213e795a"
+    },
+    {
+      "logical_path": "dataset/sub-21023\\sub-21023_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21023\\sub-21023_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1125,
+      "sha256": "e7aaabc03bcbcc9ec9d344cea3ee4377c94fe8f40dbb665a540944933790060f"
+    },
+    {
+      "logical_path": "dataset/sub-21035\\sub-21035_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21035\\sub-21035_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1237,
+      "sha256": "636de39c6479f67e3288c4900bcdcab5a82033dd5695286914f76ccc4ff90e17"
+    },
+    {
+      "logical_path": "dataset/sub-21038\\sub-21038_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21038\\sub-21038_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1105,
+      "sha256": "3d2d2db27fb37b79a90c87d0e16b972b2ffec152306fa56dca06cc198afc10a1"
+    },
+    {
+      "logical_path": "dataset/sub-21050\\sub-21050_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21050\\sub-21050_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 821,
+      "sha256": "5c197f5660ca0725a9776331044ee78bb72137036153bcf8e8a497c5da374bb1"
+    },
+    {
+      "logical_path": "dataset/sub-21088\\sub-21088_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21088\\sub-21088_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 770,
+      "sha256": "e4284075b417c229d270a4a5d8f9b0bafe69b59f15fde4ee276ce7b00a2432b0"
+    },
+    {
+      "logical_path": "dataset/sub-21095\\sub-21095_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21095\\sub-21095_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 822,
+      "sha256": "028e8526f6d59bf8ff8230f6bf23b140f5148b6c3d9dca76325c27d7092b078e"
+    },
+    {
+      "logical_path": "dataset/sub-21104\\sub-21104_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21104\\sub-21104_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1062,
+      "sha256": "6a80cfe4bc7063889622a2ba08d40bc2b2089977a05602eb97f35295c7eccf66"
+    },
+    {
+      "logical_path": "dataset/sub-21112\\sub-21112_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21112\\sub-21112_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1053,
+      "sha256": "fe669275586c34f0c7fcac34ae667528d046e03e109d2cf5bafe8d6df0ccb3b9"
+    },
+    {
+      "logical_path": "dataset/sub-21116\\sub-21116_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21116\\sub-21116_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 802,
+      "sha256": "edc4ca6a7260f12feebcf98679564805a2c306d7e334520181b2467a0ae9f8ff"
+    },
+    {
+      "logical_path": "dataset/sub-21118\\sub-21118_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21118\\sub-21118_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1079,
+      "sha256": "653e2362378dd6f443f6fe6fa21afc60c2d28e27a2ef292ae6fcf3982bbfa76c"
+    },
+    {
+      "logical_path": "dataset/sub-21124\\sub-21124_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21124\\sub-21124_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 776,
+      "sha256": "94e90cb63c94d6fb2222ed703e3a62fe15e4c9e03cdd68fad80cdfe172febf31"
+    },
+    {
+      "logical_path": "dataset/sub-21131\\sub-21131_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21131\\sub-21131_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 771,
+      "sha256": "a08bb42b520aff5f8338ac78360f26d728cd2598f782989f3bdc485c70a27ee9"
+    },
+    {
+      "logical_path": "dataset/sub-21139\\sub-21139_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21139\\sub-21139_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1098,
+      "sha256": "c66a32ea0298f3d4ce1370067a73aa7bca8b0b82def26c766f9679a77a2df10f"
+    },
+    {
+      "logical_path": "dataset/sub-21141\\sub-21141_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21141\\sub-21141_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1107,
+      "sha256": "53ebd686e6aa7fa388bb678d1f04c2e698667c993116781ae19c8e72969f9336"
+    },
+    {
+      "logical_path": "dataset/sub-21146\\sub-21146_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21146\\sub-21146_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 801,
+      "sha256": "c4353422760f021060c448ed3e7e1e0a0a4e5199160ed91ef552df374a1cf9a4"
+    },
+    {
+      "logical_path": "dataset/sub-21150\\sub-21150_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21150\\sub-21150_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 774,
+      "sha256": "8f18d6054d455611e19da52f3b7ef3821f450579eb546cdfbc54d44ee7cb1b11"
+    },
+    {
+      "logical_path": "dataset/sub-21154\\sub-21154_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21154\\sub-21154_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1112,
+      "sha256": "69fdd4b758d054e1f63c87020343ba6d332aa8aad8d60ad7af4df14478d9a4cf"
+    },
+    {
+      "logical_path": "dataset/sub-21161\\sub-21161_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21161\\sub-21161_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1192,
+      "sha256": "edf598293e4da53de3c69b9998ac867d67de3d0c069e25e33af87ee0d7a2d4cb"
+    },
+    {
+      "logical_path": "dataset/sub-21193\\sub-21193_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21193\\sub-21193_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1069,
+      "sha256": "174a7dfbf23d901ef097ac251c396cbfa2a7a944d7a476a4da0399feed949ec5"
+    },
+    {
+      "logical_path": "dataset/sub-21197\\sub-21197_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21197\\sub-21197_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 816,
+      "sha256": "a499bd187c65a7a394951fdbf59a6e31743686f8537b3e37b16257c8eeb3c0b6"
+    },
+    {
+      "logical_path": "dataset/sub-21224\\sub-21224_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21224\\sub-21224_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 787,
+      "sha256": "50439a6f804613fc32c4a2ba7a3537680d25ed721bcff5c39c529c47bb70a530"
+    },
+    {
+      "logical_path": "dataset/sub-21325\\sub-21325_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21325\\sub-21325_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1108,
+      "sha256": "fb758dac6be0cf7db220e21eb084fed6265f86ae0face2790942df9d5c1e061e"
+    },
+    {
+      "logical_path": "dataset/sub-21345\\sub-21345_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21345\\sub-21345_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 774,
+      "sha256": "445da400398e5af26021354457bdb5274a2798321a347ff3d2a93816dea238f4"
+    },
+    {
+      "logical_path": "dataset/sub-21432\\sub-21432_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21432\\sub-21432_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 770,
+      "sha256": "ccc84cdf2a6d2407d3e1ae025a8de7f4f17f27bdcbd5f1d8e225776db479d0a6"
+    },
+    {
+      "logical_path": "dataset/sub-21493\\sub-21493_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21493\\sub-21493_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1109,
+      "sha256": "c539484cc4e9bdf1a4a1fe49cf3911b655330b7a5958b19481d37e91598803c3"
+    },
+    {
+      "logical_path": "dataset/sub-21514\\sub-21514_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21514\\sub-21514_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 771,
+      "sha256": "7485377a15a07f2e81eedda73ceeae2ccda783939c90fd7c78e2bddcf1252e62"
+    },
+    {
+      "logical_path": "dataset/sub-21516\\sub-21516_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21516\\sub-21516_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1076,
+      "sha256": "74ddf6ac0c4dc17fb44389069ce9ddaf40df6ca5b28694cdd4127d445b69a646"
+    },
+    {
+      "logical_path": "dataset/sub-21539\\sub-21539_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21539\\sub-21539_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 803,
+      "sha256": "e70fec8fca7d9cb9118930948478549760fe398798e75d191cafe159fc4fff92"
+    },
+    {
+      "logical_path": "dataset/sub-21553\\sub-21553_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21553\\sub-21553_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 943,
+      "sha256": "949e51d06fa40d502c5fae540c89a983a190f017abe88b358488ef7d7ec5781e"
+    },
+    {
+      "logical_path": "dataset/sub-21554\\sub-21554_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21554\\sub-21554_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1014,
+      "sha256": "0a3791cb8819cbdf240cf696ec725cf7ba4ebb34ddbfe4bae25eff5895f990ca"
+    },
+    {
+      "logical_path": "dataset/sub-21560\\sub-21560_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21560\\sub-21560_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 914,
+      "sha256": "bfe4db65f390c0638d9812d47277e759fc2a3d5753d3faf0aa62e3fd9b68c956"
+    },
+    {
+      "logical_path": "dataset/sub-21567\\sub-21567_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21567\\sub-21567_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 818,
+      "sha256": "f6e5afcd452bb5de46eed7525987f19ad34df3b25a798afca971cbcd9545750b"
+    },
+    {
+      "logical_path": "dataset/sub-21568\\sub-21568_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21568\\sub-21568_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 790,
+      "sha256": "a9898c98761b13faf9c32ceb357b1e2ab24765cc53125e8c68c212a428429b98"
+    },
+    {
+      "logical_path": "dataset/sub-21580\\sub-21580_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21580\\sub-21580_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1128,
+      "sha256": "108e66f322c639f55a190d29e1f99ca5e3b0cadb99952c91e54e79554afb9e92"
+    },
+    {
+      "logical_path": "dataset/sub-21623\\sub-21623_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21623\\sub-21623_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1092,
+      "sha256": "e5f3ff97a21432a16b70f52ded33ef51c9f1df0607d83e81b42e0f8fc280258f"
+    },
+    {
+      "logical_path": "dataset/sub-21712\\sub-21712_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21712\\sub-21712_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1110,
+      "sha256": "345b4ce5a48d93650ab50a1e9a72576175a44f83d5bda7c815d7c826a87fd265"
+    },
+    {
+      "logical_path": "dataset/sub-21713\\sub-21713_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21713\\sub-21713_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 940,
+      "sha256": "dda8abe400b42f78dcbfb2c7d216a2cb07a7772da4d80002af4aabde88ca126d"
+    },
+    {
+      "logical_path": "dataset/sub-21738\\sub-21738_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21738\\sub-21738_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 803,
+      "sha256": "cc24576a0429fabeaeb4e5eea68d45c6d462f0871d01378693b67311457562e0"
+    },
+    {
+      "logical_path": "dataset/sub-21797\\sub-21797_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21797\\sub-21797_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 770,
+      "sha256": "2cf226ec21c3cdb46fd45289029c21c8f991c5261cfd6cdfff1b0b1f0e8e42dc"
+    },
+    {
+      "logical_path": "dataset/sub-21827\\sub-21827_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21827\\sub-21827_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 803,
+      "sha256": "868fdebe1d521e500efb9ccf2da5b5ec1c1aaab799708224ab406c32c84a70a3"
+    },
+    {
+      "logical_path": "dataset/sub-21855\\sub-21855_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21855\\sub-21855_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1111,
+      "sha256": "3b93010f0f0efc49b8ee93bf347484899d6d55bcf42c8e53104cc6c4ae2eccd7"
+    },
+    {
+      "logical_path": "dataset/sub-21856\\sub-21856_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-21856\\sub-21856_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 802,
+      "sha256": "0d4ace53d98a232bfdd9dbb7034073b9f5306c47b6ba5038ea5e51c4ff9ba612"
+    },
+    {
+      "logical_path": "dataset/sub-22045\\sub-22045_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22045\\sub-22045_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1003,
+      "sha256": "14c94390954437af422734ee0ca49746ce6d389f3b52932781ed5bdd218ca64e"
+    },
+    {
+      "logical_path": "dataset/sub-22064\\sub-22064_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22064\\sub-22064_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1111,
+      "sha256": "afae02b48b29d6b8db93af22f5c4da4509b0f3886736c958815cccc9db1cf1f3"
+    },
+    {
+      "logical_path": "dataset/sub-22169\\sub-22169_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22169\\sub-22169_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 56,
+      "sha256": "4c217865d56832d32cda959a64a242bb9b6f8dbd2b03e8137ea590fef9a42cd8"
+    },
+    {
+      "logical_path": "dataset/sub-22473\\sub-22473_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22473\\sub-22473_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1088,
+      "sha256": "6594a83a6f67a6f92f76c637d11989ef761c7a9e53c400dca1ac709b7e1f852c"
+    },
+    {
+      "logical_path": "dataset/sub-22510\\sub-22510_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22510\\sub-22510_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1106,
+      "sha256": "033f6c57f41e772809581743ee3e64b89a8076dc4a421ff24a23a3f5527ad36b"
+    },
+    {
+      "logical_path": "dataset/sub-22520\\sub-22520_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22520\\sub-22520_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 746,
+      "sha256": "7a6b8eb85740b26d736adcff131985259fe169091b105ada90ff018331ba5d78"
+    },
+    {
+      "logical_path": "dataset/sub-22617\\sub-22617_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22617\\sub-22617_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 941,
+      "sha256": "988085c4aad564091ea6f06d13d4fafb3496ae3a968c008cbcc11b1e486abc1b"
+    },
+    {
+      "logical_path": "dataset/sub-22618\\sub-22618_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22618\\sub-22618_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1070,
+      "sha256": "290edcfa7497a0d2cf04f922066ec0d710b343656130e032f91872b9161e9b8c"
+    },
+    {
+      "logical_path": "dataset/sub-22653\\sub-22653_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22653\\sub-22653_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1106,
+      "sha256": "964ad5a7f511118469fe795c9eca9a854751f92160e98bcdc3573a13783e0072"
+    },
+    {
+      "logical_path": "dataset/sub-22654\\sub-22654_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22654\\sub-22654_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 1061,
+      "sha256": "449c0e3c2cf98fcc4e79a2322689991d1f834fbb645202a3240abaa9c73218cd"
+    },
+    {
+      "logical_path": "dataset/sub-22670\\sub-22670_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22670\\sub-22670_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 805,
+      "sha256": "ae0e328da41e4a880617ad5b7658f512f7cae5cf33ca0353e7ca03c8d6985b52"
+    },
+    {
+      "logical_path": "dataset/sub-22744\\sub-22744_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22744\\sub-22744_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 802,
+      "sha256": "e8c3d76d5a59160f3707a66ee29cc89fe324ad00e9ccedc4007524b518c0fd81"
+    },
+    {
+      "logical_path": "dataset/sub-22745\\sub-22745_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22745\\sub-22745_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 800,
+      "sha256": "f90e01c9fd64ab5f63988e50ff8c60e681a52c57ccfe194b6d57d63dc358d1ba"
+    },
+    {
+      "logical_path": "dataset/sub-22797\\sub-22797_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22797\\sub-22797_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 788,
+      "sha256": "5a4eed52fbf268fd7237dd7c87da4a75d9fcf35a515198ef00c648ee65fc0b1d"
+    },
+    {
+      "logical_path": "dataset/sub-22798\\sub-22798_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22798\\sub-22798_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 55,
+      "sha256": "9d68500ac869faf3729228391e98a50661ae4e9b88da9730a20029577f6fcf7a"
+    },
+    {
+      "logical_path": "dataset/sub-22870\\sub-22870_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-22870\\sub-22870_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 820,
+      "sha256": "a9dfce1c3b71f143baa666940fa9ee471eb849e8c880447f33dd03ff1f40d11a"
+    },
+    {
+      "logical_path": "dataset/sub-23113\\sub-23113_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-23113\\sub-23113_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 55,
+      "sha256": "018eaf113088528335f93064a03fdb3c367fd0ec7aa561d2df5f0fa2d9ea7a9f"
+    },
+    {
+      "logical_path": "dataset/sub-23303\\sub-23303_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-23303\\sub-23303_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 802,
+      "sha256": "609208e2fc34470d7e6820ba690200877dcd96cb63ab404425d36fc19bf8bdd4"
+    },
+    {
+      "logical_path": "dataset/sub-23582\\sub-23582_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-23582\\sub-23582_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 821,
+      "sha256": "7170ba48eb02878155895e9d67de7579055db627bede8884af86200762d3e68a"
+    },
+    {
+      "logical_path": "dataset/sub-23676\\sub-23676_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-23676\\sub-23676_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 801,
+      "sha256": "96d3c5d9a48eab306d0939871c15cfd5def2d4ba48683c80f6a853f82085ce69"
+    },
+    {
+      "logical_path": "dataset/sub-23698\\sub-23698_sessions.tsv",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116\\sub-23698\\sub-23698_sessions.tsv",
+      "role": "session age/acq_time metadata",
+      "exists": "yes",
+      "size_bytes": 806,
+      "sha256": "1dcbf50543609390c2a519310c3f2a6549c448c99109bbe3c912e899ec19eb45"
+    },
+    {
+      "logical_path": "step3a/step3a_specification.json",
+      "absolute_path": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_audit_ds007116_step3a_20260907\\step3a_specification.json",
+      "role": "executable input specification",
+      "exists": "yes",
+      "size_bytes": 2914,
+      "sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01"
+    }
+  ],
+  "output_hashes_excluding_this_file": [
+    {
+      "relative_path": "analysis_data_dictionary.csv",
+      "size_bytes": 29818,
+      "sha256": "f654ff1df4d74168d023fd44fd3a38d147d5631a3c7e098179c826a89783549c"
+    },
+    {
+      "relative_path": "assessment_occasion_mapping_step3a.csv",
+      "size_bytes": 105486,
+      "sha256": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b"
+    },
+    {
+      "relative_path": "candidate_prediction_cohort.csv",
+      "size_bytes": 1389215,
+      "sha256": "1e2a2cc80d0d13764f4ae55fb0d1b7781f1fe84d554ac3c5f9c5dd742ee5747a"
+    },
+    {
+      "relative_path": "cohort_reconciliation.csv",
+      "size_bytes": 15040,
+      "sha256": "0782633837e169821ba5ffddde643dfaa670d399548ce8cb234b4cd7e700624f"
+    },
+    {
+      "relative_path": "decision_register_step3b.csv",
+      "size_bytes": 8985,
+      "sha256": "aa9a065d2c698084f78f5c83d06d40747e4dd72e513e25158aac67124ed46e58"
+    },
+    {
+      "relative_path": "executable_specification.json",
+      "size_bytes": 2914,
+      "sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01"
+    },
+    {
+      "relative_path": "input_manifest.json",
+      "size_bytes": 1575,
+      "sha256": "7487d3ee8981b1814d5643b36f6df41e97015d4208993eeac5867a062ef4afdc"
+    },
+    {
+      "relative_path": "outcome_observations_long.csv",
+      "size_bytes": 479277,
+      "sha256": "e023aae49e6281aa5b85f4ee4a33f1f303a08f543cbff851890beffb5a20291b"
+    },
+    {
+      "relative_path": "paired_profile_manifest.csv",
+      "size_bytes": 429579,
+      "sha256": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82"
+    },
+    {
+      "relative_path": "paired_task_observations.csv",
+      "size_bytes": 1636668,
+      "sha256": "1bcc5161b8b56ec750cbe0e235eb0b065ec346ab43440bab1bc9b232573ab429"
+    },
+    {
+      "relative_path": "prepare_step3b.py",
+      "size_bytes": 42276,
+      "sha256": "cfea4b99eb6ecfd4ff69fc7e18bbbd60d3f60f54402386af82875fb3499fc54e"
+    },
+    {
+      "relative_path": "reproduction_and_tests.md",
+      "size_bytes": 2203,
+      "sha256": "c8365fae27c9cfeb3a9d525b021874b558451e18abbf02b87a4d9ffd2ee2db79"
+    },
+    {
+      "relative_path": "retrieval_reuse_manifest.csv",
+      "size_bytes": 16015,
+      "sha256": "384e8d70ee1af26bfd83c4c64b769c92324357391c17af5cfc8a6d72c55427d3"
+    },
+    {
+      "relative_path": "sap_step3b_draft.md",
+      "size_bytes": 20357,
+      "sha256": "b34b7713c99329d6a59e476a3657b53e8c9fe8f107ab7c02adbf92c1892b0c7c"
+    },
+    {
+      "relative_path": "step3b_review_report.md",
+      "size_bytes": 4927,
+      "sha256": "5ccf6678f46133b3e1b3dcf22db44bdf60c059eefdec2c9febe06ce3c5434834"
+    },
+    {
+      "relative_path": "task_observations_long.csv",
+      "size_bytes": 1119504,
+      "sha256": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978"
+    }
+  ],
+  "git_before": {
+    "status": "## main...origin/main",
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "branch": "main",
+    "describe": "1.0.6",
+    "tags_at_HEAD": [
+      "1.0.6"
+    ],
+    "last_commit": {
+      "hash": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+      "date": "2026-07-28T02:35:41Z",
+      "author": "Git Worker",
+      "subject": "[OpenNeuro] Recorded changes"
+    }
+  },
+  "software": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "audit_module": "Step 3A audit_v6.py"
+  },
+  "focused_tests": [
+    "step3a_fixture_tests",
+    "no_duplicate_task_analytical_keys",
+    "configured_policy_change_changes_eligibility",
+    "unresolved_qc_not_silently_accepted",
+    "participant_grouped_pair_keys",
+    "fixed_task_identity",
+    "continuation_cannot_create_new_CNB_occasion"
+  ],
+  "duplicate_analytical_key_count": 0,
+  "boundaries": [
+    "raw traceable preparation only",
+    "no final standardization/composite",
+    "no ICC/SEM/MDC",
+    "no fitted age effects",
+    "no prediction model",
+    "no imputation",
+    "no Evidence Engine decision"
+  ]
+}

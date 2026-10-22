@@ -1,0 +1,6 @@
+change_id,b1_gap,new_implementation,module
+C1,generic bool cast accepts string 'no',explicit yes/no or Boolean parser; missing/unknown rejected,simulation_core.py
+C2,absolute floor invalidates small valid ICC/trace variation,stable common centering/rescaling and relative-only degeneracy checks; no clipping,simulation_core.py
+C3,multiplicity maps not checked against exact expected fit,full identity/key/weight/fold/linkage equality validation,simulation_core.py
+C4,unused-fold policy implicit,fit only folds represented among positive-weight analyzed targets,run_pilot.py
+C5,no simulated fitting/bootstrap engine,four procedures with integer-frequency semantics and no redraw,run_pilot.py

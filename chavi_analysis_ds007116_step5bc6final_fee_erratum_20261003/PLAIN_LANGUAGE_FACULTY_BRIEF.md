@@ -1,0 +1,7 @@
+# Plain-language faculty brief
+
+This project asks how uncertainty intervals behave when cognitive-score profiles are standardized using a reference sample. One method keeps that reference transformation fixed during resampling; another resamples and rebuilds it. The comparison is deliberately narrow: it tests prespecified simulated situations and then illustrates the estimates in a frozen Penn LEAD analysis.
+
+The simulations show that the two methods can behave differently. In one continuous scenario, rebuilding the transformation improved RMS-shape interval coverage but still did not reach the nominal 95% level. In a rounded/tied scenario, rebuilding had close-to-nominal coverage among successful intervals but failed often enough that only 60.25% of attempts both produced an interval and covered the truth. Therefore coverage alone can mislead; the manuscript reports whether an interval was available as well.
+
+The empirical illustration has 52 earlier/later pairs. It estimates moderate absolute agreement in profile level and nonzero average level and shape differences in reference-scaled units. It does not show brain development, treatment effects, clinical change, task equivalence, or reliable individual profiles. The package is ready for faculty scientific review once the attached validation record is accepted; it still needs author decisions and a verified public-access plan before any journal submission.

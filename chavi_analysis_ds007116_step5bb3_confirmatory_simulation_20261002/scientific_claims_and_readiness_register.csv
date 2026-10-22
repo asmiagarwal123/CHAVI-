@@ -1,0 +1,6 @@
+claim_id,claim,stage,evidence,status
+C1,B2 gate contradiction documented,B2,B2_CONTRACT_AND_OUTPUT_RECONCILIATION.md,PASS
+C2,Corrected pilot complete with 999 draws,corrected_pilot,corrected_pilot_outer_dataset_run_ledger.csv,PASS
+C3,Confirmatory S1/S5 complete with 2000 each,confirmatory,confirmatory_outer_dataset_run_ledger.csv,PASS
+C4,Independent point/bootstrap/hash validation,all,corrected_pilot_independent_comparison_records.json,PASS
+C5,No empirical CHAVI inference,all,README_REPRODUCE.md,PASS

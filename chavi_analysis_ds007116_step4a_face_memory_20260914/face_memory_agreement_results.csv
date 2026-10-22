@@ -1,0 +1,6 @@
+statistic,estimate,ci_method,ci_level,ci_low,ci_high,successful_bootstrap_replicates,failed_or_undefined_bootstrap_replicates,failure_reasons_json,status,formula_or_definition,source
+icc_a1,0.560472870567,participant-pair bootstrap percentile,0.95,0.343745274867,0.718957893021,5000,0,{},ok,"ICC(A,1) two-way random absolute agreement single measurement",face_memory_included_pairs.csv
+icc_c1,0.564114443264,participant-pair bootstrap percentile,0.95,0.354097997682,0.723348571981,5000,0,{},ok,"ICC(C,1) two-way consistency single measurement",face_memory_included_pairs.csv
+pearson,0.583155671642,participant-pair bootstrap percentile,0.95,0.370071241717,0.747052942398,5000,0,{},ok,linear association,face_memory_included_pairs.csv
+spearman,0.555388477253,participant-pair bootstrap percentile,0.95,0.323822223767,0.734639095094,5000,0,{},ok,rank association with average ties,face_memory_included_pairs.csv
+mean_paired_difference,0.847457627119,participant-pair bootstrap percentile,0.95,-0.372881355932,2.0343220339,5000,0,{},ok,later score minus earlier score,face_memory_included_pairs.csv

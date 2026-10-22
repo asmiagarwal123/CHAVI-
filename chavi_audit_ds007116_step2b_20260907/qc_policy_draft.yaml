@@ -1,0 +1,81 @@
+snapshot: "1.0.6"
+recommended_primary:
+  require_all_applicable_qc_fields: true
+  accepted_code_meaning: valid_or_task_documented_likely_valid
+  excluded_code_meaning: invalid_or_skipped
+  unresolved_codes: [0, C, VC, unknown, missing, partial]
+  missing_or_partial_qc: unresolved
+strict_sensitivity:
+  require_all_applicable_qc_fields: true
+  accepted_codes: [V]
+unresolved_qc_inclusive_sensitivity:
+  retain_nonmissing_score_if: missing_or_partial_qc_or_unresolved_code
+code_classes:
+  V: valid
+  F: task-specific; never assumed
+  N_X_S: invalid_or_skipped
+  0_C_VC_unknown: unresolved
+tasks:
+  - task: "age_differentiation_test"
+    qc_fields: "cnb_adt_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "delay_discounting_task"
+    qc_fields: "cnb_ddisc_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "digit_symbol"
+    qc_fields: "cnb_digsym_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "effort_discounting_task"
+    qc_fields: "cnb_edisc_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "measured_emotion_differentiation_test"
+    qc_fields: "cnb_medf_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "motor_praxis"
+    qc_fields: "cnb_mpract_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_abstraction_inhibition_working_memory_task"
+    qc_fields: "cnb_aim_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_conditional_exclusion_task"
+    qc_fields: "cnb_pcet_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_emotion_recognition_task"
+    qc_fields: "cnb_er40_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_face_memory_test"
+    qc_fields: "cnb_cpf_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_matrix_reasoning_test"
+    qc_fields: "cnb_pmat_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_verbal_reasoning_test"
+    qc_fields: "cnb_pvrt_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_word_memory_test"
+    qc_fields: "cnb_cpw_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "risk_discounting_task"
+    qc_fields: "cnb_rdisc_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "short_computerized_finger_tapping_task"
+    qc_fields: "cnb_ctap_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "short_letter_2back"
+    qc_fields: "cnb_lnb_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "short_penn_continuous_performance_test"
+    qc_fields: "cnb_cptnl_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "trailmaking_test_a"
+    qc_fields: "cnb_trails_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "trailmaking_test_b"
+    qc_fields: "cnb_trails_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "variable_short_penn_line_orientation_test"
+    qc_fields: "cnb_plot_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "visual_object_learning_test"
+    qc_fields: "cnb_volt_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved

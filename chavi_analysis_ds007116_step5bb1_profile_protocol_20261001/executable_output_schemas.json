@@ -1,0 +1,34 @@
+{
+  "profile_pair_support_manifest.csv": {
+    "primary_key": [
+      "participant_id",
+      "analytical_stratum",
+      "coordinate_model",
+      "scale_method"
+    ],
+    "rows": 552
+  },
+  "synthetic/fixture_inputs.json": {
+    "synthetic_only": true
+  },
+  "synthetic/independent_expected_outputs.json": {
+    "written_before_production_import": true
+  },
+  "synthetic/production_outputs.json": {
+    "synthetic_only": true
+  },
+  "validation_results.json": {
+    "required_status": "PASS"
+  },
+  "future_empirical_profile_output": {
+    "authorized": false,
+    "required_keys": [
+      "participant_id",
+      "analytical_stratum",
+      "session_id",
+      "model",
+      "scale_method",
+      "spec_sha256"
+    ]
+  }
+}

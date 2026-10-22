@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "expected_repaired_outer_records": 248,
+  "validated_repaired_outer_records": 248,
+  "errors": [],
+  "original_runtime_provenance": "every repaired checkpoint records and revalidates original runtime SHA-256 plus dataset SHA-256",
+  "contract_sha256": {
+    "corrected_interval_execution_contract.json": "13577b7883f09ceaea88878b73f50eca12ba958cd8758f76ea56a1aab2c7b94c",
+    "confirmatory_execution_contract.json": "345f47aba1d2f2fd807485b3476a55f8e41f73a0351e0f8d4d5daf608e7ca932"
+  },
+  "patched_source_sha256": {
+    "simulation_core.py": "89863fe4574560d42623033f2bd546ee156fe579a3fec6b89530c87e05be5a9c",
+    "run_stage.py": "429367f99aa1b7eca6c159b7ed3fdc7fb8c3921f6694be359e2ab492254327fe",
+    "recalculate_affected.py": "4b428685834dac0db09dd5d1538e258b3aba77d4e8c357c11333010f27a4cd47"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "bootstrap_feasibility": {
+    "n_reps": 200,
+    "n_valid": 200,
+    "n_failed": 0,
+    "n_zero_scale": 0,
+    "feasibility_pct": 100.0,
+    "verdict": "FEASIBLE \u2014 refit-within-bootstrap succeeded for >100% of replicates",
+    "failed_reasons_sample": []
+  }
+}

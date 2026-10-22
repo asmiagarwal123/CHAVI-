@@ -1,0 +1,178 @@
+{
+  "independent_expected_path": true,
+  "production_module": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bc1_empirical_protocol_20261003\\analysis_interface.py",
+  "records": [
+    {
+      "evidence": {
+        "frequency_denominator": 4,
+        "level_icc_a1": 0.5921938088829071,
+        "mean_level_change": 0.55,
+        "rms_shape_displacement": 0.5830951894845301
+      },
+      "status": "PASS",
+      "test": "mixed"
+    },
+    {
+      "evidence": {
+        "frequency_denominator": 6,
+        "level_icc_a1": 0.349514563106796,
+        "mean_level_change": 0.7000000000000001,
+        "rms_shape_displacement": 0.4
+      },
+      "status": "PASS",
+      "test": "unequal_multiplicity"
+    },
+    {
+      "evidence": {
+        "frequency_denominator": 2,
+        "level_icc_a1": 0.0,
+        "mean_level_change": 7.0,
+        "rms_shape_displacement": 0.0
+      },
+      "status": "PASS",
+      "test": "common_level_shift"
+    },
+    {
+      "evidence": {
+        "frequency_denominator": 2,
+        "level_icc_a1": 1.0,
+        "mean_level_change": 0.0,
+        "rms_shape_displacement": 1.0
+      },
+      "status": "PASS",
+      "test": "shape_only"
+    },
+    {
+      "evidence": {
+        "frequency_denominator": 4,
+        "level_icc_a1": -2.0,
+        "mean_level_change": 0.0,
+        "rms_shape_displacement": 0.0
+      },
+      "status": "PASS",
+      "test": "negative_icc"
+    },
+    {
+      "evidence": "None retained",
+      "status": "PASS",
+      "test": "constant_profiles_degenerate_icc"
+    },
+    {
+      "evidence": "ContractError: active unsupported/nonfinite coordinate",
+      "status": "PASS",
+      "test": "active_unsupported_values"
+    },
+    {
+      "evidence": "inactive NaNs excluded before reduction",
+      "status": "PASS",
+      "test": "zero_weight_nan"
+    },
+    {
+      "evidence": "median and sample SD match explicit expansion",
+      "status": "PASS",
+      "test": "frequency_weight_equivalence"
+    },
+    {
+      "evidence": "ContractError: nonpositive_or_nonfinite_scale",
+      "status": "PASS",
+      "test": "zero_or_near_zero_scale_9"
+    },
+    {
+      "evidence": "ContractError: nonpositive_or_nonfinite_scale",
+      "status": "PASS",
+      "test": "zero_or_near_zero_scale_10"
+    },
+    {
+      "evidence": {
+        "outside_support": "outside_inclusive_training_age_support",
+        "slope": 2.0
+      },
+      "status": "PASS",
+      "test": "m1_weighted_refit_and_no_fallback"
+    },
+    {
+      "evidence": "keyed reconstruction accepted",
+      "status": "PASS",
+      "test": "shuffled_rows"
+    },
+    {
+      "evidence": "ContractError: duplicate coordinate key: ('T0', 'ses-a', 'letter_nback', 'M0', 'MAD')",
+      "status": "PASS",
+      "test": "duplicate_coordinate_record"
+    },
+    {
+      "evidence": "ContractError: incorrect task order",
+      "status": "PASS",
+      "test": "incorrect_task_order"
+    },
+    {
+      "evidence": "ContractError: mixed model/scale rows",
+      "status": "PASS",
+      "test": "mixed_scale_rows"
+    },
+    {
+      "evidence": "ContractError: mixed model/scale rows",
+      "status": "PASS",
+      "test": "mixed_model_rows"
+    },
+    {
+      "evidence": "ContractError: M1 fallback contamination",
+      "status": "PASS",
+      "test": "fallback_contamination"
+    },
+    {
+      "evidence": "ContractError: incomplete task set: ('T0', 'ses-c')",
+      "status": "PASS",
+      "test": "swapped_occasion_key"
+    },
+    {
+      "evidence": "ContractError: duplicate source record: ('T0', 'ses-a', 'letter_nback')",
+      "status": "PASS",
+      "test": "duplicate_source_record"
+    },
+    {
+      "evidence": [
+        0,
+        1,
+        2
+      ],
+      "status": "PASS",
+      "test": "valid_linked_resampling_unequal_multiplicity"
+    },
+    {
+      "evidence": [
+        0
+      ],
+      "status": "PASS",
+      "test": "absent_folds_not_fit"
+    },
+    {
+      "evidence": "ContractError: independent visit resampling",
+      "status": "PASS",
+      "test": "independent_visit_resampling"
+    },
+    {
+      "evidence": "ContractError: held-out leakage or incorrect target weight",
+      "status": "PASS",
+      "test": "held_out_leakage"
+    },
+    {
+      "evidence": "ContractError: fit map or shared auxiliary draw invalid",
+      "status": "PASS",
+      "test": "fold_specific_auxiliary_draw"
+    },
+    {
+      "evidence": "999/950 plus tail and point gates only",
+      "status": "PASS",
+      "test": "empirical_gate_no_truth_argument"
+    },
+    {
+      "evidence": "truth argument unsupported",
+      "status": "PASS",
+      "test": "simulation_truth_gate_reuse_rejected"
+    }
+  ],
+  "status": "PASS",
+  "tests_passed": 27,
+  "tests_total": 27
+}

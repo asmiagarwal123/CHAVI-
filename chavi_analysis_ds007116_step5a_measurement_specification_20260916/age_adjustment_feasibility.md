@@ -1,0 +1,5 @@
+# Age-support audit
+
+The candidate synchronized profile cohort has 52 participants and 176 complete V/F occasions in the audit table. Age is represented in decimal years from the local session sidecar provenance used by Step 3A/3B; the recorded acquisition timestamps are rounded/anonymized and are not exact cognitive-assessment times. The audit reports missingness, baseline/follow-up ranges, available sex/study-group levels, and age precision before any model choice.
+
+No age model was fit. Before Step 5B, inspect whether the baseline and follow-up support overlap, whether age is sufficiently variable within the reference population, whether group/sex strata are estimable, and whether nonlinear terms are supported without extrapolation. The default candidate is a simple age term only if supported; nonlinear terms should be sensitivity candidates, not automatic additions. Age adjustment must not use follow-up information to define a participant's baseline reference in a way that leaks across the test/retest pair.

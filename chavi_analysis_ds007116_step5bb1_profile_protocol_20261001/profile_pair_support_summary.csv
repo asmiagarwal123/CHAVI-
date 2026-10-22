@@ -1,0 +1,13 @@
+analytical_stratum,coordinate_model,scale_method,candidate_pairs,complete_supported_pairs,excluded_pairs,interpretation
+fixed_primary_pair_strict_v,M0,MAD,41,41,0,support audit only; no profile feature computed
+fixed_primary_pair_strict_v,M0,SD,41,41,0,support audit only; no profile feature computed
+fixed_primary_pair_strict_v,M1,MAD,41,33,8,support audit only; no profile feature computed
+fixed_primary_pair_strict_v,M1,SD,41,33,8,support audit only; no profile feature computed
+primary_vf,M0,MAD,52,52,0,support audit only; no profile feature computed
+primary_vf,M0,SD,52,52,0,support audit only; no profile feature computed
+primary_vf,M1,MAD,52,42,10,support audit only; no profile feature computed
+primary_vf,M1,SD,52,42,10,support audit only; no profile feature computed
+vonly_reselected,M0,MAD,45,45,0,support audit only; no profile feature computed
+vonly_reselected,M0,SD,45,45,0,support audit only; no profile feature computed
+vonly_reselected,M1,MAD,45,36,9,support audit only; no profile feature computed
+vonly_reselected,M1,SD,45,36,9,support audit only; no profile feature computed

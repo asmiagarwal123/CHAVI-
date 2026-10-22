@@ -1,0 +1,7 @@
+task_pattern,participant_count,pattern_basis
+face_memory|matrix_reasoning,1,eligible task pairs; no profile scores
+face_memory|matrix_reasoning|emotion_recognition|dominant_finger_tapping,3,eligible task pairs; no profile scores
+letter_nback|face_memory|emotion_recognition,1,eligible task pairs; no profile scores
+letter_nback|face_memory|emotion_recognition|dominant_finger_tapping,1,eligible task pairs; no profile scores
+letter_nback|face_memory|matrix_reasoning|emotion_recognition|dominant_finger_tapping,53,eligible task pairs; no profile scores
+none,73,eligible task pairs; no profile scores

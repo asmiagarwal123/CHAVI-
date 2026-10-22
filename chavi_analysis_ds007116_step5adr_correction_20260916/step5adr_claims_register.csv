@@ -1,0 +1,22 @@
+claim_type,claim
+verified,176 complete synchronized V/F occasions reproduced exactly
+verified,109 participants with >=1 complete synchronized occasion reproduced
+verified,52 participants with >=2 complete synchronized occasions reproduced
+verified,"cnb_lnb_mcr is a count of true positive responses, NOT response time"
+verified,"Centered shape components sum algebraically to zero (4-dim subspace, not 5)"
+verified,Dataset commit fc7dc36fa259 confirmed clean
+supported,Linear age model is not clearly inferior to spline (df=3) on OOF RMSE
+supported,Refit-within-bootstrap is feasible (100.0% valid reps over 200 reps)
+supported,MAD scaling and SD scaling are similar for most tasks (ratio near 1.0)
+proposed,Option A (baseline-reference cohort) is preferred to avoid follow-up leakage
+proposed,Linear age model is recommended as primary; intercept-only as sensitivity
+proposed,Bootstrap CI emphasis is preferred over NHST primary testing
+unresolved,LNB exact denominator/load mapping not established in available documentation
+unresolved,Task-version equivalence across occasions not established
+unresolved,CTAP unit/aggregation interpretation not established
+unresolved,Age-adjustment form (linear vs intercept-only) requires human decision
+prohibited,Clinical validity or diagnostic value of any kind
+prohibited,Population norms
+prohibited,Validated cognitive domains
+prohibited,Practice effects confirmed
+prohibited,Individual clinical strengths or weaknesses

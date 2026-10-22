@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0.0",
+  "status": "adopted_for_this_bounded_rebuild",
+  "authorization": "Researcher protocol adoption through the user-submitted execution prompt.",
+  "reference_design": "B_target_plus_auxiliary",
+  "rng": {
+    "library": "numpy",
+    "version": "2.5.2",
+    "generator": "default_rng",
+    "seed": 42,
+    "algorithm": "permuted(sorted 52 target IDs), permutation index modulo 5"
+  },
+  "inputs": {
+    "chavi_audit_ds007116_step1b_20260907/retrieval_manifest.csv": "f8ba33f21923d0b8daaeb73c458aeff8b604c63335ec5fc76627cfd4ef468647",
+    "chavi_audit_ds007116_step3b_20260909/assessment_occasion_mapping_step3a.csv": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b",
+    "chavi_audit_ds007116_step3b_20260909/task_observations_long.csv": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+    "chavi_recovery_preflight_correction_20261001/contract_decision_register_corrected.csv": "6869ce8489d291523132b7b74f2ee3d6f32589056f40e037c774546d59203d5f",
+    "chavi_recovery_preflight_correction_20261001/corrected_source_cohort_reconciliation.csv": "fd6f1c7df961f5c7af63dcfe6ada173ba721008449687dc8da07bc005b3c511f",
+    "chavi_recovery_preflight_correction_20261001/crossfit_candidate_identity_maps.csv": "21aa7f9bc3f96a4d9e19063bc5600da7d0ca79d8fdc318304f1e26074db9a358",
+    "chavi_recovery_preflight_correction_20261001/independent_validation_plan_corrected.md": "56cd932cc6407c4026c3716b9e06866640bdfeed591c12e9f86396fbf6d2930b",
+    "chavi_recovery_preflight_correction_20261001/milestone_artifact_manifest.csv": "ef360ae78c23acb87993eadfc9ba9486d03dea2ca9dd40a5875ee0918ea743bb",
+    "chavi_recovery_preflight_correction_20261001/primary_vf_source_rows.csv": "3dd07836d8fd936e80e2912769f6a39826655514c0286b982ad015a5a948a0f3",
+    "chavi_recovery_preflight_correction_20261001/qc_pairing_sensitivity_identity_comparison.csv": "0ca67db70444bc0fa7f5292cd38c4c6fcee2a4db27d994ad6f2e2f5a5eb74463",
+    "chavi_recovery_preflight_correction_20261001/reference_a_source_rows.csv": "c96a54f02bdaa57df3ce09589c5a66c2917f34ec4836b068d900bf1711036294",
+    "chavi_recovery_preflight_correction_20261001/step5ba_rebuild_specification_recommended.json": "ce5a0b8adfb0bb88dc284b83644dcaafd5d5f097976e76d5462959402d75d87e",
+    "chavi_recovery_preflight_correction_20261001/vonly_source_rows.csv": "a8f4942280c2916bffa4e87d1b23486375227e1cd5691f93fb8ea2f97703cbc7",
+    "chavi_step1b_phenotype_staging_20260907/age_differentiation_test.tsv": "d86c5846f9c16b3131d6895a9a1995ca2c9e5f57a0c2c00a69bbe86f66b892cf",
+    "chavi_step1b_phenotype_staging_20260907/ales.tsv": "e7b586cd612eed0e4f85ef05d33436ceac3dfb24ed29f0b967405873d2cf89e5",
+    "chavi_step1b_phenotype_staging_20260907/als-18.tsv": "7c61901d74ed9adcfb95baebcdb464b412c6f012d8628321cc186dd075e2dff8",
+    "chavi_step1b_phenotype_staging_20260907/ari.tsv": "9923170f4068a0369a5a1bb12c285985d67945bfa2f72e8d747d5de3e542e3c4",
+    "chavi_step1b_phenotype_staging_20260907/asrm.tsv": "1882f1fcab9740f028cb3dc0a3ea36c06a560a82779e77174cc2ec5d5bd2a9bb",
+    "chavi_step1b_phenotype_staging_20260907/bdi_1a_ms_child.tsv": "6b895d58e5f047df06ab255e30739872064db50c34af778fb2319bcd502bddd9",
+    "chavi_step1b_phenotype_staging_20260907/bisbas_child.tsv": "1bc9ba690a1af240b1b9d1ea5746bd937a84370514a1a84b63712354b839f808",
+    "chavi_step1b_phenotype_staging_20260907/delay_discounting_task.tsv": "bccf962b0479b086d36383c2d31f48a4c4a60ac7cf367dd27422ac4ce2ee91b1",
+    "chavi_step1b_phenotype_staging_20260907/digit_symbol.tsv": "2017b8cd563dddd42a24088dbed327088c1f7359c00bb6628b8c31e7de27a438",
+    "chavi_step1b_phenotype_staging_20260907/effort_discounting_task.tsv": "734c93a126056ad849308f44fa3110453101ec48dd622111e819cd4b854770e6",
+    "chavi_step1b_phenotype_staging_20260907/eswan_adhd.tsv": "bfbaf5639048b197f1e3ad71b9856faedda0a43688b1e3ddf98dad6e3ade64af",
+    "chavi_step1b_phenotype_staging_20260907/eswan_dmdd.tsv": "7b77cbd87cb531c198d49735108c8e03f91ee4c126bebbb2d2ad6c121d3873ee",
+    "chavi_step1b_phenotype_staging_20260907/mapssr.tsv": "004df79279aec6e4878d2c083b3d817a1dd983968761b62132f806eb3ae9adb0",
+    "chavi_step1b_phenotype_staging_20260907/measured_emotion_differentiation_test.tsv": "40acfc09e460c0dcab554fe4adda3cf14cc801e0b1ba629c289b4d60248f94c0",
+    "chavi_step1b_phenotype_staging_20260907/motor_praxis.tsv": "08ea8a074d9250871491f2df985963c189b938305e40e4d33018f900362d8fa0",
+    "chavi_step1b_phenotype_staging_20260907/panas.tsv": "dea8abf3dc923eb16e62886eb4c4eebe434f920a96183d9a5903bd623173731c",
+    "chavi_step1b_phenotype_staging_20260907/penn_abstraction_inhibition_working_memory_task.tsv": "c4fed7b397592e0eeb3d477d6001b2ac68aa5208d3ac1273aac37e81447224a2",
+    "chavi_step1b_phenotype_staging_20260907/penn_conditional_exclusion_task.tsv": "2cc1bad477cc9b940dd36bc4684b94154e9d6dcefd5a7e33587b7dc815d19fae",
+    "chavi_step1b_phenotype_staging_20260907/penn_emotion_recognition_task.tsv": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777",
+    "chavi_step1b_phenotype_staging_20260907/penn_face_memory_test.tsv": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a",
+    "chavi_step1b_phenotype_staging_20260907/penn_matrix_reasoning_test.tsv": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab",
+    "chavi_step1b_phenotype_staging_20260907/penn_verbal_reasoning_test.tsv": "0d98c063e52d5514f54e0ea860e019f14ab9ec35f66f5cbc82bd678df0f69e04",
+    "chavi_step1b_phenotype_staging_20260907/penn_word_memory_test.tsv": "84a5e09cd0d9bb7f7e2856dc95597b539bebc20d3d56ca840b0629073ba90fd2",
+    "chavi_step1b_phenotype_staging_20260907/post_scan_stai_state.tsv": "807fd4b909d7b9fac4705e7bb20bf330bf518dc5cbc3a610b8f87a539560df3a",
+    "chavi_step1b_phenotype_staging_20260907/ppa.tsv": "5481aa89a19ed9f509228f62f3edd1da63113b04e57aea31b6b9f3d788868a9c",
+    "chavi_step1b_phenotype_staging_20260907/pre_scan_stai.tsv": "ed1cd7c70fdd9c9143182704469d57b1d777c2412b91eaa2c35feb03d7702727",
+    "chavi_step1b_phenotype_staging_20260907/prime.tsv": "61dd7d325cbdce0f724e9d24af0cad7f62632577e1eb7527eea7e3aa16379081",
+    "chavi_step1b_phenotype_staging_20260907/risk_discounting_task.tsv": "bedc44added5f33ac1bba816472d47d24647f90686ffc417a7b379192596a3a5",
+    "chavi_step1b_phenotype_staging_20260907/rpas.tsv": "fcbf0dee27a1de481ba5bb4d36e2431c51863e48f69b53885b5f8c104ad0c09e",
+    "chavi_step1b_phenotype_staging_20260907/rsas.tsv": "b054cf6113e14e7930a056a5e5c5d080002b1ef56b14f755f12e32b6b5acf472",
+    "chavi_step1b_phenotype_staging_20260907/short_computerized_finger_tapping_task.tsv": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd",
+    "chavi_step1b_phenotype_staging_20260907/short_letter_2back.tsv": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96",
+    "chavi_step1b_phenotype_staging_20260907/short_penn_continuous_performance_test.tsv": "caac568463a9fb062630733ceb69772ae0517d4c7f3dabd292d3bf39b0d4524e",
+    "chavi_step1b_phenotype_staging_20260907/substance.tsv": "137690ec5fba4f480a66bfdddb4180e5750c5944f90a262b0db11f4c4a5a5aa3",
+    "chavi_step1b_phenotype_staging_20260907/tanner_boy.tsv": "b059abcb7ea2302615bfe1c287922da2c8170c79fe51e33b44444899fdaf59a8",
+    "chavi_step1b_phenotype_staging_20260907/tanner_girl.tsv": "f906390d6b4d14c56f250fe6d90cd356c693e5f6175e5fed5888ce74bb71a770",
+    "chavi_step1b_phenotype_staging_20260907/trailmaking_test_a.tsv": "46037b941a491f175e5125ec2f2a65c5db97e3ededeb9819c8aa433f778682b4",
+    "chavi_step1b_phenotype_staging_20260907/trailmaking_test_b.tsv": "9b49e0b0400543371d59999ccac9d14c3b72c7180661b979e69146d600d87ac4",
+    "chavi_step1b_phenotype_staging_20260907/variable_short_penn_line_orientation_test.tsv": "cf35bc7af74748061841f8ea4bebc3c5cffaf74933416deed380da6db48b555a",
+    "chavi_step1b_phenotype_staging_20260907/visual_object_learning_test.tsv": "2adf2a27a05f00aa9440a57ebfdda882de50a563b959eac4b5afd37b515facf0",
+    "chavi_step1b_phenotype_staging_20260907/wolf_im_em.tsv": "fc007b4deae5fe3ec80bd1c669800d2e36e034e2e5c69203d7da948697f915eb",
+    "ds007116/participants.tsv": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348",
+    "ds007116/phenotype/penn_emotion_recognition_task.json": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1",
+    "ds007116/phenotype/penn_face_memory_test.json": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7",
+    "ds007116/phenotype/penn_matrix_reasoning_test.json": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0",
+    "ds007116/phenotype/short_computerized_finger_tapping_task.json": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7",
+    "ds007116/phenotype/short_letter_2back.json": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e"
+  },
+  "tasks": [
+    {
+      "order": 1,
+      "task_key": "letter_nback",
+      "table": "short_letter_2back",
+      "score_field": "cnb_lnb_mcr",
+      "qc_field": "cnb_lnb_valid_code",
+      "direction": 1
+    },
+    {
+      "order": 2,
+      "task_key": "face_memory",
+      "table": "penn_face_memory_test",
+      "score_field": "cnb_cpf_cr",
+      "qc_field": "cnb_cpf_valid_code",
+      "direction": 1
+    },
+    {
+      "order": 3,
+      "task_key": "matrix_reasoning",
+      "table": "penn_matrix_reasoning_test",
+      "score_field": "cnb_pmat_cr",
+      "qc_field": "cnb_pmat_valid_code",
+      "direction": 1
+    },
+    {
+      "order": 4,
+      "task_key": "emotion_recognition",
+      "table": "penn_emotion_recognition_task",
+      "score_field": "cnb_er40_cr",
+      "qc_field": "cnb_er40_valid_code",
+      "direction": 1
+    },
+    {
+      "order": 5,
+      "task_key": "dominant_finger_tapping",
+      "table": "short_computerized_finger_tapping_task",
+      "score_field": "cnb_ctap_dom",
+      "qc_field": "cnb_ctap_valid_code",
+      "direction": 1
+    }
+  ],
+  "cohorts": {
+    "reference_a": {
+      "participants": 109,
+      "occasions": 109,
+      "rows": 545,
+      "rule": "earliest complete V/F non-continuation occasion"
+    },
+    "primary_vf": {
+      "participants": 52,
+      "occasions": 104,
+      "rows": 520,
+      "rule": "first two complete V/F non-continuation occasions"
+    },
+    "vonly_reselected": {
+      "participants": 45,
+      "occasions": 90,
+      "rows": 450,
+      "rule": "first two complete strict-V non-continuation occasions"
+    },
+    "fixed_primary_pair_strict_v": {
+      "participants": 41,
+      "occasions": 82,
+      "rows": 410,
+      "rule": "Primary pair retained and all ten records strict V"
+    }
+  },
+  "folds": [
+    {
+      "reference_design": "B_target_plus_auxiliary",
+      "target_fold": 0,
+      "fold_seed": 42,
+      "held_out_target_count": 11,
+      "auxiliary_count": 57,
+      "training_count": 98,
+      "held_out_target_identities": "sub-20352;sub-20494;sub-20691;sub-20866;sub-20936;sub-20953;sub-20976;sub-21038;sub-21112;sub-21516;sub-21855",
+      "held_out_target_sha256": "bbcf5545f43767dd85030b071ff3c1dc079fc8733c39a4f13f22f4df97004e89",
+      "auxiliary_identities": "sub-20125;sub-20141;sub-20212;sub-20236;sub-20238;sub-20258;sub-20335;sub-20336;sub-20347;sub-20402;sub-20403;sub-20410;sub-20448;sub-20794;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20918;sub-20919;sub-20961;sub-20964;sub-21035;sub-21050;sub-21095;sub-21116;sub-21124;sub-21131;sub-21139;sub-21146;sub-21150;sub-21197;sub-21224;sub-21345;sub-21514;sub-21539;sub-21554;sub-21713;sub-21738;sub-21827;sub-21856;sub-22045;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "auxiliary_sha256": "1c611ba762c04091f100c072c9610e914277458afb8fa8dd4a29a75c5d0e3692",
+      "training_identities": "sub-138950;sub-19861;sub-20125;sub-20139;sub-20141;sub-20149;sub-20188;sub-20212;sub-20214;sub-20236;sub-20238;sub-20252;sub-20253;sub-20258;sub-20259;sub-20302;sub-20303;sub-20310;sub-20328;sub-20335;sub-20336;sub-20347;sub-20399;sub-20402;sub-20403;sub-20410;sub-20427;sub-20448;sub-20463;sub-20533;sub-20572;sub-20626;sub-20712;sub-20721;sub-20794;sub-20812;sub-20823;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20865;sub-20902;sub-20916;sub-20918;sub-20919;sub-20923;sub-20961;sub-20964;sub-20966;sub-20968;sub-21023;sub-21035;sub-21050;sub-21095;sub-21104;sub-21116;sub-21118;sub-21124;sub-21131;sub-21139;sub-21141;sub-21146;sub-21150;sub-21161;sub-21193;sub-21197;sub-21224;sub-21345;sub-21493;sub-21514;sub-21539;sub-21553;sub-21554;sub-21560;sub-21623;sub-21712;sub-21713;sub-21738;sub-21827;sub-21856;sub-22045;sub-22064;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "training_identities_sha256": "0d36685a6847c7a19e3356df0de1bea0a829e2f37e35725e897dc10c5c7f3f57",
+      "self_inclusion_count": 0
+    },
+    {
+      "reference_design": "B_target_plus_auxiliary",
+      "target_fold": 1,
+      "fold_seed": 42,
+      "held_out_target_count": 11,
+      "auxiliary_count": 57,
+      "training_count": 98,
+      "held_out_target_identities": "sub-138950;sub-20139;sub-20214;sub-20252;sub-20253;sub-20259;sub-20427;sub-20865;sub-20902;sub-20916;sub-21553",
+      "held_out_target_sha256": "4f8e6f1143cad703713b789045984537eb317781d10a3146dc33d1f5e4052196",
+      "auxiliary_identities": "sub-20125;sub-20141;sub-20212;sub-20236;sub-20238;sub-20258;sub-20335;sub-20336;sub-20347;sub-20402;sub-20403;sub-20410;sub-20448;sub-20794;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20918;sub-20919;sub-20961;sub-20964;sub-21035;sub-21050;sub-21095;sub-21116;sub-21124;sub-21131;sub-21139;sub-21146;sub-21150;sub-21197;sub-21224;sub-21345;sub-21514;sub-21539;sub-21554;sub-21713;sub-21738;sub-21827;sub-21856;sub-22045;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "auxiliary_sha256": "1c611ba762c04091f100c072c9610e914277458afb8fa8dd4a29a75c5d0e3692",
+      "training_identities": "sub-19861;sub-20125;sub-20141;sub-20149;sub-20188;sub-20212;sub-20236;sub-20238;sub-20258;sub-20302;sub-20303;sub-20310;sub-20328;sub-20335;sub-20336;sub-20347;sub-20352;sub-20399;sub-20402;sub-20403;sub-20410;sub-20448;sub-20463;sub-20494;sub-20533;sub-20572;sub-20626;sub-20691;sub-20712;sub-20721;sub-20794;sub-20812;sub-20823;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20866;sub-20918;sub-20919;sub-20923;sub-20936;sub-20953;sub-20961;sub-20964;sub-20966;sub-20968;sub-20976;sub-21023;sub-21035;sub-21038;sub-21050;sub-21095;sub-21104;sub-21112;sub-21116;sub-21118;sub-21124;sub-21131;sub-21139;sub-21141;sub-21146;sub-21150;sub-21161;sub-21193;sub-21197;sub-21224;sub-21345;sub-21493;sub-21514;sub-21516;sub-21539;sub-21554;sub-21560;sub-21623;sub-21712;sub-21713;sub-21738;sub-21827;sub-21855;sub-21856;sub-22045;sub-22064;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "training_identities_sha256": "498d088933d33777ae617aeb323d0e3f56358e83b0a5d8d351ecc7618b41ad32",
+      "self_inclusion_count": 0
+    },
+    {
+      "reference_design": "B_target_plus_auxiliary",
+      "target_fold": 2,
+      "fold_seed": 42,
+      "held_out_target_count": 10,
+      "auxiliary_count": 57,
+      "training_count": 99,
+      "held_out_target_identities": "sub-20149;sub-20310;sub-20328;sub-20626;sub-21023;sub-21118;sub-21141;sub-21161;sub-21560;sub-21712",
+      "held_out_target_sha256": "4502944f8e0fcd153f03a36fd1b682afd6e0da0e2aed2218ffe3c673854cc45d",
+      "auxiliary_identities": "sub-20125;sub-20141;sub-20212;sub-20236;sub-20238;sub-20258;sub-20335;sub-20336;sub-20347;sub-20402;sub-20403;sub-20410;sub-20448;sub-20794;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20918;sub-20919;sub-20961;sub-20964;sub-21035;sub-21050;sub-21095;sub-21116;sub-21124;sub-21131;sub-21139;sub-21146;sub-21150;sub-21197;sub-21224;sub-21345;sub-21514;sub-21539;sub-21554;sub-21713;sub-21738;sub-21827;sub-21856;sub-22045;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "auxiliary_sha256": "1c611ba762c04091f100c072c9610e914277458afb8fa8dd4a29a75c5d0e3692",
+      "training_identities": "sub-138950;sub-19861;sub-20125;sub-20139;sub-20141;sub-20188;sub-20212;sub-20214;sub-20236;sub-20238;sub-20252;sub-20253;sub-20258;sub-20259;sub-20302;sub-20303;sub-20335;sub-20336;sub-20347;sub-20352;sub-20399;sub-20402;sub-20403;sub-20410;sub-20427;sub-20448;sub-20463;sub-20494;sub-20533;sub-20572;sub-20691;sub-20712;sub-20721;sub-20794;sub-20812;sub-20823;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20865;sub-20866;sub-20902;sub-20916;sub-20918;sub-20919;sub-20923;sub-20936;sub-20953;sub-20961;sub-20964;sub-20966;sub-20968;sub-20976;sub-21035;sub-21038;sub-21050;sub-21095;sub-21104;sub-21112;sub-21116;sub-21124;sub-21131;sub-21139;sub-21146;sub-21150;sub-21193;sub-21197;sub-21224;sub-21345;sub-21493;sub-21514;sub-21516;sub-21539;sub-21553;sub-21554;sub-21623;sub-21713;sub-21738;sub-21827;sub-21855;sub-21856;sub-22045;sub-22064;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "training_identities_sha256": "ebd791feeb632f568d380ec8a8e31ced9c1cae09b04790d25e1392d6165aceb8",
+      "self_inclusion_count": 0
+    },
+    {
+      "reference_design": "B_target_plus_auxiliary",
+      "target_fold": 3,
+      "fold_seed": 42,
+      "held_out_target_count": 10,
+      "auxiliary_count": 57,
+      "training_count": 99,
+      "held_out_target_identities": "sub-20188;sub-20302;sub-20463;sub-20533;sub-20712;sub-20923;sub-20966;sub-20968;sub-21104;sub-21193",
+      "held_out_target_sha256": "cd9f55734ff754495859dd7c5ae18e32e6ca889ac6067fa198585f0ce3a8170a",
+      "auxiliary_identities": "sub-20125;sub-20141;sub-20212;sub-20236;sub-20238;sub-20258;sub-20335;sub-20336;sub-20347;sub-20402;sub-20403;sub-20410;sub-20448;sub-20794;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20918;sub-20919;sub-20961;sub-20964;sub-21035;sub-21050;sub-21095;sub-21116;sub-21124;sub-21131;sub-21139;sub-21146;sub-21150;sub-21197;sub-21224;sub-21345;sub-21514;sub-21539;sub-21554;sub-21713;sub-21738;sub-21827;sub-21856;sub-22045;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "auxiliary_sha256": "1c611ba762c04091f100c072c9610e914277458afb8fa8dd4a29a75c5d0e3692",
+      "training_identities": "sub-138950;sub-19861;sub-20125;sub-20139;sub-20141;sub-20149;sub-20212;sub-20214;sub-20236;sub-20238;sub-20252;sub-20253;sub-20258;sub-20259;sub-20303;sub-20310;sub-20328;sub-20335;sub-20336;sub-20347;sub-20352;sub-20399;sub-20402;sub-20403;sub-20410;sub-20427;sub-20448;sub-20494;sub-20572;sub-20626;sub-20691;sub-20721;sub-20794;sub-20812;sub-20823;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20865;sub-20866;sub-20902;sub-20916;sub-20918;sub-20919;sub-20936;sub-20953;sub-20961;sub-20964;sub-20976;sub-21023;sub-21035;sub-21038;sub-21050;sub-21095;sub-21112;sub-21116;sub-21118;sub-21124;sub-21131;sub-21139;sub-21141;sub-21146;sub-21150;sub-21161;sub-21197;sub-21224;sub-21345;sub-21493;sub-21514;sub-21516;sub-21539;sub-21553;sub-21554;sub-21560;sub-21623;sub-21712;sub-21713;sub-21738;sub-21827;sub-21855;sub-21856;sub-22045;sub-22064;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "training_identities_sha256": "780ef672141bb6afa859d797ff4d1cc0e254a3003ba320a3bbceb050334363e8",
+      "self_inclusion_count": 0
+    },
+    {
+      "reference_design": "B_target_plus_auxiliary",
+      "target_fold": 4,
+      "fold_seed": 42,
+      "held_out_target_count": 10,
+      "auxiliary_count": 57,
+      "training_count": 99,
+      "held_out_target_identities": "sub-19861;sub-20303;sub-20399;sub-20572;sub-20721;sub-20812;sub-20823;sub-21493;sub-21623;sub-22064",
+      "held_out_target_sha256": "b9070618d57700d6f549db3d8ab3294b1a92f959523dcfdc8aff2e9246c1d648",
+      "auxiliary_identities": "sub-20125;sub-20141;sub-20212;sub-20236;sub-20238;sub-20258;sub-20335;sub-20336;sub-20347;sub-20402;sub-20403;sub-20410;sub-20448;sub-20794;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20918;sub-20919;sub-20961;sub-20964;sub-21035;sub-21050;sub-21095;sub-21116;sub-21124;sub-21131;sub-21139;sub-21146;sub-21150;sub-21197;sub-21224;sub-21345;sub-21514;sub-21539;sub-21554;sub-21713;sub-21738;sub-21827;sub-21856;sub-22045;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "auxiliary_sha256": "1c611ba762c04091f100c072c9610e914277458afb8fa8dd4a29a75c5d0e3692",
+      "training_identities": "sub-138950;sub-20125;sub-20139;sub-20141;sub-20149;sub-20188;sub-20212;sub-20214;sub-20236;sub-20238;sub-20252;sub-20253;sub-20258;sub-20259;sub-20302;sub-20310;sub-20328;sub-20335;sub-20336;sub-20347;sub-20352;sub-20402;sub-20403;sub-20410;sub-20427;sub-20448;sub-20463;sub-20494;sub-20533;sub-20626;sub-20691;sub-20712;sub-20794;sub-20836;sub-20842;sub-20846;sub-20849;sub-20855;sub-20860;sub-20865;sub-20866;sub-20902;sub-20916;sub-20918;sub-20919;sub-20923;sub-20936;sub-20953;sub-20961;sub-20964;sub-20966;sub-20968;sub-20976;sub-21023;sub-21035;sub-21038;sub-21050;sub-21095;sub-21104;sub-21112;sub-21116;sub-21118;sub-21124;sub-21131;sub-21139;sub-21141;sub-21146;sub-21150;sub-21161;sub-21193;sub-21197;sub-21224;sub-21345;sub-21514;sub-21516;sub-21539;sub-21553;sub-21554;sub-21560;sub-21712;sub-21713;sub-21738;sub-21827;sub-21855;sub-21856;sub-22045;sub-22473;sub-22510;sub-22520;sub-22617;sub-22618;sub-22653;sub-22654;sub-22744;sub-22745;sub-22797;sub-22870;sub-23113;sub-23303",
+      "training_identities_sha256": "265d4ec0db5663cdfa2f027a31ed37bee503cafba65aa9779e5a6a5d44625567",
+      "self_inclusion_count": 0
+    }
+  ],
+  "formulas": {
+    "M0": {
+      "role": "primary",
+      "center": "arithmetic_mean(y)",
+      "coordinate": "(y-center)/scale",
+      "age_support": "not_applicable"
+    },
+    "M1": {
+      "role": "sensitivity",
+      "fit": "float64 OLS with intercept using numerically stable least squares",
+      "minimum_effective_n": 3,
+      "minimum_distinct_age": 2,
+      "prediction": "intercept+slope*age",
+      "residual": "y-prediction",
+      "residual_center": 0,
+      "support": "inclusive finite effective-training age min/max",
+      "fallback": "separately labelled corresponding M0"
+    },
+    "MAD": {
+      "formula": "median(abs(v-median(v)))/0.6744897501960817",
+      "constant": 0.6744897501960817
+    },
+    "SD": {
+      "formula": "sample SD ddof=1"
+    }
+  },
+  "numerical_policy": {
+    "dtype": "IEEE float64",
+    "machine_epsilon": 2.220446049250313e-16,
+    "threshold": "scale <= 64*epsilon*max(D,abs(scale))",
+    "M0_D": "range of direction-adjusted training score",
+    "M1_D": "range of direction-adjusted effective training score",
+    "reject": [
+      "nonfinite_scale",
+      "nonpositive_scale",
+      "insufficient_scale_observations",
+      "numerically_degenerate_scale"
+    ],
+    "no_clipping": true,
+    "no_silent_scale_substitution": true
+  },
+  "unsupported_reason_codes": [
+    "missing_or_nonfinite_score",
+    "missing_or_nonfinite_target_age",
+    "outside_inclusive_training_age_support",
+    "insufficient_effective_training_data",
+    "rank_deficient_age_model",
+    "invalid_scale",
+    "nonfinite_prediction_or_residual"
+  ],
+  "keys": {
+    "parameter": [
+      "reference_design",
+      "target_fold",
+      "task_key",
+      "model",
+      "scale_method"
+    ],
+    "long": [
+      "participant_id",
+      "analytical_stratum",
+      "session_id",
+      "task_key",
+      "model",
+      "scale_method"
+    ],
+    "wide": [
+      "participant_id",
+      "analytical_stratum",
+      "session_id",
+      "model",
+      "scale_method"
+    ]
+  },
+  "expected_counts": {
+    "parameters": 100,
+    "source_stratum_rows": 1380,
+    "long_rows": 5520,
+    "wide_rows": 1104,
+    "primary_vf": {
+      "long": 2080,
+      "wide": 416
+    },
+    "vonly_reselected": {
+      "long": 1800,
+      "wide": 360
+    },
+    "fixed_primary_pair_strict_v": {
+      "long": 1640,
+      "wide": 328
+    }
+  },
+  "tolerance": {
+    "absolute": 1e-12,
+    "relative": 1e-10
+  },
+  "bootstrap": "deferred",
+  "limitations": [
+    "internal sample-referenced task coordinates; not population or clinical z-scores",
+    "complete-case selection",
+    "repository-session age is not proven exact cognitive-assessment age",
+    "candidate comparability by repository session label only",
+    "LNB denominator/load uncertainty",
+    "CTAP unit/aggregation uncertainty",
+    "task-version/administration comparability uncertainty",
+    "M0/MAD adopted but not established optimal"
+  ]
+}

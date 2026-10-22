@@ -1,0 +1,6 @@
+task_key,qc_field,V_meaning,F_meaning,vf_mapping_verified
+letter_nback,cnb_lnb_valid_code,Valid,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",yes
+face_memory,cnb_cpf_valid_code,Valid,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",yes
+matrix_reasoning,cnb_pmat_valid_code,Valid,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",yes
+emotion_recognition,cnb_er40_valid_code,Valid,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",yes
+dominant_finger_tapping,cnb_ctap_valid_code,Valid,"Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect",yes

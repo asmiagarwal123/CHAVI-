@@ -1,0 +1,285 @@
+{
+  "schema_version": "0.4.0-preflight-candidate",
+  "status": "candidate_not_approved",
+  "milestone": "source_based_transformation_recovery_preflight_and_contract_repair",
+  "scope": {
+    "classification": "EXISTING_APPROVED_BOUNDARY",
+    "allowed": [
+      "source reconstruction",
+      "cohort and fold identity verification",
+      "contract repair",
+      "validation design"
+    ],
+    "prohibited": [
+      "final transformation production",
+      "profile inference",
+      "simulation",
+      "reporting-threshold calibration",
+      "prediction",
+      "UI development"
+    ]
+  },
+  "source_snapshot": {
+    "classification": "FRESHLY_VERIFIED",
+    "dataset": "OpenNeuro ds007116",
+    "tag": "1.0.6",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "dataset_clean": true,
+    "task_observations_relative_path": "chavi_audit_ds007116_step3b_20260909/task_observations_long.csv",
+    "task_observations_sha256": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+    "payloads_verified_against_annex_keys": 41,
+    "input_manifest": "input_artifact_manifest.csv"
+  },
+  "measurement_contract": {
+    "classification": "EXISTING_APPROVED_AND_FRESHLY_VERIFIED_WITH_CAVEATS",
+    "tasks": [
+      {
+        "task_key": "letter_nback",
+        "source_table": "short_letter_2back.tsv",
+        "score_field": "cnb_lnb_mcr",
+        "qc_field": "cnb_lnb_valid_code",
+        "direction_multiplier": 1,
+        "meaning": "true-positive response count for 1-back and 2-back trials",
+        "unit": null,
+        "unresolved": "exact denominator/load mapping; do not call normalized accuracy"
+      },
+      {
+        "task_key": "face_memory",
+        "source_table": "penn_face_memory_test.tsv",
+        "score_field": "cnb_cpf_cr",
+        "qc_field": "cnb_cpf_valid_code",
+        "direction_multiplier": 1,
+        "meaning": "total correct responses",
+        "unit": null,
+        "unresolved": "exact released-version equivalence across occasions"
+      },
+      {
+        "task_key": "matrix_reasoning",
+        "source_table": "penn_matrix_reasoning_test.tsv",
+        "score_field": "cnb_pmat_cr",
+        "qc_field": "cnb_pmat_valid_code",
+        "direction_multiplier": 1,
+        "meaning": "total correct responses",
+        "unit": null,
+        "unresolved": "exact released-version equivalence across occasions"
+      },
+      {
+        "task_key": "emotion_recognition",
+        "source_table": "penn_emotion_recognition_task.tsv",
+        "score_field": "cnb_er40_cr",
+        "qc_field": "cnb_er40_valid_code",
+        "direction_multiplier": 1,
+        "meaning": "total correct responses",
+        "unit": null,
+        "unresolved": "exact released-version equivalence across occasions"
+      },
+      {
+        "task_key": "dominant_finger_tapping",
+        "source_table": "short_computerized_finger_tapping_task.tsv",
+        "score_field": "cnb_ctap_dom",
+        "qc_field": "cnb_ctap_valid_code",
+        "direction_multiplier": 1,
+        "meaning": "mean of dominant-hand trials",
+        "unit": null,
+        "unresolved": "exact unit and aggregation semantics"
+      }
+    ],
+    "primary_qc": {
+      "classification": "EXISTING_APPROVED_AND_FRESHLY_VERIFIED",
+      "accepted_raw_codes": ["V", "F"],
+      "dictionary_meanings": {
+        "V": "Valid",
+        "F": "Likely valid, problem occurred which affected performance for a limited number of responses/mild to moderate effect"
+      },
+      "requirements": "all five selected scores finite and each selected task QC code exactly V or F at the same participant/session occasion"
+    },
+    "vonly_sensitivity_qc": {
+      "classification": "EXISTING_APPROVED_AND_FRESHLY_VERIFIED",
+      "accepted_raw_codes": ["V"],
+      "requirements": "all five selected scores finite and each selected task QC code exactly V"
+    },
+    "missingness": {
+      "classification": "EXISTING_APPROVED_VALUE",
+      "rule": "no imputation; complete five-task occasions only"
+    },
+    "occasion_rule": {
+      "classification": "UPSTREAM_SUPPORTED_WITH_UNRESOLVED_CAVEAT",
+      "ordering": "ascending integer parsed from repository session label ses-N",
+      "continuation_exclusion": "exclude occasion-map rows whose approved comparability status or occasion identifier denotes continuation; fresh reconstruction excludes sub-20812/ses-2",
+      "comparability": "candidate comparable by session label only",
+      "prohibited_interpretation": "do not infer pure measurement error, task-version equivalence, practice effects, or permanent traits"
+    }
+  },
+  "cohorts": {
+    "reference_a": {
+      "classification": "EXISTING_APPROVED_AND_FRESHLY_VERIFIED",
+      "definition": "all participants with at least one complete synchronized V/F occasion; earliest eligible occasion only",
+      "participants": 109,
+      "occasions": 109,
+      "task_rows": 545,
+      "manifest": "reference_cohort_manifest.csv"
+    },
+    "reference_b": {
+      "classification": "EXISTING_APPROVED_SENSITIVITY_AND_FRESHLY_VERIFIED",
+      "definition": "primary 52-participant subset; earliest selected complete V/F occasion",
+      "participants": 52,
+      "occasions": 52,
+      "task_rows": 260
+    },
+    "primary_vf": {
+      "classification": "EXISTING_APPROVED_AND_FRESHLY_VERIFIED",
+      "definition": "first two jointly complete synchronized V/F occasions",
+      "participants": 52,
+      "occasions": 104,
+      "task_rows": 520
+    },
+    "vonly_sensitivity": {
+      "classification": "EXISTING_APPROVED_AND_FRESHLY_VERIFIED",
+      "definition": "first two jointly complete synchronized V-only occasions",
+      "participants": 45,
+      "occasions": 90,
+      "task_rows": 450
+    }
+  },
+  "folds": {
+    "classification": "UNRESOLVED_EXPLICIT_DECISION_REQUIRED",
+    "reference_universe_required": "Reference A: 109 participants",
+    "count": 5,
+    "seed": 42,
+    "grouping_unit": "participant_id",
+    "candidate_recommendation": "sort Reference-A participant_id strings lexicographically; use numpy 2.5.2 default_rng(42).permuted; assign fold as zero-based permutation index modulo 5",
+    "candidate_held_out_counts": [22, 22, 22, 22, 21],
+    "candidate_training_counts": [87, 87, 87, 87, 88],
+    "conflict": "The literal seeded permutation does not match Recovery Phase 1 expected identity lists. Those lists exactly equal unpermuted sorted round-robin assignment. R2/approval evidence applied the seeded permutation to 52 participants, not 109.",
+    "required_decision": "approve one exact identity map and its hashes before production",
+    "candidate_manifest": "participant_fold_manifest.csv",
+    "comparison": "fold_algorithm_comparison.csv"
+  },
+  "scaling": {
+    "direction_application": {
+      "classification": "EXISTING_APPROVED_VALUE",
+      "formula": "Y_itj = direction_j * X_itj"
+    },
+    "center": {
+      "classification": "PROPOSED_CLARIFICATION",
+      "primary": "arithmetic mean of Y for the task/fold training-reference rows"
+    },
+    "MAD": {
+      "classification": "PROPOSED_CLARIFICATION_SUPPORTED_BY_R2_CODE",
+      "role": "primary",
+      "formula": "median(abs(v - median(v))) / 0.6744897501960817",
+      "normal_consistency_multiplier": 1.482602218505602
+    },
+    "SD": {
+      "classification": "PROPOSED_CLARIFICATION_SUPPORTED_BY_R2_CODE",
+      "role": "sensitivity",
+      "formula": "sqrt(sum((v-mean(v))^2)/(n-1))",
+      "ddof": 1
+    },
+    "zero_or_near_zero": {
+      "classification": "UNRESOLVED_EXPLICIT_DECISION_REQUIRED",
+      "proposed_refusal": "nonfinite scale or scale <= 1e-12 * max(1, abs(center))",
+      "proposed_diagnostic_only": "flag MAD < 0.01 without automatically refusing",
+      "reason": "historical code used inconsistent 0.01 and 1e-6 thresholds; frozen contract specifies only zero-scale refusal"
+    },
+    "parameter_provenance": {
+      "classification": "PROPOSED_AMENDMENT",
+      "required_fields": [
+        "task_key",
+        "model",
+        "scale_method",
+        "held_out_fold",
+        "training_participant_count",
+        "training_participant_ids_sha256",
+        "training_source_row_keys_sha256",
+        "center_or_intercept",
+        "slope_age",
+        "scale",
+        "age_support_min",
+        "age_support_max",
+        "contract_sha256"
+      ]
+    }
+  },
+  "models": {
+    "M0": {
+      "classification": "EXISTING_APPROVED_WITH_PROPOSED_EXACT_CLARIFICATION",
+      "role": "primary",
+      "fit": "per task and held-out fold on Reference-A training identities only",
+      "formula": "Z_M0 = (direction * X - arithmetic_mean(training direction*X)) / selected_training_scale",
+      "age_required": false,
+      "age_support_flag": "not_applicable",
+      "extrapolation_flag": false
+    },
+    "M1": {
+      "classification": "PROPOSED_AMENDMENT_REQUIRED_TO_IMPLEMENT_APPROVED_SENSITIVITY",
+      "role": "sensitivity_only",
+      "age_field": "session_age from Step3B task_observations_long.csv",
+      "missing_age": "M1 unsupported; M0 remains available",
+      "fit": "ordinary least squares with intercept, direction*X = intercept + slope*session_age, per task and held-out fold on Reference-A training identities",
+      "prediction": "intercept + slope*session_age",
+      "residual": "direction*X - prediction",
+      "residual_center": 0,
+      "primary_residual_scale": "normal-consistent MAD of training residuals",
+      "sensitivity_residual_scale": "sample SD of training residuals, ddof=1",
+      "support": "inclusive closed interval [minimum finite training age, maximum finite training age] per task/fold",
+      "extrapolation": "age < minimum or age > maximum; equality is supported",
+      "P3": "if age missing/outside support, set m1_supported=false and m1_coordinate=null; emit fallback_model=M0 and fallback_coordinate equal to the separately computed M0 value; never label fallback as M1"
+    },
+    "M2": {
+      "classification": "EXISTING_APPROVED_EXCLUSION",
+      "role": "not implemented"
+    }
+  },
+  "outputs": {
+    "classification": "PROPOSED_AMENDMENT",
+    "long_unique_key": ["participant_id", "analytical_stratum", "session_id", "task_key", "model", "scale_method"],
+    "wide_unique_key": ["participant_id", "analytical_stratum", "session_id", "model", "scale_method"],
+    "wide_requirement": "exactly five task coordinate columns plus key/provenance fields",
+    "separate_files": ["primary_vf", "vonly_sensitivity"],
+    "combined_stratified_view": "optional; must preserve analytical_stratum and may repeat a physical source key across strata; must never be called a canonical single cohort",
+    "expected_source_observation_counts": {
+      "primary_vf": 520,
+      "vonly_sensitivity": 450,
+      "combined_stratified_view": 970
+    },
+    "model_rows": "models/scales are columns of interpretation, not additional source observations; any long expansion by model or scale must report its multiplier explicitly",
+    "fallback_rows": "P3 fallback is metadata/value on the same source observation, not an additional observation"
+  },
+  "bootstrap": {
+    "classification": "UNRESOLVED_EXPLICIT_DECISION_REQUIRED_WITH_PROPOSED_DESIGN",
+    "approved_high_level": "participant-level resampling; refit transformation; target 5000 valid from at most 10000 attempts",
+    "historical_evidence_limitation": "R2 feasibility sampled 52 primary participants and then selected their Reference-A rows; it did not resample the complete 109-person Reference A and did not apply folds",
+    "proposed_design_per_analysis_stratum": {
+      "resampling_unit": "participant identity",
+      "overlap_preservation": "resample analysis-stratum Reference-A identities with replacement and use the same draw multiplicities in both analysis and reference; separately resample Reference-A identities outside that stratum with replacement",
+      "fixed_sample_sizes": "52+57 reference draws for Primary; 45+64 reference draws for V-only; analysis draws 52 or 45 respectively",
+      "duplicate_identity_handling": "retain every draw with a unique draw_id; duplicate identities contribute repeated clusters, never silently deduplicate",
+      "fold_handling": "retain the approved original identity fold; all duplicate draws of an identity use that fold; exclude every draw of held-out identities from that fold's training reference",
+      "refit": "recompute M0/M1 parameters and selected scale inside every replicate",
+      "invalid_replicate": "record reason and do not coerce undefined values to zero"
+    },
+    "validity": {
+      "target_valid_replicates": 5000,
+      "maximum_attempts": 10000,
+      "proposed_acceptance": ">=95% of attempts valid and at least 5000 valid replicates",
+      "proposed_review_zone": "80% to <95% valid: refit result not primary; run separately labelled fixed-transform sensitivity and require review",
+      "proposed_refusal": "<80% valid",
+      "failure_reporting": "counts and participant/fold/task/reason inventory"
+    }
+  },
+  "independent_validation": {
+    "classification": "REQUIRED_GATE",
+    "plan": "independent_validation_plan.md",
+    "must_not_import_production_helpers": true,
+    "must_not_use_production_parameters_as_calculation_input": true,
+    "production_outputs_may_be_read_only_after_independent_expectations_exist": true
+  },
+  "open_approval_items": [
+    "PF-001/PF-002 exact 109-person fold identity map",
+    "PF-003 through PF-009 exact center/scale/zero-scale/M1 amendments",
+    "PF-011/PF-012 exact output schema",
+    "PF-013 through PF-015 exact bootstrap design and failure policy"
+  ],
+  "readiness": "READY_AFTER_EXPLICIT_CONTRACT_DECISIONS"
+}

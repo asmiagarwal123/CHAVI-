@@ -1,0 +1,5 @@
+implementation,rows,training_sizes,uses_reference_a_109,uses_longitudinal_52,verdict
+C:\Users\asmi\Desktop\Projects\CHAVI\chavi_analysis_ds007116_step5ba_transformed_data_20260916\transformation_parameters.csv,25,98;99,yes,no,"109 Ref A fold training sizes are 87/88 expected; 98 implies 109 minus 11, while 41/42 implies erroneous 52-person fitting"
+C:\Users\asmi\Desktop\Projects\CHAVI\chavi_analysis_ds007116_step5bar2_independent_review_20260916\transformation_parameters.csv,25,98;99,yes,no,"109 Ref A fold training sizes are 87/88 expected; 98 implies 109 minus 11, while 41/42 implies erroneous 52-person fitting"
+C:\Users\asmi\Desktop\Projects\CHAVI\chavi_analysis_ds007116_step5bar3_final_validation_20260916\independent_transformation_parameters.csv,25,,no,no,"109 Ref A fold training sizes are 87/88 expected; 98 implies 109 minus 11, while 41/42 implies erroneous 52-person fitting"
+C:\Users\asmi\Desktop\Projects\CHAVI\chavi_analysis_ds007116_step5bar3_final_validation_20260916\independent_transformation_parameters.csv,25,,no,yes,R3 parameter artifact is not an independent Ref A implementation; participant identities must be regenerated from 109-person source

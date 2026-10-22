@@ -1,0 +1,6 @@
+claim_type,claim_statement
+verified,52 participants exactly match the V/F synchronized complete occasions criteria.
+supported,Linear age models produce comparable OOF RMSE to natural splines with df=3.
+supported,Robust MAD scaling provides stability against long-tailed residuals.
+proposed,Refit-within-bootstrap is required for proper transformation uncertainty.
+prohibited,Population norms or clinical validity scoring.

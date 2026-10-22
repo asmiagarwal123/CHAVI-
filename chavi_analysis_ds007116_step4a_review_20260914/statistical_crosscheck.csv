@@ -1,0 +1,19 @@
+published_statistic,quantity,independent_value,step4a_reported_value,difference_independent_minus_step4a,within_tolerance
+icc_a1,estimate,0.560472870566838,0.560472870567,-1.61759494687885e-13,yes
+icc_a1,ci_low,0.343745274866668,0.343745274867,-3.32456284724003e-13,yes
+icc_a1,ci_high,0.718957893021146,0.718957893021,1.45772283133283e-13,yes
+icc_c1,estimate,0.564114443264254,0.564114443264,2.54352094941623e-13,yes
+icc_c1,ci_low,0.354097997682479,0.354097997682,4.78894701672061e-13,yes
+icc_c1,ci_high,0.72334857198061,0.723348571981,-3.90243393155743e-13,yes
+pearson,estimate,0.583155671642374,0.583155671642,3.74478226206065e-13,yes
+pearson,ci_low,0.370071241717099,0.370071241717,9.89208714941014e-14,yes
+pearson,ci_high,0.747052942398158,0.747052942398,1.58206781009085e-13,yes
+spearman,estimate,0.555388477253292,0.555388477253,2.92099677778879e-13,yes
+spearman,ci_low,0.323822223766665,0.323822223767,-3.34565708470791e-13,yes
+spearman,ci_high,0.734639095094425,0.734639095094,4.2543746303636e-13,yes
+mean_paired_difference,estimate,0.847457627118644,0.847457627119,-3.55937501694825e-13,yes
+mean_paired_difference,ci_low,-0.372881355932203,-0.372881355932,-2.03392858111329e-13,yes
+mean_paired_difference,ci_high,2.0343220338983,2.0343220339,-1.70130576293559e-12,yes
+median_later_minus_earlier,independent_reproduction,1,see descriptive output/report,,not_applicable
+descriptive_LoA_low_mean_minus_1.96SD,independent_reproduction,-8.45899206352791,see descriptive output/report,,not_applicable
+descriptive_LoA_high_mean_plus_1.96SD,independent_reproduction,10.1539073177652,see descriptive output/report,,not_applicable

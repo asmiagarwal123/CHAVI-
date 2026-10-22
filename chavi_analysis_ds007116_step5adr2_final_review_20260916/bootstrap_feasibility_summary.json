@@ -1,0 +1,23 @@
+{
+  "n_reps": 1000,
+  "n_valid": 1000,
+  "n_failed": 0,
+  "feasibility_pct": 100.0,
+  "failure_reasons": {},
+  "runtime_seconds": 602.8,
+  "resampling_unit": "participant (with replacement)",
+  "reference_cohort_reconstructed_inside_replicate": true,
+  "age_model_refitted_inside_replicate": true,
+  "scale_refitted_inside_replicate": true,
+  "fold_handling": "Not applied in feasibility test; full Step 5B will apply participant-grouped folds",
+  "verdict": "FEASIBLE",
+  "step5b_specification": {
+    "target_valid_reps": 5000,
+    "max_attempts": 10000,
+    "failure_threshold_pct": 5.0,
+    "failure_action": "log and discard invalid replicate; continue to next",
+    "failure_reporting": "full inventory of reason per failed replicate",
+    "fallback": "If valid reps < 4750 (95% of 5000), switch to fixed-transformation bootstrap and report this as a scientific limitation",
+    "refusal_condition": "If valid reps < 4000 (80% of 5000), refuse refit-within-bootstrap; use fixed transformation as primary; refit as sensitivity only"
+  }
+}

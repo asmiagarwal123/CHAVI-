@@ -1,0 +1,7 @@
+formula_id,name,formula,input,units,range_or_limit,level,status
+PROFILE-VECTOR,occasion vector,"Z_it=(Z_it1,...,Z_it5)",five approved comparable task coordinates,common transformed units,requires five finite components,occasion/participant,specified; not computed
+PROFILE-LEVEL,elevation,L_it=mean_j(Z_itj),Z_it,common transformed units,depends on coordinate scale,occasion/participant,specified; not computed
+PROFILE-SHAPE,centered shape,S_itj=Z_itj-L_it,Z_it and L_it,common transformed units,sum_j S_itj=0,occasion/participant/task,specified; not computed
+PROFILE-SCATTER,scatter,D_it=sqrt(mean_j(S_itj^2)),S_it,common transformed units,nonnegative; zero for flat shape,occasion/participant,specified; not computed
+SHAPE-RMSE,shape difference,sqrt(mean_j((S_i2j-S_i1j)^2)),two centered occasion vectors,common transformed units,nonnegative,participant pair,specified; not computed
+SHAPE-CORR,shape similarity,"correlation(S_i1,S_i2)",two centered five-component vectors,unitless,undefined for zero variance; descriptive/sensitivity only,participant pair,specified; not computed

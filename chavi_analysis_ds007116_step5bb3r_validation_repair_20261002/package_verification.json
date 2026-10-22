@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "staged package contents before manifest/archive; final archive CRC/member/hash verification is emitted adjacent to the ZIP",
+  "required_files": 25,
+  "missing": [],
+  "gate_statuses": {
+    "test_results.json": "PASS",
+    "independent_numerical_validation_results.json": "PASS",
+    "independent_table_validation_results.json": "PASS",
+    "scale_support_screen_summary.json": "PASS",
+    "truth_convergence_and_sensitivity_evidence.json": "PASS",
+    "runtime_resume_evidence.json": "PASS",
+    "protected_input_rehash_results.json": "PASS",
+    "checkpoint_validation_results.json": "PASS"
+  },
+  "table_counts": {
+    "corrected_interval_rows": 28800,
+    "confirmatory_interval_rows": 192000,
+    "corrected_failure_rows": 14400,
+    "confirmatory_failure_rows": 96000
+  },
+  "table_counts_match": true,
+  "temporary_files": []
+}

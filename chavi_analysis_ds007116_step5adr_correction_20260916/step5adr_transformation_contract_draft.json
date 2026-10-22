@@ -1,0 +1,108 @@
+{
+  "contract_version": "0.2.0",
+  "correction_notes": {
+    "C1": "LNB confirmed COUNT (true positives), NOT response time. Direction POSITIVE. Denominator still open.",
+    "C2": "eligible_qc_states corrected from ['V'] to ['V','F'] \u2014 matching V/F policy that yields 52 participants.",
+    "C3": "Fold seed 42 now explicitly applied via numpy RNG before fold assignment.",
+    "C4": "Age models now fit on baseline-reference cohort (1 occasion per participant), not all occasions.",
+    "C5": "Full residual and extrapolation diagnostics computed and exported.",
+    "C6": "Empirical SD-versus-MAD comparison produced.",
+    "C7": "Refit-within-bootstrap feasibility: 100.0% valid replicates over 200 reps.",
+    "C8": "All required diagnostic CSVs produced.",
+    "C9": "Centered shape spans 4-dimensional subspace (components sum to 0); NOT 5 orthogonal dimensions."
+  },
+  "input_dataset_identity": "OpenNeuro ds007116",
+  "input_dataset_commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+  "input_dataset_tag": "1.0.6",
+  "input_hashes": {
+    "task_observations_long.csv": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978"
+  },
+  "task_fields": [
+    "cnb_lnb_mcr",
+    "cnb_cpf_cr",
+    "cnb_pmat_cr",
+    "cnb_er40_cr",
+    "cnb_ctap_dom"
+  ],
+  "task_direction_multipliers": {
+    "cnb_lnb_mcr": 1,
+    "cnb_cpf_cr": 1,
+    "cnb_pmat_cr": 1,
+    "cnb_er40_cr": 1,
+    "cnb_ctap_dom": 1
+  },
+  "lnb_direction_evidence": {
+    "score_field": "cnb_lnb_mcr",
+    "local_longname": "LNB True Positive Responses for 1-BACK and 2-BACK Trials",
+    "field_type": "COUNT (true positives) \u2014 NOT a response-time field",
+    "observed_range": "6\u201320",
+    "discreteness": "count-like/discrete, many ties at ceiling (18\u201320)",
+    "direction": "POSITIVE (higher = more correct responses)",
+    "direction_unresolved": "Exact denominator/load mapping unresolved. No reversal applied. Retained positive. This is an OPEN decision, not a factual claim."
+  },
+  "eligible_qc_column": "eligible_documented_valid_or_likely_valid",
+  "eligible_qc_value": "yes",
+  "primary_cohort_definition": "52 participants with two jointly complete synchronized V/F occasions",
+  "synchronization_rule": "Same session, all 5 tasks present, V/F QC, numeric score available",
+  "reference_cohort_definition": "Option A: one baseline occasion per participant (earliest complete session)",
+  "reference_leakage_policy": "Follow-up occasions EXCLUDED from reference/training fitting",
+  "participant_grouping_rule": "Participant is the grouping unit for folds and resampling",
+  "fold_seed": 42,
+  "fold_count": 5,
+  "fold_method": "numpy RNG permutation of sorted participant list, then round-robin assignment",
+  "age_model": "PENDING_HUMAN_DECISION (M1_linear recommended based on OOF diagnostics)",
+  "model_hyperparameters": {
+    "spline_df": 3,
+    "polynomial_degree": null
+  },
+  "model_selection_rule": "Conservative; linear unless OOF RMSE shows spline is meaningfully better",
+  "scale_estimator": "PENDING_HUMAN_DECISION (robust MAD\u00d71.4826 recommended; SD as sensitivity)",
+  "zero_scale_handling": "Refuse \u2014 mark transformation as unsupported for that fold/task",
+  "extrapolation_policy": "flag_and_restrict: cap predicted mean to training boundary; flag row",
+  "n_extrapolated_followup": 60,
+  "missingness_policy": "No imputation; complete cases required at both occasions",
+  "extreme_value_policy": "Retain in primary analysis; LOOPO influence diagnostics",
+  "transformation_uncertainty_plan": "refit_within_bootstrap (feasibility: 100.0%)",
+  "primary_coordinate": "Z_itj = (X_itj - mean_hat_j(-g(i))(age)) / scale_hat_j(-g(i))",
+  "sensitivity_coordinates": [
+    "Z_raw_itj (no age adjustment)"
+  ],
+  "profile_estimand_hierarchy": {
+    "primary": [
+      "level_elevation"
+    ],
+    "secondary": [
+      "scatter",
+      "shape_change_rmse"
+    ],
+    "descriptive": [
+      "centered_shape",
+      "profile_correlation"
+    ],
+    "note_on_centered_shape": "Components sum to 0; spans (k-1)=4 dimensional subspace"
+  },
+  "ipsative_constraint": {
+    "sum_of_centered_components": "= 0 algebraically",
+    "effective_dimensionality": 4,
+    "not_five_independent_dims": true
+  },
+  "forbidden_claims": [
+    "Clinical validity",
+    "Diagnostic value (ADHD, ASD, or other)",
+    "Population norms",
+    "Validated broad cognitive domains",
+    "Confirmed practice effects",
+    "Confirmed developmental effects",
+    "Individual clinical strengths or weaknesses",
+    "Prediction performance",
+    "External generalization"
+  ],
+  "status": "not_ready",
+  "unresolved_blockers": [
+    "pending_human_approval_on_all_18_decisions",
+    "age_model_form_not_frozen",
+    "scale_estimator_not_frozen",
+    "transformation_uncertainty_approach_not_frozen"
+  ],
+  "contract_technical_verdict": "READY_FOR_HUMAN_DECISION"
+}

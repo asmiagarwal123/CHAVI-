@@ -1,0 +1,4 @@
+option,model,reference,fit_unit,cross_fitting,output,status
+A,none,task-native raw source values,none,not applicable,no transformed score,candidate
+B,task-wise simple age adjustment; nonlinear only if pre-specified and supported,"baseline reference population, to be approved",participant-grouped,required; fold assignment by participant,"age-adjusted task coordinate, not computed here",candidate/open
+C,task-wise grouped all-occasion age adjustment,"all eligible occasions, to be approved",participant-grouped,required; no occasion from held-out participant in fit,"age-adjusted task coordinate, not computed here",sensitivity candidate/open

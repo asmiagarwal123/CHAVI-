@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "tests": 12,
+  "passed": 12,
+  "records_file": "edge_case_test_records.csv"
+}

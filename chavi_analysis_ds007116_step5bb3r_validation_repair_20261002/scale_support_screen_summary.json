@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "expected_stage_scenarios": 8,
+  "completed_stage_scenarios": 8,
+  "missing": [],
+  "method_scale_draws_screened": 18381600,
+  "old_supported_new_rejected": 0,
+  "minimum_supported_sd_scale_to_tolerance_ratio": 42967.43140621569,
+  "screen_method": "corrected pilot: exact every-draw weighted rank/count screen; confirmatory: stronger dataset-level lower bound over every possible nonnegative integer weighting",
+  "candidate_keys": []
+}

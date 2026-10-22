@@ -1,0 +1,6 @@
+{
+  "status":"recommended_after_pilot",
+  "scope":"future confirmatory validation only; not executed here",
+  "retain":"M0 estimands, P1-P4 definitions, S1-S6 mechanisms, integer multiplicity audit, explicit undefined outcomes",
+  "required_before_execution":["increase outer replicates for MC precision","pre-register interval choice","independent code review","resolve fold contract against accepted upstream decision register","report empirical execution separately"]
+}

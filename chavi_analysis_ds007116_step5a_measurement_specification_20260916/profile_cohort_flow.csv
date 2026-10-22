@@ -1,0 +1,6 @@
+stage,n,rule
+registered participants,132,all participants in participants.tsv
+source candidate participants,131,at least one verified selected-task source row
+at least one complete synchronized V/F occasion,109,all five exact task fields finite and raw QC exactly V or F at same session
+at least two complete synchronized V/F occasions,52,first two numeric-ordered jointly complete occasions
+Step 5A primary candidate pair denominator,52,one jointly synchronized first/two pair per participant; no imputation

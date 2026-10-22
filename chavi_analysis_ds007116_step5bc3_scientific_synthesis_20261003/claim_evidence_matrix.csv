@@ -1,0 +1,18 @@
+claim,status,evidence_locator,limitation,permitted_wording
+"Primary estimates are ICC 0.618912, mean change 0.365668, RMS displacement 1.001646",directly_supported,"aggregate_tables/empirical_all_planned_point_estimates.csv; A_primary_M0_MAD_52 rows","52 complete eligible pairs; reference-scaled units","In the prespecified primary analysis..."
+"All primary empirical bootstrap draws were valid",directly_supported,"C2 results/public_aggregate/bootstrap_status_summary.csv","Computational validity is not coverage validity","999/999 draws were computationally valid for each method/endpoint"
+"P3 RMS percentile interval is 1.4744 times P2 width",directly_derived,"aggregate_tables/empirical_primary_interval_comparisons.csv; rms_shape_displacement/percentile","Single realized dataset; no superiority test","The realized P3 interval was 47.4% wider than P2"
+"P3 improves S1/MAD RMS percentile coverage over P2 but remains subnominal",directly_supported,"aggregate_tables/simulation_synthesis_all_prespecified.csv; confirmatory/S1/MAD/rms/percentile P2/P3","One prespecified mechanism and endpoint","Coverage was 0.9175 versus 0.803; both below 0.95"
+"P3 S5 conditional coverage is accompanied by substantial unavailability",directly_supported,"same table; confirmatory/S5/MAD/rms/percentile/P3","S5 is stylized and not proven empirical","Conditional coverage 0.95635 with availability 0.63"
+"P2 or P3 is universally superior",unsupported,"B3-R repaired tables show endpoint/scenario tradeoffs","Performance varies by mechanism endpoint scale family and availability","No universal-superiority claim"
+"Positive mean change is developmental or causal",unsupported,"C1 claims register; practice-effect literature","Development practice selection and measurement are not separated","A positive average occasion-ordered difference was observed"
+"Positive RMS proves genuine individual change",unsupported,"Implemented nonnegative RMS formula","Includes measurement variability and structural nonnegativity","Observed profiles differed by this RMS amount"
+"Profile correlation proves individual reliability",unsupported,"profile correlation summary; Cronbach/Gleser and Furr literature","Correlation removes level/scatter and has only five coordinates","Descriptive centered-profile similarity"
+"Design B reduces self-reference",methodological_design,"5B-A fold manifests and contract","Does not by itself guarantee calibrated inference","The target is excluded from its own reference fold fit while auxiliaries remain"
+"Practice effects can complicate longitudinal cognitive interpretation",externally_supported,"Ibrahim 2015; Slade 2008; Sullivan 2017; Salthouse 2010","Magnitude in Penn LEAD unestimated","Practice effects are a plausible alternative explanation"
+"The exact CHAVI combination is novel",candidate_not_proven,"closest_work_matrix.csv and literature_search_log.csv","Targeted search not systematic","This exact combination was not found in the targeted search"
+"Penn LEAD has 132 adolescents and 225 imaging sessions",externally_supported,"Sevchik et al. 2025 preprint; PMC12642398","Descriptor is a preprint; analysis subset differs","The preprint describes..."
+"Task versions are measurement-equivalent",untested,"local JSON fields and README only","Matching column names are insufficient","No equivalence claim"
+"LNB denominator/load and CTAP unit are fully defined",unresolved,"ds007116 task JSON metadata","Definitions incomplete","Use score-field-specific labels"
+"Empirical data follow S1 or S5",untested,"scenario_registry.json versus mixed task metadata","No goodness-of-fit/measurement mechanism test authorized","S1/S5 are informative stress mechanisms only"
+

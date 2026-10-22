@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#18212b}.title{font-size:30px;font-weight:700}.sub{font-size:17px;fill:#52606d}.lab{font-size:17px}.small{font-size:14px;fill:#52606d}.axis{stroke:#52606d;stroke-width:1.5}.grid{stroke:#d9e2ec;stroke-width:1}.p2{stroke:#1769aa;fill:#1769aa}.p3{stroke:#c23b22;fill:#c23b22}.p1{stroke:#66788a;fill:#66788a}.p4{stroke:#6a3d9a;fill:#6a3d9a}</style>
+<text x="55" y="48" class="title">Confirmatory RMS interval performance</text>
+<text x="55" y="78" class="sub">MAD scale, percentile intervals; error bars are ±1.96 Monte Carlo SE for conditional coverage</text>
+<text x="100" y="125" class="lab" font-weight="700">S1 continuous correlated</text>
+<line x1="100" y1="665.0" x2="700" y2="665.0" class="grid"/>
+<text x="88" y="670.0" class="small" text-anchor="end">0.5</text>
+<line x1="100" y1="565.0" x2="700" y2="565.0" class="grid"/>
+<text x="88" y="570.0" class="small" text-anchor="end">0.6</text>
+<line x1="100" y1="465.00000000000006" x2="700" y2="465.00000000000006" class="grid"/>
+<text x="88" y="470.00000000000006" class="small" text-anchor="end">0.7</text>
+<line x1="100" y1="364.99999999999994" x2="700" y2="364.99999999999994" class="grid"/>
+<text x="88" y="369.99999999999994" class="small" text-anchor="end">0.8</text>
+<line x1="100" y1="265.0" x2="700" y2="265.0" class="grid"/>
+<text x="88" y="270.0" class="small" text-anchor="end">0.9</text>
+<line x1="100" y1="165.0" x2="700" y2="165.0" class="grid"/>
+<text x="88" y="170.0" class="small" text-anchor="end">1.0</text>
+<line x1="100" y1="215.00000000000006" x2="700" y2="215.00000000000006" stroke="#111" stroke-dasharray="10,7" stroke-width="2"/>
+<line x1="162" y1="216.0" x2="162" y2="237.0" class="p1" stroke-width="2"/>
+<circle cx="162" cy="226.5" r="8" class="p1"/>
+<rect x="189" y="158.0" width="14" height="14" class="p1"/>
+<text x="180" y="700" class="lab" text-anchor="middle">P1</text>
+<line x1="302" y1="344.6" x2="302" y2="379.4" class="p2" stroke-width="2"/>
+<circle cx="302" cy="362.0" r="8" class="p2"/>
+<rect x="329" y="158.0" width="14" height="14" class="p2"/>
+<text x="320" y="700" class="lab" text-anchor="middle">P2</text>
+<line x1="442" y1="235.4" x2="442" y2="259.6" class="p3" stroke-width="2"/>
+<circle cx="442" cy="247.5" r="8" class="p3"/>
+<rect x="469" y="158.0" width="14" height="14" class="p3"/>
+<text x="460" y="700" class="lab" text-anchor="middle">P3</text>
+<line x1="582" y1="239.6" x2="582" y2="264.4" class="p4" stroke-width="2"/>
+<circle cx="582" cy="252.0" r="8" class="p4"/>
+<rect x="609" y="158.0" width="14" height="14" class="p4"/>
+<text x="600" y="700" class="lab" text-anchor="middle">P4</text>
+<line x1="100" y1="665" x2="700" y2="665" class="axis"/>
+<text x="820" y="125" class="lab" font-weight="700">S5 rounded/tied</text>
+<line x1="820" y1="665.0" x2="1420" y2="665.0" class="grid"/>
+<text x="808" y="670.0" class="small" text-anchor="end">0.5</text>
+<line x1="820" y1="565.0" x2="1420" y2="565.0" class="grid"/>
+<text x="808" y="570.0" class="small" text-anchor="end">0.6</text>
+<line x1="820" y1="465.00000000000006" x2="1420" y2="465.00000000000006" class="grid"/>
+<text x="808" y="470.00000000000006" class="small" text-anchor="end">0.7</text>
+<line x1="820" y1="364.99999999999994" x2="1420" y2="364.99999999999994" class="grid"/>
+<text x="808" y="369.99999999999994" class="small" text-anchor="end">0.8</text>
+<line x1="820" y1="265.0" x2="1420" y2="265.0" class="grid"/>
+<text x="808" y="270.0" class="small" text-anchor="end">0.9</text>
+<line x1="820" y1="165.0" x2="1420" y2="165.0" class="grid"/>
+<text x="808" y="170.0" class="small" text-anchor="end">1.0</text>
+<line x1="820" y1="215.00000000000006" x2="1420" y2="215.00000000000006" stroke="#111" stroke-dasharray="10,7" stroke-width="2"/>
+<line x1="882" y1="234.0" x2="882" y2="258.0" class="p1" stroke-width="2"/>
+<circle cx="882" cy="246.0" r="8" class="p1"/>
+<rect x="909" y="158.0" width="14" height="14" class="p1"/>
+<text x="900" y="700" class="lab" text-anchor="middle">P1</text>
+<line x1="1022" y1="234.3" x2="1022" y2="258.2" class="p2" stroke-width="2"/>
+<circle cx="1022" cy="246.2" r="8" class="p2"/>
+<rect x="1049" y="161.0" width="14" height="14" class="p2"/>
+<text x="1040" y="700" class="lab" text-anchor="middle">P2</text>
+<line x1="1162" y1="197.4" x2="1162" y2="219.9" class="p3" stroke-width="2"/>
+<circle cx="1162" cy="208.7" r="8" class="p3"/>
+<rect x="1189" y="528.0" width="14" height="14" class="p3"/>
+<text x="1180" y="700" class="lab" text-anchor="middle">P3</text>
+<line x1="1302" y1="214.9" x2="1302" y2="241.4" class="p4" stroke-width="2"/>
+<circle cx="1302" cy="228.1" r="8" class="p4"/>
+<rect x="1329" y="508.5" width="14" height="14" class="p4"/>
+<text x="1320" y="700" class="lab" text-anchor="middle">P4</text>
+<line x1="820" y1="665" x2="1420" y2="665" class="axis"/>
+<circle cx="105" cy="760" r="8" fill="#263238"/><text x="125" y="766" class="lab">Conditional coverage (among available intervals)</text>
+<rect x="585" y="752" width="14" height="14" fill="#263238"/><text x="610" y="766" class="lab">Availability (among attempted outer replicates)</text>
+<line x1="105" y1="810" x2="155" y2="810" stroke="#111" stroke-dasharray="10,7" stroke-width="2"/><text x="170" y="816" class="lab">Nominal 0.95 coverage</text>
+</svg>

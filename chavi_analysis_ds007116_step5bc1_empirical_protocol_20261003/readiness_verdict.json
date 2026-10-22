@@ -1,0 +1,53 @@
+{
+  "contract_sha256": "0bd5b1a187e33ecf70013d6b2e62f6c3b0b754b6f65bc096849e95ee50e6703a",
+  "dry_run": {
+    "coordinate_validation": {
+      "complete_pairs": 52,
+      "occasion_profiles": 104,
+      "participants": 52,
+      "rows": 520
+    },
+    "empirical_estimands_calculated": false,
+    "input_sha256": {
+      "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\primary_vf_source_rows.csv": "17fdc040d9dfaf23324fe692f522100a3e1731f1fae1694f915c819172880c06",
+      "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5ba_clean_rebuild_20261001\\primary_vf_transformed_long.csv": "ebdd146218cb79bc87ff40c268886e98e0f9b5a8655806f86c85a18e7e94c137"
+    },
+    "mode": "dry_run_metadata_only",
+    "source_validation": {
+      "occasion_profiles": 104,
+      "participants": 52,
+      "rows": 520
+    }
+  },
+  "empirical_execution_performed": false,
+  "gates": {
+    "authoritative_hashes": "PASS",
+    "empty_output_schemas": "PASS",
+    "identity_support_reconciliation": "PASS",
+    "independent_synthetic_tests": "PASS",
+    "literature_verified": "PASS",
+    "primary_contract_complete": "PASS",
+    "protected_inputs": "PASS",
+    "resampling_contract_executable": "PASS",
+    "uncertainty_policy_frozen": "PASS"
+  },
+  "interpretive_restrictions": [
+    "timing",
+    "LNB denominator/load",
+    "CTAP unit/aggregation",
+    "task versions/administration",
+    "complete-case generalization"
+  ],
+  "optional_analyses_deferred": [
+    "scatter",
+    "vector trace association",
+    "secondary-cohort bootstrap intervals"
+  ],
+  "primary_blockers": [],
+  "ready_for_separately_authorized_execution_review": true,
+  "synthetic_tests": {
+    "passed": 27,
+    "total": 27
+  },
+  "verdict": "EMPIRICAL PROTOCOL READY FOR EXECUTION REVIEW"
+}

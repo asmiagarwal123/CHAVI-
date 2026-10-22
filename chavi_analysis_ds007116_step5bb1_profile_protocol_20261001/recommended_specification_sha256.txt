@@ -1,0 +1,2 @@
+31d3109bddd9c5cee215c2b1a2e1d49781c227297f2de6ab10f0e696aed081ab  profile_analysis_specification_recommended.json
+Review artifact only; not an approved empirical execution contract.

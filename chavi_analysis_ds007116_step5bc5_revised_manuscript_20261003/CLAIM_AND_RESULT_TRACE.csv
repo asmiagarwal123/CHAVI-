@@ -1,0 +1,10 @@
+claim,source,locator,qualified_wording
+"C4 ZIP hash verified",C4 ZIP,cdd4ae91183cf18b5fdc95132ca5cb93fd99f923da33c5406d487482f6ecc5fb,verified input
+"Primary empirical estimates",C2,endpoint_estimates.csv A_primary_M0_MAD_52,"reference-scaled worked illustration"
+"All 12 empirical intervals 999 valid",C2,primary_bootstrap_intervals.csv and bootstrap_status_summary.csv,"availability not coverage"
+"S1/S5 endpoint tradeoffs",B3-R,confirmatory_performance_summary_repaired.csv,"mechanism and endpoint specific"
+"P1 below nominal in several cells",B3-R,confirmatory_performance_summary_repaired.csv,"not all error attributable to P2/P3 refitting"
+"P2/P3 paired uncertainty",B3-R,confirmatory_paired_comparisons_repaired.csv,"method A minus B; not a post hoc test"
+"Profile/ICC/bootstrap/crossfit antecedents",primary literature,UPDATED_CLOSEST_WORK_MATRIX.csv,"established components"
+"Penn LEAD descriptor status",Scientific Data,doi:10.1038/s41597-026-08095-1,"peer reviewed resource descriptor"
+

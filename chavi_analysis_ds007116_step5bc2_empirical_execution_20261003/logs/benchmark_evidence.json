@@ -1,0 +1,10 @@
+{
+  "all_benchmark_draws_are_replicates_0_through_9_of_final_999": true,
+  "attempts_per_second": 94.37229683933148,
+  "completed_attempts_per_method": 999,
+  "elapsed_seconds": 0.10596329998224974,
+  "initial_eta_seconds_for_999": 10.585733668226748,
+  "remaining": 0,
+  "scheduled_draws_benchmarked": 10,
+  "status": "PASS"
+}

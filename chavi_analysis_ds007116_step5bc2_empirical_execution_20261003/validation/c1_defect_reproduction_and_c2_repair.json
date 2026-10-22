@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "c2_reason": "auxiliary: negative_multiplicity",
+      "c2_result": "rejected",
+      "case": "negative_auxiliary_multiplicity",
+      "historical_c1_result": "accepted"
+    },
+    {
+      "c2_reason": "unknown_support_label",
+      "c2_result": "rejected",
+      "case": "unknown_support_label_empty_coordinate",
+      "historical_c1_result": "accepted as unsupported"
+    },
+    {
+      "c2_reason": "count_accounting_invalid",
+      "c2_result": "rejected",
+      "case": "valid_count_exceeds_attempted",
+      "historical_c1_result": "available"
+    }
+  ],
+  "historical_c1_unchanged": true,
+  "status": "PASS"
+}

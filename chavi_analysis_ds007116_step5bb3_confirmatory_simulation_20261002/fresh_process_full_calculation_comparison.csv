@@ -1,0 +1,5 @@
+stage,scenario_id,outer_id,status
+corrected_pilot,S1,0,PASS
+corrected_pilot,S5,1,PASS
+confirmatory,S1,1999,PASS
+confirmatory,S5,1999,PASS

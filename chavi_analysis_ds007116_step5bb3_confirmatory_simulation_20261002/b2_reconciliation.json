@@ -1,0 +1,26 @@
+{
+  "point_rows": 14400,
+  "point_unique_keys": 14400,
+  "interval_rows": 28800,
+  "interval_unique_keys": 28800,
+  "truth_rows": 36,
+  "truth_unique_keys": 36,
+  "performance_rows": 144,
+  "paired_rows": 108,
+  "interval_families": [
+    "basic",
+    "percentile"
+  ],
+  "performance_interval_families": [
+    ""
+  ],
+  "b2_gate_contradiction": {
+    "B": 499,
+    "tail_fraction": 0.025,
+    "max_tail_count": 12,
+    "required_tail_count": 20,
+    "mathematically_possible": false
+  },
+  "interpretation": "B2 interval coverage is exploratory and not validated under its declared per-tail rule. B2 performance summary contains percentile summaries only; interval_results contains percentile and basic rows.",
+  "b2_zip_sha256": "48cf1f0cb3188704abde19680f4e688f1c5cb7ae0c663ebd87403112281df12e"
+}

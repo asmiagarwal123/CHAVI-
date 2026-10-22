@@ -1,0 +1,13 @@
+method,endpoint,family,independent_lower,independent_upper,status
+P2_fixed_transform,level_icc_a1,percentile,0.37323839113927504,0.7858293720554296,PASS
+P2_fixed_transform,level_icc_a1,basic,0.4519937728722042,0.8645847537883588,PASS
+P2_fixed_transform,mean_level_change,percentile,0.181831280422257,0.5565623229654019,PASS
+P2_fixed_transform,mean_level_change,basic,0.17477436931561197,0.5495054118587568,PASS
+P2_fixed_transform,rms_shape_displacement,percentile,0.8105956091766747,1.197831462616704,PASS
+P2_fixed_transform,rms_shape_displacement,basic,0.8054604142441053,1.1926962676841346,PASS
+P3_joint_unstratified,level_icc_a1,percentile,0.3804175633845051,0.7870142389719149,PASS
+P3_joint_unstratified,level_icc_a1,basic,0.4508089059557189,0.8574055815431287,PASS
+P3_joint_unstratified,mean_level_change,percentile,0.17814588366121023,0.5468413895461274,PASS
+P3_joint_unstratified,mean_level_change,basic,0.18449530273488646,0.5531908086198036,PASS
+P3_joint_unstratified,rms_shape_displacement,percentile,0.8007996882411338,1.3717392219336026,PASS
+P3_joint_unstratified,rms_shape_displacement,basic,0.6315526549272066,1.2024921886196753,PASS

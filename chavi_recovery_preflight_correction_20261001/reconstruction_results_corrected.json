@@ -1,0 +1,83 @@
+{
+  "source": {
+    "rows": 1095,
+    "selected_rows": 1095,
+    "retrieval_manifest_rows": 41,
+    "payload_hash_or_size_failures": [],
+    "qc_dictionary_errors": [],
+    "metadata_errors": [],
+    "unregistered_identity_errors": [],
+    "missing_mappings": [],
+    "vf_upstream_flag_mismatches": [],
+    "strict_v_upstream_flag_mismatches": [],
+    "staged_source_value_qc_mismatches": []
+  },
+  "cohorts": {
+    "complete_vf_occasions": 176,
+    "reference_a_participants": 109,
+    "reference_a_rows": 545,
+    "primary_participants": 52,
+    "primary_occasions": 104,
+    "primary_rows": 520,
+    "vonly_reselected_participants": 45,
+    "vonly_reselected_occasions": 90,
+    "vonly_reselected_rows": 450,
+    "fixed_primary_pair_strict_v_participants": 41,
+    "fixed_primary_pair_strict_v_occasions": 82,
+    "fixed_primary_pair_strict_v_rows": 410,
+    "task_pair_intersection": 53,
+    "task_pair_aligned": 50,
+    "changed_vonly_pairs": [
+      "sub-20149",
+      "sub-20310",
+      "sub-20902",
+      "sub-20916"
+    ]
+  },
+  "crossfit": {
+    "design_b_map_matches_historical_52_target_manifest": true,
+    "vonly_identities_are_subset_of_primary_targets": true,
+    "candidate_fold_counts": {
+      "A_seeded_reference109": [
+        22,
+        22,
+        22,
+        22,
+        21
+      ],
+      "A_sorted_round_robin_reference109": [
+        22,
+        22,
+        22,
+        22,
+        21
+      ],
+      "B_seeded_targets52_plus_aux57": [
+        11,
+        11,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "environment": {
+    "timestamp_utc": "2026-10-01T15:37:04.185716+00:00",
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\tmp\\chavi_preflight_numpy_env\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.2"
+  },
+  "readiness_gate": {
+    "computational_gate_passed": true,
+    "failures": [],
+    "unresolved_scientific_decisions": [
+      "crossfit_design_A_vs_B",
+      "candidate_identity_map_approval",
+      "bootstrap_protocol_approval"
+    ],
+    "expected_candidate_disagreement": [
+      "A_seeded_vs_A_sorted_round_robin"
+    ]
+  }
+}

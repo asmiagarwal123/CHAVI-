@@ -1,0 +1,4 @@
+option,description,leakage_risk,weighting_consequences,advantages,disadvantages,suitability
+Option A,Baseline-reference cohort (1 occasion per participant),Low,Equal weighting per participant,Prevents frequent flyer bias; Interpretable as earliest occasion,Reduces training N,Primary
+Option B,Grouped all-occasion reference,Medium,Overweights participants with more occasions,Increases training N,Biases fit toward repeated participants,Sensitivity only
+Option C,No age adjustment,Low,None,Simplest baseline; Transparent,Ignores potential true developmental effects,Sensitivity only

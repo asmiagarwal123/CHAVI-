@@ -1,0 +1,6 @@
+evidence_id,methodological_point,source,role
+CRONBACH-GLESER-1953,profile similarity is dimension-specific; scale comparability and index choice matter,https://doi.org/10.1037/h0057173,primary methodological evidence
+CRONBACH-FURBY-1970,difference scores are affected by reliability and occasion relation; observed change is not automatically true change,https://doi.org/10.1037/h0029382,primary methodological evidence
+HEDGE-POWELL-SUMNER-2018,robust task effects can coexist with low individual-difference reliability,https://doi.org/10.3758/s13428-017-0935-1,primary empirical/methodological evidence
+ENKAVI-2019,test-retest reliability varies across measures and should be evaluated empirically,https://doi.org/10.1073/pnas.1818430116,primary empirical evidence
+MCGRAW-WONG-1996,ICC form must match the intended agreement/reliability estimand,https://doi.org/10.1037/1082-989x.1.1.30,primary methodological evidence

@@ -1,0 +1,168 @@
+{
+  "authorization": {
+    "prohibited": [
+      "empirical profile outcomes",
+      "empirical ICCs or change estimates",
+      "empirical bootstrap intervals",
+      "participant reports",
+      "predictions",
+      "new Monte Carlo campaigns"
+    ],
+    "this_milestone": [
+      "protocol decisions",
+      "source/schema/identity inspection",
+      "implementation",
+      "synthetic validation"
+    ]
+  },
+  "contract_id": "CHAVI_STEP_5B_C1_EMPIRICAL_V1",
+  "dependencies": {
+    "numpy": "2.5.2",
+    "python": "3.14.0",
+    "standard_library": true
+  },
+  "formulas": {
+    "L_it": "sum_j(z_itj)/5",
+    "mean_level_change": "sum_i(L_i2-L_i1)/n",
+    "q_itj": "z_itj-L_it",
+    "rms_shape_displacement": "sqrt(sum_i sum_j((q_i2j-q_i1j)^2)/(5n)); not the mean of participant RMS distances"
+  },
+  "icc_a1": {
+    "degenerate": "undefined if fewer than two frequency observations, active nonfinite value, no variation, or denominator numerically zero at 64*epsilon relative tolerance",
+    "df": {
+      "MSC": "k-1=1",
+      "MSE": "(n-1)(k-1)=n-1",
+      "MSR": "n-1"
+    },
+    "finite_sample_statistic": "two-way mixed-effects single-measure absolute-agreement ICC(A,1) across the two designated occasion columns",
+    "formula": "(MSR-MSE)/(MSR+(k-1)MSE+k(MSC-MSE)/n)",
+    "frequency_weights": "nonnegative integer multiplicities exactly equivalent to row expansion; zero-weight rows removed first",
+    "k": 2,
+    "negative_values": "retain",
+    "target": "sample-level between-person agreement for level under the selected cohort, occasions, task set, transformation, and complete-case rule; not individual-profile reliability"
+  },
+  "numerical": {
+    "absolute_tolerance": 1e-12,
+    "dtype": "IEEE-754 float64",
+    "relative_tolerance": 1e-10,
+    "scale_gate": "scale > 64*epsilon*max(active range, abs(scale))"
+  },
+  "optional_quantities": {
+    "profile_correlation": "RETAIN descriptive participant distribution; undefined for flat/near-flat profiles; no interval",
+    "scatter": "DEFER because it does not materially answer the frozen primary question and lacks a validated uncertainty design",
+    "vector_trace_association": "DEFER because B3-R did not evaluate this endpoint and its empirical role is incremental"
+  },
+  "primary": {
+    "cohort": "primary_vf",
+    "complete_case": "all five supported finite coordinates at both selected occasions",
+    "estimands": [
+      "level_icc_a1",
+      "mean_level_change",
+      "rms_shape_displacement"
+    ],
+    "model": "M0",
+    "n_pairs_expected": 52,
+    "occasions_per_participant": 2,
+    "reference_design": "B_target_plus_auxiliary",
+    "scale": "MAD",
+    "task_order": [
+      "letter_nback",
+      "face_memory",
+      "matrix_reasoning",
+      "emotion_recognition",
+      "dominant_finger_tapping"
+    ]
+  },
+  "reporting": {
+    "formal_hypothesis_tests": "none",
+    "multiplicity_adjustment": "not applicable; all planned outputs retained without significance selection",
+    "required_provenance": [
+      "status",
+      "numerator",
+      "denominator",
+      "pair identities",
+      "exclusions",
+      "support",
+      "contract/hash",
+      "model/scale",
+      "uncertainty procedure",
+      "availability/reason"
+    ],
+    "units": "dimensionless internal-reference coordinate units; RMS has coordinate units; ICC is unitless"
+  },
+  "resampling": {
+    "failed_draws_persisted": true,
+    "missing_is_not_zero": true,
+    "no_redraw": true,
+    "p2": "one target multiplicity vector shared with P3; fixed frozen coordinates",
+    "p3": "linked target analysis/reference multiplicities; paired visits; original frozen folds; all held-out copies excluded; one auxiliary multiplicity draw shared across represented folds; fit only represented folds; remove zero-weight identities before reductions; refit authorized raw reference records",
+    "seed": {
+      "algorithm": "NumPy PCG64DXSM",
+      "construction": "SHA256(master|empirical_v1|method_or_shared_target|replicate), first 128 bits little-endian",
+      "master": 20261003
+    },
+    "target_and_auxiliary_roles": "sample independently within original roles, conditioning on observed role membership and frozen cohort/fold assignment",
+    "unit": "participant paired cluster"
+  },
+  "research_question": "How do observed five-task longitudinal profile agreement and change depend on reference estimation, scaling, support restrictions, and quality-control/pair selection in the selected Penn LEAD sample?",
+  "resume": {
+    "atomic_write": "temporary file then replace; never overwrite a validated completed draw",
+    "checkpoint_key": "method, replicate_id",
+    "validate_on_resume": [
+      "contract_sha256",
+      "input hashes",
+      "seed metadata",
+      "replicate uniqueness"
+    ]
+  },
+  "schema_version": "1.0.0",
+  "secondary_interval_policy": "No intervals for 45-, 41-, or M1-supported subsets in v1; reference membership, subset selection, changing n, physical-source linkage, and target population require a separately frozen design.",
+  "sensitivities": [
+    {
+      "id": "M0_SD_same_52",
+      "rule": "same primary identities and pairs; M0/SD",
+      "scope": "descriptive"
+    },
+    {
+      "id": "M0_vs_M1_supported_42",
+      "rule": "identical 42 M1-supported pairs; no M0 fallback",
+      "scope": "descriptive matched transformation comparison"
+    },
+    {
+      "id": "fixed_primary_pair_strict_v_41",
+      "rule": "fixed primary occasions, strict V",
+      "scope": "descriptive cohort restriction"
+    },
+    {
+      "id": "reselected_strict_v_45",
+      "rule": "strict-V reselected occasions; four changed pair definitions remain explicit",
+      "scope": "descriptive eligibility-plus-pair-choice sensitivity"
+    }
+  ],
+  "status": "FROZEN_FOR_EXECUTION_REVIEW",
+  "uncertainty": {
+    "P1": "simulation-only: population reference parameters unknown",
+    "P4": "deferred: incremental empirical purpose not justified",
+    "adaptive_changes_prohibited": true,
+    "attempts": 999,
+    "coverage_fields_prohibited_in_empirical_outputs": true,
+    "default": {
+      "confidence_level": 0.95,
+      "interval_family": "percentile",
+      "method": "P3_joint_unstratified"
+    },
+    "interval_sensitivity": [
+      "P2 basic",
+      "P3 basic"
+    ],
+    "minimum_tail_count": 20,
+    "minimum_valid": 950,
+    "quantile": "linear",
+    "redraw_failed": false,
+    "required_comparator": {
+      "interval_family": "percentile",
+      "method": "P2_fixed_transform"
+    },
+    "tail_fraction": 0.025
+  }
+}

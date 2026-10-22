@@ -1,0 +1,113 @@
+{
+  "generated_utc": "2026-09-15T04:03:37.691640+00:00",
+  "dataset_expected_commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+  "git_before": {
+    "status": "## main...origin/main",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "describe": "1.0.6"
+  },
+  "git_after": {
+    "status": "## main...origin/main",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "describe": "1.0.6"
+  },
+  "input_hashes": [
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\participants.tsv",
+      "sha256": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv",
+      "sha256": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\assessment_occasion_mapping_step3a.csv",
+      "sha256": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\face_memory_included_pairs.csv",
+      "sha256": "4e1da460781723c74ea63788251c376318d4242fae2aca3c2a93ad558b6cb4c8"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\face_memory_agreement_results.csv",
+      "sha256": "4874bac3d3a17fb323768b7d035a154f54c8d2acb29a308b08f0dd7c65159490"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\face_memory_bootstrap_results.csv",
+      "sha256": "ba4b15517e5ef2c96f59eb121b5829d1a8415780b7f52d7ecddc561e29d2a239"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\step4a_provenance.json",
+      "sha256": "be5dc3becae60ba40a2c0fff97ad00db0b18d0d5a59a5f51bfd4ee7e3720b7da"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\decision_register_step3b.csv",
+      "sha256": "aa9a065d2c698084f78f5c83d06d40747e4dd72e513e25158aac67124ed46e58"
+    }
+  ],
+  "output_hashes_excluding_provenance": [
+    {
+      "relative_path": "bootstrap_diagnostics.csv",
+      "sha256": "88f40b6b189c58ee10a9f249bd9cf17bc91fa5a05c01d8c1b9dd0db5b44c7084"
+    },
+    {
+      "relative_path": "face_memory_difference_plot_reviewed.png",
+      "sha256": "ebcc2edee7fcbac2d19c2b572525f0a0a6de6d3e465962ce9b0c1ddd0687191f"
+    },
+    {
+      "relative_path": "face_memory_difference_plot_reviewed.svg",
+      "sha256": "d56090b3242544c29f8e323b814bb0926cc8e8d8d82ce89d80475eacd5997a66"
+    },
+    {
+      "relative_path": "face_memory_visit_scatter_reviewed.png",
+      "sha256": "39c0b6e668a1f3d80c7443d9f231ca182cd31828cc758416565a7bba1c4228a6"
+    },
+    {
+      "relative_path": "face_memory_visit_scatter_reviewed.svg",
+      "sha256": "f9002b0d8a86f720caec4c24aab32538bd129aa599c5f29e9e2d54be418f11ff"
+    },
+    {
+      "relative_path": "full_participant_accounting.csv",
+      "sha256": "9611a3bcd31ccdd4d8dd554c202c12541c545693f56628adf45c4dd40f7d8cf1"
+    },
+    {
+      "relative_path": "icc_formula_validation.md",
+      "sha256": "79b66dc73950df107457756d9a56a9dfc4379d48e7bec2e79f649a2182436609"
+    },
+    {
+      "relative_path": "interval_and_pairing_audit.csv",
+      "sha256": "c7f70294a09609c2585f91488cfecf26768b76fea34c2cc7b67bad64a373679b"
+    },
+    {
+      "relative_path": "reproduction_and_tests.md",
+      "sha256": "a62485b9dd71e7f670b1609ee3b3f96fa4d80605ca4abbbe9d84aa12b43fa7e0"
+    },
+    {
+      "relative_path": "selection_descriptives.csv",
+      "sha256": "acf44829c5f6574d1e052bff4a9ea5a789305b743eb935fe03092b1da49ac327"
+    },
+    {
+      "relative_path": "statistical_crosscheck.csv",
+      "sha256": "03fff6e14af64fb2a6d3f1dbd97391a7a0ac62803e4ea870331a741b8fe9811b"
+    },
+    {
+      "relative_path": "step4a_independent_validation_report.md",
+      "sha256": "541038688ef08b30c6bf2d13c1c7c3eba6dfa7de4e3139cf5a6305558a9f1d0c"
+    },
+    {
+      "relative_path": "test_validate_step4a.py",
+      "sha256": "c5397a2801adc3d89878e65ebc47d1720a99cc85ced857207d71caad4522f5b1"
+    },
+    {
+      "relative_path": "validate_step4a.py",
+      "sha256": "792181ab5e7fc7f1b174716679dc7d0235f7af9b1bf9922de51abd771996bee5"
+    }
+  ],
+  "decision_register_handling": "Not parsed or repaired by this review; original Step 4A provenance documents strict failure followed by explicit in-memory closing-quote repair on lines 6-26; historical source unchanged.",
+  "bootstrap": {
+    "iterations": 5000,
+    "seed": 20260914,
+    "unit": "participant-pair"
+  },
+  "figure_note": "SVG figures contain publication-readable Arial/Helvetica text; PNG companions render the same jittered data points and analytical lines."
+}

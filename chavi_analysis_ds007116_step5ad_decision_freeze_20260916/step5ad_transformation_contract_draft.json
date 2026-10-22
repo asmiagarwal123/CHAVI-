@@ -1,0 +1,54 @@
+{
+  "contract_version": "0.1.0",
+  "input_dataset_identity": "OpenNeuro ds007116",
+  "input_hashes": {
+    "task_observations_long.csv": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978"
+  },
+  "task_fields": [
+    "cnb_lnb_mcr",
+    "cnb_cpf_cr",
+    "cnb_pmat_cr",
+    "cnb_er40_cr",
+    "cnb_ctap_dom"
+  ],
+  "task_directions": {
+    "default": "positive"
+  },
+  "eligible_qc_states": [
+    "V"
+  ],
+  "primary_cohort_definition": "52 participants with two jointly complete synchronized V/F occasions",
+  "synchronization_rule": "Same session, all 5 tasks present",
+  "reference_cohort_definition": "Baseline-reference cohort (Option A)",
+  "participant_grouping_rule": "Deterministic participant-grouped",
+  "fold_seed": 42,
+  "fold_count": 5,
+  "age_model": "PENDING",
+  "model_hyperparameters": {},
+  "model_selection_rule": "Conservative, linear unless strong nonlinear evidence",
+  "scale_estimator": "SD or robust MAD",
+  "zero_scale_handling": "Refuse",
+  "extrapolation_policy": "Flag and restrict",
+  "missingness_policy": "No primary imputation",
+  "extreme_value_policy": "Retain, use influence diagnostics",
+  "transformation_uncertainty_plan": "Refit-within-bootstrap",
+  "primary_coordinate": "Age-referenced Z-score",
+  "sensitivity_coordinates": [
+    "Raw Z-score without age adjustment"
+  ],
+  "profile_estimand_hierarchy": [
+    "Level",
+    "Centered Shape",
+    "Scatter",
+    "Shape-change RMSE"
+  ],
+  "forbidden_claims": [
+    "Clinical validity",
+    "Diagnostic value",
+    "Population norms"
+  ],
+  "status": "not_ready",
+  "unresolved_blockers": [
+    "pending_human_approval"
+  ]
+}

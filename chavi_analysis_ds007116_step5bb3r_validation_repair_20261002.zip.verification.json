@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "zip": "chavi_analysis_ds007116_step5bb3r_validation_repair_20261002.zip",
+  "zip_sha256": "b4c781062f0105c8bcec07f8bc51908cb181a02812b13e7da2330b608df5398b",
+  "zip_size_bytes": 12095239,
+  "crc_failure": null,
+  "manifest_rows": 372,
+  "verified_manifest_members": 372,
+  "manifest_mismatches": [],
+  "extra_members_not_manifested": [],
+  "zip_member_count_including_manifest": 373
+}

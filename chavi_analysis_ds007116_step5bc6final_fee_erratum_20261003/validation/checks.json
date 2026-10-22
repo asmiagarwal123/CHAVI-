@@ -1,0 +1,190 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "requirement": "C6 deliverables exist",
+      "status": "PASS",
+      "evidence": "package paths listed in required set",
+      "observed": "17/17 present"
+    },
+    {
+      "requirement": "C2 unrounded widths and RMS ratio",
+      "status": "PASS",
+      "evidence": "C2/results/public_aggregate/primary_bootstrap_intervals.csv",
+      "observed": {
+        "widths": {
+          "('P2_fixed_transform', 'percentile', 'level_icc_a1')": 0.41259098091615437,
+          "('P2_fixed_transform', 'percentile', 'mean_level_change')": 0.37473104254314465,
+          "('P2_fixed_transform', 'percentile', 'rms_shape_displacement')": 0.38723585344002887,
+          "('P3_joint_unstratified', 'percentile', 'level_icc_a1')": 0.4065966755874099,
+          "('P3_joint_unstratified', 'percentile', 'mean_level_change')": 0.3686955058849172,
+          "('P3_joint_unstratified', 'percentile', 'rms_shape_displacement')": 0.5709395336924686
+        },
+        "P3_over_P2_RMS": 1.4743973953354241
+      }
+    },
+    {
+      "requirement": "manuscript empirical values agree with C2 rounding",
+      "status": "PASS",
+      "evidence": "manuscript Results; C2 endpoint_estimates.csv and primary_bootstrap_intervals.csv",
+      "observed": "all expected rounded values found"
+    },
+    {
+      "requirement": "repaired B3-R confirmatory counts",
+      "status": "PASS",
+      "evidence": "B3-R/confirmatory_performance_summary_repaired.csv",
+      "observed": [
+        [
+          "S1",
+          "P2_fixed_transform",
+          "2000",
+          "2000",
+          "1606"
+        ],
+        [
+          "S1",
+          "P3_joint_unstratified",
+          "2000",
+          "2000",
+          "1835"
+        ],
+        [
+          "S5",
+          "P2_fixed_transform",
+          "2000",
+          "1994",
+          "1832"
+        ],
+        [
+          "S5",
+          "P3_joint_unstratified",
+          "2000",
+          "1260",
+          "1205"
+        ]
+      ]
+    },
+    {
+      "requirement": "copied C3 public aggregates preserve source bytes",
+      "status": "PASS",
+      "evidence": "C6/tables and C3/aggregate_tables",
+      "observed": {
+        "empirical_all_planned_point_estimates.csv": "612c7d96f1d4647740c6e44939116461f7a35a412eb1fabed8cc9b7125cbb192",
+        "empirical_primary_intervals.csv": "3041f5be72b57c7ac32051e63f1a8674496af8d2fa9352f21e14515a8d469ab6",
+        "empirical_profile_correlation_summary.csv": "7f8df84c8dab4dc2b2f52a659040aa7ac6a80073d462ace9a7a0a0b5d5222d76",
+        "simulation_synthesis_all_prespecified.csv": "6e6e973b0fbcb3f79443fbc9fa02772627c9de30ee5a7cd6d4c8ebe11f1f3628",
+        "simulation_failure_reason_summary.csv": "ce8e6eede70f9d4e8896128775b0e09b489cc7011dcbd4908cd6fc41f1f819fb"
+      }
+    },
+    {
+      "requirement": "no Windows paths in reader-facing Markdown",
+      "status": "PASS",
+      "evidence": "all C6 Markdown files",
+      "observed": []
+    },
+    {
+      "requirement": "public outputs lack participant identifiers",
+      "status": "PASS",
+      "evidence": "all text/CSV/JSON/Bib C6 outputs",
+      "observed": []
+    },
+    {
+      "requirement": "ZIP integrity and cited component presence",
+      "status": "PASS",
+      "evidence": "chavi_analysis_ds007116_step5bc6final_fee_erratum_20261003.zip",
+      "observed": {
+        "bad_member": null,
+        "missing": [],
+        "members": 44
+      }
+    },
+    {
+      "requirement": "upstream packages preserved and hashed",
+      "status": "PASS",
+      "evidence": "root ZIP artifacts",
+      "observed": {
+        "chavi_analysis_ds007116_step5bc1_empirical_protocol_20261003.zip": "88283d3f62825a2ba43416783ea5df669f3c2f7294f6b9ba58116bf4bca5648d",
+        "chavi_analysis_ds007116_step5bc2_empirical_execution_20261003.zip": "5d5d4fa96458bf34af24d894626ff118ef970f8a78500cc2d6171ebb9c8a32fa",
+        "chavi_analysis_ds007116_step5bb3r_validation_repair_20261002.zip": "b4c781062f0105c8bcec07f8bc51908cb181a02812b13e7da2330b608df5398b",
+        "chavi_analysis_ds007116_step5bc3_scientific_synthesis_20261003.zip": "f3239b074638e4529988000f0bc5b39c46f41dc0372a93e377982809bac82c04",
+        "chavi_analysis_ds007116_step5bc5_revised_manuscript_20261003.zip": "82e873cfacbff933d32acc3b4fd5a92108ad44dfc0a5ba556bade6904f7f7f34"
+      }
+    },
+    {
+      "requirement": "citation set equality",
+      "status": "PASS",
+      "evidence": "manuscript, References, references.bib",
+      "observed": {
+        "bib_keys": [
+          "carpenter2000",
+          "chernozhukov2018",
+          "cronbach1953",
+          "ibrahim2015",
+          "mcgraw1996",
+          "morris2019",
+          "sevchik2026",
+          "slade2008",
+          "sullivan2017"
+        ],
+        "expected": [
+          "carpenter2000",
+          "chernozhukov2018",
+          "cronbach1953",
+          "ibrahim2015",
+          "mcgraw1996",
+          "morris2019",
+          "sevchik2026",
+          "slade2008",
+          "sullivan2017"
+        ],
+        "intext_count": 9
+      }
+    },
+    {
+      "requirement": "internal manuscript paths exist",
+      "status": "PASS",
+      "evidence": "manuscript backtick paths",
+      "observed": {
+        "paths": [
+          "AUTHOR_DECISIONS_NEEDED.md",
+          "tables/simulation_failure_reason_summary.csv",
+          "tables/confirmatory_all_endpoint_tradeoffs.csv",
+          "figures/CAPTIONS.md"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "requirement": "C6-FINAL handoff deliverables exist",
+      "status": "PASS",
+      "evidence": "C6-FINAL root",
+      "observed": [
+        "FACULTY_REVIEW_HANDOFF.md",
+        "CORRECTIONS_FROM_C6.md",
+        "JOURNAL_FIT_COMPARISON.md",
+        "CITATION_VERIFICATION.md"
+      ]
+    },
+    {
+      "requirement": "scientific-file preservation against C6-FINAL",
+      "status": "PASS",
+      "evidence": "SHA-256 comparison with C6-FINAL scientific manuscript/supplement/bibliography/tables/figures",
+      "observed": {
+        "compared": 25,
+        "changed": []
+      }
+    },
+    {
+      "requirement": "superseded PLOS fee absent outside erratum",
+      "status": "PASS",
+      "evidence": "all reader-facing C6-FINAL fee-erratum text files",
+      "observed": []
+    },
+    {
+      "requirement": "erratum documents source, access date, and uncertainty",
+      "status": "PASS",
+      "evidence": "ERRATUM_FROM_C6_FINAL.md",
+      "observed": "all required disclosure terms found"
+    }
+  ]
+}

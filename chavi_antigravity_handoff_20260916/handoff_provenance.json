@@ -1,0 +1,27 @@
+{
+  "handoff_date": "2026-09-16",
+  "action": "complete_workspace_adoption_and_audit",
+  "dataset": {
+    "name": "OpenNeuro ds007116",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "tag": "1.0.6",
+    "status": "clean"
+  },
+  "environment": {
+    "os": "Windows",
+    "python": "3.14.0"
+  },
+  "generated_artifacts": [
+    "CHAVI_CURRENT_STATE.md",
+    "WORKSPACE_MAP.md",
+    "RESEARCH_TIMELINE.md",
+    "ARTIFACT_INDEX.csv",
+    "REPRODUCTION_COMMANDS.md",
+    "ENVIRONMENT_AUDIT.md",
+    "OPEN_DECISIONS.md",
+    "CLAIMS_REGISTER.md",
+    "NEXT_STAGE_READINESS.md",
+    "handoff_provenance.json",
+    "handoff_review_report.md"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "stage": "confirmatory",
+  "scenario_id": "S1",
+  "outer_records": 2000,
+  "method_scale_draws_screened": 7992000,
+  "old_supported_new_rejected": 0,
+  "minimum_supported_sd_scale_to_tolerance_ratio": 42967.43140621569,
+  "minimum_supported_mad_scale_to_tolerance_ratio": 627.2672303129351,
+  "proof_type": "universal over every nonnegative integer weighting of each generated reference pool; therefore covers all actual P3/P4 multiplicities",
+  "candidate_keys": []
+}

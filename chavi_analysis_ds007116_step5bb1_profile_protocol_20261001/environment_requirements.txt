@@ -1,0 +1,5 @@
+Validated: CPython 3.14.0, NumPy 2.5.2, Windows 11 (10.0.26200)
+Minimum declared: Python >=3.10
+Pinned scientific dependency: numpy==2.5.2
+Standard library: csv, hashlib, json, math, pathlib, subprocess, unittest, zipfile
+No pandas, scipy, statsmodels, or network access is required to reproduce synthetic validation.

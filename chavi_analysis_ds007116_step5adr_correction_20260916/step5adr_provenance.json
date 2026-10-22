@@ -1,0 +1,68 @@
+{
+  "step": "5A-D-R",
+  "description": "Independent correction, completion, and scientific validation",
+  "execution_timestamp_utc": "2026-09-16T07:52:28.887585Z",
+  "dataset": {
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "tag": "1.0.6",
+    "clean_before": true,
+    "clean_after": true,
+    "commit_changed": false
+  },
+  "input_files": {
+    "task_observations_long.csv": {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\task_observations_long.csv",
+      "sha256_before": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "sha256_after": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "changed": false
+    }
+  },
+  "corrections_applied": [
+    "C1: LNB confirmed COUNT not RT",
+    "C2: QC column corrected to V/F",
+    "C3: Fold seed explicitly applied",
+    "C4: Age models on baseline cohort only",
+    "C5: Full residual+extrapolation diagnostics",
+    "C6: Empirical SD vs MAD comparison",
+    "C7: Bootstrap feasibility tested",
+    "C8: All diagnostic CSVs produced",
+    "C9: Centered shape dimensionality corrected to 4"
+  ],
+  "outputs_written": [
+    "wrote cohort_reproduction.csv",
+    "wrote direction_and_unit_register.csv",
+    "wrote participant_grouped_fold_manifest.csv",
+    "wrote age_support_audit.csv",
+    "wrote age_model_comparison.csv",
+    "wrote out_of_fold_diagnostics.csv",
+    "wrote scale_stability_diagnostics.csv",
+    "wrote residual_age_trend_diagnostics.csv",
+    "wrote sd_vs_mad_comparison.csv",
+    "wrote bootstrap_feasibility.json",
+    "wrote bootstrap_failure_inventory.csv",
+    "wrote extrapolation_audit.csv",
+    "wrote fold_balance_diagnostics.csv",
+    "wrote reference_cohort_comparison.csv",
+    "wrote ipsative_centering_correction.md",
+    "wrote step5adr_decision_matrix.csv",
+    "wrote step5adr_transformation_contract_draft.json",
+    "wrote step5adr_claims_register.csv"
+  ],
+  "python_packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "scipy 1.17.0",
+    "statsmodels": "0.14.6",
+    "sklearn": "1.9.0"
+  },
+  "fold_seed": 42,
+  "bootstrap_seed": 20260916,
+  "bootstrap_reps": 200,
+  "cohort_counts_reproduced": {
+    "complete_occasions": 176,
+    "participants_1plus": 109,
+    "participants_2plus": 52
+  },
+  "contract_status": "not_ready \u2014 pending human approval",
+  "contract_technical_verdict": "READY_FOR_HUMAN_DECISION"
+}

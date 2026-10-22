@@ -1,0 +1,4 @@
+task,fold,model,participant_id,session_age,score_directed,predicted,residual,extrapolated
+cnb_lnb_mcr,1,M0_intercept_only,sub-138950,16.18,16.0,17.609756097560975,-1.6097560975609753,True
+cnb_lnb_mcr,1,M1_linear_age,sub-138950,16.18,16.0,20.445427192614595,-4.445427192614595,True
+cnb_lnb_mcr,1,M2_spline_df3,sub-138950,16.18,16.0,19.70082455415477,-3.700824554154771,True

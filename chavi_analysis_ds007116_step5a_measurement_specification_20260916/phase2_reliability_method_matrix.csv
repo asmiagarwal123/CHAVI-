@@ -1,0 +1,10 @@
+method,domain,level_or_unit,estimand,input,interpretation,uncertainty,failure_or_limit,role
+ICC(A,1),task-level,participant pairs,absolute agreement/reliability,raw or approved transformed task pair,occasion agreement under absolute agreement,participant bootstrap CI,scale/direction/QC mismatch; completed in Step 4B,completed task-level reference
+mean change,task/elevation,participant pairs,systematic change,later-earlier pair values,average observed change,participant bootstrap CI,not causal and timing is nominal,primary descriptive
+SEM/MDC,task/elevation,participant pairs,measurement error/beyond-error change,approved reliability and variance,absolute uncertainty for individual change,requires approved reliability model and assumptions,future
+scatter D agreement/change,profile occasion/pair,dispersion around elevation,change/agreement in scatter,approved Z vectors,dispersion stability,zero/near-zero and scale dependence,sensitivity
+centered component agreement,shape/task components,participant pairs,component-wise shape agreement,centered vectors,relative task configuration agreement,participant bootstrap CI,ipsative dependence and five-component limitation,sensitivity
+shape RMSE/Euclidean,shape,participant pairs,absolute shape change,centered vectors,absolute relative-shape movement,participant bootstrap CI,not a reliability coefficient,sensitivity
+profile correlation,shape,participant pairs,rank/configuration similarity,centered vectors,descriptive rank-shape similarity only,participant bootstrap CI,undefined/fragile with five components and ties,sensitivity only
+directional/rank summaries,shape,participant pairs,direction/rank consistency,approved transformed vectors,descriptive direction,not absolute agreement, sensitivity
+group-level profile agreement,profile,group/pair aggregate,group agreement under model assumptions,approved profile vectors and covariance,group-level only,not individual reliability and depends on covariance assumptions,future sensitivity

@@ -1,0 +1,14 @@
+{
+  "dataset_hashes": "all 600 corrected and 4000 confirmatory records",
+  "point_estimates": "outer IDs 0-4; estimated-reference P2-P4 only",
+  "bootstrap_values": "outer IDs 0-1; selected replicate IDs 0,1,2,17,101,498,998 only",
+  "not_compared": [
+    "all 999 values for any outer",
+    "quantiles",
+    "eligibility gates",
+    "percentile/basic bounds",
+    "coverage indicators",
+    "complete aggregate arithmetic"
+  ],
+  "readiness_defect": "make_final_report checks confirmatory ledger row count plus corrected-pilot independent PASS; it does not require confirmatory independent validation PASS"
+}

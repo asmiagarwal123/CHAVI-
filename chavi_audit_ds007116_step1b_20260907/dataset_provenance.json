@@ -1,0 +1,96 @@
+{
+  "audit_started_utc": "2026-09-07T07:50:32.287095+00:00",
+  "audit_finished_utc": "2026-09-07T07:50:53.237505+00:00",
+  "dataset_root": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\ds007116",
+  "staging_root": "C:\\Users\\asmi\\Desktop\\Projects\\ML Projects\\chavi_step1b_phenotype_staging_20260907",
+  "intended_snapshot": "1.0.6",
+  "pinned_commit_expected": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+  "git": {
+    "status": "## main...origin/main",
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "branch": "main",
+    "describe": "1.0.6",
+    "tags_at_HEAD": [
+      "1.0.6"
+    ],
+    "last_commit": {
+      "hash": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+      "date": "2026-07-28T02:35:41Z",
+      "author": "Git Worker",
+      "subject": "[OpenNeuro] Recorded changes"
+    }
+  },
+  "dataset_description": {
+    "Authors": [
+      "Brooke L. Sevchik",
+      "Golia Shafiei",
+      "Kristin Murtha",
+      "Sophia Linguiti",
+      "Lia Brodrick",
+      "Juliette B.H. Brook",
+      "Matt Cieslak",
+      "Elizabeth Flook",
+      "Kahini Mehta",
+      "Steven L. Meisler",
+      "Kosha Ruparel",
+      "Sage Rush",
+      "Taylor Salo",
+      "S. Parker Singleton",
+      "Tien T. Tong",
+      "Mrugank Salunke",
+      "Dani S. Bassett",
+      "Monica E. Calkins",
+      "Mark A. Elliott",
+      "Raquel E. Gur",
+      "Ruben C. Gur",
+      "Tyler M. Moore",
+      "J. Cobb Scott",
+      "Russell T. Shinohara",
+      "M. Dylan Tisdal",
+      "Daniel H. Wolf",
+      "David R. Roalf",
+      "Theodore D. Satterthwaite"
+    ],
+    "BIDSVersion": "1.8.0",
+    "DatasetType": "raw",
+    "DatasetDOI": "doi:10.18112/openneuro.ds007116.v1.0.6",
+    "Funding": [
+      "NIH R01MH113550"
+    ],
+    "HowToAcknowledge": "Please cite our preprint on bioRxiv: https://doi.org/10.1101/2025.11.10.687633",
+    "License": "CC0",
+    "Name": "Penn LEAD: Penn Longitudinal Executive functioning in Adolescent Development",
+    "ReferencesAndLinks": [
+      "TODO",
+      "List of papers or websites"
+    ]
+  },
+  "retrieval": {
+    "source": "s3://openneuro.org/ds007116/phenotype/",
+    "retrieved_file_count": 41,
+    "verified_file_count": 41,
+    "parseable_file_count": 41,
+    "method": "direct S3 staging fallback; key verification against pinned Git-annex keys",
+    "target_commit_preserved": true,
+    "tracked_content_modified": false
+  },
+  "software": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "git": "git version 2.53.0.windows.1",
+    "aws": "aws-cli/2.36.8 Python/3.14.6 Windows/11 exe/AMD64"
+  },
+  "counts": {
+    "participants": 132,
+    "recorded_session_rows": 225,
+    "phenotype_tables_expected": 41,
+    "phenotype_tables_verified": 41,
+    "phenotype_tables_parseable": 41,
+    "phenotype_cognitive_tables": 21,
+    "phenotype_questionnaire_tables": 20,
+    "scanner_nback_summary_rows": 201,
+    "scanner_nback_event_files": 201,
+    "scanner_nback_event_rows": 38592
+  }
+}

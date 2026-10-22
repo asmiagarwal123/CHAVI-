@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks_total": 24,
+  "checks_passed": 24,
+  "atol": 1e-12,
+  "rtol": 1e-10,
+  "checks": {
+    "01_hand_geometry": true,
+    "02_identical_profiles": true,
+    "03_level_only": true,
+    "04_shape_only": true,
+    "05_flat_correlation": true,
+    "06_near_flat_policy": true,
+    "07_missing_or_unsupported": true,
+    "08_large_offsets": true,
+    "09_shape_reconstruction": true,
+    "10_energy_displacement_identities": true,
+    "11_basis_rotation_invariance": true,
+    "12_joint_permutation": true,
+    "13_unmatched_metadata_rejected": true,
+    "14_duplicate_keys": true,
+    "15_m1_fallback_insertion": true,
+    "16_heldout_copy_rejected": true,
+    "17_target_multiplicity_link": true,
+    "18_auxiliary_reuse": true,
+    "19_clustered_visits": true,
+    "20_serialization_readback": true,
+    "21_independent_expected_match": true,
+    "22_production_corruption_paths": true,
+    "23_icc_formulas": true,
+    "24_shape_trace_independent_and_rotation": true
+  }
+}

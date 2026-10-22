@@ -1,0 +1,546 @@
+participant_id,repository_session_id,session_age,score_field,task_label,source_row_reference,selection
+sub-138950,ses-1,16.18,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-218,earliest complete eligible synchronized occasion
+sub-138950,ses-1,16.18,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-218,earliest complete eligible synchronized occasion
+sub-138950,ses-1,16.18,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-218,earliest complete eligible synchronized occasion
+sub-138950,ses-1,16.18,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-218,earliest complete eligible synchronized occasion
+sub-138950,ses-1,16.18,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-218,earliest complete eligible synchronized occasion
+sub-19861,ses-1,15.26,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-1,earliest complete eligible synchronized occasion
+sub-19861,ses-1,15.26,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-1,earliest complete eligible synchronized occasion
+sub-19861,ses-1,15.26,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-1,earliest complete eligible synchronized occasion
+sub-19861,ses-1,15.26,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-1,earliest complete eligible synchronized occasion
+sub-19861,ses-1,15.26,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-1,earliest complete eligible synchronized occasion
+sub-20125,ses-1,13.59,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-4,earliest complete eligible synchronized occasion
+sub-20125,ses-1,13.59,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-4,earliest complete eligible synchronized occasion
+sub-20125,ses-1,13.59,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-4,earliest complete eligible synchronized occasion
+sub-20125,ses-1,13.59,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-4,earliest complete eligible synchronized occasion
+sub-20125,ses-1,13.59,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-4,earliest complete eligible synchronized occasion
+sub-20139,ses-1,14.32,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-5,earliest complete eligible synchronized occasion
+sub-20139,ses-1,14.32,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-5,earliest complete eligible synchronized occasion
+sub-20139,ses-1,14.32,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-5,earliest complete eligible synchronized occasion
+sub-20139,ses-1,14.32,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-5,earliest complete eligible synchronized occasion
+sub-20139,ses-1,14.32,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-5,earliest complete eligible synchronized occasion
+sub-20141,ses-1,14.8,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-8,earliest complete eligible synchronized occasion
+sub-20141,ses-1,14.8,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-8,earliest complete eligible synchronized occasion
+sub-20141,ses-1,14.8,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-8,earliest complete eligible synchronized occasion
+sub-20141,ses-1,14.8,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-8,earliest complete eligible synchronized occasion
+sub-20141,ses-1,14.8,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-8,earliest complete eligible synchronized occasion
+sub-20149,ses-1,11.63,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-9,earliest complete eligible synchronized occasion
+sub-20149,ses-1,11.63,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-9,earliest complete eligible synchronized occasion
+sub-20149,ses-1,11.63,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-9,earliest complete eligible synchronized occasion
+sub-20149,ses-1,11.63,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-9,earliest complete eligible synchronized occasion
+sub-20149,ses-1,11.63,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-9,earliest complete eligible synchronized occasion
+sub-20188,ses-1,13.45,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-12,earliest complete eligible synchronized occasion
+sub-20188,ses-1,13.45,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-12,earliest complete eligible synchronized occasion
+sub-20188,ses-1,13.45,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-12,earliest complete eligible synchronized occasion
+sub-20188,ses-1,13.45,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-12,earliest complete eligible synchronized occasion
+sub-20188,ses-1,13.45,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-12,earliest complete eligible synchronized occasion
+sub-20212,ses-1,9.65,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-15,earliest complete eligible synchronized occasion
+sub-20212,ses-1,9.65,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-15,earliest complete eligible synchronized occasion
+sub-20212,ses-1,9.65,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-15,earliest complete eligible synchronized occasion
+sub-20212,ses-1,9.65,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-15,earliest complete eligible synchronized occasion
+sub-20212,ses-1,9.65,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-15,earliest complete eligible synchronized occasion
+sub-20214,ses-1,14.2,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-16,earliest complete eligible synchronized occasion
+sub-20214,ses-1,14.2,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-16,earliest complete eligible synchronized occasion
+sub-20214,ses-1,14.2,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-16,earliest complete eligible synchronized occasion
+sub-20214,ses-1,14.2,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-16,earliest complete eligible synchronized occasion
+sub-20214,ses-1,14.2,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-16,earliest complete eligible synchronized occasion
+sub-20236,ses-1,9.34,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-19,earliest complete eligible synchronized occasion
+sub-20236,ses-1,9.34,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-19,earliest complete eligible synchronized occasion
+sub-20236,ses-1,9.34,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-19,earliest complete eligible synchronized occasion
+sub-20236,ses-1,9.34,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-19,earliest complete eligible synchronized occasion
+sub-20236,ses-1,9.34,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-19,earliest complete eligible synchronized occasion
+sub-20238,ses-1,13.3,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-20,earliest complete eligible synchronized occasion
+sub-20238,ses-1,13.3,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-20,earliest complete eligible synchronized occasion
+sub-20238,ses-1,13.3,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-20,earliest complete eligible synchronized occasion
+sub-20238,ses-1,13.3,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-20,earliest complete eligible synchronized occasion
+sub-20238,ses-1,13.3,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-20,earliest complete eligible synchronized occasion
+sub-20252,ses-1,15.36,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-22,earliest complete eligible synchronized occasion
+sub-20252,ses-1,15.36,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-22,earliest complete eligible synchronized occasion
+sub-20252,ses-1,15.36,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-22,earliest complete eligible synchronized occasion
+sub-20252,ses-1,15.36,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-22,earliest complete eligible synchronized occasion
+sub-20252,ses-1,15.36,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-22,earliest complete eligible synchronized occasion
+sub-20253,ses-1,10.85,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-24,earliest complete eligible synchronized occasion
+sub-20253,ses-1,10.85,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-24,earliest complete eligible synchronized occasion
+sub-20253,ses-1,10.85,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-24,earliest complete eligible synchronized occasion
+sub-20253,ses-1,10.85,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-24,earliest complete eligible synchronized occasion
+sub-20253,ses-1,10.85,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-24,earliest complete eligible synchronized occasion
+sub-20258,ses-2,16.75,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-28,earliest complete eligible synchronized occasion
+sub-20258,ses-2,16.75,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-28,earliest complete eligible synchronized occasion
+sub-20258,ses-2,16.75,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-28,earliest complete eligible synchronized occasion
+sub-20258,ses-2,16.75,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-28,earliest complete eligible synchronized occasion
+sub-20258,ses-2,16.75,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-28,earliest complete eligible synchronized occasion
+sub-20259,ses-2,11.25,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-30,earliest complete eligible synchronized occasion
+sub-20259,ses-2,11.25,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-30,earliest complete eligible synchronized occasion
+sub-20259,ses-2,11.25,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-30,earliest complete eligible synchronized occasion
+sub-20259,ses-2,11.25,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-30,earliest complete eligible synchronized occasion
+sub-20259,ses-2,11.25,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-30,earliest complete eligible synchronized occasion
+sub-20302,ses-1,12.3,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-32,earliest complete eligible synchronized occasion
+sub-20302,ses-1,12.3,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-32,earliest complete eligible synchronized occasion
+sub-20302,ses-1,12.3,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-32,earliest complete eligible synchronized occasion
+sub-20302,ses-1,12.3,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-32,earliest complete eligible synchronized occasion
+sub-20302,ses-1,12.3,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-32,earliest complete eligible synchronized occasion
+sub-20303,ses-1,16.07,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-34,earliest complete eligible synchronized occasion
+sub-20303,ses-1,16.07,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-34,earliest complete eligible synchronized occasion
+sub-20303,ses-1,16.07,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-34,earliest complete eligible synchronized occasion
+sub-20303,ses-1,16.07,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-34,earliest complete eligible synchronized occasion
+sub-20303,ses-1,16.07,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-34,earliest complete eligible synchronized occasion
+sub-20310,ses-1,9.06,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-39,earliest complete eligible synchronized occasion
+sub-20310,ses-1,9.06,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-39,earliest complete eligible synchronized occasion
+sub-20310,ses-1,9.06,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-39,earliest complete eligible synchronized occasion
+sub-20310,ses-1,9.06,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-39,earliest complete eligible synchronized occasion
+sub-20310,ses-1,9.06,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-39,earliest complete eligible synchronized occasion
+sub-20328,ses-1,13.48,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-42,earliest complete eligible synchronized occasion
+sub-20328,ses-1,13.48,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-42,earliest complete eligible synchronized occasion
+sub-20328,ses-1,13.48,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-42,earliest complete eligible synchronized occasion
+sub-20328,ses-1,13.48,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-42,earliest complete eligible synchronized occasion
+sub-20328,ses-1,13.48,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-42,earliest complete eligible synchronized occasion
+sub-20335,ses-1,9.81,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-45,earliest complete eligible synchronized occasion
+sub-20335,ses-1,9.81,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-45,earliest complete eligible synchronized occasion
+sub-20335,ses-1,9.81,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-45,earliest complete eligible synchronized occasion
+sub-20335,ses-1,9.81,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-45,earliest complete eligible synchronized occasion
+sub-20335,ses-1,9.81,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-45,earliest complete eligible synchronized occasion
+sub-20336,ses-1,11.92,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-46,earliest complete eligible synchronized occasion
+sub-20336,ses-1,11.92,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-46,earliest complete eligible synchronized occasion
+sub-20336,ses-1,11.92,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-46,earliest complete eligible synchronized occasion
+sub-20336,ses-1,11.92,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-46,earliest complete eligible synchronized occasion
+sub-20336,ses-1,11.92,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-46,earliest complete eligible synchronized occasion
+sub-20347,ses-1,12.41,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-47,earliest complete eligible synchronized occasion
+sub-20347,ses-1,12.41,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-47,earliest complete eligible synchronized occasion
+sub-20347,ses-1,12.41,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-47,earliest complete eligible synchronized occasion
+sub-20347,ses-1,12.41,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-47,earliest complete eligible synchronized occasion
+sub-20347,ses-1,12.41,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-47,earliest complete eligible synchronized occasion
+sub-20352,ses-1,8.8,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-49,earliest complete eligible synchronized occasion
+sub-20352,ses-1,8.8,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-49,earliest complete eligible synchronized occasion
+sub-20352,ses-1,8.8,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-49,earliest complete eligible synchronized occasion
+sub-20352,ses-1,8.8,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-49,earliest complete eligible synchronized occasion
+sub-20352,ses-1,8.8,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-49,earliest complete eligible synchronized occasion
+sub-20399,ses-1,9.98,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-51,earliest complete eligible synchronized occasion
+sub-20399,ses-1,9.98,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-51,earliest complete eligible synchronized occasion
+sub-20399,ses-1,9.98,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-51,earliest complete eligible synchronized occasion
+sub-20399,ses-1,9.98,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-51,earliest complete eligible synchronized occasion
+sub-20399,ses-1,9.98,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-51,earliest complete eligible synchronized occasion
+sub-20402,ses-1,13.22,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-53,earliest complete eligible synchronized occasion
+sub-20402,ses-1,13.22,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-53,earliest complete eligible synchronized occasion
+sub-20402,ses-1,13.22,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-53,earliest complete eligible synchronized occasion
+sub-20402,ses-1,13.22,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-53,earliest complete eligible synchronized occasion
+sub-20402,ses-1,13.22,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-53,earliest complete eligible synchronized occasion
+sub-20403,ses-1,12.11,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-54,earliest complete eligible synchronized occasion
+sub-20403,ses-1,12.11,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-54,earliest complete eligible synchronized occasion
+sub-20403,ses-1,12.11,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-54,earliest complete eligible synchronized occasion
+sub-20403,ses-1,12.11,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-54,earliest complete eligible synchronized occasion
+sub-20403,ses-1,12.11,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-54,earliest complete eligible synchronized occasion
+sub-20410,ses-1,10.74,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-55,earliest complete eligible synchronized occasion
+sub-20410,ses-1,10.74,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-55,earliest complete eligible synchronized occasion
+sub-20410,ses-1,10.74,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-55,earliest complete eligible synchronized occasion
+sub-20410,ses-1,10.74,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-55,earliest complete eligible synchronized occasion
+sub-20410,ses-1,10.74,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-55,earliest complete eligible synchronized occasion
+sub-20427,ses-1,15.62,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-56,earliest complete eligible synchronized occasion
+sub-20427,ses-1,15.62,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-56,earliest complete eligible synchronized occasion
+sub-20427,ses-1,15.62,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-56,earliest complete eligible synchronized occasion
+sub-20427,ses-1,15.62,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-56,earliest complete eligible synchronized occasion
+sub-20427,ses-1,15.62,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-56,earliest complete eligible synchronized occasion
+sub-20448,ses-1,10.87,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-58,earliest complete eligible synchronized occasion
+sub-20448,ses-1,10.87,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-58,earliest complete eligible synchronized occasion
+sub-20448,ses-1,10.87,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-58,earliest complete eligible synchronized occasion
+sub-20448,ses-1,10.87,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-58,earliest complete eligible synchronized occasion
+sub-20448,ses-1,10.87,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-58,earliest complete eligible synchronized occasion
+sub-20463,ses-1,13.2,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-59,earliest complete eligible synchronized occasion
+sub-20463,ses-1,13.2,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-59,earliest complete eligible synchronized occasion
+sub-20463,ses-1,13.2,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-59,earliest complete eligible synchronized occasion
+sub-20463,ses-1,13.2,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-59,earliest complete eligible synchronized occasion
+sub-20463,ses-1,13.2,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-59,earliest complete eligible synchronized occasion
+sub-20494,ses-1,10.06,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-61,earliest complete eligible synchronized occasion
+sub-20494,ses-1,10.06,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-61,earliest complete eligible synchronized occasion
+sub-20494,ses-1,10.06,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-61,earliest complete eligible synchronized occasion
+sub-20494,ses-1,10.06,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-61,earliest complete eligible synchronized occasion
+sub-20494,ses-1,10.06,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-61,earliest complete eligible synchronized occasion
+sub-20533,ses-1,11.83,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-64,earliest complete eligible synchronized occasion
+sub-20533,ses-1,11.83,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-64,earliest complete eligible synchronized occasion
+sub-20533,ses-1,11.83,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-64,earliest complete eligible synchronized occasion
+sub-20533,ses-1,11.83,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-64,earliest complete eligible synchronized occasion
+sub-20533,ses-1,11.83,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-64,earliest complete eligible synchronized occasion
+sub-20572,ses-1,11.8,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-66,earliest complete eligible synchronized occasion
+sub-20572,ses-1,11.8,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-66,earliest complete eligible synchronized occasion
+sub-20572,ses-1,11.8,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-66,earliest complete eligible synchronized occasion
+sub-20572,ses-1,11.8,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-66,earliest complete eligible synchronized occasion
+sub-20572,ses-1,11.8,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-66,earliest complete eligible synchronized occasion
+sub-20626,ses-1,14.81,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-69,earliest complete eligible synchronized occasion
+sub-20626,ses-1,14.81,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-69,earliest complete eligible synchronized occasion
+sub-20626,ses-1,14.81,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-69,earliest complete eligible synchronized occasion
+sub-20626,ses-1,14.81,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-69,earliest complete eligible synchronized occasion
+sub-20626,ses-1,14.81,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-69,earliest complete eligible synchronized occasion
+sub-20691,ses-1,12.82,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-71,earliest complete eligible synchronized occasion
+sub-20691,ses-1,12.82,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-71,earliest complete eligible synchronized occasion
+sub-20691,ses-1,12.82,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-71,earliest complete eligible synchronized occasion
+sub-20691,ses-1,12.82,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-71,earliest complete eligible synchronized occasion
+sub-20691,ses-1,12.82,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-71,earliest complete eligible synchronized occasion
+sub-20712,ses-1,13.54,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-73,earliest complete eligible synchronized occasion
+sub-20712,ses-1,13.54,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-73,earliest complete eligible synchronized occasion
+sub-20712,ses-1,13.54,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-73,earliest complete eligible synchronized occasion
+sub-20712,ses-1,13.54,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-73,earliest complete eligible synchronized occasion
+sub-20712,ses-1,13.54,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-73,earliest complete eligible synchronized occasion
+sub-20721,ses-1,11.29,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-76,earliest complete eligible synchronized occasion
+sub-20721,ses-1,11.29,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-76,earliest complete eligible synchronized occasion
+sub-20721,ses-1,11.29,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-76,earliest complete eligible synchronized occasion
+sub-20721,ses-1,11.29,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-76,earliest complete eligible synchronized occasion
+sub-20721,ses-1,11.29,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-76,earliest complete eligible synchronized occasion
+sub-20794,ses-1,14.04,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-80,earliest complete eligible synchronized occasion
+sub-20794,ses-1,14.04,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-80,earliest complete eligible synchronized occasion
+sub-20794,ses-1,14.04,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-80,earliest complete eligible synchronized occasion
+sub-20794,ses-1,14.04,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-80,earliest complete eligible synchronized occasion
+sub-20794,ses-1,14.04,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-80,earliest complete eligible synchronized occasion
+sub-20812,ses-1,11.76,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-81,earliest complete eligible synchronized occasion
+sub-20812,ses-1,11.76,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-81,earliest complete eligible synchronized occasion
+sub-20812,ses-1,11.76,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-81,earliest complete eligible synchronized occasion
+sub-20812,ses-1,11.76,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-81,earliest complete eligible synchronized occasion
+sub-20812,ses-1,11.76,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-81,earliest complete eligible synchronized occasion
+sub-20823,ses-1,10.03,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-85,earliest complete eligible synchronized occasion
+sub-20823,ses-1,10.03,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-85,earliest complete eligible synchronized occasion
+sub-20823,ses-1,10.03,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-85,earliest complete eligible synchronized occasion
+sub-20823,ses-1,10.03,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-85,earliest complete eligible synchronized occasion
+sub-20823,ses-1,10.03,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-85,earliest complete eligible synchronized occasion
+sub-20836,ses-2,14.89,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-88,earliest complete eligible synchronized occasion
+sub-20836,ses-2,14.89,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-88,earliest complete eligible synchronized occasion
+sub-20836,ses-2,14.89,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-88,earliest complete eligible synchronized occasion
+sub-20836,ses-2,14.89,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-88,earliest complete eligible synchronized occasion
+sub-20836,ses-2,14.89,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-88,earliest complete eligible synchronized occasion
+sub-20842,ses-1,10.17,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-89,earliest complete eligible synchronized occasion
+sub-20842,ses-1,10.17,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-89,earliest complete eligible synchronized occasion
+sub-20842,ses-1,10.17,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-89,earliest complete eligible synchronized occasion
+sub-20842,ses-1,10.17,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-89,earliest complete eligible synchronized occasion
+sub-20842,ses-1,10.17,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-89,earliest complete eligible synchronized occasion
+sub-20846,ses-1,11.62,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-90,earliest complete eligible synchronized occasion
+sub-20846,ses-1,11.62,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-90,earliest complete eligible synchronized occasion
+sub-20846,ses-1,11.62,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-90,earliest complete eligible synchronized occasion
+sub-20846,ses-1,11.62,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-90,earliest complete eligible synchronized occasion
+sub-20846,ses-1,11.62,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-90,earliest complete eligible synchronized occasion
+sub-20849,ses-1,10.34,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-91,earliest complete eligible synchronized occasion
+sub-20849,ses-1,10.34,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-91,earliest complete eligible synchronized occasion
+sub-20849,ses-1,10.34,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-91,earliest complete eligible synchronized occasion
+sub-20849,ses-1,10.34,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-91,earliest complete eligible synchronized occasion
+sub-20849,ses-1,10.34,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-91,earliest complete eligible synchronized occasion
+sub-20855,ses-1,15.92,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-92,earliest complete eligible synchronized occasion
+sub-20855,ses-1,15.92,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-92,earliest complete eligible synchronized occasion
+sub-20855,ses-1,15.92,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-92,earliest complete eligible synchronized occasion
+sub-20855,ses-1,15.92,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-92,earliest complete eligible synchronized occasion
+sub-20855,ses-1,15.92,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-92,earliest complete eligible synchronized occasion
+sub-20860,ses-1,14.69,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-93,earliest complete eligible synchronized occasion
+sub-20860,ses-1,14.69,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-93,earliest complete eligible synchronized occasion
+sub-20860,ses-1,14.69,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-93,earliest complete eligible synchronized occasion
+sub-20860,ses-1,14.69,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-93,earliest complete eligible synchronized occasion
+sub-20860,ses-1,14.69,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-93,earliest complete eligible synchronized occasion
+sub-20865,ses-1,15.57,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-94,earliest complete eligible synchronized occasion
+sub-20865,ses-1,15.57,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-94,earliest complete eligible synchronized occasion
+sub-20865,ses-1,15.57,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-94,earliest complete eligible synchronized occasion
+sub-20865,ses-1,15.57,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-94,earliest complete eligible synchronized occasion
+sub-20865,ses-1,15.57,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-94,earliest complete eligible synchronized occasion
+sub-20866,ses-1,15.68,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-96,earliest complete eligible synchronized occasion
+sub-20866,ses-1,15.68,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-96,earliest complete eligible synchronized occasion
+sub-20866,ses-1,15.68,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-96,earliest complete eligible synchronized occasion
+sub-20866,ses-1,15.68,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-96,earliest complete eligible synchronized occasion
+sub-20866,ses-1,15.68,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-96,earliest complete eligible synchronized occasion
+sub-20902,ses-1,15.23,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-98,earliest complete eligible synchronized occasion
+sub-20902,ses-1,15.23,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-98,earliest complete eligible synchronized occasion
+sub-20902,ses-1,15.23,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-98,earliest complete eligible synchronized occasion
+sub-20902,ses-1,15.23,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-98,earliest complete eligible synchronized occasion
+sub-20902,ses-1,15.23,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-98,earliest complete eligible synchronized occasion
+sub-20916,ses-1,9.98,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-101,earliest complete eligible synchronized occasion
+sub-20916,ses-1,9.98,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-101,earliest complete eligible synchronized occasion
+sub-20916,ses-1,9.98,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-101,earliest complete eligible synchronized occasion
+sub-20916,ses-1,9.98,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-101,earliest complete eligible synchronized occasion
+sub-20916,ses-1,9.98,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-101,earliest complete eligible synchronized occasion
+sub-20918,ses-1,9.96,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-104,earliest complete eligible synchronized occasion
+sub-20918,ses-1,9.96,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-104,earliest complete eligible synchronized occasion
+sub-20918,ses-1,9.96,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-104,earliest complete eligible synchronized occasion
+sub-20918,ses-1,9.96,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-104,earliest complete eligible synchronized occasion
+sub-20918,ses-1,9.96,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-104,earliest complete eligible synchronized occasion
+sub-20919,ses-1,9.96,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-105,earliest complete eligible synchronized occasion
+sub-20919,ses-1,9.96,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-105,earliest complete eligible synchronized occasion
+sub-20919,ses-1,9.96,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-105,earliest complete eligible synchronized occasion
+sub-20919,ses-1,9.96,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-105,earliest complete eligible synchronized occasion
+sub-20919,ses-1,9.96,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-105,earliest complete eligible synchronized occasion
+sub-20923,ses-1,9.27,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-106,earliest complete eligible synchronized occasion
+sub-20923,ses-1,9.27,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-106,earliest complete eligible synchronized occasion
+sub-20923,ses-1,9.27,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-106,earliest complete eligible synchronized occasion
+sub-20923,ses-1,9.27,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-106,earliest complete eligible synchronized occasion
+sub-20923,ses-1,9.27,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-106,earliest complete eligible synchronized occasion
+sub-20936,ses-1,10.08,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-109,earliest complete eligible synchronized occasion
+sub-20936,ses-1,10.08,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-109,earliest complete eligible synchronized occasion
+sub-20936,ses-1,10.08,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-109,earliest complete eligible synchronized occasion
+sub-20936,ses-1,10.08,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-109,earliest complete eligible synchronized occasion
+sub-20936,ses-1,10.08,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-109,earliest complete eligible synchronized occasion
+sub-20953,ses-1,11.14,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-112,earliest complete eligible synchronized occasion
+sub-20953,ses-1,11.14,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-112,earliest complete eligible synchronized occasion
+sub-20953,ses-1,11.14,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-112,earliest complete eligible synchronized occasion
+sub-20953,ses-1,11.14,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-112,earliest complete eligible synchronized occasion
+sub-20953,ses-1,11.14,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-112,earliest complete eligible synchronized occasion
+sub-20961,ses-2,15.79,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-115,earliest complete eligible synchronized occasion
+sub-20961,ses-2,15.79,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-115,earliest complete eligible synchronized occasion
+sub-20961,ses-2,15.79,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-115,earliest complete eligible synchronized occasion
+sub-20961,ses-2,15.79,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-115,earliest complete eligible synchronized occasion
+sub-20961,ses-2,15.79,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-115,earliest complete eligible synchronized occasion
+sub-20964,ses-1,11.54,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-116,earliest complete eligible synchronized occasion
+sub-20964,ses-1,11.54,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-116,earliest complete eligible synchronized occasion
+sub-20964,ses-1,11.54,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-116,earliest complete eligible synchronized occasion
+sub-20964,ses-1,11.54,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-116,earliest complete eligible synchronized occasion
+sub-20964,ses-1,11.54,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-116,earliest complete eligible synchronized occasion
+sub-20966,ses-1,13.32,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-117,earliest complete eligible synchronized occasion
+sub-20966,ses-1,13.32,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-117,earliest complete eligible synchronized occasion
+sub-20966,ses-1,13.32,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-117,earliest complete eligible synchronized occasion
+sub-20966,ses-1,13.32,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-117,earliest complete eligible synchronized occasion
+sub-20966,ses-1,13.32,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-117,earliest complete eligible synchronized occasion
+sub-20968,ses-1,13.39,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-120,earliest complete eligible synchronized occasion
+sub-20968,ses-1,13.39,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-120,earliest complete eligible synchronized occasion
+sub-20968,ses-1,13.39,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-120,earliest complete eligible synchronized occasion
+sub-20968,ses-1,13.39,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-120,earliest complete eligible synchronized occasion
+sub-20968,ses-1,13.39,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-120,earliest complete eligible synchronized occasion
+sub-20976,ses-1,12.51,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-123,earliest complete eligible synchronized occasion
+sub-20976,ses-1,12.51,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-123,earliest complete eligible synchronized occasion
+sub-20976,ses-1,12.51,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-123,earliest complete eligible synchronized occasion
+sub-20976,ses-1,12.51,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-123,earliest complete eligible synchronized occasion
+sub-20976,ses-1,12.51,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-123,earliest complete eligible synchronized occasion
+sub-21023,ses-1,13.59,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-128,earliest complete eligible synchronized occasion
+sub-21023,ses-1,13.59,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-128,earliest complete eligible synchronized occasion
+sub-21023,ses-1,13.59,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-128,earliest complete eligible synchronized occasion
+sub-21023,ses-1,13.59,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-128,earliest complete eligible synchronized occasion
+sub-21023,ses-1,13.59,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-128,earliest complete eligible synchronized occasion
+sub-21035,ses-2,15.93,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-131,earliest complete eligible synchronized occasion
+sub-21035,ses-2,15.93,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-131,earliest complete eligible synchronized occasion
+sub-21035,ses-2,15.93,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-131,earliest complete eligible synchronized occasion
+sub-21035,ses-2,15.93,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-131,earliest complete eligible synchronized occasion
+sub-21035,ses-2,15.93,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-131,earliest complete eligible synchronized occasion
+sub-21038,ses-1,13.93,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-133,earliest complete eligible synchronized occasion
+sub-21038,ses-1,13.93,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-133,earliest complete eligible synchronized occasion
+sub-21038,ses-1,13.93,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-133,earliest complete eligible synchronized occasion
+sub-21038,ses-1,13.93,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-133,earliest complete eligible synchronized occasion
+sub-21038,ses-1,13.93,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-133,earliest complete eligible synchronized occasion
+sub-21050,ses-1,11.19,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-135,earliest complete eligible synchronized occasion
+sub-21050,ses-1,11.19,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-135,earliest complete eligible synchronized occasion
+sub-21050,ses-1,11.19,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-135,earliest complete eligible synchronized occasion
+sub-21050,ses-1,11.19,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-135,earliest complete eligible synchronized occasion
+sub-21050,ses-1,11.19,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-135,earliest complete eligible synchronized occasion
+sub-21095,ses-1,10.91,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-137,earliest complete eligible synchronized occasion
+sub-21095,ses-1,10.91,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-137,earliest complete eligible synchronized occasion
+sub-21095,ses-1,10.91,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-137,earliest complete eligible synchronized occasion
+sub-21095,ses-1,10.91,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-137,earliest complete eligible synchronized occasion
+sub-21095,ses-1,10.91,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-137,earliest complete eligible synchronized occasion
+sub-21104,ses-1,16.0,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-138,earliest complete eligible synchronized occasion
+sub-21104,ses-1,16.0,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-138,earliest complete eligible synchronized occasion
+sub-21104,ses-1,16.0,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-138,earliest complete eligible synchronized occasion
+sub-21104,ses-1,16.0,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-138,earliest complete eligible synchronized occasion
+sub-21104,ses-1,16.0,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-138,earliest complete eligible synchronized occasion
+sub-21112,ses-1,12.33,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-140,earliest complete eligible synchronized occasion
+sub-21112,ses-1,12.33,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-140,earliest complete eligible synchronized occasion
+sub-21112,ses-1,12.33,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-140,earliest complete eligible synchronized occasion
+sub-21112,ses-1,12.33,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-140,earliest complete eligible synchronized occasion
+sub-21112,ses-1,12.33,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-140,earliest complete eligible synchronized occasion
+sub-21116,ses-1,13.75,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-142,earliest complete eligible synchronized occasion
+sub-21116,ses-1,13.75,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-142,earliest complete eligible synchronized occasion
+sub-21116,ses-1,13.75,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-142,earliest complete eligible synchronized occasion
+sub-21116,ses-1,13.75,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-142,earliest complete eligible synchronized occasion
+sub-21116,ses-1,13.75,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-142,earliest complete eligible synchronized occasion
+sub-21118,ses-1,11.51,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-143,earliest complete eligible synchronized occasion
+sub-21118,ses-1,11.51,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-143,earliest complete eligible synchronized occasion
+sub-21118,ses-1,11.51,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-143,earliest complete eligible synchronized occasion
+sub-21118,ses-1,11.51,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-143,earliest complete eligible synchronized occasion
+sub-21118,ses-1,11.51,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-143,earliest complete eligible synchronized occasion
+sub-21124,ses-1,13.76,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-145,earliest complete eligible synchronized occasion
+sub-21124,ses-1,13.76,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-145,earliest complete eligible synchronized occasion
+sub-21124,ses-1,13.76,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-145,earliest complete eligible synchronized occasion
+sub-21124,ses-1,13.76,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-145,earliest complete eligible synchronized occasion
+sub-21124,ses-1,13.76,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-145,earliest complete eligible synchronized occasion
+sub-21131,ses-1,10.8,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-146,earliest complete eligible synchronized occasion
+sub-21131,ses-1,10.8,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-146,earliest complete eligible synchronized occasion
+sub-21131,ses-1,10.8,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-146,earliest complete eligible synchronized occasion
+sub-21131,ses-1,10.8,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-146,earliest complete eligible synchronized occasion
+sub-21131,ses-1,10.8,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-146,earliest complete eligible synchronized occasion
+sub-21139,ses-2,13.32,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-148,earliest complete eligible synchronized occasion
+sub-21139,ses-2,13.32,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-148,earliest complete eligible synchronized occasion
+sub-21139,ses-2,13.32,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-148,earliest complete eligible synchronized occasion
+sub-21139,ses-2,13.32,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-148,earliest complete eligible synchronized occasion
+sub-21139,ses-2,13.32,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-148,earliest complete eligible synchronized occasion
+sub-21141,ses-1,11.44,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-149,earliest complete eligible synchronized occasion
+sub-21141,ses-1,11.44,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-149,earliest complete eligible synchronized occasion
+sub-21141,ses-1,11.44,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-149,earliest complete eligible synchronized occasion
+sub-21141,ses-1,11.44,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-149,earliest complete eligible synchronized occasion
+sub-21141,ses-1,11.44,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-149,earliest complete eligible synchronized occasion
+sub-21146,ses-1,11.27,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-151,earliest complete eligible synchronized occasion
+sub-21146,ses-1,11.27,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-151,earliest complete eligible synchronized occasion
+sub-21146,ses-1,11.27,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-151,earliest complete eligible synchronized occasion
+sub-21146,ses-1,11.27,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-151,earliest complete eligible synchronized occasion
+sub-21146,ses-1,11.27,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-151,earliest complete eligible synchronized occasion
+sub-21150,ses-1,15.06,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-152,earliest complete eligible synchronized occasion
+sub-21150,ses-1,15.06,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-152,earliest complete eligible synchronized occasion
+sub-21150,ses-1,15.06,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-152,earliest complete eligible synchronized occasion
+sub-21150,ses-1,15.06,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-152,earliest complete eligible synchronized occasion
+sub-21150,ses-1,15.06,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-152,earliest complete eligible synchronized occasion
+sub-21161,ses-2,11.23,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-155,earliest complete eligible synchronized occasion
+sub-21161,ses-2,11.23,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-155,earliest complete eligible synchronized occasion
+sub-21161,ses-2,11.23,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-155,earliest complete eligible synchronized occasion
+sub-21161,ses-2,11.23,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-155,earliest complete eligible synchronized occasion
+sub-21161,ses-2,11.23,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-155,earliest complete eligible synchronized occasion
+sub-21193,ses-1,10.74,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-157,earliest complete eligible synchronized occasion
+sub-21193,ses-1,10.74,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-157,earliest complete eligible synchronized occasion
+sub-21193,ses-1,10.74,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-157,earliest complete eligible synchronized occasion
+sub-21193,ses-1,10.74,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-157,earliest complete eligible synchronized occasion
+sub-21193,ses-1,10.74,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-157,earliest complete eligible synchronized occasion
+sub-21197,ses-1,11.16,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-159,earliest complete eligible synchronized occasion
+sub-21197,ses-1,11.16,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-159,earliest complete eligible synchronized occasion
+sub-21197,ses-1,11.16,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-159,earliest complete eligible synchronized occasion
+sub-21197,ses-1,11.16,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-159,earliest complete eligible synchronized occasion
+sub-21197,ses-1,11.16,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-159,earliest complete eligible synchronized occasion
+sub-21224,ses-1,14.78,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-160,earliest complete eligible synchronized occasion
+sub-21224,ses-1,14.78,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-160,earliest complete eligible synchronized occasion
+sub-21224,ses-1,14.78,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-160,earliest complete eligible synchronized occasion
+sub-21224,ses-1,14.78,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-160,earliest complete eligible synchronized occasion
+sub-21224,ses-1,14.78,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-160,earliest complete eligible synchronized occasion
+sub-21345,ses-1,16.04,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-163,earliest complete eligible synchronized occasion
+sub-21345,ses-1,16.04,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-163,earliest complete eligible synchronized occasion
+sub-21345,ses-1,16.04,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-163,earliest complete eligible synchronized occasion
+sub-21345,ses-1,16.04,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-163,earliest complete eligible synchronized occasion
+sub-21345,ses-1,16.04,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-163,earliest complete eligible synchronized occasion
+sub-21493,ses-1,14.44,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-165,earliest complete eligible synchronized occasion
+sub-21493,ses-1,14.44,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-165,earliest complete eligible synchronized occasion
+sub-21493,ses-1,14.44,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-165,earliest complete eligible synchronized occasion
+sub-21493,ses-1,14.44,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-165,earliest complete eligible synchronized occasion
+sub-21493,ses-1,14.44,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-165,earliest complete eligible synchronized occasion
+sub-21514,ses-1,13.08,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-167,earliest complete eligible synchronized occasion
+sub-21514,ses-1,13.08,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-167,earliest complete eligible synchronized occasion
+sub-21514,ses-1,13.08,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-167,earliest complete eligible synchronized occasion
+sub-21514,ses-1,13.08,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-167,earliest complete eligible synchronized occasion
+sub-21514,ses-1,13.08,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-167,earliest complete eligible synchronized occasion
+sub-21516,ses-1,11.58,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-168,earliest complete eligible synchronized occasion
+sub-21516,ses-1,11.58,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-168,earliest complete eligible synchronized occasion
+sub-21516,ses-1,11.58,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-168,earliest complete eligible synchronized occasion
+sub-21516,ses-1,11.58,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-168,earliest complete eligible synchronized occasion
+sub-21516,ses-1,11.58,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-168,earliest complete eligible synchronized occasion
+sub-21539,ses-1,10.11,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-170,earliest complete eligible synchronized occasion
+sub-21539,ses-1,10.11,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-170,earliest complete eligible synchronized occasion
+sub-21539,ses-1,10.11,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-170,earliest complete eligible synchronized occasion
+sub-21539,ses-1,10.11,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-170,earliest complete eligible synchronized occasion
+sub-21539,ses-1,10.11,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-170,earliest complete eligible synchronized occasion
+sub-21553,ses-1,10.15,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-171,earliest complete eligible synchronized occasion
+sub-21553,ses-1,10.15,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-171,earliest complete eligible synchronized occasion
+sub-21553,ses-1,10.15,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-171,earliest complete eligible synchronized occasion
+sub-21553,ses-1,10.15,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-171,earliest complete eligible synchronized occasion
+sub-21553,ses-1,10.15,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-171,earliest complete eligible synchronized occasion
+sub-21554,ses-2,10.58,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-174,earliest complete eligible synchronized occasion
+sub-21554,ses-2,10.58,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-174,earliest complete eligible synchronized occasion
+sub-21554,ses-2,10.58,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-174,earliest complete eligible synchronized occasion
+sub-21554,ses-2,10.58,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-174,earliest complete eligible synchronized occasion
+sub-21554,ses-2,10.58,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-174,earliest complete eligible synchronized occasion
+sub-21560,ses-1,14.43,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-175,earliest complete eligible synchronized occasion
+sub-21560,ses-1,14.43,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-175,earliest complete eligible synchronized occasion
+sub-21560,ses-1,14.43,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-175,earliest complete eligible synchronized occasion
+sub-21560,ses-1,14.43,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-175,earliest complete eligible synchronized occasion
+sub-21560,ses-1,14.43,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-175,earliest complete eligible synchronized occasion
+sub-21623,ses-1,12.91,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-181,earliest complete eligible synchronized occasion
+sub-21623,ses-1,12.91,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-181,earliest complete eligible synchronized occasion
+sub-21623,ses-1,12.91,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-181,earliest complete eligible synchronized occasion
+sub-21623,ses-1,12.91,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-181,earliest complete eligible synchronized occasion
+sub-21623,ses-1,12.91,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-181,earliest complete eligible synchronized occasion
+sub-21712,ses-1,11.13,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-183,earliest complete eligible synchronized occasion
+sub-21712,ses-1,11.13,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-183,earliest complete eligible synchronized occasion
+sub-21712,ses-1,11.13,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-183,earliest complete eligible synchronized occasion
+sub-21712,ses-1,11.13,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-183,earliest complete eligible synchronized occasion
+sub-21712,ses-1,11.13,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-183,earliest complete eligible synchronized occasion
+sub-21713,ses-2,10.58,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-186,earliest complete eligible synchronized occasion
+sub-21713,ses-2,10.58,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-186,earliest complete eligible synchronized occasion
+sub-21713,ses-2,10.58,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-186,earliest complete eligible synchronized occasion
+sub-21713,ses-2,10.58,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-186,earliest complete eligible synchronized occasion
+sub-21713,ses-2,10.58,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-186,earliest complete eligible synchronized occasion
+sub-21738,ses-1,13.72,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-187,earliest complete eligible synchronized occasion
+sub-21738,ses-1,13.72,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-187,earliest complete eligible synchronized occasion
+sub-21738,ses-1,13.72,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-187,earliest complete eligible synchronized occasion
+sub-21738,ses-1,13.72,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-187,earliest complete eligible synchronized occasion
+sub-21738,ses-1,13.72,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-187,earliest complete eligible synchronized occasion
+sub-21827,ses-1,15.18,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-189,earliest complete eligible synchronized occasion
+sub-21827,ses-1,15.18,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-189,earliest complete eligible synchronized occasion
+sub-21827,ses-1,15.18,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-189,earliest complete eligible synchronized occasion
+sub-21827,ses-1,15.18,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-189,earliest complete eligible synchronized occasion
+sub-21827,ses-1,15.18,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-189,earliest complete eligible synchronized occasion
+sub-21855,ses-1,12.85,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-190,earliest complete eligible synchronized occasion
+sub-21855,ses-1,12.85,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-190,earliest complete eligible synchronized occasion
+sub-21855,ses-1,12.85,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-190,earliest complete eligible synchronized occasion
+sub-21855,ses-1,12.85,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-190,earliest complete eligible synchronized occasion
+sub-21855,ses-1,12.85,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-190,earliest complete eligible synchronized occasion
+sub-21856,ses-1,12.85,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-192,earliest complete eligible synchronized occasion
+sub-21856,ses-1,12.85,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-192,earliest complete eligible synchronized occasion
+sub-21856,ses-1,12.85,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-192,earliest complete eligible synchronized occasion
+sub-21856,ses-1,12.85,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-192,earliest complete eligible synchronized occasion
+sub-21856,ses-1,12.85,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-192,earliest complete eligible synchronized occasion
+sub-22045,ses-2,11.07,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-194,earliest complete eligible synchronized occasion
+sub-22045,ses-2,11.07,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-194,earliest complete eligible synchronized occasion
+sub-22045,ses-2,11.07,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-194,earliest complete eligible synchronized occasion
+sub-22045,ses-2,11.07,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-194,earliest complete eligible synchronized occasion
+sub-22045,ses-2,11.07,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-194,earliest complete eligible synchronized occasion
+sub-22064,ses-1,14.02,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-195,earliest complete eligible synchronized occasion
+sub-22064,ses-1,14.02,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-195,earliest complete eligible synchronized occasion
+sub-22064,ses-1,14.02,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-195,earliest complete eligible synchronized occasion
+sub-22064,ses-1,14.02,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-195,earliest complete eligible synchronized occasion
+sub-22064,ses-1,14.02,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-195,earliest complete eligible synchronized occasion
+sub-22473,ses-1,15.09,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-198,earliest complete eligible synchronized occasion
+sub-22473,ses-1,15.09,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-198,earliest complete eligible synchronized occasion
+sub-22473,ses-1,15.09,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-198,earliest complete eligible synchronized occasion
+sub-22473,ses-1,15.09,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-198,earliest complete eligible synchronized occasion
+sub-22473,ses-1,15.09,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-198,earliest complete eligible synchronized occasion
+sub-22510,ses-1,14.63,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-200,earliest complete eligible synchronized occasion
+sub-22510,ses-1,14.63,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-200,earliest complete eligible synchronized occasion
+sub-22510,ses-1,14.63,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-200,earliest complete eligible synchronized occasion
+sub-22510,ses-1,14.63,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-200,earliest complete eligible synchronized occasion
+sub-22510,ses-1,14.63,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-200,earliest complete eligible synchronized occasion
+sub-22520,ses-1,14.25,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-201,earliest complete eligible synchronized occasion
+sub-22520,ses-1,14.25,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-201,earliest complete eligible synchronized occasion
+sub-22520,ses-1,14.25,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-201,earliest complete eligible synchronized occasion
+sub-22520,ses-1,14.25,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-201,earliest complete eligible synchronized occasion
+sub-22520,ses-1,14.25,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-201,earliest complete eligible synchronized occasion
+sub-22617,ses-1,13.85,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-202,earliest complete eligible synchronized occasion
+sub-22617,ses-1,13.85,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-202,earliest complete eligible synchronized occasion
+sub-22617,ses-1,13.85,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-202,earliest complete eligible synchronized occasion
+sub-22617,ses-1,13.85,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-202,earliest complete eligible synchronized occasion
+sub-22617,ses-1,13.85,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-202,earliest complete eligible synchronized occasion
+sub-22618,ses-1,11.65,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-203,earliest complete eligible synchronized occasion
+sub-22618,ses-1,11.65,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-203,earliest complete eligible synchronized occasion
+sub-22618,ses-1,11.65,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-203,earliest complete eligible synchronized occasion
+sub-22618,ses-1,11.65,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-203,earliest complete eligible synchronized occasion
+sub-22618,ses-1,11.65,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-203,earliest complete eligible synchronized occasion
+sub-22653,ses-2,11.23,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-205,earliest complete eligible synchronized occasion
+sub-22653,ses-2,11.23,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-205,earliest complete eligible synchronized occasion
+sub-22653,ses-2,11.23,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-205,earliest complete eligible synchronized occasion
+sub-22653,ses-2,11.23,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-205,earliest complete eligible synchronized occasion
+sub-22653,ses-2,11.23,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-205,earliest complete eligible synchronized occasion
+sub-22654,ses-1,14.78,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-206,earliest complete eligible synchronized occasion
+sub-22654,ses-1,14.78,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-206,earliest complete eligible synchronized occasion
+sub-22654,ses-1,14.78,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-206,earliest complete eligible synchronized occasion
+sub-22654,ses-1,14.78,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-206,earliest complete eligible synchronized occasion
+sub-22654,ses-1,14.78,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-206,earliest complete eligible synchronized occasion
+sub-22744,ses-1,15.08,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-209,earliest complete eligible synchronized occasion
+sub-22744,ses-1,15.08,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-209,earliest complete eligible synchronized occasion
+sub-22744,ses-1,15.08,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-209,earliest complete eligible synchronized occasion
+sub-22744,ses-1,15.08,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-209,earliest complete eligible synchronized occasion
+sub-22744,ses-1,15.08,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-209,earliest complete eligible synchronized occasion
+sub-22745,ses-1,10.56,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-210,earliest complete eligible synchronized occasion
+sub-22745,ses-1,10.56,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-210,earliest complete eligible synchronized occasion
+sub-22745,ses-1,10.56,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-210,earliest complete eligible synchronized occasion
+sub-22745,ses-1,10.56,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-210,earliest complete eligible synchronized occasion
+sub-22745,ses-1,10.56,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-210,earliest complete eligible synchronized occasion
+sub-22797,ses-1,12.66,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-211,earliest complete eligible synchronized occasion
+sub-22797,ses-1,12.66,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-211,earliest complete eligible synchronized occasion
+sub-22797,ses-1,12.66,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-211,earliest complete eligible synchronized occasion
+sub-22797,ses-1,12.66,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-211,earliest complete eligible synchronized occasion
+sub-22797,ses-1,12.66,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-211,earliest complete eligible synchronized occasion
+sub-22870,ses-1,11.3,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-213,earliest complete eligible synchronized occasion
+sub-22870,ses-1,11.3,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-213,earliest complete eligible synchronized occasion
+sub-22870,ses-1,11.3,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-213,earliest complete eligible synchronized occasion
+sub-22870,ses-1,11.3,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-213,earliest complete eligible synchronized occasion
+sub-22870,ses-1,11.3,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-213,earliest complete eligible synchronized occasion
+sub-23113,ses-1,8.69,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-214,earliest complete eligible synchronized occasion
+sub-23113,ses-1,8.69,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-214,earliest complete eligible synchronized occasion
+sub-23113,ses-1,8.69,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-214,earliest complete eligible synchronized occasion
+sub-23113,ses-1,8.69,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-214,earliest complete eligible synchronized occasion
+sub-23113,ses-1,8.69,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-214,earliest complete eligible synchronized occasion
+sub-23303,ses-1,15.29,cnb_lnb_mcr,Letter n-back,phenotype/short_letter_2back.tsv#data-row-215,earliest complete eligible synchronized occasion
+sub-23303,ses-1,15.29,cnb_cpf_cr,Face memory,phenotype/penn_face_memory_test.tsv#data-row-215,earliest complete eligible synchronized occasion
+sub-23303,ses-1,15.29,cnb_pmat_cr,Matrix reasoning,phenotype/penn_matrix_reasoning_test.tsv#data-row-215,earliest complete eligible synchronized occasion
+sub-23303,ses-1,15.29,cnb_er40_cr,Emotion recognition,phenotype/penn_emotion_recognition_task.tsv#data-row-215,earliest complete eligible synchronized occasion
+sub-23303,ses-1,15.29,cnb_ctap_dom,Dominant-hand finger tapping,phenotype/short_computerized_finger_tapping_task.tsv#data-row-215,earliest complete eligible synchronized occasion

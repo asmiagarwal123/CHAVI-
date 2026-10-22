@@ -1,0 +1,6 @@
+score_field,dictionary_description,unit,direction,unresolved_caveat,transformation_applied
+cnb_lnb_mcr,Letter N-back Median Correct Response Time,responses,positive,None,Pending Age Model
+cnb_cpf_cr,Face Memory Correct Responses,responses,positive,None,Pending Age Model
+cnb_pmat_cr,Matrix Reasoning Correct Responses,responses,positive,None,Pending Age Model
+cnb_er40_cr,Emotion Recognition Correct Responses,responses,positive,None,Pending Age Model
+cnb_ctap_dom,Dominant Finger Tapping,taps,positive,Unit aggregation interpretation conditional,Pending Age Model

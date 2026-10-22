@@ -1,0 +1,12 @@
+claim,status,basis
+Observed sample description,ALLOWED,"Bound to selected pairs, frozen tasks, Design B, model/scale, support and complete cases."
+Simulation-based uncertainty evaluation,ALLOWED_WITH_QUALIFICATION,B3-R evaluates scenario-specific coverage and availability; no universal calibration claim.
+Individual-child profile reliability,PROHIBITED,Sample-level ICC does not identify individual reliability or clinical interpretability.
+Diagnosis or participant report,PROHIBITED,No validated individual threshold or clinical target.
+Population norms/generalization,PROHIBITED,Internal selected-sample reference and complete-case selection.
+Causal development,PROHIBITED,"Timing, practice, state, administration and versions are not separated."
+Latent ability or five validated domains,PROHIBITED,"Task coordinates are observed score transformations, not a validated measurement model."
+Task-version equivalence,PROHIBITED,Version/administration comparability remains unresolved.
+Methodological novelty,PROVISIONAL,Candidate identity-aware joint-reference application is bounded by literature and simulations.
+Repository session elapsed time,PROHIBITED,Session ordering is not verified elapsed assessment time.
+LNB and CTAP comparability,RESTRICTED,"LNB denominator/load and CTAP unit/aggregation remain unresolved and restrict interpretation, not primary computation."

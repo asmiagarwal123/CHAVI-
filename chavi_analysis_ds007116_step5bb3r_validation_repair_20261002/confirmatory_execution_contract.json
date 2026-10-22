@@ -1,0 +1,21 @@
+{
+  "contract_id":"step5bb3_confirmatory_v1",
+  "authorization":"Researcher authorization for correcting and evaluating simulated-data methods through execution of this prompt.",
+  "stage":"confirmatory",
+  "selection_basis":"Exploratory corrected pilot selected S1 and S5 because they represent the continuous stable regime and the rounded/tied nonzero-MAD regime central to the reference-uncertainty question; this is not a prospective preregistration of the whole project.",
+  "scenarios":["S1","S5"],
+  "outer_per_scenario":2000,
+  "bootstrap_replicates":999,
+  "methods":["P1_oracle_conditional","P2_fixed_transform","P3_joint_unstratified","P4_joint_fold_stratified"],
+  "scales":["MAD","SD"],
+  "endpoints":["level_icc_a1","mean_level_change","rms_shape_displacement"],
+  "interval_families":["percentile","basic"],
+  "eligibility":{"minimum_valid":950,"tail_count":"floor(0.025*n_valid)>=20","finite_point":true,"defined_truth":true,"no_redraw":true},
+  "primary_questions":["S1/MAD RMS centered-shape displacement: P2 versus P3 interval coverage and width, separately by interval family.","S5/MAD: P2 versus P3 interval availability, conditional coverage, and available-and-covered probability over all attempted outer datasets, separately by interval family."],
+  "secondary_policy":"All other comparisons are secondary or diagnostic; no superiority claim from conditional coverage when availability differs.",
+  "linkage":{"targets":52,"auxiliaries":57,"fold_counts":[11,11,10,10,10],"same_target_multiplicity_analysis_reference":true,"held_out_target_excluded":true,"one_auxiliary_draw_across_folds":true,"unused_folds_fit":false},
+  "randomness":{"master_seed":20261002,"namespace":"confirmatory","algorithm":"NumPy PCG64DXSM","streams_disjoint_from":["b2_legacy","corrected_pilot"],"derivation":"SHA256(master_seed|namespace|stage|scenario|outer|method|replicate)","loop_order_invariant":true},
+  "truth_policy":{"S6":"not confirmatory; corrected pilot diagnostic only","S5_mean_level_change":"exactly zero by identical rounded marginal symmetry"},
+  "frozen_before_generation":true,
+  "software":{"python":"3.14.0","numpy":"2.5.2"}
+}

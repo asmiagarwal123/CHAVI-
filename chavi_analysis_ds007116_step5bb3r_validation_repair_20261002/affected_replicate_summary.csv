@@ -1,0 +1,9 @@
+stage,scenario_id,affected_draws,affected_outer_datasets,attempted_draws
+corrected_pilot,S1,9,8,99900
+corrected_pilot,S2,5,5,99900
+corrected_pilot,S3,4,4,99900
+corrected_pilot,S4,4,4,99900
+corrected_pilot,S5,6,6,99900
+corrected_pilot,S6,6,5,99900
+confirmatory,S1,111,106,1998000
+confirmatory,S5,112,110,1998000

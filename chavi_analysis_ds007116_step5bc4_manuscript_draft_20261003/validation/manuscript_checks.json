@@ -1,0 +1,48 @@
+{
+  "overall_status": "PASS",
+  "automated_checks": [
+    {
+      "check": "required_deliverables",
+      "status": "PASS",
+      "evidence": "C4 root",
+      "detail": ""
+    },
+    {
+      "check": "c3_zip_hash",
+      "status": "PASS",
+      "evidence": "C3 ZIP SHA-256",
+      "detail": ""
+    },
+    {
+      "check": "all_c2_headline_values_traceable",
+      "status": "PASS",
+      "evidence": "C2 endpoint_estimates.csv and primary_bootstrap_intervals.csv",
+      "detail": "points=18 intervals=12"
+    },
+    {
+      "check": "b3r_confirmatory_anchors",
+      "status": "PASS",
+      "evidence": "B3-R confirmatory_performance_summary_repaired.csv",
+      "detail": "S1/S5 anchors plus pilot boundary"
+    },
+    {
+      "check": "published_descriptor_correction",
+      "status": "PASS",
+      "evidence": "manuscript and correction note",
+      "detail": "preprint label excluded from manuscript"
+    },
+    {
+      "check": "public_privacy_scan",
+      "status": "PASS",
+      "evidence": "C4 text data and code",
+      "detail": "[]"
+    },
+    {
+      "check": "figures_unchanged_from_validated_c3",
+      "status": "PASS",
+      "evidence": "C3 and C4 figure SHA-256 comparisons",
+      "detail": ""
+    }
+  ],
+  "scientific_judgment_note": "Automated tracing does not replace peer review or author approval."
+}

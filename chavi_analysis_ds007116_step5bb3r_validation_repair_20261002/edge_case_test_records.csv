@@ -1,0 +1,13 @@
+test,expected,observed,tolerance,exception,status
+absent_fold_all_endpoints,[-0.00824612  0.77512292  0.76005939],[-0.00824612  0.77512292  0.76005939],1e-10,,PASS
+zero_weight_nan_masking,"[0.7058823529411764, 5.0, 0.0]","[0.7058823529411764, 5.0, 0.0]",1e-10,,PASS
+active_nan_rejected,all None/unsupported_coordinate,"({'level_icc_a1': None, 'mean_level_change': None, 'rms_shape_displacement': None}, 'unsupported_coordinate')",exact,,PASS
+unequal_frequency_expansion,"[0.13331133476324056, 5.0, 0.0]","[0.13331133476324042, 5.0, 0.0]",1e-10,,PASS
+weighted_median_odd,2.0,2.0,1e-15,,PASS
+weighted_median_even,5.5,5.5,1e-15,,PASS
+zero_and_near_zero_scales,both rejected,"[(False, 'nonpositive_or_nonfinite_scale'), (False, 'numerically_degenerate_scale')]",exact,,PASS
+constant_profile_icc,"ICC undefined, changes zero","[None, 0.0, 0.0]",1e-15,,PASS
+negative_icc_retained,<0,-2.0,sign,,PASS
+representable_affine_icc,"[0.903225806451613, 0.903225806451613]","[0.903225806451613, 0.903225806451613]",1e-10,,PASS
+optimized_scalar_mad_sd_all_endpoints,max difference <=1e-10,8.881784197001252e-16,1e-10,,PASS
+stage_namespace_mismatch_fails,RuntimeError containing mismatch,"stage/namespace mismatch: stage=corrected_pilot, namespace=confirmatory",exact,,PASS

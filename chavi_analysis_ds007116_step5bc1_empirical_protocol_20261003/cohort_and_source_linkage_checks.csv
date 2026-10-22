@@ -1,0 +1,21 @@
+check_id,observed,expected,status,evidence,interpretation
+primary_vf_participants,52,52,PASS,primary_vf_source_rows.csv / primary_vf_transformed_long.csv,identity/support metadata only; no endpoint calculated
+primary_vf_occasion_profiles,104,104,PASS,primary_vf_source_rows.csv / primary_vf_transformed_long.csv,identity/support metadata only; no endpoint calculated
+primary_vf_source_rows,520,520,PASS,primary_vf_source_rows.csv / primary_vf_transformed_long.csv,identity/support metadata only; no endpoint calculated
+primary_vf_M1_complete_MAD,42,42,PASS,primary_vf_source_rows.csv / primary_vf_transformed_long.csv,identity/support metadata only; no endpoint calculated
+primary_vf_M1_complete_SD,42,42,PASS,primary_vf_source_rows.csv / primary_vf_transformed_long.csv,identity/support metadata only; no endpoint calculated
+vonly_reselected_participants,45,45,PASS,vonly_reselected_source_rows.csv / vonly_reselected_transformed_long.csv,identity/support metadata only; no endpoint calculated
+vonly_reselected_occasion_profiles,90,90,PASS,vonly_reselected_source_rows.csv / vonly_reselected_transformed_long.csv,identity/support metadata only; no endpoint calculated
+vonly_reselected_source_rows,450,450,PASS,vonly_reselected_source_rows.csv / vonly_reselected_transformed_long.csv,identity/support metadata only; no endpoint calculated
+vonly_reselected_M1_complete_MAD,36,36,PASS,vonly_reselected_source_rows.csv / vonly_reselected_transformed_long.csv,identity/support metadata only; no endpoint calculated
+vonly_reselected_M1_complete_SD,36,36,PASS,vonly_reselected_source_rows.csv / vonly_reselected_transformed_long.csv,identity/support metadata only; no endpoint calculated
+fixed_primary_pair_strict_v_participants,41,41,PASS,fixed_primary_pair_strict_v_source_rows.csv / fixed_primary_pair_strict_v_transformed_long.csv,identity/support metadata only; no endpoint calculated
+fixed_primary_pair_strict_v_occasion_profiles,82,82,PASS,fixed_primary_pair_strict_v_source_rows.csv / fixed_primary_pair_strict_v_transformed_long.csv,identity/support metadata only; no endpoint calculated
+fixed_primary_pair_strict_v_source_rows,410,410,PASS,fixed_primary_pair_strict_v_source_rows.csv / fixed_primary_pair_strict_v_transformed_long.csv,identity/support metadata only; no endpoint calculated
+fixed_primary_pair_strict_v_M1_complete_MAD,33,33,PASS,fixed_primary_pair_strict_v_source_rows.csv / fixed_primary_pair_strict_v_transformed_long.csv,identity/support metadata only; no endpoint calculated
+fixed_primary_pair_strict_v_M1_complete_SD,33,33,PASS,fixed_primary_pair_strict_v_source_rows.csv / fixed_primary_pair_strict_v_transformed_long.csv,identity/support metadata only; no endpoint calculated
+reference_A_participants,109,109,PASS,reference_cohort_manifest.csv,five source rows per identity
+design_B_targets_auxiliaries,52+57,52+57,PASS,step5ba_rebuild_contract.json,roles remain distinct
+held_out_counts,11/11/10/10/10,11/11/10/10/10,PASS,participant_fold_manifest.csv,frozen folds
+fitting_counts,98/98/99/99/99,98/98/99/99/99,PASS,derived from 109 reference identities and held-out counts,targets plus auxiliaries
+reselected_changed_pairs,sub-20149;sub-20310;sub-20902;sub-20916,sub-20149;sub-20310;sub-20902;sub-20916,PASS,primary_vf_source_rows.csv vs vonly_reselected_source_rows.csv,reselection changes pair choice; distinct from fixed-pair QC restriction

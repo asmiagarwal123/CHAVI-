@@ -1,0 +1,6 @@
+score_field,task_label,field_type,observed_min,observed_max,is_response_time,direction,direction_multiplier,direction_unresolved_caveat,correction_from_5ad
+cnb_lnb_mcr,Letter N-back,COUNT — true positives (1-back + 2-back trials),6.0,20.0,False,positive,1,Denominator/load unknown; no reversal applied. Open decision.,"Was incorrectly described as ambiguous; now confirmed as count/accuracy, NOT RT."
+cnb_cpf_cr,Face Memory,COUNT — correct responses,19.0,40.0,False,positive,1,Version equivalence unresolved.,None — was correctly described.
+cnb_pmat_cr,Matrix Reasoning,COUNT — correct responses,1.0,24.0,False,positive,1,Version equivalence unresolved.,None — was correctly described.
+cnb_er40_cr,Emotion Recognition,COUNT — correct responses,15.0,40.0,False,positive,1,Version equivalence unresolved.,None — was correctly described.
+cnb_ctap_dom,Dominant Finger Tapping,MEAN of dominant-hand trial values,34.33,89.67,False,positive,1,Unit/aggregation interpretation conditional and unresolved.,None — was correctly described.

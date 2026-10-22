@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "status": "RECOMMENDED SCIENTIFIC PROTOCOL — NOT YET ADOPTED FOR EMPIRICAL EXECUTION.",
+  "authorization_boundary": {
+    "allowed": "review, support audit, deterministic synthetic validation",
+    "not_authorized": [
+      "empirical profile features",
+      "empirical ICCs",
+      "empirical bootstrap",
+      "Monte Carlo",
+      "individual interpretation"
+    ]
+  },
+  "accepted_upstream": {
+    "contract_sha256": "619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6",
+    "clean_zip_sha256": "5be859872962dd336e6fc0edd6f239167235ebdb09d1482c2862bea8eacf5fec",
+    "dataset": "ds007116 v1.0.6"
+  },
+  "input_artifacts": [
+    {
+      "path": "../chavi_analysis_ds007116_step5ba_clean_rebuild_20261001/step5ba_rebuild_contract.json",
+      "sha256": "619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6"
+    },
+    {
+      "path": "../chavi_analysis_ds007116_step5ba_clean_rebuild_20261001.zip",
+      "sha256": "5be859872962dd336e6fc0edd6f239167235ebdb09d1482c2862bea8eacf5fec"
+    }
+  ],
+  "task_order": [
+    "letter_nback",
+    "face_memory",
+    "matrix_reasoning",
+    "emotion_recognition",
+    "dominant_finger_tapping"
+  ],
+  "contrast_matrix_H_5x4": [
+    [
+      0.7071067811865475,
+      0.4082482904638631,
+      0.2886751345948129,
+      0.22360679774997896
+    ],
+    [
+      -0.7071067811865475,
+      0.4082482904638631,
+      0.2886751345948129,
+      0.22360679774997896
+    ],
+    [
+      0.0,
+      -0.8164965809277261,
+      0.2886751345948129,
+      0.22360679774997896
+    ],
+    [
+      0.0,
+      0.0,
+      -0.8660254037844387,
+      0.22360679774997896
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.8944271909999159
+    ]
+  ],
+  "formulas": {
+    "level": "sum(z)/5",
+    "centered_shape": "q=z-L*1",
+    "scatter": "sqrt(sum(q^2)/5)",
+    "contrasts": "c=H^T z",
+    "shape_displacement": "sqrt(||q2-q1||^2/5)",
+    "total_displacement": "sqrt(||z2-z1||^2/5)",
+    "profile_correlation": "q1^T q2/(||q1||||q2||)"
+  },
+  "identities": [
+    "q=Hc",
+    "sum(q)=0",
+    "||q||^2=||c||^2",
+    "||z||^2=5L^2+||c||^2",
+    "D_total^2=delta_level^2+D_shape^2"
+  ],
+  "numerical_policy": {
+    "dtype": "IEEE float64",
+    "comparison_atol": 1e-12,
+    "comparison_rtol": 1e-10,
+    "correlation_degenerate_if": "||q|| <= 64*eps*max(||z||,sqrt(5)*abs(L),tiny)",
+    "flat_policy": "unsupported correlation",
+    "missing_policy": "require five finite supported coordinates",
+    "m1_fallback_policy": "never insert fallback into M1 coordinate"
+  },
+  "complete_rules": {
+    "profile": "exact task order; five finite supported coordinates",
+    "pair": "two selected sessions, each complete",
+    "m1": "identical supported pairs for M0-M1 comparison"
+  },
+  "roles": {
+    "primary": "primary_vf/M0/MAD/Design B",
+    "scale_sensitivity": "primary_vf/M0/SD same pairs",
+    "age_sensitivity": "M0 vs M1 identical M1-supported; full M0 separate",
+    "qc_sensitivity": "fixed_primary_pair_strict_v",
+    "occasion_sensitivity": "vonly_reselected"
+  },
+  "estimands": {
+    "primary": [
+      "LEVEL_ICC_A1",
+      "LEVEL_MEAN_CHANGE",
+      "SHAPE_RMS_DISPLACEMENT"
+    ],
+    "secondary": [
+      "SHAPE_TRACE_ASSOC pending adoption/simulation",
+      "SCATTER_ICC_A1",
+      "TASK_ICC_MATCHED"
+    ],
+    "descriptive": [
+      "PROFILE_CORR_DIST",
+      "LEVEL_ICC_C1"
+    ]
+  },
+  "comparisons": {
+    "primary_hypothesis": "none until adoption; emphasize estimation",
+    "reference_diagnostics": [
+      "Design B",
+      "auxiliary-only common reference",
+      "leave-one-target-out if feasible",
+      "fold-assignment sensitivity"
+    ]
+  },
+  "bootstrap": {
+    "conditional": "cluster target identities; transformations fixed",
+    "joint": "separate target/auxiliary identity multiplicities; link target fit/analysis; attach folds; exclude all held-out copies; reuse auxiliary multiplicities; refit parameters; no redraw",
+    "m1_support": "hold original matched-support population initially",
+    "candidate_interval": "equal-tailed percentile with linear quantiles, pending ADEMP",
+    "replicates": 10000,
+    "seed": "record exact PCG64 seed in adopted run contract",
+    "invalid": "retain/log; no redraw"
+  },
+  "simulation_requirements": "See SIMULATION_VALIDATION_PLAN.md; no Monte Carlo executed.",
+  "claim_boundaries": [
+    "observed stability is not pure reliability",
+    "no decomposition of error/development/practice/state/administration/version",
+    "five tasks are not five validated domains",
+    "level is not validated general intelligence",
+    "no individual or clinical inference"
+  ],
+  "unresolved": [
+    "researcher adoption of empirical protocol",
+    "whether to retain shape trace association",
+    "interval method after simulation",
+    "joint versus fold-stratified bootstrap"
+  ],
+  "output_schemas": "executable_output_schemas.json",
+  "validation": "independent expected values persisted before production import; actual corruption paths; fresh-process deterministic repeats"
+}

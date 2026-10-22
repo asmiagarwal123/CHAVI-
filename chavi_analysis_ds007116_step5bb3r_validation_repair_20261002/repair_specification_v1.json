@@ -1,0 +1,70 @@
+{
+  "specification_id": "STEP-5B-B3-R-v1",
+  "scope": "bounded implementation repair and same-stream recalculation; no empirical CHAVI inference",
+  "created_date": "2026-10-02",
+  "source_provenance": {
+    "B3_zip": "chavi_analysis_ds007116_step5bb3_confirmatory_simulation_20261002.zip",
+    "B3_zip_expected_sha256": "18251e4b88f67c6df2d3dd4c6e427c4de0237e2081690769852c3f9a7e0bc9ff",
+    "B3_zip_observed_sha256": "18251e4b88f67c6df2d3dd4c6e427c4de0237e2081690769852c3f9a7e0bc9ff",
+    "contracts": {
+      "corrected_interval_execution_contract.json": "13577b7883f09ceaea88878b73f50eca12ba958cd8758f76ea56a1aab2c7b94c",
+      "confirmatory_execution_contract.json": "345f47aba1d2f2fd807485b3476a55f8e41f73a0351e0f8d4d5daf608e7ca932"
+    }
+  },
+  "frozen_scientific_contract": {
+    "methods": "unchanged P1-P4",
+    "scenarios": "unchanged S1-S6 corrected; S1/S5 confirmatory",
+    "endpoints": "unchanged ICC(A,1), mean level change, RMS shape displacement",
+    "scales": "unchanged MAD and sample SD",
+    "bootstrap_attempts": 999,
+    "minimum_valid": 950,
+    "tail_gate": "floor(0.025*n_valid)>=20",
+    "quantile": "NumPy linear",
+    "interval_families": [
+      "percentile",
+      "basic"
+    ],
+    "truth_sha256": "ddf584496590c781091b55e5d5b3d6e92332886a5df449f38352ef1dc59c0970"
+  },
+  "implementation_repairs": [
+    "exclude zero-weight identities before reductions and coordinate validation",
+    "fit only folds represented in an unstratified bootstrap draw",
+    "make vectorized scale support identical to scalar 64-epsilon rule",
+    "derive corruption-check statuses from executable validators",
+    "make stage/namespace mismatch an explicit error",
+    "make readiness a conjunction of all B3R gates"
+  ],
+  "same_stream_policy": "original datasets, bootstrap streams, multiplicities, points, truths, and unaffected results retained; every affected P3 outer regenerated for all 999 draws and both scales",
+  "unaffected_reuse_basis": "P1/P2 do not refit per draw; P4 stratified weights represent every fold; exhaustive scale-support screen checks P3/P4; only P3 absent-fold outer records are replaced",
+  "source_fingerprints": {
+    "simulation_core.py": {
+      "original_path": "chavi_analysis_ds007116_step5bb3_confirmatory_simulation_20261002/simulation_core.py",
+      "original_sha256": "ecc54c44a2f14886fdfb543d397fcacd7792aee642e42bc820952303e259dd51",
+      "repaired_path": "simulation_core.py",
+      "repaired_sha256": "89863fe4574560d42623033f2bd546ee156fe579a3fec6b89530c87e05be5a9c"
+    },
+    "run_stage.py": {
+      "original_path": "chavi_analysis_ds007116_step5bb3_confirmatory_simulation_20261002/run_stage.py",
+      "original_sha256": "6eaa738c9a90aabeb77f6fffbfe56333e0648fc102464f373d5c430a21326dc7",
+      "repaired_path": "run_stage.py",
+      "repaired_sha256": "429367f99aa1b7eca6c159b7ed3fdc7fb8c3921f6694be359e2ab492254327fe"
+    },
+    "independent_corruption_checks.py": {
+      "original_path": "chavi_analysis_ds007116_step5bb3_confirmatory_simulation_20261002/independent_corruption_checks.py",
+      "original_sha256": "a12258466d9244a1430ee52bdec5fb2e714acb572344b31ae3371d29c0c0fb42",
+      "repaired_path": "independent_corruption_checks.py",
+      "repaired_sha256": "787b189cd199e18fac420bd48f7c2b56cd376c90e0df266686558ce7618f6936"
+    },
+    "make_final_report.py": {
+      "original_path": "chavi_analysis_ds007116_step5bb3_confirmatory_simulation_20261002/make_final_report.py",
+      "original_sha256": "c8121037c28d3df6c3ed633742c27741c018658adedc5a4f3149581160841369",
+      "repaired_path": "make_final_report.py",
+      "repaired_sha256": "06f71b23f478ded422221704f3c00ee7a627938d969f36890dd57f7b001afa4e"
+    }
+  },
+  "environment": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.2",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

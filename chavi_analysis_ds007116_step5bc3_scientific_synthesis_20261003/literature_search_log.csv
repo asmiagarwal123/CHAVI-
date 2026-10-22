@@ -1,0 +1,15 @@
+search_date,source_type,query_or_route,relevance_criterion,selected_source,publication_status,verification_note
+2026-10-03,PMC/PubMed,"Penn LEAD ds007116 longitudinal executive function",Direct dataset descriptor or analysis,"Sevchik et al. 2025; doi:10.1101/2025.11.10.687633",preprint,"PMC labels it a non-peer-reviewed preprint; 132 participants and 225 sessions"
+2026-10-03,OpenNeuro GitHub,"OpenNeuroDatasets ds007116",Direct current repository record,"OpenNeuroDatasets/ds007116",repository,"Repository title and 132-adolescent description verified"
+2026-10-03,DOI/citation tracing,"Cronbach Gleser profile level scatter shape",Foundational profile decomposition,"Cronbach and Gleser 1953; doi:10.1037/h0057173",peer-reviewed,"Title authors year journal and DOI verified"
+2026-10-03,PMC/PubMed,"longitudinal profile similarity elevation scatter shape",Modern interpretation of profile similarity,"Furr 2010; PMID 20013451",peer-reviewed,"Warns that profile similarity indices combine facets in complex ways"
+2026-10-03,DOI/citation tracing,"McGraw Wong ICC absolute agreement single measure",ICC form and interpretation,"McGraw and Wong 1996; doi:10.1037/1082-989X.1.1.30",peer-reviewed,"Title authors journal pages DOI verified"
+2026-10-03,Oxford Academic/AER,"cross-fitting estimated nuisance transformation uncertainty",Closest established cross-fitting framework,"Chernozhukov et al. 2018; doi:10.1111/ectj.12097",peer-reviewed,"Seven authors and publication metadata verified"
+2026-10-03,Wiley/PubMed,"bootstrap confidence intervals percentile basic failed resamples",Bootstrap method behavior,"Carpenter and Bithell 2000; doi:10.1002/(SICI)1097-0258(20000515)19:9<1141::AID-SIM479>3.0.CO;2-F",peer-reviewed,"Review and simulation scope verified"
+2026-10-03,DOI search,"smoothed bootstrap confidence intervals discrete data",Ties/discrete-data bootstrap behavior,"De Angelis and Young 1997; doi:10.1016/S0167-9473(97)00026-1",peer-reviewed,"Title and DOI verified; supports discreteness as a distinct bootstrap setting"
+2026-10-03,Wiley/PMC,"Morris White Crowther ADEMP Monte Carlo error",Simulation reporting and MC error,"Morris White and Crowther 2019; doi:10.1002/sim.8086",peer-reviewed,"ADEMP and reporting focus verified"
+2026-10-03,PMC/DOI,"Penn CNB practice effects",Direct cognitive-battery retest concern,"Ibrahim et al. 2015; doi:10.1080/13803395.2015.1037253",peer-reviewed,"Practice effects altered translational-validity estimates"
+2026-10-03,PubMed/DOI,"child serial neurocognitive development versus practice",Development/practice ambiguity,"Slade et al. 2008; doi:10.1037/a0012950",peer-reviewed,"Title authors pages DOI verified"
+2026-10-03,PubMed/institutional repository,"NCANDA adolescents prior testing one year",Adolescent longitudinal practice effects,"Sullivan et al. 2017; doi:10.1016/j.dcn.2017.01.003",peer-reviewed,"Peer-reviewed metadata and adolescent retest interpretation verified"
+2026-10-03,PMC/APA,"age practice effects longitudinal neurocognitive change",Practice/development interpretation,"Salthouse 2010; doi:10.1037/a0019026",peer-reviewed,"Practice can bias longitudinal age trends"
+

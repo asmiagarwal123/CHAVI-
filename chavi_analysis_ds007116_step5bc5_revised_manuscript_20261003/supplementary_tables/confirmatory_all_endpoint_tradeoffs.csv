@@ -1,0 +1,13 @@
+scenario,endpoint,method,availability,conditional_coverage,available_and_covered,mean_width,coverage_mcse,source
+S1,ICC(A,1),P2,1.0000,0.9360,0.9360,0.33557,0.00547,B3-R confirmatory_performance_summary_repaired.csv
+S1,ICC(A,1),P3,1.0000,0.9425,0.9425,0.33987,0.00521,B3-R confirmatory_performance_summary_repaired.csv
+S1,Mean level change,P2,1.0000,0.9325,0.9325,0.33262,0.00561,B3-R confirmatory_performance_summary_repaired.csv
+S1,Mean level change,P3,1.0000,0.9365,0.9365,0.34483,0.00545,B3-R confirmatory_performance_summary_repaired.csv
+S1,RMS centered shape displacement,P2,1.0000,0.8030,0.8030,0.15454,0.00890,B3-R confirmatory_performance_summary_repaired.csv
+S1,RMS centered shape displacement,P3,1.0000,0.9175,0.9175,0.25490,0.00615,B3-R confirmatory_performance_summary_repaired.csv
+S5,ICC(A,1),P2,0.9970,0.930792,0.9280,0.34247,0.00568,B3-R confirmatory_performance_summary_repaired.csv
+S5,ICC(A,1),P3,0.6300,0.931746,0.5870,0.33868,0.00710,B3-R confirmatory_performance_summary_repaired.csv
+S5,Mean level change,P2,0.9970,0.937813,0.9350,0.26814,0.00541,B3-R confirmatory_performance_summary_repaired.csv
+S5,Mean level change,P3,0.6300,0.935714,0.5895,0.26952,0.00691,B3-R confirmatory_performance_summary_repaired.csv
+S5,RMS centered shape displacement,P2,0.9970,0.918756,0.9160,0.12622,0.00612,B3-R confirmatory_performance_summary_repaired.csv
+S5,RMS centered shape displacement,P3,0.6300,0.956349,0.6025,0.14111,0.00576,B3-R confirmatory_performance_summary_repaired.csv

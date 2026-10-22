@@ -1,0 +1,5 @@
+claim_id,claim,stage,evidence,status
+C1,B2 interval gate is mathematically impossible at B=499,B2 audit,B2_CONTRACT_AND_OUTPUT_RECONCILIATION.md,PASS
+C2,Corrected pilot uses 999 replicates and per-tail eligibility,corrected_pilot,corrected_interval_execution_contract.json,PENDING
+C3,S1 and S5 confirmatory streams are disjoint and frozen before generation,confirmatory,confirmatory_execution_contract.json,PENDING
+C4,No empirical CHAVI profile inference was performed,all,authorization and code inventory,PASS

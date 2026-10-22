@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "ready_for_separate_empirical_protocol_review": true,
+  "gates": {
+    "defects_reproduced": {
+      "status": "PASS",
+      "evidence": "defect_reproduction.json",
+      "observed": true
+    },
+    "corruption_tests": {
+      "status": "PASS",
+      "evidence": "independent_corruption_checks.json",
+      "observed": "PASS"
+    },
+    "edge_tests": {
+      "status": "PASS",
+      "evidence": "edge_case_test_results.json",
+      "observed": "PASS"
+    },
+    "affected_recalculation": {
+      "status": "PASS",
+      "evidence": "recalculation_status.json",
+      "observed": "PASS"
+    },
+    "checkpoint_validation": {
+      "status": "PASS",
+      "evidence": "checkpoint_validation_results.json",
+      "observed": "PASS"
+    },
+    "independent_full_replicates_both_stages": {
+      "status": "PASS",
+      "evidence": "independent_numerical_validation_results.json",
+      "observed": "PASS"
+    },
+    "independent_all_tables_both_stages": {
+      "status": "PASS",
+      "evidence": "independent_table_validation_results.json",
+      "observed": "PASS"
+    },
+    "truth": {
+      "status": "PASS",
+      "evidence": "truth_convergence_and_sensitivity_evidence.json",
+      "observed": "PASS"
+    },
+    "reproduction_resume": {
+      "status": "PASS",
+      "evidence": "runtime_resume_evidence.json",
+      "observed": "PASS"
+    },
+    "scale_support_full_stream": {
+      "status": "PASS",
+      "evidence": "scale_support_screen_summary.json",
+      "observed": "PASS"
+    },
+    "protected_inputs": {
+      "status": "PASS",
+      "evidence": "protected_input_rehash_results.json",
+      "observed": "PASS"
+    },
+    "package_verification": {
+      "status": "PASS",
+      "evidence": "package_verification.json",
+      "observed": "PASS"
+    }
+  },
+  "authorization": "simulation evidence only; does not authorize empirical inference"
+}

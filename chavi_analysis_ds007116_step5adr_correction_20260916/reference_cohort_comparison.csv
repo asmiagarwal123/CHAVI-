@@ -1,0 +1,4 @@
+option,description,n_observations,n_participants,leakage_risk,weighting,advantages,disadvantages,age_min,age_max,suitability
+A_baseline_one_per_participant,One baseline occasion per participant from the 52-person primary cohort,52,52,LOW — uses only earlier occasion; no follow-up in fit,Equal weight per participant,Avoids frequent-flyer bias; interpretable as earliest-occasion reference,Smaller training set; less age coverage,8.8,16.18,PRIMARY
+B_all_occasions_grouped,"All 176 occasions, grouped by participant during fitting",176,109,MEDIUM — later occasions in training reference could introduce temporal bias,Participants with more visits contribute more,Larger N; wider age coverage,Overweights frequent participants; temporal leakage risk,8.69,19.5,SENSITIVITY only
+C_no_age_adjustment,Intercept-only; no age model,52,52,LOW,Equal,Simplest; transparent; no extrapolation risk,Does not remove age-related mean trend,,,SENSITIVITY only

@@ -1,0 +1,16 @@
+{
+  "record_type": "protocol_adoption",
+  "status": "adopted_for_bounded_task_coordinate_rebuild",
+  "authorization_source": "Researcher protocol adoption through the user-submitted execution prompt.",
+  "date": "2026-10-01",
+  "contract_file": "step5ba_rebuild_contract.json",
+  "contract_sha256": "619aa1e05fedfc688484691cb1e54d363c8e8ff4a63b9a5e179d05d516ac23c6",
+  "does_not_claim": [
+    "supervisor signature",
+    "institutional approval",
+    "historical approval"
+  ],
+  "authorized_outputs": "task-coordinate transformation only",
+  "bootstrap": "deferred",
+  "downstream_profile_analysis": "not_authorized"
+}

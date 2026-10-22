@@ -1,0 +1,10 @@
+{
+  "bad_member": null,
+  "fresh_process_resume": "PASS",
+  "independent_validation": "PASS",
+  "manifest_rows": 73,
+  "members": 74,
+  "protected_inputs_unchanged": true,
+  "status": "PASS",
+  "zip_sha256": "5d5d4fa96458bf34af24d894626ff118ef970f8a78500cc2d6171ebb9c8a32fa"
+}

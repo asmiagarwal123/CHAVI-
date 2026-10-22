@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "processes_launched": 3,
+  "interruption_after_checkpoints": 1,
+  "resumed_complete": 2,
+  "fresh_complete": 2,
+  "byte_identical_checkpoint_hashes": true,
+  "atomic_temp_files_remaining": 0,
+  "interrupted_resumed_hashes": {
+    "confirmatory__S1__40.json": "2d2c24076898361402b4888322b47549564cdc24f133230c38dd897402fba252",
+    "corrected_pilot__S2__14.json": "135bc59d661aa9ff07d09f24c0895eb449c5c91cc984abe3480dc195baa0a924"
+  },
+  "fresh_hashes": {
+    "confirmatory__S1__40.json": "2d2c24076898361402b4888322b47549564cdc24f133230c38dd897402fba252",
+    "corrected_pilot__S2__14.json": "135bc59d661aa9ff07d09f24c0895eb449c5c91cc984abe3480dc195baa0a924"
+  },
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_worker.py",
+        "--outdir",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_fixture\\interrupted_resumed_1790957976350",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stdout": "{\"outdir\": \"C:\\\\Users\\\\asmi\\\\Desktop\\\\Projects\\\\CHAVI\\\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\\\reproduction_fixture\\\\interrupted_resumed_1790957976350\", \"new\": 1, \"complete\": 1}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_worker.py",
+        "--outdir",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_fixture\\interrupted_resumed_1790957976350"
+      ],
+      "returncode": 0,
+      "stdout": "{\"outdir\": \"C:\\\\Users\\\\asmi\\\\Desktop\\\\Projects\\\\CHAVI\\\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\\\reproduction_fixture\\\\interrupted_resumed_1790957976350\", \"new\": 1, \"complete\": 2}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_worker.py",
+        "--outdir",
+        "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\reproduction_fixture\\fresh_1790957976350"
+      ],
+      "returncode": 0,
+      "stdout": "{\"outdir\": \"C:\\\\Users\\\\asmi\\\\Desktop\\\\Projects\\\\CHAVI\\\\chavi_analysis_ds007116_step5bb3r_validation_repair_20261002\\\\reproduction_fixture\\\\fresh_1790957976350\", \"new\": 2, \"complete\": 2}",
+      "stderr": ""
+    }
+  ]
+}

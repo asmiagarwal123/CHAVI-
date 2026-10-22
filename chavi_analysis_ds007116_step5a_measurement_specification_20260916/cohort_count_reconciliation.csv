@@ -1,0 +1,7 @@
+denominator_id,count,construction,relationship
+registered,132,ds007116/participants.tsv,starting frame
+source_candidate_participants,131,raw verified five-task observation rows,131; sub-23582 has no source task record
+task_pair_intersection,53,intersection of five Step 4B task-specific pair participant sets,53 = profile-first 52 + task-pair-only participant(s)
+task_pair_same_session_alignment,50,Step 4B-R five task-specific pairs share both session labels,50; excludes task-specific pair misalignment
+profile_first_synchronized_primary_candidate,52,"first two jointly complete same-session occasions, exact V/F across all five tasks",52 = aligned 50 + sub-20259|sub-20494
+task_pair_intersection_not_profile_first,1,task-specific union/intersection but no two jointly complete V/F occasions,sub-21035

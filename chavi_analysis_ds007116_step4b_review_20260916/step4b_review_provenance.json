@@ -1,0 +1,1128 @@
+{
+  "generated_utc": "2026-09-16T01:08:19.146984+05:30",
+  "dataset_git_before": {
+    "status": "## main...origin/main",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "describe": "1.0.6",
+    "branch": "main",
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)"
+  },
+  "dataset_git_after": {
+    "status": "## main...origin/main",
+    "commit": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+    "describe": "1.0.6",
+    "branch": "main",
+    "remote": "origin\thttps://github.com/OpenNeuroDatasets/ds007116.git (fetch)\norigin\thttps://github.com/OpenNeuroDatasets/ds007116.git (push)"
+  },
+  "dataset_commit_expected": "fc7dc36fa2598b0b2e4579baef37d148cc085207",
+  "contract_input_hash_checks": [
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\dataset_description.json",
+      "role": "dataset description",
+      "expected_size_bytes": 1246,
+      "actual_size_bytes": 1246,
+      "expected_sha256": "c121cc9034ae88ed1cba941978726c9075f68b0315a034c01cbddc6a771144fa",
+      "actual_sha256": "c121cc9034ae88ed1cba941978726c9075f68b0315a034c01cbddc6a771144fa",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\participants.tsv",
+      "role": "participant metadata",
+      "expected_size_bytes": 10469,
+      "actual_size_bytes": 10469,
+      "expected_sha256": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348",
+      "actual_sha256": "8c8f48b7f36984490d9847f4319343c27b01c27964bee29488e924867a87b348",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\assessment_occasion_mapping_step3a.csv",
+      "role": "occasion mapping",
+      "expected_size_bytes": 105486,
+      "actual_size_bytes": 105486,
+      "expected_sha256": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b",
+      "actual_sha256": "29b28dc9ccc4968889600d6a090ba8b0661f4b2534f72ca65f241a0247d1307b",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\task_observations_long.csv",
+      "role": "Step 3B task table",
+      "expected_size_bytes": 1119504,
+      "actual_size_bytes": 1119504,
+      "expected_sha256": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "actual_sha256": "8b435d4b23d0b5f70b3c56ade4215d215028426dbdb46eaaf8daaa3cd0dc1978",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\paired_task_observations.csv",
+      "role": "Step 3B paired task table",
+      "expected_size_bytes": 1636668,
+      "actual_size_bytes": 1636668,
+      "expected_sha256": "1bcc5161b8b56ec750cbe0e235eb0b065ec346ab43440bab1bc9b232573ab429",
+      "actual_sha256": "1bcc5161b8b56ec750cbe0e235eb0b065ec346ab43440bab1bc9b232573ab429",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\paired_profile_manifest.csv",
+      "role": "Step 3B paired profile table",
+      "expected_size_bytes": 429579,
+      "actual_size_bytes": 429579,
+      "expected_sha256": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82",
+      "actual_sha256": "4dc117f9d31b63b499150a0271c4f44ab338962a54092ffffc57b089e1f93b82",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\analysis_data_dictionary.csv",
+      "role": "Step 3B data dictionary",
+      "expected_size_bytes": 29818,
+      "actual_size_bytes": 29818,
+      "expected_sha256": "f654ff1df4d74168d023fd44fd3a38d147d5631a3c7e098179c826a89783549c",
+      "actual_sha256": "f654ff1df4d74168d023fd44fd3a38d147d5631a3c7e098179c826a89783549c",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\cohort_reconciliation.csv",
+      "role": "Step 3B reconciliation",
+      "expected_size_bytes": 15040,
+      "actual_size_bytes": 15040,
+      "expected_sha256": "0782633837e169821ba5ffddde643dfaa670d399548ce8cb234b4cd7e700624f",
+      "actual_sha256": "0782633837e169821ba5ffddde643dfaa670d399548ce8cb234b4cd7e700624f",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\decision_register_step3b.csv",
+      "role": "Step 3B decision register",
+      "expected_size_bytes": 8985,
+      "actual_size_bytes": 8985,
+      "expected_sha256": "aa9a065d2c698084f78f5c83d06d40747e4dd72e513e25158aac67124ed46e58",
+      "actual_sha256": "aa9a065d2c698084f78f5c83d06d40747e4dd72e513e25158aac67124ed46e58",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\executable_specification.json",
+      "role": "Step 3B specification",
+      "expected_size_bytes": 2914,
+      "actual_size_bytes": 2914,
+      "expected_sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01",
+      "actual_sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\prepare_step3b.py",
+      "role": "Step 3B executable script",
+      "expected_size_bytes": 42276,
+      "actual_size_bytes": 42276,
+      "expected_sha256": "cfea4b99eb6ecfd4ff69fc7e18bbbd60d3f60f54402386af82875fb3499fc54e",
+      "actual_sha256": "cfea4b99eb6ecfd4ff69fc7e18bbbd60d3f60f54402386af82875fb3499fc54e",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3b_20260909\\provenance_step3b.json",
+      "role": "Step 3B provenance",
+      "expected_size_bytes": 75825,
+      "actual_size_bytes": 75825,
+      "expected_sha256": "8c36b4f96b097e3a5e7d5fed8bd4608edf96358f5852e24621dd4b9b41cc2548",
+      "actual_sha256": "8c36b4f96b097e3a5e7d5fed8bd4608edf96358f5852e24621dd4b9b41cc2548",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3a_20260907\\step3a_specification.json",
+      "role": "Step 3A specification",
+      "expected_size_bytes": 2914,
+      "actual_size_bytes": 2914,
+      "expected_sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01",
+      "actual_sha256": "9169a0a22f531779628cda745c372632f38308ce7d246399e4a0aefccf06ae01",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_audit_ds007116_step3a_20260907\\audit_v6.py",
+      "role": "Step 3A executable script",
+      "expected_size_bytes": 230561,
+      "actual_size_bytes": 230561,
+      "expected_sha256": "bd00d819a65433433f29a5761e125f41bd52bdc44f6f50a09667e9f0ed34456b",
+      "actual_sha256": "bd00d819a65433433f29a5761e125f41bd52bdc44f6f50a09667e9f0ed34456b",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\face_memory_included_pairs.csv",
+      "role": "Step 4A included pairs",
+      "expected_size_bytes": 43092,
+      "actual_size_bytes": 43092,
+      "expected_sha256": "4e1da460781723c74ea63788251c376318d4242fae2aca3c2a93ad558b6cb4c8",
+      "actual_sha256": "4e1da460781723c74ea63788251c376318d4242fae2aca3c2a93ad558b6cb4c8",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\face_memory_agreement_results.csv",
+      "role": "Step 4A agreement results",
+      "expected_size_bytes": 1102,
+      "actual_size_bytes": 1102,
+      "expected_sha256": "4874bac3d3a17fb323768b7d035a154f54c8d2acb29a308b08f0dd7c65159490",
+      "actual_sha256": "4874bac3d3a17fb323768b7d035a154f54c8d2acb29a308b08f0dd7c65159490",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\face_memory_bootstrap_results.csv",
+      "role": "Step 4A bootstrap results",
+      "expected_size_bytes": 564082,
+      "actual_size_bytes": 564082,
+      "expected_sha256": "ba4b15517e5ef2c96f59eb121b5829d1a8415780b7f52d7ecddc561e29d2a239",
+      "actual_sha256": "ba4b15517e5ef2c96f59eb121b5829d1a8415780b7f52d7ecddc561e29d2a239",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\step4a_analysis_contract.json",
+      "role": "Step 4A contract",
+      "expected_size_bytes": 11379,
+      "actual_size_bytes": 11379,
+      "expected_sha256": "05a1ed6c353d5e21f40e11186f4fe751af1fb4097fb5179259d0b189ce6d4848",
+      "actual_sha256": "05a1ed6c353d5e21f40e11186f4fe751af1fb4097fb5179259d0b189ce6d4848",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914\\step4a_provenance.json",
+      "role": "Step 4A provenance",
+      "expected_size_bytes": 12208,
+      "actual_size_bytes": 12208,
+      "expected_sha256": "be5dc3becae60ba40a2c0fff97ad00db0b18d0d5a59a5f51bfd4ee7e3720b7da",
+      "actual_sha256": "be5dc3becae60ba40a2c0fff97ad00db0b18d0d5a59a5f51bfd4ee7e3720b7da",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_review_20260914\\statistical_crosscheck.csv",
+      "role": "Step 4A independent statistical crosscheck",
+      "expected_size_bytes": 1649,
+      "actual_size_bytes": 1649,
+      "expected_sha256": "03fff6e14af64fb2a6d3f1dbd97391a7a0ac62803e4ea870331a741b8fe9811b",
+      "actual_sha256": "03fff6e14af64fb2a6d3f1dbd97391a7a0ac62803e4ea870331a741b8fe9811b",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_review_20260914\\bootstrap_diagnostics.csv",
+      "role": "Step 4A bootstrap diagnostics",
+      "expected_size_bytes": 1127,
+      "actual_size_bytes": 1127,
+      "expected_sha256": "88f40b6b189c58ee10a9f249bd9cf17bc91fa5a05c01d8c1b9dd0db5b44c7084",
+      "actual_sha256": "88f40b6b189c58ee10a9f249bd9cf17bc91fa5a05c01d8c1b9dd0db5b44c7084",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_review_20260914\\reproduction_and_tests.md",
+      "role": "Step 4A independent validation tests",
+      "expected_size_bytes": 426,
+      "actual_size_bytes": 426,
+      "expected_sha256": "a62485b9dd71e7f670b1609ee3b3f96fa4d80605ca4abbbe9d84aa12b43fa7e0",
+      "actual_sha256": "a62485b9dd71e7f670b1609ee3b3f96fa4d80605ca4abbbe9d84aa12b43fa7e0",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907\\short_letter_2back.tsv",
+      "role": "verified Letter N-back phenotype payload",
+      "expected_size_bytes": 8853,
+      "actual_size_bytes": 8853,
+      "expected_sha256": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96",
+      "actual_sha256": "13c8a0bbdf5c017bcdd21de45988abb1959d7e78f6c362098d3dcabcf236fb96",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\short_letter_2back.tsv",
+      "role": "Letter N-back dataset pointer",
+      "expected_size_bytes": 195,
+      "actual_size_bytes": 195,
+      "expected_sha256": "1dc31c6a6673d88a2895d5b3550c80cfe5b5f6aa5e072e2be97023724c2731de",
+      "actual_sha256": "1dc31c6a6673d88a2895d5b3550c80cfe5b5f6aa5e072e2be97023724c2731de",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\short_letter_2back.json",
+      "role": "Letter N-back dictionary",
+      "expected_size_bytes": 1838,
+      "actual_size_bytes": 1838,
+      "expected_sha256": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e",
+      "actual_sha256": "df424767c98922c2fd98f6c583bf97125b1d5d73a6c61b6f6fe38988a73a442e",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907\\penn_face_memory_test.tsv",
+      "role": "verified Face Memory phenotype payload",
+      "expected_size_bytes": 19645,
+      "actual_size_bytes": 19645,
+      "expected_sha256": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a",
+      "actual_sha256": "09d57c0cd17d70281c4edae758f36baf893644e22b87d4c6f39733bb2df3d57a",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_face_memory_test.tsv",
+      "role": "Face Memory dataset pointer",
+      "expected_size_bytes": 197,
+      "actual_size_bytes": 197,
+      "expected_sha256": "77ef980a5dd0843c8cbcded37517737c25a02d66cdbe18f56b31225d7feb59e8",
+      "actual_sha256": "77ef980a5dd0843c8cbcded37517737c25a02d66cdbe18f56b31225d7feb59e8",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_face_memory_test.json",
+      "role": "Face Memory dictionary",
+      "expected_size_bytes": 2592,
+      "actual_size_bytes": 2592,
+      "expected_sha256": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7",
+      "actual_sha256": "e3f2e9713a5da5be78d8c343cab25cab7c93967cbe64a03a1518efd086a9b9a7",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907\\penn_matrix_reasoning_test.tsv",
+      "role": "verified Matrix Reasoning phenotype payload",
+      "expected_size_bytes": 11837,
+      "actual_size_bytes": 11837,
+      "expected_sha256": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab",
+      "actual_sha256": "6a94243b949694543e67c721cae8116f2bab7f817e39a579b23b2ba82cff45ab",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_matrix_reasoning_test.tsv",
+      "role": "Matrix Reasoning dataset pointer",
+      "expected_size_bytes": 197,
+      "actual_size_bytes": 197,
+      "expected_sha256": "208c03c783e6a9559d868035d24c93e705d614eabffc1b6908ba5cb42278e3e1",
+      "actual_sha256": "208c03c783e6a9559d868035d24c93e705d614eabffc1b6908ba5cb42278e3e1",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_matrix_reasoning_test.json",
+      "role": "Matrix Reasoning dictionary",
+      "expected_size_bytes": 1791,
+      "actual_size_bytes": 1791,
+      "expected_sha256": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0",
+      "actual_sha256": "c3441896a5a7326132356df26682ac22d31b1d3ed3a76b8d38c7353e953498e0",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907\\penn_emotion_recognition_task.tsv",
+      "role": "verified Emotion Recognition phenotype payload",
+      "expected_size_bytes": 22751,
+      "actual_size_bytes": 22751,
+      "expected_sha256": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777",
+      "actual_sha256": "4c0d82534b3f148beca9cd5e125b16cc7a9b35daf1a6b90efd398031649c9777",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_emotion_recognition_task.tsv",
+      "role": "Emotion Recognition dataset pointer",
+      "expected_size_bytes": 197,
+      "actual_size_bytes": 197,
+      "expected_sha256": "6374f424af3b8ccc6240db10553ec2a91fb81446ded672277027d6c3875fa8e1",
+      "actual_sha256": "6374f424af3b8ccc6240db10553ec2a91fb81446ded672277027d6c3875fa8e1",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\penn_emotion_recognition_task.json",
+      "role": "Emotion Recognition dictionary",
+      "expected_size_bytes": 3450,
+      "actual_size_bytes": 3450,
+      "expected_sha256": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1",
+      "actual_sha256": "54c667a1b872184013ff7d6883c3eb5e3be7a603fa9d8161f596e0029cf043c1",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_step1b_phenotype_staging_20260907\\short_computerized_finger_tapping_task.tsv",
+      "role": "verified Dominant Finger Tapping phenotype payload",
+      "expected_size_bytes": 17752,
+      "actual_size_bytes": 17752,
+      "expected_sha256": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd",
+      "actual_sha256": "c447c6ebba6e48aeca4c71723c71c538aff9b837b1affbcc2ee9b8ae1bcee0dd",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\short_computerized_finger_tapping_task.tsv",
+      "role": "Dominant Finger Tapping dataset pointer",
+      "expected_size_bytes": 197,
+      "actual_size_bytes": 197,
+      "expected_sha256": "02e958ef202f901ab46822a1a4dcaa505f456e39ca1e1ca1e4faea43eff6ee29",
+      "actual_sha256": "02e958ef202f901ab46822a1a4dcaa505f456e39ca1e1ca1e4faea43eff6ee29",
+      "status": "pass"
+    },
+    {
+      "path": "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\ds007116\\phenotype\\short_computerized_finger_tapping_task.json",
+      "role": "Dominant Finger Tapping dictionary",
+      "expected_size_bytes": 2267,
+      "actual_size_bytes": 2267,
+      "expected_sha256": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7",
+      "actual_sha256": "1c4c270b6eab9bb9baa9d6641f56ced247eb8fbf025b36518e5d41307238d6a7",
+      "status": "pass"
+    }
+  ],
+  "step4b_script_hash": "1065a9465875cc556e256b8a2b443686fb678551abb522f9e57fb9aea0bc9469",
+  "step4b_output_hashes_before": [
+    {
+      "relative_path": "__pycache__\\run_step4b_task_analysis.cpython-314.pyc",
+      "size_bytes": 113999,
+      "sha256": "f9c297162edc7f2fd91a4019bb28cd959edd76785b7e5c6954c1bea869ab8832"
+    },
+    {
+      "relative_path": "__pycache__\\test_step4b_task_analysis.cpython-314.pyc",
+      "size_bytes": 16494,
+      "sha256": "76bd28f5f238f8f72d31c5591d3c52d401ab3184a9199156b8362829adf9f685"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_bland_altman.png",
+      "size_bytes": 17436,
+      "sha256": "10e664bab6d358208773aac210c415f2fa8895750b745f94546757a714739191"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_bland_altman.svg",
+      "size_bytes": 4949,
+      "sha256": "4c30ce29df64ac371da243eaddb0495af1c617a8d7c0e0e5d06c47781f2d4176"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_earlier_later_scatter.png",
+      "size_bytes": 18862,
+      "sha256": "7d273cd613bc1f0161348b4f8db438caf90ae97e5b823ec5edbd23d62c8c1001"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_earlier_later_scatter.svg",
+      "size_bytes": 4629,
+      "sha256": "a6f606e91b9e8da06c29966905e62e0d60b896551b283dc48ce326be015cfb9c"
+    },
+    {
+      "relative_path": "emotion_recognition_bland_altman.png",
+      "size_bytes": 16573,
+      "sha256": "38013437de7360d753234b611e698c4e02c22ece42f307b728ee36a523f1b3c5"
+    },
+    {
+      "relative_path": "emotion_recognition_bland_altman.svg",
+      "size_bytes": 5030,
+      "sha256": "782b09dde173f73330a0f622c9d96a9ddfcd5920ee456d499c0fb31e62e2fff9"
+    },
+    {
+      "relative_path": "emotion_recognition_earlier_later_scatter.png",
+      "size_bytes": 18157,
+      "sha256": "8bb9f78456c7ca1f8f432bc4a3491353fcdc60e7f067cac1d7efc4cb2ea041fd"
+    },
+    {
+      "relative_path": "emotion_recognition_earlier_later_scatter.svg",
+      "size_bytes": 4715,
+      "sha256": "867a83e14fb7bc75ed795be9c8cc8109192e2cc7d9d2ef276e9e544507f1d0c5"
+    },
+    {
+      "relative_path": "face_memory_bland_altman.png",
+      "size_bytes": 17000,
+      "sha256": "e48c3c0a82c0cff14b80b755b7bbf0e4ef2c32dd76d1d6ceab1005374bf64e49"
+    },
+    {
+      "relative_path": "face_memory_bland_altman.svg",
+      "size_bytes": 5046,
+      "sha256": "79084efb1b81ca5f1e0b994ca53ff29d279f764f6d08bee10ee30c0ceb0c158b"
+    },
+    {
+      "relative_path": "face_memory_earlier_later_scatter.png",
+      "size_bytes": 18845,
+      "sha256": "d433639dad6f482359520a2648baf4286654be7b8cc818bb9f6e832880a40b30"
+    },
+    {
+      "relative_path": "face_memory_earlier_later_scatter.svg",
+      "size_bytes": 4720,
+      "sha256": "a94ef76c67b918d43d0868ae576803436e1e9e048fa921475ab34406daf5ab5a"
+    },
+    {
+      "relative_path": "face_memory_reproduction_check.csv",
+      "size_bytes": 1448,
+      "sha256": "0f1b10bf95e1d97c34c56de05319b0897772f40f6a911720b4bc3702b060ef38"
+    },
+    {
+      "relative_path": "five_task_agreement_results.csv",
+      "size_bytes": 6031,
+      "sha256": "2f11dd722df54c9110c30f7214f6dc2549289094e7a2422ee4cb987bfe546ca3"
+    },
+    {
+      "relative_path": "five_task_bootstrap_results.csv",
+      "size_bytes": 3681504,
+      "sha256": "9c564f20e0148f582517b878c4e96ab5152e2841cec81c25bd57cc1b1fa11e2d"
+    },
+    {
+      "relative_path": "five_task_candidate_accounting.csv",
+      "size_bytes": 180201,
+      "sha256": "c0530c9db8ac986f9e46dc0f576bf9febca8a24623968de743aa840af77531e0"
+    },
+    {
+      "relative_path": "five_task_descriptive_results.csv",
+      "size_bytes": 21977,
+      "sha256": "a506278ae59b648a2fa118f57b0569a21e76ba4ee45301d037c3ccb0070cd90b"
+    },
+    {
+      "relative_path": "five_task_exclusions.csv",
+      "size_bytes": 88159,
+      "sha256": "9f0dc90b84c54dd782578e1ebb9440d7dd746e0bbdb0900635d0fb3b155a8f0d"
+    },
+    {
+      "relative_path": "five_task_interval_audit.csv",
+      "size_bytes": 218573,
+      "sha256": "28ff56d6885e82342c85f4a89ebc8362b55daf555fd631b6927d47c1fa0e7739"
+    },
+    {
+      "relative_path": "five_task_pair_manifest.csv",
+      "size_bytes": 233004,
+      "sha256": "49c74468b7e2d9042aa052568e24206a69961e19958645da19ff6ec034fa30c9"
+    },
+    {
+      "relative_path": "letter_nback_bland_altman.png",
+      "size_bytes": 15975,
+      "sha256": "64acb9da6f0f45ea7d585ba12703023e01d25e57ae6b500eb492daedb1a803ce"
+    },
+    {
+      "relative_path": "letter_nback_bland_altman.svg",
+      "size_bytes": 4866,
+      "sha256": "f0043d04ee3bd99cf43ff02973734000636d11ca34efd69be06c2b1058e8379b"
+    },
+    {
+      "relative_path": "letter_nback_earlier_later_scatter.png",
+      "size_bytes": 17688,
+      "sha256": "dfdecb47f8e2d769a551d165f182dea4780342c92fd9b7ce64a142f82addfa5a"
+    },
+    {
+      "relative_path": "letter_nback_earlier_later_scatter.svg",
+      "size_bytes": 4556,
+      "sha256": "4d3cfb0af5ce2523b1b014871c38c20e09cf009c4ea3a966cc141e6be8bbe492"
+    },
+    {
+      "relative_path": "matrix_reasoning_bland_altman.png",
+      "size_bytes": 16687,
+      "sha256": "ebc96985ffab8313182a57ace780423df52ef4cec6d19163b5f58998c57fe1e4"
+    },
+    {
+      "relative_path": "matrix_reasoning_bland_altman.svg",
+      "size_bytes": 4935,
+      "sha256": "6ea5641522d9993675e9c5fcb09a2f83b3145c7092122303293465f289fe4a68"
+    },
+    {
+      "relative_path": "matrix_reasoning_earlier_later_scatter.png",
+      "size_bytes": 18496,
+      "sha256": "165fbc771f4df5ad940f2a10233b6be5cda3a3e24e82b71f35228181499652d1"
+    },
+    {
+      "relative_path": "matrix_reasoning_earlier_later_scatter.svg",
+      "size_bytes": 4621,
+      "sha256": "174c26d92ffc829caaad905bbe3d801fb6ef17c7899d3743c4773d3693432197"
+    },
+    {
+      "relative_path": "run_step4b_task_analysis.py",
+      "size_bytes": 65244,
+      "sha256": "1065a9465875cc556e256b8a2b443686fb678551abb522f9e57fb9aea0bc9469"
+    },
+    {
+      "relative_path": "step4b_analysis_contract.json",
+      "size_bytes": 14608,
+      "sha256": "4642cee3b1c340a7a3faa2f0576e93c20eb916f8afb8cdd6420d2342a46cdb0e"
+    },
+    {
+      "relative_path": "step4b_method_notes.md",
+      "size_bytes": 2455,
+      "sha256": "9abb71edd926a938760c6bbe5a90dd4cd95227bb5d985fa401fb71875e3f00a9"
+    },
+    {
+      "relative_path": "step4b_provenance.json",
+      "size_bytes": 37601,
+      "sha256": "a384d14abec675acfadbcc49d061e22fce055a62692ddd9eaa3d498a98a570ce"
+    },
+    {
+      "relative_path": "step4b_reproduction_and_tests.md",
+      "size_bytes": 1341,
+      "sha256": "4cc498b438038c8237f1f007cb8489298b6932e742deb050872bffd92894f33a"
+    },
+    {
+      "relative_path": "step4b_review_report.md",
+      "size_bytes": 3343,
+      "sha256": "e44190fa90876be418b3759ada6b878cca3d9d494a10833a658c5c569015213d"
+    },
+    {
+      "relative_path": "test_step4b_task_analysis.py",
+      "size_bytes": 7481,
+      "sha256": "b3894d9812736e2f59013976c44d6ef587760616b9f963b2fe4d7a04d6864ade"
+    }
+  ],
+  "step4b_output_hashes_after": [
+    {
+      "relative_path": "__pycache__\\run_step4b_task_analysis.cpython-314.pyc",
+      "size_bytes": 113999,
+      "sha256": "f9c297162edc7f2fd91a4019bb28cd959edd76785b7e5c6954c1bea869ab8832"
+    },
+    {
+      "relative_path": "__pycache__\\test_step4b_task_analysis.cpython-314.pyc",
+      "size_bytes": 16494,
+      "sha256": "76bd28f5f238f8f72d31c5591d3c52d401ab3184a9199156b8362829adf9f685"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_bland_altman.png",
+      "size_bytes": 17436,
+      "sha256": "10e664bab6d358208773aac210c415f2fa8895750b745f94546757a714739191"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_bland_altman.svg",
+      "size_bytes": 4949,
+      "sha256": "4c30ce29df64ac371da243eaddb0495af1c617a8d7c0e0e5d06c47781f2d4176"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_earlier_later_scatter.png",
+      "size_bytes": 18862,
+      "sha256": "7d273cd613bc1f0161348b4f8db438caf90ae97e5b823ec5edbd23d62c8c1001"
+    },
+    {
+      "relative_path": "dominant_finger_tapping_earlier_later_scatter.svg",
+      "size_bytes": 4629,
+      "sha256": "a6f606e91b9e8da06c29966905e62e0d60b896551b283dc48ce326be015cfb9c"
+    },
+    {
+      "relative_path": "emotion_recognition_bland_altman.png",
+      "size_bytes": 16573,
+      "sha256": "38013437de7360d753234b611e698c4e02c22ece42f307b728ee36a523f1b3c5"
+    },
+    {
+      "relative_path": "emotion_recognition_bland_altman.svg",
+      "size_bytes": 5030,
+      "sha256": "782b09dde173f73330a0f622c9d96a9ddfcd5920ee456d499c0fb31e62e2fff9"
+    },
+    {
+      "relative_path": "emotion_recognition_earlier_later_scatter.png",
+      "size_bytes": 18157,
+      "sha256": "8bb9f78456c7ca1f8f432bc4a3491353fcdc60e7f067cac1d7efc4cb2ea041fd"
+    },
+    {
+      "relative_path": "emotion_recognition_earlier_later_scatter.svg",
+      "size_bytes": 4715,
+      "sha256": "867a83e14fb7bc75ed795be9c8cc8109192e2cc7d9d2ef276e9e544507f1d0c5"
+    },
+    {
+      "relative_path": "face_memory_bland_altman.png",
+      "size_bytes": 17000,
+      "sha256": "e48c3c0a82c0cff14b80b755b7bbf0e4ef2c32dd76d1d6ceab1005374bf64e49"
+    },
+    {
+      "relative_path": "face_memory_bland_altman.svg",
+      "size_bytes": 5046,
+      "sha256": "79084efb1b81ca5f1e0b994ca53ff29d279f764f6d08bee10ee30c0ceb0c158b"
+    },
+    {
+      "relative_path": "face_memory_earlier_later_scatter.png",
+      "size_bytes": 18845,
+      "sha256": "d433639dad6f482359520a2648baf4286654be7b8cc818bb9f6e832880a40b30"
+    },
+    {
+      "relative_path": "face_memory_earlier_later_scatter.svg",
+      "size_bytes": 4720,
+      "sha256": "a94ef76c67b918d43d0868ae576803436e1e9e048fa921475ab34406daf5ab5a"
+    },
+    {
+      "relative_path": "face_memory_reproduction_check.csv",
+      "size_bytes": 1448,
+      "sha256": "0f1b10bf95e1d97c34c56de05319b0897772f40f6a911720b4bc3702b060ef38"
+    },
+    {
+      "relative_path": "five_task_agreement_results.csv",
+      "size_bytes": 6031,
+      "sha256": "2f11dd722df54c9110c30f7214f6dc2549289094e7a2422ee4cb987bfe546ca3"
+    },
+    {
+      "relative_path": "five_task_bootstrap_results.csv",
+      "size_bytes": 3681504,
+      "sha256": "9c564f20e0148f582517b878c4e96ab5152e2841cec81c25bd57cc1b1fa11e2d"
+    },
+    {
+      "relative_path": "five_task_candidate_accounting.csv",
+      "size_bytes": 180201,
+      "sha256": "c0530c9db8ac986f9e46dc0f576bf9febca8a24623968de743aa840af77531e0"
+    },
+    {
+      "relative_path": "five_task_descriptive_results.csv",
+      "size_bytes": 21977,
+      "sha256": "a506278ae59b648a2fa118f57b0569a21e76ba4ee45301d037c3ccb0070cd90b"
+    },
+    {
+      "relative_path": "five_task_exclusions.csv",
+      "size_bytes": 88159,
+      "sha256": "9f0dc90b84c54dd782578e1ebb9440d7dd746e0bbdb0900635d0fb3b155a8f0d"
+    },
+    {
+      "relative_path": "five_task_interval_audit.csv",
+      "size_bytes": 218573,
+      "sha256": "28ff56d6885e82342c85f4a89ebc8362b55daf555fd631b6927d47c1fa0e7739"
+    },
+    {
+      "relative_path": "five_task_pair_manifest.csv",
+      "size_bytes": 233004,
+      "sha256": "49c74468b7e2d9042aa052568e24206a69961e19958645da19ff6ec034fa30c9"
+    },
+    {
+      "relative_path": "letter_nback_bland_altman.png",
+      "size_bytes": 15975,
+      "sha256": "64acb9da6f0f45ea7d585ba12703023e01d25e57ae6b500eb492daedb1a803ce"
+    },
+    {
+      "relative_path": "letter_nback_bland_altman.svg",
+      "size_bytes": 4866,
+      "sha256": "f0043d04ee3bd99cf43ff02973734000636d11ca34efd69be06c2b1058e8379b"
+    },
+    {
+      "relative_path": "letter_nback_earlier_later_scatter.png",
+      "size_bytes": 17688,
+      "sha256": "dfdecb47f8e2d769a551d165f182dea4780342c92fd9b7ce64a142f82addfa5a"
+    },
+    {
+      "relative_path": "letter_nback_earlier_later_scatter.svg",
+      "size_bytes": 4556,
+      "sha256": "4d3cfb0af5ce2523b1b014871c38c20e09cf009c4ea3a966cc141e6be8bbe492"
+    },
+    {
+      "relative_path": "matrix_reasoning_bland_altman.png",
+      "size_bytes": 16687,
+      "sha256": "ebc96985ffab8313182a57ace780423df52ef4cec6d19163b5f58998c57fe1e4"
+    },
+    {
+      "relative_path": "matrix_reasoning_bland_altman.svg",
+      "size_bytes": 4935,
+      "sha256": "6ea5641522d9993675e9c5fcb09a2f83b3145c7092122303293465f289fe4a68"
+    },
+    {
+      "relative_path": "matrix_reasoning_earlier_later_scatter.png",
+      "size_bytes": 18496,
+      "sha256": "165fbc771f4df5ad940f2a10233b6be5cda3a3e24e82b71f35228181499652d1"
+    },
+    {
+      "relative_path": "matrix_reasoning_earlier_later_scatter.svg",
+      "size_bytes": 4621,
+      "sha256": "174c26d92ffc829caaad905bbe3d801fb6ef17c7899d3743c4773d3693432197"
+    },
+    {
+      "relative_path": "run_step4b_task_analysis.py",
+      "size_bytes": 65244,
+      "sha256": "1065a9465875cc556e256b8a2b443686fb678551abb522f9e57fb9aea0bc9469"
+    },
+    {
+      "relative_path": "step4b_analysis_contract.json",
+      "size_bytes": 14608,
+      "sha256": "4642cee3b1c340a7a3faa2f0576e93c20eb916f8afb8cdd6420d2342a46cdb0e"
+    },
+    {
+      "relative_path": "step4b_method_notes.md",
+      "size_bytes": 2455,
+      "sha256": "9abb71edd926a938760c6bbe5a90dd4cd95227bb5d985fa401fb71875e3f00a9"
+    },
+    {
+      "relative_path": "step4b_provenance.json",
+      "size_bytes": 37601,
+      "sha256": "a384d14abec675acfadbcc49d061e22fce055a62692ddd9eaa3d498a98a570ce"
+    },
+    {
+      "relative_path": "step4b_reproduction_and_tests.md",
+      "size_bytes": 1341,
+      "sha256": "4cc498b438038c8237f1f007cb8489298b6932e742deb050872bffd92894f33a"
+    },
+    {
+      "relative_path": "step4b_review_report.md",
+      "size_bytes": 3343,
+      "sha256": "e44190fa90876be418b3759ada6b878cca3d9d494a10833a658c5c569015213d"
+    },
+    {
+      "relative_path": "test_step4b_task_analysis.py",
+      "size_bytes": 7481,
+      "sha256": "b3894d9812736e2f59013976c44d6ef587760616b9f963b2fe4d7a04d6864ade"
+    }
+  ],
+  "step4a_and_step4a_r_output_hashes_before": {
+    "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914": [
+      {
+        "relative_path": "__pycache__\\step4a_face_memory.cpython-314.pyc",
+        "size_bytes": 116654,
+        "sha256": "ad4a40e3be54fd7577319c3a294203eab66ffba31d19a5aac22e1b4d8503bec6"
+      },
+      {
+        "relative_path": "__pycache__\\test_step4a_face_memory.cpython-314.pyc",
+        "size_bytes": 10761,
+        "sha256": "c9e1353e3a1e2d57d560f3cdb4a180fb27881ba9097c7b1dda0139ec8d793e1e"
+      },
+      {
+        "relative_path": "face_memory_agreement_results.csv",
+        "size_bytes": 1102,
+        "sha256": "4874bac3d3a17fb323768b7d035a154f54c8d2acb29a308b08f0dd7c65159490"
+      },
+      {
+        "relative_path": "face_memory_bootstrap_results.csv",
+        "size_bytes": 564082,
+        "sha256": "ba4b15517e5ef2c96f59eb121b5829d1a8415780b7f52d7ecddc561e29d2a239"
+      },
+      {
+        "relative_path": "face_memory_candidate_accounting.csv",
+        "size_bytes": 26226,
+        "sha256": "ce899629583e1e0ccc62661d6357a93faf3930dc0d4d5e55c2b296169b449894"
+      },
+      {
+        "relative_path": "face_memory_descriptive_results.csv",
+        "size_bytes": 4372,
+        "sha256": "0e8e6591fd5a0c93136c0a5aa21a838605d26498ec610c8138b4da0013d3732f"
+      },
+      {
+        "relative_path": "face_memory_difference_plot.png",
+        "size_bytes": 18137,
+        "sha256": "447a8bc4d8b841ffe477e46bb75196e36c74eebf30bf3b3dc6a1d0e678570659"
+      },
+      {
+        "relative_path": "face_memory_difference_plot.svg",
+        "size_bytes": 5611,
+        "sha256": "7f23eb5aed9051fbe082cabcf07ef993a9bc568e135270892f0161edda14b30d"
+      },
+      {
+        "relative_path": "face_memory_exclusions.csv",
+        "size_bytes": 12048,
+        "sha256": "d71f3d08b6156ab9a73c3c8171d011c9ded426841c1ce56f4c66592def573ab2"
+      },
+      {
+        "relative_path": "face_memory_included_pairs.csv",
+        "size_bytes": 43092,
+        "sha256": "4e1da460781723c74ea63788251c376318d4242fae2aca3c2a93ad558b6cb4c8"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter.png",
+        "size_bytes": 19852,
+        "sha256": "a9eb617f7ad1097f06c58f1d3a06ce90f555a052ffcdf792388ec247421385cd"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter.svg",
+        "size_bytes": 5465,
+        "sha256": "3ee26e758dfb4b92a55b58bb7f89ac4e3aa397177c4a8ef0eaf171683da22ec9"
+      },
+      {
+        "relative_path": "step3b_to_step4a_change_trace.csv",
+        "size_bytes": 44158,
+        "sha256": "a139fe21589f9cf682a9d53ceac960d3deba1a6f69d367c995b55f1083448bbf"
+      },
+      {
+        "relative_path": "step4a_analysis_contract.json",
+        "size_bytes": 11379,
+        "sha256": "05a1ed6c353d5e21f40e11186f4fe751af1fb4097fb5179259d0b189ce6d4848"
+      },
+      {
+        "relative_path": "step4a_face_memory.py",
+        "size_bytes": 76765,
+        "sha256": "daa3ff02e97dee2b3fdb21cef846d45dd050daa8bb0e6ec173e4da7fa62fe399"
+      },
+      {
+        "relative_path": "step4a_face_memory_report.md",
+        "size_bytes": 5639,
+        "sha256": "3fd833d7c36dd380ed7199b7ade9864185e86a4ab25109b631655d110b782749"
+      },
+      {
+        "relative_path": "step4a_method_notes.md",
+        "size_bytes": 4770,
+        "sha256": "58dc82ddd115808e0cff371c952e6cdc1d8949b12b91f6e42e8cd29ac2f5be5d"
+      },
+      {
+        "relative_path": "step4a_provenance.json",
+        "size_bytes": 12208,
+        "sha256": "be5dc3becae60ba40a2c0fff97ad00db0b18d0d5a59a5f51bfd4ee7e3720b7da"
+      },
+      {
+        "relative_path": "step4a_reproduction_and_tests.md",
+        "size_bytes": 1501,
+        "sha256": "69f09846caa69f4f7c82a158c009c1d4ef6261a63a8a9887cd777afced60802a"
+      },
+      {
+        "relative_path": "test_step4a_face_memory.py",
+        "size_bytes": 6486,
+        "sha256": "ced9cdce3bdefdac47a0059f7b5f094ddb4784c777eca1f1352cf6102a3807fa"
+      }
+    ],
+    "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_review_20260914": [
+      {
+        "relative_path": "__pycache__\\test_validate_step4a.cpython-314.pyc",
+        "size_bytes": 2515,
+        "sha256": "e45f8b8dc95103396f42ee51c0acf7e4e530ea89dc37c151c9ae2eb89dfa8766"
+      },
+      {
+        "relative_path": "__pycache__\\validate_step4a.cpython-314.pyc",
+        "size_bytes": 51475,
+        "sha256": "66cd7e94fbc0fd3e8b770eec88c5c424ce208504ebb2b4aff31f679c94fe789d"
+      },
+      {
+        "relative_path": "bootstrap_diagnostics.csv",
+        "size_bytes": 1127,
+        "sha256": "88f40b6b189c58ee10a9f249bd9cf17bc91fa5a05c01d8c1b9dd0db5b44c7084"
+      },
+      {
+        "relative_path": "face_memory_difference_plot_reviewed.png",
+        "size_bytes": 4626,
+        "sha256": "ebcc2edee7fcbac2d19c2b572525f0a0a6de6d3e465962ce9b0c1ddd0687191f"
+      },
+      {
+        "relative_path": "face_memory_difference_plot_reviewed.svg",
+        "size_bytes": 12562,
+        "sha256": "d56090b3242544c29f8e323b814bb0926cc8e8d8d82ce89d80475eacd5997a66"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter_reviewed.png",
+        "size_bytes": 5730,
+        "sha256": "39c0b6e668a1f3d80c7443d9f231ca182cd31828cc758416565a7bba1c4228a6"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter_reviewed.svg",
+        "size_bytes": 8364,
+        "sha256": "f9002b0d8a86f720caec4c24aab32538bd129aa599c5f29e9e2d54be418f11ff"
+      },
+      {
+        "relative_path": "full_participant_accounting.csv",
+        "size_bytes": 7677,
+        "sha256": "9611a3bcd31ccdd4d8dd554c202c12541c545693f56628adf45c4dd40f7d8cf1"
+      },
+      {
+        "relative_path": "icc_formula_validation.md",
+        "size_bytes": 1169,
+        "sha256": "79b66dc73950df107457756d9a56a9dfc4379d48e7bec2e79f649a2182436609"
+      },
+      {
+        "relative_path": "interval_and_pairing_audit.csv",
+        "size_bytes": 14070,
+        "sha256": "c7f70294a09609c2585f91488cfecf26768b76fea34c2cc7b67bad64a373679b"
+      },
+      {
+        "relative_path": "reproduction_and_tests.md",
+        "size_bytes": 426,
+        "sha256": "a62485b9dd71e7f670b1609ee3b3f96fa4d80605ca4abbbe9d84aa12b43fa7e0"
+      },
+      {
+        "relative_path": "selection_descriptives.csv",
+        "size_bytes": 1014,
+        "sha256": "acf44829c5f6574d1e052bff4a9ea5a789305b743eb935fe03092b1da49ac327"
+      },
+      {
+        "relative_path": "statistical_crosscheck.csv",
+        "size_bytes": 1649,
+        "sha256": "03fff6e14af64fb2a6d3f1dbd97391a7a0ac62803e4ea870331a741b8fe9811b"
+      },
+      {
+        "relative_path": "step4a_independent_validation_report.md",
+        "size_bytes": 2616,
+        "sha256": "541038688ef08b30c6bf2d13c1c7c3eba6dfa7de4e3139cf5a6305558a9f1d0c"
+      },
+      {
+        "relative_path": "step4a_review_provenance.json",
+        "size_bytes": 5046,
+        "sha256": "f2608ba8e8bcc0a04bcbc2cfd0784457a94ac92cec01b0227764a7f4dffadcfd"
+      },
+      {
+        "relative_path": "test_validate_step4a.py",
+        "size_bytes": 765,
+        "sha256": "c5397a2801adc3d89878e65ebc47d1720a99cc85ced857207d71caad4522f5b1"
+      },
+      {
+        "relative_path": "validate_step4a.py",
+        "size_bytes": 22673,
+        "sha256": "792181ab5e7fc7f1b174716679dc7d0235f7af9b1bf9922de51abd771996bee5"
+      }
+    ]
+  },
+  "step4a_and_step4a_r_output_hashes_after": {
+    "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_face_memory_20260914": [
+      {
+        "relative_path": "__pycache__\\step4a_face_memory.cpython-314.pyc",
+        "size_bytes": 116654,
+        "sha256": "ad4a40e3be54fd7577319c3a294203eab66ffba31d19a5aac22e1b4d8503bec6"
+      },
+      {
+        "relative_path": "__pycache__\\test_step4a_face_memory.cpython-314.pyc",
+        "size_bytes": 10761,
+        "sha256": "c9e1353e3a1e2d57d560f3cdb4a180fb27881ba9097c7b1dda0139ec8d793e1e"
+      },
+      {
+        "relative_path": "face_memory_agreement_results.csv",
+        "size_bytes": 1102,
+        "sha256": "4874bac3d3a17fb323768b7d035a154f54c8d2acb29a308b08f0dd7c65159490"
+      },
+      {
+        "relative_path": "face_memory_bootstrap_results.csv",
+        "size_bytes": 564082,
+        "sha256": "ba4b15517e5ef2c96f59eb121b5829d1a8415780b7f52d7ecddc561e29d2a239"
+      },
+      {
+        "relative_path": "face_memory_candidate_accounting.csv",
+        "size_bytes": 26226,
+        "sha256": "ce899629583e1e0ccc62661d6357a93faf3930dc0d4d5e55c2b296169b449894"
+      },
+      {
+        "relative_path": "face_memory_descriptive_results.csv",
+        "size_bytes": 4372,
+        "sha256": "0e8e6591fd5a0c93136c0a5aa21a838605d26498ec610c8138b4da0013d3732f"
+      },
+      {
+        "relative_path": "face_memory_difference_plot.png",
+        "size_bytes": 18137,
+        "sha256": "447a8bc4d8b841ffe477e46bb75196e36c74eebf30bf3b3dc6a1d0e678570659"
+      },
+      {
+        "relative_path": "face_memory_difference_plot.svg",
+        "size_bytes": 5611,
+        "sha256": "7f23eb5aed9051fbe082cabcf07ef993a9bc568e135270892f0161edda14b30d"
+      },
+      {
+        "relative_path": "face_memory_exclusions.csv",
+        "size_bytes": 12048,
+        "sha256": "d71f3d08b6156ab9a73c3c8171d011c9ded426841c1ce56f4c66592def573ab2"
+      },
+      {
+        "relative_path": "face_memory_included_pairs.csv",
+        "size_bytes": 43092,
+        "sha256": "4e1da460781723c74ea63788251c376318d4242fae2aca3c2a93ad558b6cb4c8"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter.png",
+        "size_bytes": 19852,
+        "sha256": "a9eb617f7ad1097f06c58f1d3a06ce90f555a052ffcdf792388ec247421385cd"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter.svg",
+        "size_bytes": 5465,
+        "sha256": "3ee26e758dfb4b92a55b58bb7f89ac4e3aa397177c4a8ef0eaf171683da22ec9"
+      },
+      {
+        "relative_path": "step3b_to_step4a_change_trace.csv",
+        "size_bytes": 44158,
+        "sha256": "a139fe21589f9cf682a9d53ceac960d3deba1a6f69d367c995b55f1083448bbf"
+      },
+      {
+        "relative_path": "step4a_analysis_contract.json",
+        "size_bytes": 11379,
+        "sha256": "05a1ed6c353d5e21f40e11186f4fe751af1fb4097fb5179259d0b189ce6d4848"
+      },
+      {
+        "relative_path": "step4a_face_memory.py",
+        "size_bytes": 76765,
+        "sha256": "daa3ff02e97dee2b3fdb21cef846d45dd050daa8bb0e6ec173e4da7fa62fe399"
+      },
+      {
+        "relative_path": "step4a_face_memory_report.md",
+        "size_bytes": 5639,
+        "sha256": "3fd833d7c36dd380ed7199b7ade9864185e86a4ab25109b631655d110b782749"
+      },
+      {
+        "relative_path": "step4a_method_notes.md",
+        "size_bytes": 4770,
+        "sha256": "58dc82ddd115808e0cff371c952e6cdc1d8949b12b91f6e42e8cd29ac2f5be5d"
+      },
+      {
+        "relative_path": "step4a_provenance.json",
+        "size_bytes": 12208,
+        "sha256": "be5dc3becae60ba40a2c0fff97ad00db0b18d0d5a59a5f51bfd4ee7e3720b7da"
+      },
+      {
+        "relative_path": "step4a_reproduction_and_tests.md",
+        "size_bytes": 1501,
+        "sha256": "69f09846caa69f4f7c82a158c009c1d4ef6261a63a8a9887cd777afced60802a"
+      },
+      {
+        "relative_path": "test_step4a_face_memory.py",
+        "size_bytes": 6486,
+        "sha256": "ced9cdce3bdefdac47a0059f7b5f094ddb4784c777eca1f1352cf6102a3807fa"
+      }
+    ],
+    "C:\\Users\\asmi\\Desktop\\Projects\\CHAVI\\chavi_analysis_ds007116_step4a_review_20260914": [
+      {
+        "relative_path": "__pycache__\\test_validate_step4a.cpython-314.pyc",
+        "size_bytes": 2515,
+        "sha256": "e45f8b8dc95103396f42ee51c0acf7e4e530ea89dc37c151c9ae2eb89dfa8766"
+      },
+      {
+        "relative_path": "__pycache__\\validate_step4a.cpython-314.pyc",
+        "size_bytes": 51475,
+        "sha256": "66cd7e94fbc0fd3e8b770eec88c5c424ce208504ebb2b4aff31f679c94fe789d"
+      },
+      {
+        "relative_path": "bootstrap_diagnostics.csv",
+        "size_bytes": 1127,
+        "sha256": "88f40b6b189c58ee10a9f249bd9cf17bc91fa5a05c01d8c1b9dd0db5b44c7084"
+      },
+      {
+        "relative_path": "face_memory_difference_plot_reviewed.png",
+        "size_bytes": 4626,
+        "sha256": "ebcc2edee7fcbac2d19c2b572525f0a0a6de6d3e465962ce9b0c1ddd0687191f"
+      },
+      {
+        "relative_path": "face_memory_difference_plot_reviewed.svg",
+        "size_bytes": 12562,
+        "sha256": "d56090b3242544c29f8e323b814bb0926cc8e8d8d82ce89d80475eacd5997a66"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter_reviewed.png",
+        "size_bytes": 5730,
+        "sha256": "39c0b6e668a1f3d80c7443d9f231ca182cd31828cc758416565a7bba1c4228a6"
+      },
+      {
+        "relative_path": "face_memory_visit_scatter_reviewed.svg",
+        "size_bytes": 8364,
+        "sha256": "f9002b0d8a86f720caec4c24aab32538bd129aa599c5f29e9e2d54be418f11ff"
+      },
+      {
+        "relative_path": "full_participant_accounting.csv",
+        "size_bytes": 7677,
+        "sha256": "9611a3bcd31ccdd4d8dd554c202c12541c545693f56628adf45c4dd40f7d8cf1"
+      },
+      {
+        "relative_path": "icc_formula_validation.md",
+        "size_bytes": 1169,
+        "sha256": "79b66dc73950df107457756d9a56a9dfc4379d48e7bec2e79f649a2182436609"
+      },
+      {
+        "relative_path": "interval_and_pairing_audit.csv",
+        "size_bytes": 14070,
+        "sha256": "c7f70294a09609c2585f91488cfecf26768b76fea34c2cc7b67bad64a373679b"
+      },
+      {
+        "relative_path": "reproduction_and_tests.md",
+        "size_bytes": 426,
+        "sha256": "a62485b9dd71e7f670b1609ee3b3f96fa4d80605ca4abbbe9d84aa12b43fa7e0"
+      },
+      {
+        "relative_path": "selection_descriptives.csv",
+        "size_bytes": 1014,
+        "sha256": "acf44829c5f6574d1e052bff4a9ea5a789305b743eb935fe03092b1da49ac327"
+      },
+      {
+        "relative_path": "statistical_crosscheck.csv",
+        "size_bytes": 1649,
+        "sha256": "03fff6e14af64fb2a6d3f1dbd97391a7a0ac62803e4ea870331a741b8fe9811b"
+      },
+      {
+        "relative_path": "step4a_independent_validation_report.md",
+        "size_bytes": 2616,
+        "sha256": "541038688ef08b30c6bf2d13c1c7c3eba6dfa7de4e3139cf5a6305558a9f1d0c"
+      },
+      {
+        "relative_path": "step4a_review_provenance.json",
+        "size_bytes": 5046,
+        "sha256": "f2608ba8e8bcc0a04bcbc2cfd0784457a94ac92cec01b0227764a7f4dffadcfd"
+      },
+      {
+        "relative_path": "test_validate_step4a.py",
+        "size_bytes": 765,
+        "sha256": "c5397a2801adc3d89878e65ebc47d1720a99cc85ced857207d71caad4522f5b1"
+      },
+      {
+        "relative_path": "validate_step4a.py",
+        "size_bytes": 22673,
+        "sha256": "792181ab5e7fc7f1b174716679dc7d0235f7af9b1bf9922de51abd771996bee5"
+      }
+    ]
+  },
+  "earlier_output_hashes_unchanged": true,
+  "independent_pair_manifest_mismatches": 0,
+  "independent_statistical_failures": 0,
+  "bootstrap_failures": 0,
+  "plot_failures": 5,
+  "common_five_task_intersection": 53,
+  "aligned_common_pairs": 50,
+  "scope_boundaries": [
+    "no profile construction",
+    "no standardization",
+    "no age adjustment",
+    "no ipsative scoring",
+    "no simulation",
+    "no prediction",
+    "no diagnosis",
+    "no clinical interpretation",
+    "no Evidence Engine validation"
+  ]
+}

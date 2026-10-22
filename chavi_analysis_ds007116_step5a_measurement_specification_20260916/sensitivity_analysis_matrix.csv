@@ -1,0 +1,7 @@
+analysis_id,cohort,qc,score_input,session_rule,extreme_policy,role
+PRIMARY,first two jointly complete synchronized occasions,V/F,raw initially; transformation decision open,numeric ordered first two,retain; influence review,candidate primary
+S1,same synchronized rule,V only,same approved transformation,numeric ordered first two,retain,sensitivity
+S2,same synchronized rule,V/F,raw,numeric ordered first two,retain,raw-scale sensitivity
+S3,same synchronized rule,V/F,age-adjusted candidate,numeric ordered first two,retain,transformation sensitivity
+S4,scheduled pair only,V/F,same approved transformation,ses-1/ses-2 only if supported,retain,scheduled-session sensitivity
+S5,same synchronized rule,V/F,same approved transformation,numeric ordered first two,flag/review; no automatic deletion,extreme-change/influence sensitivity

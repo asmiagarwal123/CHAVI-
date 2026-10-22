@@ -1,0 +1,10 @@
+{
+  "P2_endpoint_records": 2997,
+  "P3_endpoint_records": 2997,
+  "attempts_per_second": 225.03926097059218,
+  "elapsed_seconds": 1.5508404999854974,
+  "end_rep": 999,
+  "new_attempts": 349,
+  "start_rep": 650,
+  "total_attempts_per_method": 999
+}

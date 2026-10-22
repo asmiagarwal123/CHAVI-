@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "historical_B3_independent_scope": {
+    "dataset_hashes": "all 600 corrected-pilot and 4000 confirmatory records",
+    "point_estimates": "outer IDs 0-4; estimated-reference P2-P4 only",
+    "bootstrap_values": "outer IDs 0-1; replicate IDs 0,1,2,17,101,498,998 only",
+    "omissions": ["no complete 999-vector comparison", "no quantile/gate/bound/coverage comparison", "no complete aggregate arithmetic"]
+  },
+  "B3R_independent_scope": {
+    "dataset_hashes": "all 4600 outer records",
+    "frozen_numerical_audit": "15 deterministic outer records; 68 method-scale arrays; all three endpoints and all 999 values/status masks; 203796 replicate-endpoint comparisons",
+    "targeted_mechanisms": ["absent fold", "unsupported fit", "exact 950-valid eligibility boundary"],
+    "representative_coverage": "every scenario, method, scale, and endpoint",
+    "full_table_reconciliation": "all 220800 interval rows, 384 performance rows, and 384 paired-comparison rows",
+    "tolerance": "absolute 1e-10 plus relative 1e-10 for replicate values; 1e-12 plus relative 1e-12 for aggregate arithmetic",
+    "not_full_record_scope": "all 999 raw bootstrap values were not independently recalculated for all 4600 outer records; the full-record validation is keyed arithmetic/identity/provenance, while raw-value validation is the pre-frozen subset"
+  },
+  "readiness_rule": "conjunction of both-stage recalculation/completeness, executable mutation and edge tests, independent numerical subset, full-table reconciliation, truth/RNG/reproduction gates, protected-input preservation, and package verification"
+}

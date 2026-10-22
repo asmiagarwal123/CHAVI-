@@ -1,0 +1,5 @@
+claim_id,claim,scope,evidence,status
+C1,"All six frozen scenarios and both scale methods are attempted with 100 outer datasets each",M0 pilot,outer_dataset_run_ledger.csv,pending_completion
+C2,"P1-P4 preserve linked visits and integer multiplicities",M0 pilot,mechanism_check_results.csv,PASS
+C3,"S6 population MAD target is undefined and is not replaced by SD",S6 MAD,scenario_registry.json;truth_results.csv,PASS
+C4,"Pilot results are simulated-data evidence only and do not authorize empirical CHAVI inference",all,simulation_execution_contract.json,PASS

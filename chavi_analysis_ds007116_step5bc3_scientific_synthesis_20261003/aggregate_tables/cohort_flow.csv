@@ -1,0 +1,6 @@
+flow_order,cohort,participants,role,identity_public
+1,reference_A,109,reference-eligible participants in clean rebuild,no
+2,primary_vf,52,primary V-to-F paired analysis,no
+3,matched_support_M1,42,same participants for matched-support M0/M1 comparison,no
+4,fixed_primary_pair_strict_v,41,strict-V rule applied to primary identities,no
+5,vonly_reselected,45,strict-V eligibility with pair reselection,no

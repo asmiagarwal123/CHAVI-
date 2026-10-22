@@ -1,0 +1,80 @@
+specification_file: "executable_specification.json"
+specification_sha256: "0f0d5f8d760ac20fe010fc52aa217dbdb20596c14c7f7ea9237fb4d763848e26"
+qc_policies:
+  documented_valid_or_likely_valid:
+    include: ["documented_valid", "documented_likely_valid"]
+    require_all_applicable_fields: true
+    exclude: ["documented_invalid", "documented_skipped", "no_automatic_validation", "comment_conditional", "unknown_or_undocumented", "missing_qc", "partial_qc", "no_applicable_qc_field"]
+  strict_documented_V_only:
+    include: ["documented_valid"]
+    raw_code_must_be: ["V"]
+    require_all_applicable_fields: true
+  descriptive_unresolved_qc:
+    include: ["no_automatic_validation", "comment_conditional", "unknown_or_undocumented", "missing_qc", "partial_qc", "no_applicable_qc_field"]
+  unresolved_inclusive:
+    include: ["documented_valid", "documented_likely_valid", "no_automatic_validation", "comment_conditional", "unknown_or_undocumented", "missing_qc", "partial_qc", "no_applicable_qc_field"]
+    exclude: ["documented_invalid", "documented_skipped"]
+tasks:
+  - task: "age_differentiation_test"
+    qc_fields: "cnb_adt_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "delay_discounting_task"
+    qc_fields: "cnb_ddisc_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "digit_symbol"
+    qc_fields: "cnb_digsym_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "effort_discounting_task"
+    qc_fields: "cnb_edisc_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "measured_emotion_differentiation_test"
+    qc_fields: "cnb_medf_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "motor_praxis"
+    qc_fields: "cnb_mpract_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_abstraction_inhibition_working_memory_task"
+    qc_fields: "cnb_aim_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_conditional_exclusion_task"
+    qc_fields: "cnb_pcet_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_emotion_recognition_task"
+    qc_fields: "cnb_er40_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_face_memory_test"
+    qc_fields: "cnb_cpf_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_matrix_reasoning_test"
+    qc_fields: "cnb_pmat_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_verbal_reasoning_test"
+    qc_fields: "cnb_pvrt_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "penn_word_memory_test"
+    qc_fields: "cnb_cpw_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "risk_discounting_task"
+    qc_fields: "cnb_rdisc_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "short_computerized_finger_tapping_task"
+    qc_fields: "cnb_ctap_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "short_letter_2back"
+    qc_fields: "cnb_lnb_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "short_penn_continuous_performance_test"
+    qc_fields: "cnb_cptnl_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "trailmaking_test_a"
+    qc_fields: "cnb_trails_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "trailmaking_test_b"
+    qc_fields: "cnb_trails_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "variable_short_penn_line_orientation_test"
+    qc_fields: "cnb_plot_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved
+  - task: "visual_object_learning_test"
+    qc_fields: "cnb_volt_valid_code"
+    qc_scope: table-level field observed; score-specific scope unresolved

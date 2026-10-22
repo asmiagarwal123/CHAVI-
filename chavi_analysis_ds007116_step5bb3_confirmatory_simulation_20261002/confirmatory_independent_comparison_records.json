@@ -1,0 +1,8 @@
+{
+  "stage": "confirmatory",
+  "expected_records": 4000,
+  "hash_mismatches": 0,
+  "numeric_mismatch_count": 0,
+  "numeric_mismatches": [],
+  "status": "PASS"
+}

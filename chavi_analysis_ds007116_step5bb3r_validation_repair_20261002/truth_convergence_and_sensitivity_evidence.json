@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "frozen_truth_unchanged_from_b3": true,
+  "s5_exact_zero_rows": 2,
+  "s5_exact_zero_verified": true,
+  "isolated_truth_engine_plus_exact_zero_correction_reproduced": true,
+  "truth_reproduction_evidence": "truth_reproduction_results.json",
+  "convergence_dependency_resolution": "restored byte-for-byte from inherited B2 artifact and independently regenerated in an isolated process; frozen truth was not overwritten",
+  "restored_convergence_sha256": "f785df1e28348cae58886849d353ce657e60f97ef20fefaf19aa7903b76b6012",
+  "b2_source_sha256": "f785df1e28348cae58886849d353ce657e60f97ef20fefaf19aa7903b76b6012",
+  "sensitivity_rule": "frozen truth +/- 4 documented numerical SE; exact-zero mean change uses radius 0",
+  "sensitivity_rows": 48,
+  "truth_regeneration_commands": [
+    "..\\.venv\\Scripts\\python.exe truth_engine.py",
+    "..\\.venv\\Scripts\\python.exe repair_truth.py"
+  ]
+}

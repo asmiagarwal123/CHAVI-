@@ -1,0 +1,10 @@
+{
+  "corrected_independent_validation":"PASS",
+  "corrected_expected_outer_hashes":600,
+  "corrected_hash_mismatches":0,
+  "corrected_numeric_mismatches":0,
+  "confirmatory_contract_sha256":"345f47aba1d2f2fd807485b3476a55f8e41f73a0351e0f8d4d5daf608e7ca932",
+  "confirmatory_contract_frozen_before_confirmatory_dataset_generation":true,
+  "selection_basis":"S1 continuous stable regime and S5 rounded/tied nonzero-MAD regime, chosen from the exploratory corrected pilot for the reference-uncertainty question.",
+  "empirical_authorization":"not authorized; simulated data only"
+}

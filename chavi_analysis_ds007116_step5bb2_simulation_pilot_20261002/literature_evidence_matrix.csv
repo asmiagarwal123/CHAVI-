@@ -1,0 +1,3 @@
+source_id,reference,doi,url,access_level,used_for,decision_relevance
+L1,"Morris, White, Crowther (2019), Using simulation studies to evaluate statistical methods",10.1002/sim.8086,https://doi.org/10.1002/sim.8086,open_access,"ADEMP planning; simulation reporting; Monte Carlo error",design and reporting requirements adopted
+L2,"Jentsch and Leucht (2016), Bootstrapping sample quantiles of discrete data",10.1007/s10463-015-0503-3,https://doi.org/10.1007/s10463-015-0503-3,publisher_landing_and_author_pdf,"discrete/quantile bootstrap behavior",supports explicit S5 rounding and interval caveats

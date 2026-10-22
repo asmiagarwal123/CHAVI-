@@ -1,0 +1,177 @@
+# CHAVI STEP 5B — SUPERVISOR APPROVAL TEMPLATE
+# 
+# STATUS: BLOCKED — awaiting supervisor decisions
+#
+# INSTRUCTIONS
+# ------------
+# 1. Fill in every APPROVED_VALUE field below.
+# 2. Do not leave any field as "[APPROVED VALUE]".
+# 3. Do not delete or rename any field.
+# 4. Once complete, return this file or paste decisions back into the prompt.
+# 5. Execution will not proceed until every field is resolved and non-bracketed.
+#
+# PRECONDITION STATUS
+# -------------------
+# Step 5A-D verdict:               READY FOR HUMAN DECISION (technical checks pass)
+# All Step 5A-D tests pass:        YES — 5/5 passed
+# LNB score semantics resolved:    PARTIAL — direction marked positive; unit/aggregation
+#                                  caveat for CTAP remains; LNB direction confirmed positive
+# 176/109/52 cohort reproduces:    YES — independently verified
+# No leakage:                      YES — 5-fold grouped, no participant in >1 fold
+# Contract technical placeholders: 1 remaining — "age_model": "PENDING" requires decision
+# All [APPROVED VALUE] fields:     17 fields — NONE filled in — BLOCKED
+#
+# ===========================================================================
+# SECTION 1: COHORT AND QC DECISIONS
+# ===========================================================================
+
+# Decision D1 — Primary cohort definition
+# Candidate options:
+#   A) "52_profile_first_VF"        — profile-first, V/F QC, 52 participants (recommended)
+#   B) "50_aligned_VF"             — only those whose task pairs used identical session labels
+#   C) "53_intersection_VF"        — full intersection of task-pair participants
+primary_cohort: "[APPROVED VALUE]"
+
+# Decision D2 — Primary QC policy
+# Candidate options:
+#   A) "VF"   — documented valid OR likely valid (recommended, yields 52 participants)
+#   B) "V"    — strictly documented valid only (yields 45 participants, smaller N)
+primary_qc_policy: "[APPROVED VALUE]"
+
+# Decision D3 — QC sensitivity
+# Candidate options:
+#   A) "V_only"       — run a parallel analysis with strictly V-only QC (recommended)
+#   B) "none"         — no sensitivity analysis for QC
+qc_sensitivity: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 2: REFERENCE AND FOLD DECISIONS
+# ===========================================================================
+
+# Decision D4 — Reference cohort for transformation fitting
+# Candidate options:
+#   A) "baseline_one_per_participant"    — 1 baseline occasion per participant (Option A, recommended)
+#   B) "all_occasions_grouped"           — all eligible occasions grouped by participant (Option B)
+#   C) "no_age_adjustment"               — intercept-only reference without an age model (Option C)
+reference_cohort: "[APPROVED VALUE]"
+
+# Decision D5 — Fold construction
+# Candidate options:
+#   A) "5_fold_participant_grouped_seed42"   — 5 deterministic participant-grouped folds, seed=42 (recommended)
+#   B) "10_fold_participant_grouped_seed42"  — 10 folds (reduces training size)
+#   C) other — specify exactly, including seed
+fold_construction: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 3: AGE-ADJUSTMENT DECISIONS
+# ===========================================================================
+
+# Decision D6 — Age-adjustment policy
+# Candidate options:
+#   A) "linear_age_adjustment"          — fit and apply linear age model (recommended)
+#   B) "no_age_adjustment"              — use intercept only, age not adjusted
+#   C) "conditional"                    — use linear if evidence is sufficient per task
+age_adjustment_policy: "[APPROVED VALUE]"
+
+# Decision D7 — Age-model form
+# Candidate options:
+#   A) "linear"                         — OLS linear regression of score on age (recommended)
+#   B) "natural_spline_df3"             — restricted natural cubic spline, df=3
+#   C) "intercept_only"                 — no age term
+# NOTE: If age_adjustment_policy = "no_age_adjustment", set this to "intercept_only"
+age_model_form: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 4: SCALING DECISIONS
+# ===========================================================================
+
+# Decision D8 — Primary scale estimator
+# Candidate options:
+#   A) "robust_MAD"     — MAD × 1.4826, estimated from training residuals (recommended)
+#   B) "SD"             — ordinary standard deviation of training residuals
+primary_scale_estimator: "[APPROVED VALUE]"
+
+# Decision D9 — Scale sensitivity
+# Candidate options:
+#   A) "SD"             — run SD-scaled sensitivity alongside MAD primary (recommended)
+#   B) "none"           — no scale sensitivity
+scale_sensitivity: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 5: EXTRAPOLATION AND MISSINGNESS
+# ===========================================================================
+
+# Decision D10 — Extrapolation behavior
+# Candidate options:
+#   A) "flag_and_restrict"         — compute prediction but flag; cap to boundary (recommended)
+#   B) "flag_and_allow"            — compute and flag only; no capping
+#   C) "refuse"                    — mark transformed value as unsupported/refused
+#   D) "sensitivity_no_age"        — use the no-age-adjustment coordinate instead
+extrapolation_behavior: "[APPROVED VALUE]"
+
+# Decision D11 — Missingness policy
+# Candidate options:
+#   A) "no_imputation"    — require all 5 tasks; no imputation (recommended)
+#   B) "partial_sensitivity" — allow partial profiles in sensitivity only
+missingness_policy: "[APPROVED VALUE]"
+
+# Decision D12 — Extreme-observation policy
+# Candidate options:
+#   A) "retain_with_influence_diagnostics"    — keep extremes; run LOOPO sensitivity (recommended)
+#   B) "winsorize"                            — clip at specified percentile (not recommended)
+extreme_observation_policy: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 6: TRANSFORMATION UNCERTAINTY
+# ===========================================================================
+
+# Decision D13 — Transformation-uncertainty approach
+# Candidate options:
+#   A) "refit_within_bootstrap"     — refit model and scale inside each bootstrap replicate (recommended)
+#   B) "fixed_transformation"       — fix transformation; only resample participants
+transformation_uncertainty_approach: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 7: PROFILE ESTIMAND HIERARCHY
+# ===========================================================================
+
+# Decision D14 — Primary profile estimand
+# Candidate options:
+#   A) "level_elevation"            — mean of the 5 Z-coordinates (recommended primary)
+#   B) "shape_rmse"                 — shape-change RMSE across both occasions
+primary_profile_estimand: "[APPROVED VALUE]"
+
+# Decision D15 — Secondary estimands
+# Select all that apply (comma-separated list).
+# Options: "centered_shape", "scatter", "shape_change_rmse", "profile_correlation_descriptive"
+# Recommended: "centered_shape, scatter, shape_change_rmse, profile_correlation_descriptive"
+secondary_estimands: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 8: MULTIPLICITY AND SEM
+# ===========================================================================
+
+# Decision D16 — Multiplicity policy
+# Candidate options:
+#   A) "confidence_intervals_primary"     — emphasise bootstrap CIs; no NHST primary (recommended)
+#   B) "bonferroni"                       — apply Bonferroni correction
+#   C) "none"                             — report all p-values uncorrected
+multiplicity_policy: "[APPROVED VALUE]"
+
+# Decision D17 — SEM/MDC status
+# Candidate options:
+#   A) "conditional_descriptive"    — report SEM/MDC only as conditional with stated caveats (recommended)
+#   B) "omit"                       — do not calculate SEM/MDC
+#   C) "full"                       — calculate and report as primary
+sem_mdc_status: "[APPROVED VALUE]"
+
+# ===========================================================================
+# SECTION 9: APPROVER METADATA
+# ===========================================================================
+# Fill in before returning this document.
+
+approver_name: "[ENTER NAME OR ROLE]"
+approval_timestamp_utc: "[ENTER ISO-8601 TIMESTAMP, e.g. 2026-09-16T12:00:00Z]"
+source_decision_matrix: "chavi_analysis_ds007116_step5ad_decision_freeze_20260916/step5ad_decision_matrix.csv"
+source_contract: "chavi_analysis_ds007116_step5ad_decision_freeze_20260916/step5ad_transformation_contract_draft.json"
+notes: "[OPTIONAL NOTES]"

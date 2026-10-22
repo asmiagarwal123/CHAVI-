@@ -1,0 +1,13 @@
+{
+  "python": "3.14.0",
+  "numpy": "2.5.2",
+  "transparent_outer_seconds_observed": 17.6,
+  "optimized_outer_seconds_observed": 2.39,
+  "corrected_outer_records": 600,
+  "confirmatory_outer_records": 4000,
+  "corrected_checkpoint_bytes": 10170968,
+  "confirmatory_checkpoint_bytes": 63044851,
+  "checkpoint_policy": "one JSON record per completed outer dataset; no completed record is redrawn; runtime arrays are omitted from transfer ZIP",
+  "resume_command": "set CHAVI_STREAM_NAMESPACE=confirmatory && python run_stage.py --stage confirmatory --scenarios S1 --start 0 --limit 224",
+  "optimized_equivalence_max_abs_difference": 7.771561172376096e-16
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "calculation_path": "scalar explicit-frequency expansion; no production helper imports",
+  "audit_summary_rows": 204,
+  "full_replicate_values_compared": 203796,
+  "audit_failures": 0,
+  "dataset_identity_records": 4600,
+  "dataset_hash_mismatches": 0,
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "specification_sha256": "0ebde0016a290e631e2746648a0c18216295c52bb1e8f247167b76744c246a80"
+}
